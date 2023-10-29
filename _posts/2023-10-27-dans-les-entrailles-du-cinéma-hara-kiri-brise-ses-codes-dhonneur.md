@@ -4,6 +4,8 @@ layout: post
 title: Dans les entrailles du cinéma, Hara Kiri brise ses codes d'honneur
 subtitle: ""
 description: Description
+image: https://res.cloudinary.com/dfqlcc1vj/image/upload/v1698593516/Hara%20Kiri/Preview/Harakiri-089_sszfdu.jpg
+optimized_image: https://res.cloudinary.com/dfqlcc1vj/image/upload/v1698593516/Hara%20Kiri/Preview/Harakiri-089_sszfdu.jpg
 category: cinema
 author: Iksboi
 paginate: false
@@ -12,13 +14,13 @@ Comment aborder le cinéma des années 60, sans parler du révolutionnaire ***Ha
 
 ![]()
 
-### "Mon honneur m'est plus cher que ma vie" [^1]. 
+### "Mon honneur m'est plus cher que ma vie" [^1].
 
 L’honneur [^2], désigne le fait de mériter la considération, l'estime (d'autrui et de soi-même) sur le plan moral et selon les valeurs de la société. Sans prétendre que Kobayashi soit derrière cette explication, nous constaterons de manière plus générale que l’honneur représente l'un des nombreux liens unissant un individu à un groupe, une pluralité plus importante à laquelle on se sent lié, et c’est bien l’instrumentalisation de ce lien que notre réalisateur s’amuse à décortiquer.
 
 ### Bonjour, un suicide s'il vous plaît !
 
-![]()
+![Bonjour_suicide](https://res.cloudinary.com/dfqlcc1vj/image/upload/v1698593035/Hara%20Kiri/Subtitles/Harakiri-006_tbewbu.jpg)
 
 Tout de suite après une introduction contextuelle modeste, nous sommes plongés dans un calme absolu, les bruits du décor comme une symphonie pendant l’immense majorité du métrage nous forcent à nous concentrer sur le peu que l’on peut percevoir. Dans le clan noble de la famille Li, un ronin misérablement vêtu, n'ayant pour seule fortune que ses sabres, vestiges de ses nombreuses batailles, demande audience à l’intendant du clan. Tsugumo semble déterminé, taciturne, parfois même enjoué, conscient de ce qu’il s’apprête à faire en demandant audience pour se faire Hara-Kiri. Remarquez ; c’est avec une requête très enthousiaste de suicide que notre métrage se lance ! Les événements nous pousseront à connaître les motivations de notre ronin, qui, dans un mélange de styles improbable et une narration au compte-goutte, m’a tenu en haleine pendant un peu plus de 140 minutes.
 
@@ -30,7 +32,11 @@ Pendant deux heures et plus, Kobayashi, tel un peintre devant sa toile à la lum
 
 Hara-Kiri sait se montrer beau, chaleureux, lent mais aussi rythmé, dramatique, touchant. Ce film est une véritable démonstration de technique qui a tendance à partir dans tous les sens. J’ai presque l’impression de voir des scènes de ***Kill Bill*** (2003) avant l’heure par moments, un style caractérisé par des zooms imprévisibles, une manière de cadrer digne des plus grands westerns et le tout parsemé d’un éclairage tout droit venu des cieux
 
-![]()
+![](https://res.cloudinary.com/dfqlcc1vj/image/upload/v1698593031/Hara%20Kiri/Subtitles/Harakiri-091_wgbgcs.jpg)
+
+![](https://res.cloudinary.com/dfqlcc1vj/image/upload/v1698593041/Hara%20Kiri/Subtitles/Harakiri-037_smh7oj.jpg)
+
+
 
 Dans un premier acte monotone et cruel, nous avons une mise en contexte assez perturbante, laissant des zones d’ombres ça et là. Kobayashi prend tout son temps, pas besoin de se presser pour montrer la mort, avec des personnages calmes, un tempo indolent et quelques bribes sur l’ordre des choses.
 
