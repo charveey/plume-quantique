@@ -10,7 +10,7 @@ category: cinema
 author: Iksboi
 paginate: false
 ---
-Comment aborder le cinéma des années 60, sans parler du révolutionnaire ***Hara Kiri***, dans un japon brisé, ravalant son orgueil de par sa population divisée et drastiquement affecté par ce qui sans doute fût l’absurdité la plus dévastatrice de l’humanité. Une civilisation encrée dans le conservatisme et la Comme une fleur émergeant d’une décharge, Maître Kobayashi nous vends un message critique questionnant l’une des notions les plus encrée des sociétés humaines : l’honneur
+Comment aborder le cinéma des années 60, sans parler du révolutionnaire ***Hara Kiri***, dans un japon brisé, ravalant son orgueil de par sa population divisée et drastiquement affecté par ce qui sans doute fût l’absurdité la plus dévastatrice de l’humanité. Une civilisation encrée dans le conservatisme et  comme une fleur émergeant d’une décharge, Maître Kobayashi nous vends un message critique questionnant l’une des notions les plus encrée des sociétés humaines : l’honneur
 
 ![]()
 
@@ -35,8 +35,6 @@ Hara-Kiri sait se montrer beau, chaleureux, lent mais aussi rythmé, dramatique,
 ![](https://res.cloudinary.com/dfqlcc1vj/image/upload/v1698593031/Hara%20Kiri/Subtitles/Harakiri-091_wgbgcs.jpg)
 
 ![](https://res.cloudinary.com/dfqlcc1vj/image/upload/v1698593041/Hara%20Kiri/Subtitles/Harakiri-037_smh7oj.jpg)
-
-
 
 Dans un premier acte monotone et cruel, nous avons une mise en contexte assez perturbante, laissant des zones d’ombres ça et là. Kobayashi prend tout son temps, pas besoin de se presser pour montrer la mort, avec des personnages calmes, un tempo indolent et quelques bribes sur l’ordre des choses.
 
