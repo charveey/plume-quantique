@@ -6,7 +6,7 @@ subtitle: ""
 description: Description
 image: https://res.cloudinary.com/dfqlcc1vj/image/upload/v1698593516/Hara%20Kiri/Preview/Harakiri-089_sszfdu.jpg
 optimized_image: https://res.cloudinary.com/dfqlcc1vj/image/upload/v1698593516/Hara%20Kiri/Preview/Harakiri-089_sszfdu.jpg
-category: cinema
+category: conseils
 author: Iksboi
 paginate: false
 ---
