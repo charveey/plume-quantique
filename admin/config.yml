@@ -1,10 +1,19 @@
 backend:
   name: git-gateway
   branch: master
+  squash_merges: true
+  commit_messages:
+    create: "{{author-name}} published a new {{collection}}: “{{slug}}”"
+    update: "{{author-name}} updated {{collection}}: “{{slug}}”"
+    delete: "{{collection}}: “{{slug}}” deleted by {{author-name}}"
+    uploadMedia: Upload “{{path}}”
+    deleteMedia: Delete “{{path}}”
 publish_mode: editorial_workflow
 media_folder: "assets/img/uploads"
 site_url: https://poetic-buttercream-0d3e15.netlify.app/
+display_url: https//le7eptiemeoeil.ci
 logo_url: https://poetic-buttercream-0d3e15.netlify.app/assets/img/icons/mediumtile.png
+locale: fr
 collections:
   - label: "Rubriques"
     name: "categories"
@@ -42,7 +51,9 @@ collections:
       - label: "Date de publication"
         name: "date"
         widget: "datetime"
-        format: "DD-MM-YYYY HH:mm:ss"
+        date_format: true
+        time_format: true
+        picker_utc: true
       - label: "Layout"
         name: "layout"
         widget: "hidden"
@@ -113,7 +124,9 @@ collections:
       - label: "Date de publication"
         name: "date"
         widget: "datetime"
-        format: "DD-MM-YYYY HH:mm:ss"
+        date_format: true
+        time_format: true
+        picker_utc: true
       - label: "Nom de la page"
         name: "title"
         widget: "string"
