@@ -3,13 +3,13 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Gestion du Contenu | Le 7ème Oeil</title>
+    <title>Gestion du Contenu | Le 7eptième Œil</title>
   </head>
   <body>
-    <!-- Include the script that builds the page and powers Netlify CMS -->
+    <!-- Include the script that builds the page and powers Decap CMS -->
     <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
 
-    <!-- Include the script that allows Netlify CMS login -->
+    <!-- Include the script that allows Decap CMS login -->
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
     <!-- Register Color widget -->
@@ -171,7 +171,8 @@
           CMS.registerPreviewStyle("/assets/css/base.css");
     </script>
     <script>
-      import { fr } from 'netlify-cms-locales';CMS.registerLocale('fr', fr);
+      import { fr } from 'decap-cms-locales';
+      CMS.registerLocale('fr', fr);
     </script>
 
     <!-- Register the Post preview component -->
