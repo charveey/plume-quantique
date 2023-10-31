@@ -7,7 +7,6 @@
   </head>
   <body>
     <!-- Include the script that builds the page and powers Netlify CMS -->
-    <!-- <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script> -->
     <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
 
     <!-- Include the script that allows Netlify CMS login -->
@@ -169,7 +168,10 @@
     <!-- Include preview styles -->
     <script>
           CMS.registerPreviewStyle("https://fonts.googleapis.com/css?family=Titillium+Web:300,400,700");
-          CMS.registerPreviewStyle("/assets/css/preview.css");
+          CMS.registerPreviewStyle("/assets/css/base.css");
+    </script>
+    <script>
+      import { fr } from 'netlify-cms-locales';CMS.registerLocale('fr', fr);
     </script>
 
     <!-- Register the Post preview component -->
