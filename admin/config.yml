@@ -12,7 +12,7 @@ publish_mode: editorial_workflow
 media_folder: "assets/img/uploads"
 site_url: https://poetic-buttercream-0d3e15.netlify.app/
 display_url: https//le7eptiemeoeil.ci
-logo_url: https://poetic-buttercream-0d3e15.netlify.app/assets/img/icons/mediumtile.png
+logo_url: https://poetic-buttercream-0d3e15.netlify.app/assets/img/icons/widetile.png
 locale: fr
 collections:
   - label: "Rubriques"
@@ -40,7 +40,7 @@ collections:
         name: "description"
         widget: "string"
         required: false
-  - label: "Publications"
+  - label: "Articles"
     name: "posts"
     folder: "_posts"
     create: true
@@ -51,6 +51,7 @@ collections:
       - label: "Date de publication"
         name: "date"
         widget: "datetime"
+        format: "YYYY-MM-DD HH:mm:ss"
         date_format: true
         time_format: true
         picker_utc: true
@@ -124,6 +125,7 @@ collections:
       - label: "Date de publication"
         name: "date"
         widget: "datetime"
+        format: "YYYY-MM-DD HH:mm:ss"
         date_format: true
         time_format: true
         picker_utc: true
@@ -339,7 +341,7 @@ collections:
             name: "texts"
             widget: "color"
             default: "#333333"
-      - label: "Publications"
+      - label: "Articles"
         name: "posts"
         file: "src/yml/posts.yml"
         fields:
