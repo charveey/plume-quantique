@@ -228,7 +228,7 @@ body {
     p {
       font-style: italic;
       font-size: rem(17px);
-      color: $lightGray;
+      color: $texts;
       margin: 0;
       @include media(">=sm") {
         font-size: rem(20px);
