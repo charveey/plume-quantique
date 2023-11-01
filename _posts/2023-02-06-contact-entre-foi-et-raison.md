@@ -1,5 +1,5 @@
 ---
-date: 23-02-2023 10:53:36
+date: 2023-02-23 10:53:36
 layout: post
 title: "Contact: à la recherche de la vérité entre foi et science"
 subtitle: null
@@ -53,9 +53,9 @@ Une foi qui essaie d'obtenir pour ses revendications la certitude de la science 
 ![La foi (Joss Palmer) et la science (Ellie Arroway) se tenant la main](https://res.cloudinary.com/dj6o6enl9/image/upload/v1684854572/contact-5.jpg)
 
 Face un monde laïc et scientifique qui a de moins en moins besoin de palliatifs métaphysiques, le message de ***Contact*** se veut conciliateur : il met l'accent sur la confrontation entre les croyances et la science pour au final mieux les rapprocher. Il tente de combler le fossé entre la foi et la science en affirmant, finalement, que les deux peuvent - et, dans de nombreux cas, doivent - coexister. D'autant plus que les deux se rejoignent dans leur but : la recherche de la vérité. Le film suggère que la poursuite de la découverte scientifique peut être une expérience spirituelle, et que la religion peut apporter une compréhension plus profonde des mystères de l'univers.
-Pour Anselme de Cantorbéry, l'intelligibilité de la doctrine chrétienne ne peut devenir évidente qu'après y avoir cru : *Credo ut intelligam[^2]* (je crois avant de comprendre ndlr.) disait-il. Le film à mon sens penche pour une inversion de la célèbre maxime : *intelligo ut credam* (je comprends pour croire), faisant ainsi de la science un complément de la foi. 
+Pour Anselme de Cantorbéry, l'intelligibilité de la doctrine chrétienne ne peut devenir évidente qu'après y avoir cru : *Credo ut intelligam[^2]* (je crois avant de comprendre ndlr.) disait-il. Le film à mon sens penche pour une inversion de la célèbre maxime : *intelligo ut credam* (je comprends pour croire), faisant ainsi de la science un complément de la foi.
 
-Lorsque l'on pense à la science-fiction, il est facile de penser à des films d'action avec un étalage impressionnant d’effets spéciaux se voulant toujours plus réalistes où le spectaculaire prend le pas sur la substance. Mais la véritable science-fiction, celle qui a défini le genre, est rarement présentée avec autant d'acuité que dans ***Contact***. Sans répondre à toutes les interrogations qu'il suscite, le film offre au public quelque chose à méditer et à explorer sur le plan philosophique par le biais de ses observations. Ce qui en fait à mon humble avis l'un des plus grands films que le genre n'ait jamais offerts. 
+Lorsque l'on pense à la science-fiction, il est facile de penser à des films d'action avec un étalage impressionnant d’effets spéciaux se voulant toujours plus réalistes où le spectaculaire prend le pas sur la substance. Mais la véritable science-fiction, celle qui a défini le genre, est rarement présentée avec autant d'acuité que dans ***Contact***. Sans répondre à toutes les interrogations qu'il suscite, le film offre au public quelque chose à méditer et à explorer sur le plan philosophique par le biais de ses observations. Ce qui en fait à mon humble avis l'un des plus grands films que le genre n'ait jamais offerts.
 
 [^1]: Aussi appelé « principe de parcimonie », ce principe doit son nom au philosophe et moine franciscain Guillaume d’Occam
 [^2]: Maxime célèbre du moine bénédictin italien, Anselme de Canterbury : "*Non quæro intelligere ut credam, sed credo ut intelligam*" ; je ne cherche pas à comprendre pour croire, mais je crois pour comprendre.
