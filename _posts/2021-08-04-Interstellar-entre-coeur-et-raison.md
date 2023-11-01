@@ -26,7 +26,7 @@ Au-delà de son scénario ambitieux, de la justesse avec laquelle le film aborde
 
 ![Murph et Cooper](https://res.cloudinary.com/dj6o6enl9/image/upload/v1684854572/interstellar.jpg)
 
-> *“Dès qu'on est parents, on devient le fantôme de l'avenir de ses enfants”*
+> *Dès qu'on est parents, on devient le fantôme de l'avenir de ses enfants*
 
 Pour mener à bien sa mission, le personnage interprété par Matthew McConaughey, Cooper, doit abandonner ses enfants sur Terre. Mais si la Terre et les hommes sont condamnés, quel autre choix a-t-il ? Contrairement à ce qu'on pourrait croire il ne fait pas ce sacrifice parce que c'est un héros avec une destinée manifeste, non. Il est contraint d'abandonner sa famille parce que cette mission est pour lui le seul moyen de leur assurer un futur, même si cela signifie pour lui qu'il ne les verra pas grandir.
 
@@ -36,7 +36,7 @@ De toutes les scènes émotionnelles du film, c'est probablement celle qui me to
 
 ![Cooper ému par le message de ses enfants](https://res.cloudinary.com/dj6o6enl9/image/upload/v1684854572/interstellar-2.png)
 
-> *“De toutes les choses que nous percevons seul l'amour transcende le temps et l'espace.”*
+> *De toutes les choses que nous percevons, seul l'amour transcende le temps et l'espace.*
 
 Écouter passionnément son cœur ou se fier prudemment à sa raison ? Voilà un dilemme auquel nous avons tous été confrontés. ***Interstellar*** est un film où l'amour sauve la mise. *Amor Vincit Omnia* comme disaient les Romains. Cela peut sembler paradoxal, car la science et les sentiments sont souvents considérés comme binaires.
 
