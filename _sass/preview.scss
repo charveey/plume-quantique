@@ -217,8 +217,6 @@ body {
     border-left:3px solid $themeColor ;
     line-height:1.25;
     position: relative;
-    background:lighten($primaryDark, 1%);
-
 
     @include media(">=sm") {
       width: 100%;
