@@ -208,26 +208,48 @@ body {
 
   blockquote {
     @include center(rem(730px));
-    border-left: rem(5px) solid $texts;
-    padding: 0 rem(10px);
+    border-left: rem(5px) solid $themeColor;
     margin: rem(30px) auto;
     width: 90%;
+    font-size: rem(18px);
+    font-style: italic;
+    padding:0.6em 30px 0.6em rem(25px);
+    border-left:3px solid $themeColor ;
+    line-height:1.25;
+    position: relative;
+    background:lighten($primaryDark, 1%);
+
 
     @include media(">=sm") {
       width: 100%;
       margin: rem(50px) auto;
-      padding: 0 rem(30px);
+      font-size: rem(22px);
+      padding:0.6em 30px 0.6em rem(35px);
     }
 
     p {
+      font-style: italic;
       font-size: rem(17px);
-      color: rgba(0, 0, 0, 0.6);
+      color: $lightGray;
       margin: 0;
-      
       @include media(">=sm") {
         font-size: rem(20px);
       }
     }
+  }
+
+  blockquote::before{
+    font-family:Arial;
+    content: "\201C";
+    color: $themeColor;
+    font-size:4em;
+    position: absolute;
+    left: 10px;
+    top:-10px;
+  }
+
+  blockquote::after{
+    content: '';
   }
 
   hr {
