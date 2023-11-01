@@ -1,5 +1,5 @@
 ---
-date: 23-07-2023 11:17:53
+date: 2023-07-23 11:17:53
 layout: post
 title: "Oppenheimer : le prométhée américain disséqué par Nolan"
 subtitle: Ce vendredi 21 Juillet 2023, l’attendu dernier opus de Christopher
