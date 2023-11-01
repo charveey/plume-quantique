@@ -280,6 +280,14 @@
   blockquote::after{
     content: '';
   }
+  // For the author of the quote
+  blockquote span{
+    display:block;
+    color:$lightGray;
+    font-style: normal;
+    font-weight: bold;
+    margin-top:1rem;
+  }
 
   hr {
     @include center(rem(760px));
