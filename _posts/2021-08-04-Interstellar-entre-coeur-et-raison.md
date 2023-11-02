@@ -27,7 +27,6 @@ Au-delà de son scénario ambitieux, de la justesse avec laquelle le film aborde
 ![Murph et Cooper](https://res.cloudinary.com/dj6o6enl9/image/upload/v1684854572/interstellar.jpg)
 
 > *Dès qu'on est parents, on devient le fantôme de l'avenir de ses enfants*
-<span>Steve Jobs</span>
 
 Pour mener à bien sa mission, le personnage interprété par Matthew McConaughey, Cooper, doit abandonner ses enfants sur Terre. Mais si la Terre et les hommes sont condamnés, quel autre choix a-t-il ? Contrairement à ce qu'on pourrait croire il ne fait pas ce sacrifice parce que c'est un héros avec une destinée manifeste, non. Il est contraint d'abandonner sa famille parce que cette mission est pour lui le seul moyen de leur assurer un futur, même si cela signifie pour lui qu'il ne les verra pas grandir.
 
