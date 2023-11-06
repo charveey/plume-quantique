@@ -28,5 +28,11 @@
   },
   "css.validate": false,
   "less.validate": false,
-  "scss.validate": false
+  "scss.validate": false,
+  "yaml.schemas": {
+    "https://json.schemastore.org/jekyll.json": [
+      "file:///workspaces/plume-quantique/src/yml/site.yml",
+      "file:///workspaces/plume-quantique/src/yml/translations.yml"
+    ]
+  }
 }

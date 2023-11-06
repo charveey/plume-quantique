@@ -3,15 +3,15 @@
         <a id="menu" role="button">
             <svg id="open" class="icon-menu"><use xlink:href="#icon-menu"></use></svg>
         </a>
-        <div class="logo">
+
             <a id="logo" href="{{ site.baseurl }}/">
                 {% if site.use_logo %}
-                    {% include logo.html %}
+                    <img src="/assets/img/logo-web.png" height="50px" alt="Le 7eptième Œil">
                 {% else %}
                     {{ site.name }} <span class="version">{{ site.version }}</span>
                 {% endif %}
             </a>
-        </div>
+
         <div class="nav-bar"> 
             {% include nav-bar.html %}
         </div>
