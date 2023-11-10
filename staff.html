@@ -8,7 +8,62 @@ permalink: /staff/
 <h1>Qui sommes-nous ?</h1>
 
 <div class="staff">
-  {% for author in site.authors %}
+
+  <div class="card mb-3" style="max-width: 540px;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="/assets/img/uploads/holee.jpg" class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Olivier Bablé </h5>
+          <p class="card-text">Personnage énigmatique et sociopathe, je suis passionné et obsédé par la chanteuse de k-pop LISA. Mon amour fanatique le pousse à suivre de près sa vie et à me perdre dans les frontières floues entre la réalité et l'illusion.Passionné de science-fiction, cinéphile dévoué et écrivain en herbe. Écrire sur le cinéma, en particulier sur la science-fiction, est devenue mon exutoire créatif. Je souhaite offrir une perspective éclairée du genre afin de le rendre plus accessible.
+           .</p>
+          <p class="card-text"><small class="text-body-secondary">Rédacteur, responsable communication digitale</small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="card mb-3" style="max-width: 540px;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="/assets/img/uploads/iksboi.png" class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Ibrahim Koïta</h5>
+          <p class="card-text">Esprit sensible à l'émotionnel, au politiquement complexe, au gothique, à la désolation et au désespoir de l'être humain face à des entités inatteignables. D'où mon amour inconditionnel pour la dark fantasy, le romantisme noir et les films racontant plus qu'une histoire, mes thématiques de prédilection sont: la mort, la folie, la guerre, l'obscur et l'absurde. Je suis aussi étudiant à mes heures perdues !
+           .</p>
+          <p class="card-text"><small class="text-body-secondary">Rédacteur, Web designer</small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card mb-3" style="max-width: 540px;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="/assets/img/uploads/charveey.jpg" class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Ange Kevin Amlaman </h5>
+          <p class="card-text">
+            Passionné de science-fiction, cinéphile dévoué et écrivain en herbe. Écrire sur le cinéma, en particulier sur la science-fiction, est devenue mon exutoire créatif. Je souhaite offrir une perspective éclairée du genre afin de le rendre plus accessible.
+           .</p>
+          <p class="card-text"><small class="text-body-secondary">Rédacteur en chef, Fondateur du 7eptième oeil</small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+</div>
+
+<!--The old flow with a cringe "for"
+
+   {% for author in site.authors %}
     <div class="item">
       <h2 class="name">
         <a href="{{ site.baseurl }}{{ author.url }}">{{ author.display_name }}</a>
@@ -17,5 +72,4 @@ permalink: /staff/
         <h3 class="position">{{ author.position }}</h3>
       {% endif %}
     </div>
-  {% endfor %}
-</div>
+  {% endfor %} -->
