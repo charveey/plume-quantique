@@ -1,12 +1,9 @@
 
-
-
-
 .staff {
   
-  *{
+
   box-sizing: border-box;
-}
+
   @include media(">=sm") {
     @include center(rem(800px));
   }
