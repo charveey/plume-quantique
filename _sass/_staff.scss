@@ -1,51 +1,59 @@
 .staff {
   
-
-  box-sizing: border-box;
-
   @include media(">=sm") {
     @include center(rem(800px));
+    display:flex;
+    align-items: center;
+    margin: 100px auto;
+    a,h4,h6.title,p {
+      margin-right: 0px;
+      margin:0px;
+      padding: 0px;
+      font-size: 15px;
+    }
+    
   }
+
+
+   
 
   .item:not(:last-child) {
     border-bottom: 1px solid $lightGray;
   }
-  authorcard{
-  align-content: center;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh; 
-  margin: 100px auto;
-  width: 75%;
-  }
-  card-title{
-    
-    padding: 5px;
-  }
-
+  
+ 
   img {
     max-width: 350px;
     width: rem(150px); 
-    margin: 0 rem(20px) rem(20px);
+    margin:0 rem(20px) rem(20px) ;
     margin-right: 20px;
     border-radius:50%;
     object-fit:cover ;
     aspect-ratio: 1/1;
     padding:0;
-    text-align: center;
-    float: left;
+   //
 
     @include media(">=sm") {
       width: rem(200px);
       margin-bottom: rem(30px);
+      text-align: center;
+      float: left;
+      max-width: 350px;
+      width: rem(150px); 
+     
+      
     }
   }
-
+ 
+  p{
+    font-size: 15px;
+  } 
+  
   h1,
   h2,
   h3,
   h4,
-  h5 {
+  {
     margin-bottom: rem(10px);
 
     &.name {
@@ -61,4 +69,5 @@
       margin-bottom: rem(20px);
     }
   }
+
 }
