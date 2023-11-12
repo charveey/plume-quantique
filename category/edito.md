@@ -2,5 +2,5 @@
 layout: category
 title: L'Œil Avisé
 slug: edito
-description: Toutes les publications explorants le Septième art en profondeur
+description: Toutes les publications explorant le Septième art en profondeur
 ---
