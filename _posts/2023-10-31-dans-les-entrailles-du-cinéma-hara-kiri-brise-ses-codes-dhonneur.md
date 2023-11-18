@@ -1,5 +1,5 @@
 ---
-date: 2023-12-01 23:38:00
+date: 2023-11-01 23:38:00
 layout: post
 title: Dans les entrailles du cinéma, Hara Kiri brise ses codes d'honneur
 description: Regard sur les dilemmes éthiques d'un samouraï dans un Japon féodal
