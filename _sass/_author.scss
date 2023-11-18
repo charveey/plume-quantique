@@ -5,7 +5,7 @@
   padding: rem(40px) 0;
   margin: rem(40px) 0;
 
-  @include media(">=sm") {
+  @include media(">=tablet") {
     padding: rem(50px) 0;
   }
 
@@ -41,11 +41,14 @@
     border-radius: 50%;
     display: block;
     margin: auto;
+    object-fit:cover ;
+    aspect-ratio: 1/1;
 
     @include media(">=tablet") {
       width: rem(180px);
       float: left;
       margin-right: 3.125rem;
+      margin-top: 2rem;
     }
   }
 
