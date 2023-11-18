@@ -20,8 +20,7 @@ translations:
     back_btn: "Retourner en haut de la page"
   error_404:
     title: "Woops ! Page introuvable :("
-    message: "Il semblerait que la page que vous recherchez est hors ligne ou a été
-    déplacée ailleurs."
+    message: "Il semblerait que la page que vous recherchez est hors ligne ou a été déplacée ailleurs."
     image_alt: "404 - Page not found"
   contact:
     title: "Nous contacter"
@@ -39,5 +38,4 @@ translations:
       empty_message: "Le message ne peut pas être vide"
     after_send:
       title: "Message envoyé !"
-      message: "Nous vous remercions de nous avoir contactés et nous vous répondrons
-      dès que possible."
+      message: "Nous vous remercions de nous avoir contactés et nous vous répondrons dès que possible."
