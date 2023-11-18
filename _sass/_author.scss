@@ -37,18 +37,19 @@
   }
 
   img {
-    width: rem(150px);
+    width: rem(160px);
     border-radius: 50%;
     display: block;
     margin: auto;
-    object-fit:cover ;
+    object-fit: cover;
     aspect-ratio: 1/1;
 
     @include media(">=tablet") {
-      width: rem(180px);
+      width: rem(200px);
       float: left;
       margin-right: 3.125rem;
-      margin-top: 2rem;
+      margin-top: 2.125rem;
+      margin-bottom: 2.125rem;
     }
   }
 
@@ -92,6 +93,10 @@
     @include media(">=sm") {
       font-size: rem(18px);
     }
-    
+  }
+  .icns {
+    @include media(">=tablet") {
+      text-align: right;
+    }
   }
 }
