@@ -2,7 +2,8 @@
 date: 2023-12-01 23:38:00
 layout: post
 title: Dans les entrailles du cinéma, Hara Kiri brise ses codes d'honneur
-description: Description
+description: Regard sur les dilemmes éthiques d'un samouraï dans un Japon féodal
+  en proie à la désolation...
 image: https://res.cloudinary.com/dfqlcc1vj/image/upload/v1698593516/Hara%20Kiri/Preview/Harakiri-089_sszfdu.jpg
 optimized_image: https://res.cloudinary.com/dfqlcc1vj/image/upload/v1698593516/Hara%20Kiri/Preview/Harakiri-089_sszfdu.jpg
 category: edito
@@ -51,7 +52,7 @@ Enfin, comme pour nous inviter à nous rendre compte que ce n’est pas qu’un 
 
 ![statue-Hkiri](https://res.cloudinary.com/dfqlcc1vj/image/upload/v1700268874/Hara%20Kiri/Subtitles/Harakiri-004_nru5r4.jpg)
 
-Je veux bien entendre que ce n’est pas votre genre de film, mais je vais quand même vous promettre que c’est tout sauf inanité de regarder ce truc. Je m’explique : sans compter l’argument du Grand Prix du festival de Cannes (1962), Hara Kiri fait partie du club strictement fermé d’œuvres qui transcendent leur médium de par leur fonds. Je ne peux m’empêcher de voir un écho aux soldats kamikazes de la Seconde Guerre mondiale, objectifiés par leur pays, sous la pression d’un système bien trop colossal. Et j’irais même jusqu’à dire que c’est une œuvre qui invite à la réflexion sur des thèmes qui nous touchent, nous en Côte d’Ivoire, comme l’importance de l’ego, le virilisme, la centralisation du pouvoir, etc. et c’est pour toutes ces raisons que pour moi c’est un indispensable du cinéma, à voir au grand minimum deux fois avant de mourir ! Envie de me Hara-Kiri ?
+Je veux bien entendre que ce n’est pas votre genre de film, mais je vais quand même vous promettre que c’est tout sauf inanité de regarder ce truc. Je m’explique : sans compter l’argument du Grand Prix du festival de Cannes (1962), Hara Kiri fait partie du club strictement fermé d’œuvres qui transcendent leur médium de par leur fonds. Je ne peux m’empêcher de voir un écho aux soldats kamikazes de la Seconde Guerre mondiale, objectifiés par leur pays, sous la pression d’un système bien trop colossal. Et j’irais même jusqu’à dire que c’est une œuvre qui invite à la réflexion sur des thèmes qui nous touchent, nous en Côte d’Ivoire, comme l’importance de l’ego, le virilisme, la centralisation du pouvoir, etc. et c’est pour toutes ces raisons que pour moi c’est un indispensable du cinéma, à voir au grand minimum deux fois avant de mourir ! 
 
  [^1]: Citation de *Miguel de Cervantès*
 
