@@ -1,6 +1,6 @@
 ---
 layout: author
-name: Iksboi
+name: iksboi
 photo: /assets/img/uploads/iksboi.png
 display_name: Ibrahim Koïta
 position: Majestic Sofitel Ivoire

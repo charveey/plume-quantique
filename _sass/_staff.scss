@@ -5,6 +5,7 @@
     display:flex;
     align-items: center;
     margin: 100px auto;
+    
     a,h4,h6.title,p {
       margin-right: 0px;
       margin:0px;
@@ -17,7 +18,7 @@
       margin: bottom 20px;;
       padding:0px
     }
-    .staff{
+   .staff{
       margin-top:20px;
       padding:0px
     }
@@ -38,7 +39,8 @@
   }
   .staff{
     margin-top:20px;
-    padding:0px
+    padding:0px;
+   
   }
 
   .item:not(:last-child) {

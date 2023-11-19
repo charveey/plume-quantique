@@ -8,29 +8,47 @@ permalink: /staff/
 <h1>Qui sommes-nous ?</h1>
 <br> 
 <div class="staff" id="staff">
-<img class="img" src="/assets/img/uploads/iksboi.png">
+<div class="item">
+{% for author in site.authors %}
+
+
+
+<section class="author">
+    <div class="details">
+      
+        <img class="img-rounded" src="{{ author.photo }}" alt="{{ author.display_name }}">
+      
+      <p class="def">{{ author.position }}</p>
+      <h3 class="name">
+        <a href="{{ site.baseurl }}{{ author.url }}">{{ author.display_name }}</a>
+      </h3>
+      <p class="desc">{{ author.bio }}</p>
+
+
+</section>
+
+<br>
+
+{% endfor %}
+</div>
+</div>
+
+
+
+
+
+
+<!--<img class="img" src="{{ author.photo }}">
 <div class="txt">
 
-<a><h4>Ibrahim Koita</h4></a>
+<h3><a href="{{ site.baseurl }}{{ author.url }}">{{ author.display_name }}</a></h3>
 
-<p>Esprit sensible à l'émotionnel, au politiquement complexe,
-  au gothique, à la désolation et au désespoir de l'être humain
-  face à des entités inatteignables. D'où mon amour inconditionnel
-  pour la dark fantasy, le romantisme noir et les films racontant
-  plus qu'une histoire, mes thématiques de prédilection
-  sont: la mort, la folie, la guerre, l'obscur et l'absurde.
-  Je suis aussi étudiant à mes heures perdues !</p>
+<p>{{ author.bio }}</p>
 
-<h6 class="title">Web designer</h6> 
-</div>
+<h6 class="title">{{ author.position }}</h6> 
+
 </div>
 
-
-
-
-
-
-<!--
 <div class="authorcard" >
   <div class="row " >
   <div class="col-md-4">
