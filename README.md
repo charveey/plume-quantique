@@ -1,6 +1,6 @@
 # Le 7eptième Œil
 
-![Le 7eptième Œil](https://res.cloudinary.com/dfqlcc1vj/image/upload/v1698629964/7emeOeil_hwhj3g.jpg)
+![Le 7eptième Œil](https://res.cloudinary.com/dfqlcc1vj/image/upload/v1700352917/logo_nlco5t.png)
 
 See the [demo here](https://poetic-buttercream-0d3e15.netlify.app/).
 
@@ -10,7 +10,7 @@ A website dedicated to everything about movies: reviews, deep-dives, recommendat
 
 The website is based of the [Jekflix Theme](https://github.com/thiagorossener/jekflix-template) by Thiago Rossener
 
-![Jekflix Screenshot Image](https://res.cloudinary.com/dm7h7e8xj/image/upload/v1566390829/jekflix-screenshot-2_zfiog2.jpg)
+![Jekflix Screenshot Image](https://res.cloudinary.com/dfqlcc1vj/image/upload/v1700352763/frame_safari_dark_jccu5a.png)
 
 ## Documentation
 
