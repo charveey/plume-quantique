@@ -1,25 +1,90 @@
 .staff {
+  
   @include media(">=sm") {
     @include center(rem(800px));
+    display:flex;
+    align-items: center;
+    margin: 100px auto;
+    
+    a,h4,h6.title,p {
+      margin-right: 0px;
+      margin:0px;
+      padding: 0px;
+      
+    font-size: 15px;
+   
+    }
+     h1{
+      margin: bottom 20px;;
+      padding:0px
+    }
+   .staff{
+      margin-top:20px;
+      padding:0px
+    }
+  }
+
+  a,h4,h6.title,p {
+    margin-right: 0px;
+    margin:0px;
+    padding: 0px;
+    font-size: 15px;
+    margin-top: 5px;
+    
+  
+  }
+  h1{
+    margin: bottom 20px;;
+    padding:0px
+  }
+  .staff{
+    margin-top:20px;
+    padding:0px;
+   
   }
 
   .item:not(:last-child) {
     border-bottom: 1px solid $lightGray;
   }
-
+  
+ 
   img {
-    width: rem(150px);
-    margin: 0 rem(20px) rem(20px);
+   
+    max-width: 350px;
+    width: rem(150px); 
+    margin:0 rem(20px) rem(20px) ;
+    margin-right: 20px;
+    border-radius:50%;
+    object-fit:cover ;
+    aspect-ratio: 1/1;
+    padding:0px;
+   //
 
     @include media(">=sm") {
       width: rem(200px);
       margin-bottom: rem(30px);
+      text-align: center;
+      float: left;
+      max-width: 350px;
+      width: rem(150px); 
+      padding: 0px;
+    
+       
     }
   }
 
+
+ 
+  p{
+    font-size: 15px;
+  } 
+  
   h1,
   h2,
-  h3 {
+  h3,
+  h4,
+  {
+    
     margin-bottom: rem(10px);
 
     &.name {
@@ -35,4 +100,5 @@
       margin-bottom: rem(20px);
     }
   }
+
 }
