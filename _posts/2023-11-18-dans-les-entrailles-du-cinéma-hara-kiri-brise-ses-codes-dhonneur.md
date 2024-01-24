@@ -2,23 +2,23 @@
 date: 2023-11-18 11:58:51
 layout: post
 title: Dans les entrailles du cinéma, Hara Kiri brise ses codes d'honneur
-description: Regard sur les dilemmes éthiques d'un samouraï dans un Japon féodal
-  en proie à la désolation...
+description: Regard sur les introspections d'un samouraï dans un Japon ravagé.
 image: https://res.cloudinary.com/dfqlcc1vj/image/upload/v1698593516/Hara%20Kiri/Preview/Harakiri-089_sszfdu.jpg
 optimized_image: https://res.cloudinary.com/dfqlcc1vj/image/upload/v1698593516/Hara%20Kiri/Preview/Harakiri-089_sszfdu.jpg
 category: edito
 tags:
   - japon
   - samourai
-  - kobayahi
+  - kobayashi
+  - "1960"
 author: Iksboi
 paginate: false
 ---
-Comment aborder le cinéma des années 60, sans parler du révolutionnaire ***Hara Kiri***. Dans un japon brisé, ravalant son orgueil de par sa population divisée et drastiquement affecté par ce qui sans doute fût l’absurdité la plus dévastatrice de l’humanité. Une civilisation encrée dans le conservatisme et comme une fleur émergeant d’une décharge, Maître Kobayashi nous vends un message critique questionnant l’une des notions les plus encrée des sociétés humaines : l’honneur
+Comment aborder le cinéma des années 60, sans parler du légendaire ***Hara Kiri*** ? Dans un japon brisé, drastiquement affecté par ce qui sans doute fût l’absurdité la plus dévastatrice de l’humanité. Comme une fleur émergeant d’une décharge, Maître Kobayashi nous vends un message critique questionnant l’une des notions les plus encrée des sociétés humaines : l’honneur
 
 ### "Mon honneur m'est plus cher que ma vie" [^1].
 
-L’honneur [^2], désigne le fait de mériter la considération, l'estime (d'autrui et de soi-même) sur le plan moral et selon les valeurs de la société. Sans prétendre que Kobayashi soit derrière cette explication, nous constaterons de manière plus générale que l’honneur représente l'un des nombreux liens unissant un individu à un groupe, une pluralité plus importante à laquelle on se sent lié, et c’est bien l’instrumentalisation de ce lien que notre réalisateur s’amuse à décortiquer.
+L’honneur, désigne le fait de mériter la considération, l'estime (d'autrui et de soi-même) sur le plan moral et selon les valeurs de la société[^2]. Sans prétendre que Kobayashi soit derrière cette explication, nous constaterons de manière plus générale que l’honneur représente l'un des nombreux liens unissant un individu à un groupe, à l'instar de l'amour qui par exemple représente un lien affectif entre individus une pluralité plus importante à laquelle on se sent lié, et c’est bien l’instrumentalisation de ce lien que notre réalisateur s’amuse à décortiquer.
 
 ### Bonjour, un suicide s'il vous plaît !
 
