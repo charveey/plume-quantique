@@ -3,7 +3,7 @@ date: trueTtrue
 layout: post
 title: Le frère cadet du film d'action
 subtitle: Die Hard ou comment faire beaucoup avec peu
-description: Une breve sur un precurseur du film d'action
+description: Une brève sur un précurseur du film d'action
 image: https://res.cloudinary.com/dfqlcc1vj/image/upload/v1713950538/Die%20Hard/33_20_315_xhjr5p.jpg
 category: conseils
 tags:
