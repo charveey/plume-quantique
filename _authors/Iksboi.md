@@ -9,7 +9,7 @@ twitter_username:
 github_username: Iksboi   
 facebook_username:  
 instagram_username:  iksboi_
-linkedin_username: sory-ibrahim-koita-6894ba207
+linkedin_username: sory-ibrahim-koïta-6894ba207
 medium_username: 
 threads_username:  
 letterboxd_username:  iksboi
