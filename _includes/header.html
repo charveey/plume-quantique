@@ -1,10 +1,10 @@
 <header class="bar-header">
 
-        <a id="menu" role="button">
+        <a id="menu" role="button" aria-label="Open Menu">
             <svg id="open" class="icon-menu"><use xlink:href="#icon-menu"></use></svg>
         </a>
 
-            <a id="logo" href="{{ site.baseurl }}/">
+            <a id="logo" href="{{ site.baseurl }}/" title="Le 7eptième Œil">
                 {% if site.use_logo %}
                     <img src="/assets/img/logo-web.png" height="50px" alt="Le 7eptième Œil">
                 {% else %}
@@ -15,7 +15,7 @@
         <div class="nav-bar"> 
             {% include nav-bar.html %}
         </div>
-        <a id="search" class="dosearch" role="button">
+        <a id="search" class="dosearch" role="button" aria-label="Search">
             <svg class="icon-search"><use xlink:href="#icon-search"></use></svg>
         </a>
         {% if site.show_get_theme_btn %}
