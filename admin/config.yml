@@ -19,6 +19,7 @@ media_library:
     default_transformations:
         - - fetch_format: auto    
             quality: auto
+            crop: scale
 site_url: https://poetic-buttercream-0d3e15.netlify.app/
 display_url: https//le7eptiemeoeil.ci
 logo_url: https://poetic-buttercream-0d3e15.netlify.app/assets/img/icons/widetile.png
@@ -94,8 +95,11 @@ collections:
           config:
             default_transformations:
               - - fetch_format: auto
-                  width: 150    
+                  width: 160
+                  height: 90    
                   quality: auto
+                  crop: fill
+                  gravity: face
       - label: "Rubrique"
         name: "category"
         widget: "relation"
