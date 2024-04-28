@@ -10,6 +10,16 @@ backend:
     deleteMedia: Delete “{{path}}”
 publish_mode: editorial_workflow
 media_folder: "assets/img/uploads"
+media_library:
+  name: cloudinary
+  config:
+    cloud_name: dfqlcc1vj
+    api_key: 569845682662826
+    output_filename_only: false
+    default_transformations:
+        - - fetch_format: auto    
+            quality: auto
+            crop: scale
 site_url: https://poetic-buttercream-0d3e15.netlify.app/
 display_url: https//le7eptiemeoeil.ci
 logo_url: https://poetic-buttercream-0d3e15.netlify.app/assets/img/icons/widetile.png
@@ -81,6 +91,15 @@ collections:
         allow_multiple: false
         required: false
         hint: "La version optimisée sera affichée sur la page d'accueil"
+        media_library:
+          config:
+            default_transformations:
+              - - fetch_format: auto
+                  width: 160
+                  height: 90    
+                  quality: auto
+                  crop: fill
+                  gravity: face
       - label: "Rubrique"
         name: "category"
         widget: "relation"
