@@ -19,7 +19,10 @@
                 <article class="box-item">
                   <div class="box-body">
                     {% if post.image %}
-                      <a class="cover" href="{{ post.url | prepend: site.baseurl }}">
+                      <a
+                        class="cover"
+                        href="{{ post.url | prepend: site.baseurl }}"
+                        aria-label="{{ post.title }}">
                         {% include loader.html %}
                         {% if post.optimized_image %}
                           <img
