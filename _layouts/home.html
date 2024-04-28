@@ -61,7 +61,7 @@ layout: main
                 </span>
                 
                 <div class="box-body">
-                    <a class="cover" href="{{ post.url | prepend: site.baseurl }}">
+                    <a class="cover" href="{{ post.url | prepend: site.baseurl }}" aria-label="{{ post.title }}">
                         {% include loader.html %}
                         {% if post.optimized_image %}
                             <img src="/assets/img/placeholder.png" width="100%" data-url="{{ post.optimized_image }}" class="preload">
@@ -97,7 +97,7 @@ layout: main
                         <div class="tags">
                             {% for tag in post.tags %}
                                 {% if tag != "" %}
-                                    <a href="{{ site.baseurl}}/tags/#{{tag | slugify }}">#{{ tag }}</a>
+                                    <a href="{{ site.baseurl}}/tags/{{tag | slugify }}">#{{ tag }}</a>
                                 {% endif %}
                             {% endfor %}
                         </div>

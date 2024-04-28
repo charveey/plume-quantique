@@ -31,6 +31,7 @@ medium_username:
 threads_username: le7eptiemeoeil
 letterboxd_username:
 serializd_username:
+linkedin_username: 103512316
 
 # Posts Settings
 show_time_bar: false
@@ -136,3 +137,20 @@ exclude: [
 
 # Theme
 version: v3.1.2
+
+# Tags
+autopages:
+  enabled: true
+  collections:
+      enabled: false
+  categories:
+      enabled: false
+  tags: 
+    layouts: 
+      - autopage_tags.html
+    title: 'Articles sur le thème ":tag"' # :tag is replaced by the tag name
+    permalink: '/tags/:tag'
+    silent: false
+    slugify:
+      mode: 'default'   # :tag is slugified.
+      case: false
