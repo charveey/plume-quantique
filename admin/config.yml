@@ -10,6 +10,12 @@ backend:
     deleteMedia: Delete “{{path}}”
 publish_mode: editorial_workflow
 media_folder: "assets/img/uploads"
+media_library:
+  name: cloudinary
+  config:
+    cloud_name: dfqlcc1vj
+    api_key: 569845682662826
+    output_filename_only: true
 site_url: https://poetic-buttercream-0d3e15.netlify.app/
 display_url: https//le7eptiemeoeil.ci
 logo_url: https://poetic-buttercream-0d3e15.netlify.app/assets/img/icons/widetile.png
