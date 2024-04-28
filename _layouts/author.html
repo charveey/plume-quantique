@@ -4,9 +4,15 @@ layout: page
 
 <div class="staff">
   {% if page.photo %}
-    <img class="img-rounded" src="{{ page.photo }}" alt="{{ author.display_name }}">
+    <img
+      class="img-rounded"
+      src="{{ page.photo }}"
+      alt="{{ author.display_name }}">
   {% else %}
-    <img class="img-rounded" src="/assets/img/user.jpg" alt="{{ author.display_name }}">
+    <img
+      class="img-rounded"
+      src="/assets/img/user.jpg"
+      alt="{{ author.display_name }}">
   {% endif %}
 
   <h1 class="name">{{ page.display_name }}</h1>
@@ -20,7 +26,7 @@ layout: page
   <h2>Publications</h2>
 
   <ul>
-    {% assign filtered_posts = site.posts | where: 'author', page.name | where_exp:"post","post.is_generated != true" %}
+    {% assign filtered_posts = site.posts | where: 'author', page.name | where_exp: "post", "post.is_generated != true" %}
     {% for post in filtered_posts %}
       <li>
         <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
@@ -31,50 +37,48 @@ layout: page
 
 {% assign author_urls = '' %}
 {% if page.github_username %}
-    {% assign author_urls = author_urls | append: '"https://github.com/' | append: page.github_username | append: '",' %}
+  {% assign author_urls = author_urls | append: '"https://github.com/' | append: page.github_username | append: '",' %}
 {% endif %}
 {% if page.facebook_username %}
-    {% assign author_urls = author_urls | append: '"https://www.facebook.com/' | append: page.facebook_username | append: '",' %}
+  {% assign author_urls = author_urls | append: '"https://www.facebook.com/' | append: page.facebook_username | append: '",' %}
 {% endif %}
 {% if page.twitter_username %}
-    {% assign author_urls = author_urls | append: '"https://twitter.com/' | append: page.twitter_username | append: '",' %}
+  {% assign author_urls = author_urls | append: '"https://twitter.com/' | append: page.twitter_username | append: '",' %}
 {% endif %}
 {% if page.medium_username %}
-    {% assign author_urls = author_urls | append: '"https://medium.com/@' | append: page.medium_username | append: '",' %}
+  {% assign author_urls = author_urls | append: '"https://medium.com/@' | append: page.medium_username | append: '",' %}
 {% endif %}
 {% if page.instagram_username %}
-    {% assign author_urls = author_urls | append: '"https://www.instagram.com/' | append: page.instagram_username | append: '",' %}
+  {% assign author_urls = author_urls | append: '"https://www.instagram.com/' | append: page.instagram_username | append: '",' %}
 {% endif %}
 {% if page.linkedin_username %}
-    {% assign author_urls = author_urls | append: '"https://www.linkedin.com/in/' | append: page.linkedin_username | append: '",' %}
+  {% assign author_urls = author_urls | append: '"https://www.linkedin.com/in/' | append: page.linkedin_username | append: '",' %}
 {% endif %}
 {% if page.threads_username %}
-    {% assign author_urls = author_urls | append: '"https://www.threads.net/@' | append: page.threads_username | append: '",' %}
+  {% assign author_urls = author_urls | append: '"https://www.threads.net/@' | append: page.threads_username | append: '",' %}
 {% endif %}
 {% if page.letterboxd_username %}
-    {% assign author_urls = author_urls | append: '"https://www.letterboxd.com/' | append: page.letterboxd_username | append: '",' %}
+  {% assign author_urls = author_urls | append: '"https://www.letterboxd.com/' | append: page.letterboxd_username | append: '",' %}
 {% endif %}
 {% if page.serializd_username %}
-    {% assign author_urls = author_urls | append: '"https://www.serializd.com/user/' | append: page.serializd_username | append: '",' %}
+  {% assign author_urls = author_urls | append: '"https://www.serializd.com/user/' | append: page.serializd_username | append: '",' %}
 {% endif %}
 {% if page.myanimelist_username %}
-    {% assign author_urls = author_urls | append: '"https:/https://myanimelist.net/profile/' | append: page.myanimelist_username | append: '",' %}
+  {% assign author_urls = author_urls | append: '"https:/https://myanimelist.net/profile/' | append: page.myanimelist_username | append: '",' %}
 {% endif %}
 
 <script type="application/ld+json">
-{
-    "@context": "http://schema.org",
-    "@type": "Person",
-    "name": "{{ page.display_name }}",
-    {% if page.photo %}
-    "image": "{{ page.photo }}",
-    {% else %}
-    "image": {{ "/assets/img/user.jpg" | prepend: site.baseurl | prepend: site.url }},
-    {% endif %}
-    "jobTitle": "{{ page.position }}",
-    "url": "{{ page.url | prepend: site.baseurl | prepend: site.url }}",
-    "sameAs": [
-      {{ author_urls | split: "," | join: "," }}
-    ]
-}
+  {
+      "@context": "http://schema.org",
+      "@type": "Person",
+      "name": "{{ page.display_name }}",
+      {% if page.photo %}
+      "image" : "{{ page.photo }}",
+      {% else %}
+      "image": {{ "/assets/img/user.jpg" | prepend: site.baseurl | prepend: site.url }},
+      {% endif %}
+      "jobTitle": "{{ page.position }}",
+      "url": "{{ page.url | prepend: site.baseurl | prepend: site.url }}",
+      "sameAs": [{{ author_urls | split: "," | join: "," }}]
+    }
 </script>
