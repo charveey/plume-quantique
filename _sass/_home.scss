@@ -25,10 +25,17 @@
 
 .title-category {
   font-size: rem(32px);
-  margin: 0 0 rem(40px);
+  margin: 0 0 rem(20px);
   padding: 0 rem(23px);
   text-transform: uppercase;
-  color: #fff;
+  color: darken($accentDark, 10%);
+}
+
+.description-category {
+  margin: 0 0 rem(40px);
+  color: darken($lightGray, 5%);
+  font-size: rem(20px);
+  padding: 0 rem(23px);
 }
 
 .box-item {
