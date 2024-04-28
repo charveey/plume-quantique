@@ -15,7 +15,10 @@ media_library:
   config:
     cloud_name: dfqlcc1vj
     api_key: 569845682662826
-    output_filename_only: true
+    output_filename_only: false
+    default_transformations:
+        - - fetch_format: auto    
+            quality: auto
 site_url: https://poetic-buttercream-0d3e15.netlify.app/
 display_url: https//le7eptiemeoeil.ci
 logo_url: https://poetic-buttercream-0d3e15.netlify.app/assets/img/icons/widetile.png
@@ -87,6 +90,12 @@ collections:
         allow_multiple: false
         required: false
         hint: "La version optimisée sera affichée sur la page d'accueil"
+        media_library:
+          config:
+            default_transformations:
+              - - fetch_format: auto
+                  width: 150    
+                  quality: auto
       - label: "Rubrique"
         name: "category"
         widget: "relation"
