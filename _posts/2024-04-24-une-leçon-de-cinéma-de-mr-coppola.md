@@ -10,7 +10,7 @@ category: conseils
 author: Iksboi
 paginate: false
 ---
-J'ai longtemps rechigné à l'idée d'écrire sur la trilogie le parrain de Francis Ford Coppola pour la simple et bonne raison qu'il fait partie du cercle très fermé d'oeuvres où tout a déjà été dit. C'est plus qu'une oeuvre  à ce stade, on parle d'un modèle d' une nouvelle façon de percevoir l'art et c'est d'autant plus criminel de se revendiquer adepte du cinéma sans avoir vu ne serait-ce qu'une fois ***Le Parrain***. Je vais essayer à travers mes mots d'approcher au moins le centième de la grandeur que constitue ces œuvres à l'échelle du cinéma voire même au-delà.
+J'ai longtemps rechigné à l'idée d'écrire sur la trilogie le parrain de Francis Ford Coppola pour la simple et bonne raison qu'il fait partie du cercle très fermé d'oeuvres où tout a déjà été dit. C'est plus qu'une oeuvre  à ce stade, on parle d'un modèle d'une nouvelle façon de percevoir l'art et c'est d'autant plus criminel de se revendiquer adepte du cinéma sans avoir vu ne serait-ce qu'une fois ***Le Parrain***. Je vais essayer à travers mes mots d'approcher au moins le centième de la grandeur que constitue ces œuvres à l'échelle du cinéma voire même au-delà.
 
 ## Chapitre 1 : L'ascension
 
@@ -21,8 +21,6 @@ Parlons de ce dernier, Al Pacino est l'un des plus grands acteurs je ne vous app
 L'intrigue va se dérouler comme suit : Suite a une suite d'evenements, Vito sera dans l'incapacité de diriger les activités de la famille, son fils, Michael, se retrouvera propulsé a la tete d'une des organisations criminelles les plus puissantes du vingtieme siecle, Michael est quelqu'un de noble jusque la rappelez vous qu'il aime et sert son pays, mais ce qu'il aime encore plus, c'est sa famille. Ainsi, il la guidera au cout de plusieurs sacrifices a son apogée. A travers les yeux de sa femme, nous assisterons a l'hegemonie de son empire au detriment de sa morale.
 
 C'est très beau tout ça mais ce n'est que de l'intrigue, des intrigues nous savons en faire depuis l'invention du papier, parlons plutôt d'art visuel: il n'y a pas une scène qui n'est pas maîtrisé, les moindres détails jusqu'aux noms des restaurants  contribue à l'immersion que propose ces images, une aura de perfection suinte de l'écran que ce soit via Brando, Pacino ou Caan, le film nous dévoile un univers oppressant et froid, à l'image de Kay, nous nous retrouvons emprisonner dans la toile d’araignée Corleone et c'est symbolisé par le très déconcertant mariage d'introduction et la somptueuse scène finale.
-
-
 
 ## Chapitre 2 : L'apogée
 
