@@ -32,7 +32,8 @@
   "yaml.schemas": {
     "https://json.schemastore.org/jekyll.json": [
       "file:///workspaces/plume-quantique/src/yml/site.yml",
-      "file:///workspaces/plume-quantique/src/yml/translations.yml"
+      "file:///workspaces/plume-quantique/src/yml/translations.yml",
+      "file:///home/charveey/git/plume-quantique/src/yml/site.yml"
     ]
   }
 }
