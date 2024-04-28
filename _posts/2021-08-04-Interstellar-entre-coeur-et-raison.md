@@ -6,8 +6,8 @@ subtitle: null
 description: Écouter passionnément son cœur ou se fier prudemment à sa raison ?
   Découvrez comment la solution proposée par Interstellar a façonné ma
   conception du cinéma...
-image: https://res.cloudinary.com/dj6o6enl9/image/upload/v1684853554/bg-5.png
-optimized_image: https://res.cloudinary.com/dj6o6enl9/image/upload/c_scale,w_600/v1684853554/bg-5.png
+image: https://res.cloudinary.com/dfqlcc1vj/image/upload/f_auto,q_auto/v1698519591/Interstellar/bg-interstellar_p1rx9l.png
+optimized_image: https://res.cloudinary.com/dfqlcc1vj/image/upload/f_auto,q_auto/v1698519591/Interstellar/bg-interstellar_p1rx9l.png
 category: edito
 tags:
   - science-fiction
@@ -22,7 +22,7 @@ paginate: false
 Depuis tout petit, j'étais animé d'une curiosité insatiable. Une curiosité qui m'a poussé à m'intéresser très jeune à des sujets complexes tels que la mécanique quantique et l'astronomie en parcourant les encyclopédies de ma tante. A peine j'entrais au collège que je m'étais déjà familiarisé avec les théories générale et restreinte de la relativité, le concept de pont d'Einstein-Rosen, le paradoxe de Fermi etc...
 J'étais tout autant fasciné par la possibilité de la vie ailleurs dans l'Univers que par le concept du voyage temporel. La science-fiction et moi, ça a donc été le coup de foudre direct. D'abord grâce à des films comme ***Rencontre du Troisième Type*** (1977), ***Contact*** (1997) ou ***La Machine à explorer le temps*** (2002) et plus tard à travers les livres.
 C'est donc sans surprise que mon attention s'est portée sur ***Interstellar*** de Christopher Nolan. Le film dépeint un monde en proie à des tempêtes de poussière où l'espèce humaine est au bord de l'extinction. Une équipe d'astronautes part en mission à la recherche d'une planète habitable où les habitants de la Terre pourraient se réinstaller.
-Au-delà de son scénario ambitieux, de la justesse avec laquelle le film aborde certains concepts scientifiques complexes, ce qui m'aura le plus marqué au cours de mes nombreux visionnages c'est la façon dont le film traite son thème central: l'Amour. Car oui, derrière ses allures de *space opera* classique ***Interstellar*** est en réalité un film sur la parentalité mais aussi sur l'amour dans sa dimension universelle.
+Au-delà de son scénario ambitieux, de la justesse avec laquelle le film aborde certains concepts scientifiques complexes, ce qui m'aura le plus marqué au cours de mes nombreux visionnages c'est la façon dont le film traite son thème central : l'Amour. Car oui, derrière ses allures de *space opera* classique ***Interstellar*** est en réalité un film sur la parentalité mais aussi sur l'amour dans sa dimension universelle.
 
 ![Murph et Cooper](https://res.cloudinary.com/dj6o6enl9/image/upload/v1684854572/interstellar.jpg)
 
@@ -38,7 +38,7 @@ De toutes les scènes émotionnelles du film, c'est probablement celle qui me to
 
 > *De toutes les choses que nous percevons, seul l'amour transcende le temps et l'espace.*
 
-Écouter passionnément son cœur ou se fier prudemment à sa raison ? Voilà un dilemme auquel nous avons tous été confrontés. ***Interstellar*** est un film où l'amour sauve la mise. *Amor Vincit Omnia* comme disaient les Romains. Cela peut sembler paradoxal, car la science et les sentiments sont souvents considérés comme binaires.
+Écouter passionnément son cœur ou se fier prudemment à sa raison ? Voilà un dilemme auquel nous avons tous été confrontés. ***Interstellar*** est un film où l'amour sauve la mise. *Amor Vincit Omnia* comme disaient les Romains. Cela peut sembler paradoxal, car la science et les sentiments sont souvent considérés comme binaires.
 
 A un moment donné dans le film, l'équipage doit décider quelle est la prochaine planète à visiter car il n'a plus assez carburant pour toutes les explorer. Le personnage d'Anne Hathaway, le Dr Amelia Brand suggère alors à équipage que le meilleur choix serait de se diriger sur la planète du Dr. Edmonds. Mais au moment de voter, Cooper informe le reste de l'équipage que Brandt est en réalité amoureuse de Edmonds, sous-entendant que son choix n'est motivé que par ses émotions. Le Dr. Brand retorque que *"L'amour est la seule chose que nous sommes capables de percevoir et qui transcende les dimensions du temps et de l'espace, peut-être devrions-nous lui faire confiance même si nous ne pouvons pas encore le comprendre."* Pour elle, ce sentiment ne peut être cantonné à la simple "construction sociale" parce qu'on n'a pas inventé l'amour. *« On aime les gens après leur mort. Quelle utilité sociale ? Aucune. Il y a peut-être là une signification qui nous échappe encore... »*, ajoute-elle.
 
