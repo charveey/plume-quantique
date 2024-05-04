@@ -27,16 +27,16 @@
                         {% if post.optimized_image %}
                           <img
                             src="/assets/img/placeholder.png"
-                            width="100%"
+                            width="600px"
                             data-url="{{ post.optimized_image }}"
                             class="preload">
                           <noscript>
-                            <img src="{{ post.optimized_image }}" width="100%">
+                            <img src="{{ post.optimized_image }}" width="600px">
                           </noscript>
                         {% elsif post.image %}
                           <img
                             src="/assets/img/placeholder.png"
-                            width="100%"
+                            width="600px"
                             data-url="{{ post.image }}"
                             class="preload">
                           <noscript>
@@ -45,11 +45,11 @@
                         {% else %}
                           <img
                             src="/assets/img/placeholder.png"
-                            width="100%"
+                            width="320px"
                             data-url="/assets/img/off.jpg"
                             class="preload">
                           <noscript>
-                            <img src="/assets/img/off.jpg" width="100%">
+                            <img src="/assets/img/off.jpg" width="320px">
                           </noscript>
                         {% endif %}
                         {% include new-post-tag.html date=post.date %}
