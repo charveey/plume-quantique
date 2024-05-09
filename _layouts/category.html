@@ -28,27 +28,39 @@
                           src="/assets/img/placeholder.png"
                           width="100%"
                           data-url="{{ post.optimized_image }}"
-                          class="preload">
+                          class="preload"
+                          alt="{{ post.title }}">
                         <noscript>
-                          <img src="{{ post.optimized_image }}" width="100%">
+                          <img
+                            src="{{ post.optimized_image }}"
+                            width="100%"
+                            alt="{{ post.title }}">
                         </noscript>
                       {% elsif post.image %}
                         <img
                           src="/assets/img/placeholder.png"
                           width="100%"
                           data-url="{{ post.image }}"
-                          class="preload">
+                          class="preload"
+                          alt="{{ post.title }}">
                         <noscript>
-                          <img src="{{ post.image }}" width="100%">
+                          <img
+                            src="{{ post.image }}"
+                            width="100%"
+                            alt="{{ post.title }}">
                         </noscript>
                       {% else %}
                         <img
                           src="/assets/img/placeholder.png"
                           width="100%"
                           data-url="/assets/img/off.jpg"
-                          class="preload">
+                          class="preload"
+                          alt="placeholder image">
                         <noscript>
-                          <img src="/assets/img/off.jpg" width="100%">
+                          <img
+                            src="/assets/img/off.jpg"
+                            width="100%"
+                            alt="placeholder image">
                         </noscript>
                       {% endif %}
                       {% include new-post-tag.html date=post.date %}
