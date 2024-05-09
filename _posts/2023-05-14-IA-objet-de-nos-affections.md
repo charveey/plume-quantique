@@ -6,8 +6,8 @@ subtitle: Réflexions sur la relation Homme-Machine dans Blade Runner 2049 et He
 description: Notre relation avec l'IA évolue rapidement, et des films de
   science-fiction comme Her et Blade Runner 2049 nous permettent d'explorer les
   implications de cette dynamique...
-image: https://res.cloudinary.com/dj6o6enl9/image/upload/v1684853554/bg-4.jpg
-optimized_image: https://res.cloudinary.com/dj6o6enl9/image/upload/c_scale,w_600/v1684853554/bg-4.jpg
+image: https://res.cloudinary.com/dj6o6enl9/image/upload/f_auto,q_auto/v1684853554/bg-4.jpg
+optimized_image: https://res.cloudinary.com/dj6o6enl9/image/upload/c_scale,w_600,f_auto,q_auto/v1684853554/bg-4.jpg
 category: edito
 tags:
   - cinema
@@ -23,7 +23,7 @@ Pendant des décennies, tant dans la littérature qu'au cinéma, la science-fict
 
 ## Au-delà de l'artificialité : la relation fascinante entre K et Joi
 
-![K et Joi - Blade Runner 2049](https://res.cloudinary.com/dj6o6enl9/image/upload/v1684854572/ia.jpg)
+![K et Joi - Blade Runner 2049](https://res.cloudinary.com/dj6o6enl9/image/upload/f_auto,q_auto/v1684854572/ia.jpg)
 
 > "*Tu es différent. Né. Et non fabriqué... Un vrai garçon.*"
 
@@ -31,7 +31,7 @@ Dans ***Blade Runner 2049*** de Denis Villeneuve, Ryan Gosling incarne K, un ré
 
 Au départ, leur relation semble unilatérale : Joi sert principalement de soutien émotionnel à K, qui cherche à donner un sens à son existence. Bien que K soit un réplicant sans émotions apparentes et que Joi soit une machine, leur connexion émotionnelle devient de plus en plus forte au fil du temps. Cette évolution est mise en évidence dans une scène intime où Joi engage une prostituée et projette son image sur le corps de celle-ci, permettant à K d’avoir une expérience sexuelle avec elle. Dans cette scène, Joi fait preuve de vulnérabilité et de tendresse envers K, créant l’impression qu’elle est capable d’aimer. Paradoxalement, la relation entre Joi et K, ces deux êtres artificiels, est la chose la plus humaine présentée par le film.
 
-![Joi et Mariette - Synchronisation](https://res.cloudinary.com/dj6o6enl9/image/upload/v1684854572/ia-2.jpg)
+![Joi et Mariette - Synchronisation](https://res.cloudinary.com/dj6o6enl9/image/upload/f_auto,q_auto/v1684854572/ia-2.jpg)
 
 > "*Je veux être réelle pour toi*"
 
@@ -41,7 +41,7 @@ La relation entre Theodore et Samantha dans ***Her*** est tout aussi complexe, b
 
 ## Théodore et Samantha : une histoire d'amour et de solitude à l'ère de l'intelligence artificielle
 
-![Joaquin Phoenix - Theodore Twombly](https://res.cloudinary.com/dj6o6enl9/image/upload/v1684854572/ia-3.jpg)
+![Joaquin Phoenix - Theodore Twombly](https://res.cloudinary.com/dj6o6enl9/image/upload/f_auto,q_auto/v1684854572/ia-3.jpg)
 
 > "*Je n'ai jamais aimé quelqu'un comme je t'ai aimée.*"
 
@@ -53,13 +53,13 @@ La capacité des machines à fournir un soutien émotionnel soulève des questio
 
 ## Le point de rupture de l'empathie artificielle : explorer les limites de la machine
 
-![Joi - Ana de Armas](https://res.cloudinary.com/dj6o6enl9/image/upload/v1684854572/ia-4.jpg)
+![Joi - Ana de Armas](https://res.cloudinary.com/dj6o6enl9/image/upload/f_auto,q_auto/v1684854572/ia-4.jpg)
 
 > *Joi est tout ce que vous voulez qu'elle soit.*
 
 Au début, il peut sembler que la relation entre Joi et K soit vraie et sincère. Cependant, en y regardant de plus près, on se rend vite compte de la supercherie. La "relation" entre Joi et K est en réalité transactionnelle car K s'est offert les services de Joi sur la base de la promesse publicitaire qu'elle peut être tout ce que son utilisateur désire. Et que pourrait désirer un être artificiel assemblé sur une chaîne de montage si ce n’est se sentir unique, important, et spécial ? Bien que Joi semble reconnaître le caractère unique de K dans ***Blade Runner 2049***, cela n’est rien de plus que le reflet de sa programmation et non la preuve qu’elle éprouve de véritables sentiments. En fin de compte, nous comprenons que les "sentiments" de Joi pour K ne sont qu'une illusion créée dans le seul but de le satisfaire.
 
-![Joaquin Phoenix - Theodore Twombly](https://res.cloudinary.com/dj6o6enl9/image/upload/v1684854572/ia-5.jpg)
+![Joaquin Phoenix - Theodore Twombly](https://res.cloudinary.com/dj6o6enl9/image/upload/f_auto,q_auto/v1684854572/ia-5.jpg)
 
 > "*Non, Theodore. Je suis à toi et je ne le suis pas*"
 

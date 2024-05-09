@@ -6,8 +6,8 @@ subtitle: null
 description: Alors que le film fête son 26e anniversaire, les thèmes de la
   découverte, de la foi et de la quête de sens qu'il aborde continuent de
   trouver un écho auprès du public aujourd'hui...
-image: https://res.cloudinary.com/dj6o6enl9/image/upload/v1684853554/bg-2.jpg
-optimized_image: https://res.cloudinary.com/dj6o6enl9/image/upload/c_scale,w_600/v1684853554/bg-2.jpg
+image: https://res.cloudinary.com/dj6o6enl9/image/upload/f_auto,q_auto/v1684853554/bg-2.jpg
+optimized_image: https://res.cloudinary.com/dj6o6enl9/image/upload/f_auto,q_auto,c_scale,w_600/v1684853554/bg-2.jpg
 category: edito
 tags:
   - religion
@@ -20,7 +20,7 @@ Il y a quelques semaines de cela, l'algorithme de YouTube me recommandait une sc
 
 Si ***Contact*** a eu un tel impact sur moi c'est sans doute grâce à la façon captivante dont le film présente la lutte éternelle entre la science et la religion, thématique qui m'a toujours fasciné. Dans mes souvenirs, Zemeckis en avait fait l'élément central de l'intrigue du film en personnifiant les deux camps. D’un côté, la science qui s’appuie sur des faits empiriques et vérifiables pour expliquer le monde qui nous entoure avec Arroway qui défend que seule la science peut apporter de vraies réponses. De l’autre, la religion qui demande à faire un acte de foi, pour croire en une divinité, un miracle ou une expérience mystique avec Joss Palmer qui insiste sur l’importance de cette foi religieuse dans la recherche de la vérité. Chacun présentant des arguments intéressants dans la balance et laissant ainsi le choix à l'audience de tirer ses propres conclusions. Cette interprétation, sans être totalement fausse ne reflète que ce que le film a à offrir en surface. Le revoir hier m'a permis de me rendre compte qu'en réalité ***Contact*** se veut être un voyage subtil à la recherche de la foi.
 
-![Observatoire astronomique d'Arecibo](https://res.cloudinary.com/dj6o6enl9/image/upload/v1684854572/contact.jpg)
+![Observatoire astronomique d'Arecibo](https://res.cloudinary.com/dj6o6enl9/image/upload/f_auto,q_auto/v1684854572/contact.jpg)
 
 > "*Existe-t-il un Dieu tout-puissant et mystérieux qui a créé l'univers, mais qui ne nous a laissé aucune preuve de son existence ? Ou, est-ce qu'il n'y a tout simplement pas de Dieu, et nous l'avons créé pour ne pas nous sentir si seuls ?*"
 
@@ -28,7 +28,7 @@ D'emblée la protagoniste est présentée comme une personne uniquement guidée 
 
 Cette joute intellectuelle entre la scientifique et l'homme de foi retranscrit de manière simple et efficace le perpétuel débat sur la confrontation entre science et religion.
 
-![Palmer Joss (Matthew McConaughey) & Eleanor Arroway (Jodie Foster)](https://res.cloudinary.com/dj6o6enl9/image/upload/v1684854572/contact-2.jpg)
+![Palmer Joss (Matthew McConaughey) & Eleanor Arroway (Jodie Foster)](https://res.cloudinary.com/dj6o6enl9/image/upload/f_auto,q_auto/v1684854572/contact-2.jpg)
 
 > "*J'ai eu cette expérience. Je ne peux pas le prouver. Je ne peux pas l'expliquer. Mais tout ce que je sais, tout mon être me dit que c'était réel. J'ai reçu quelque chose de merveilleux, qui m'a changée pour la vie... Je voudrais pouvoir partager cela.*"
 
@@ -36,13 +36,13 @@ Ellie, scientifique, dit ne pas croire en Dieu faute de preuves de son existence
 
 Après, avoir été choisie pour entrer en contact avec les auteurs du signal, sa crédibilité est remise en doute lors d'une audience devant le Congrès américain et un collège de scientifiques de haut vol. Ellie doit maintenant expliquer son expérience en dépit de l'absence de toute preuve pouvant attester de la véracité de l'expérience qu'elle a vécu. Dans cette seconde scène, les rôles sont désormais inversés. C'est à elle qu'on demande de choisir entre deux explications : *est-elle réellement allée au centre de la galaxie, a-t-elle vécu toutes ces expériences extraordinaires qu'elle prétend avoir vécues, alors que les données recueillies attestent du contraire ?* Ou bien : *elle a simplement été le jouet de S. R Haden, l'excentrique milliardaire qui a financé ses recherches*. Par honnêteté intellectuelle, Ellie admet qu'il est plus simple et raisonnable de croire qu'elle ait été la victime d'un canular.
 
-![Le voyage de Ellie Arroway](https://res.cloudinary.com/dj6o6enl9/image/upload/v1684854572/contact-3.jpg)
+![Le voyage de Ellie Arroway](https://res.cloudinary.com/dj6o6enl9/image/upload/f_auto,q_auto/v1684854572/contact-3.jpg)
 
 Acculée et incapable de convaincre son auditoire, elle declare ensuite dans un monologue émouvant : "*J’ai eu cette expérience, je ne peux pas le prouver, je ne peux pas l’expliquer mais… tout ce que je sais en tant qu’être humain, tout ce que je suis m’affirme que c’était réel. Il m’a été donné quelque chose de merveilleux, quelque chose qui m’a changée pour toujours. Une vision de l’univers (...) qui nous dit que nous appartenons à quelque chose qui est plus grand que nous même...*". Elle ajoute finalement, comme en écho à la réponse de Joss dans la première scène, que, bien que n'étant pas en mesure de prouver empiriquement son expérience, elle en a du moins l'intime conviction.  
 
 Bien plus, son souhait le plus cher est maintenant de faire partager son expérience qui l'a tant transformée. À la sortie de l'audience, elle est accueillie par une foule de partisans - des disciples, si vous voulez. Ellie l'athée se retrouve dans la peau des religieux qui n'ont aucune preuve de leurs affirmations, mais qui doivent simplement vivre par la foi et témoigner de leurs expériences qui changent la vie dans un monde incrédule.
 
-![Ellie Arroway devant le Congrès américain](https://res.cloudinary.com/dj6o6enl9/image/upload/v1684854572/contact-4.jpg)
+![Ellie Arroway devant le Congrès américain](https://res.cloudinary.com/dj6o6enl9/image/upload/f_auto,q_auto/v1684854572/contact-4.jpg)
 
 > "*Ironiquement ce que les gens désirent le plus, un sens à leur vie, est justement ce que la science ne peut leur donner.*"
 
@@ -50,7 +50,7 @@ Le principal point de discorde entre scientifiques et religieux est que ces dern
 
 Une foi qui essaie d'obtenir pour ses revendications la certitude de la science est peut-être aussi condamnée qu'une science qui prétend qu'elle commence sans aucune revendication de foi de sa part. Le monde d'aujourd'hui aspire à une philosophie - voire à une spiritualité - capable de résoudre les tensions entre la foi et la science avec intégrité et pragmatisme. Si ***Contact*** ne réussit pas à montrer la voie vers une telle spiritualité intégrale, il a au moins le courage d'essayer d'en imaginer la possibilité.
 
-![La foi (Joss Palmer) et la science (Ellie Arroway) se tenant la main](https://res.cloudinary.com/dj6o6enl9/image/upload/v1684854572/contact-5.jpg)
+![La foi (Joss Palmer) et la science (Ellie Arroway) se tenant la main](https://res.cloudinary.com/dj6o6enl9/image/upload/f_auto,q_auto/v1684854572/contact-5.jpg)
 
 Face un monde laïc et scientifique qui a de moins en moins besoin de palliatifs métaphysiques, le message de ***Contact*** se veut conciliateur : il met l'accent sur la confrontation entre les croyances et la science pour au final mieux les rapprocher. Il tente de combler le fossé entre la foi et la science en affirmant, finalement, que les deux peuvent - et, dans de nombreux cas, doivent - coexister. D'autant plus que les deux se rejoignent dans leur but : la recherche de la vérité. Le film suggère que la poursuite de la découverte scientifique peut être une expérience spirituelle, et que la religion peut apporter une compréhension plus profonde des mystères de l'univers.
 Pour Anselme de Cantorbéry, l'intelligibilité de la doctrine chrétienne ne peut devenir évidente qu'après y avoir cru : *Credo ut intelligam[^2]* (je crois avant de comprendre ndlr.) disait-il. Le film à mon sens penche pour une inversion de la célèbre maxime : *intelligo ut credam* (je comprends pour croire), faisant ainsi de la science un complément de la foi.
