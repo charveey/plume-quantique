@@ -64,19 +64,19 @@ layout: main
                     <a class="cover" href="{{ post.url | prepend: site.baseurl }}" aria-label="{{ post.title }}">
                         {% include loader.html %}
                         {% if post.optimized_image %}
-                            <img src="/assets/img/placeholder.png" width="600px" data-url="{{ post.optimized_image }}" class="preload">
+                            <img src="/assets/img/placeholder.png" width="600px" data-url="{{ post.optimized_image }}" class="preload" alt="{{ post.title }}">
                             <noscript>
-                                <img src="{{ post.optimized_image }}" width="600px">
+                                <img src="{{ post.optimized_image }}" width="600px" alt="{{ post.title }}">
                             </noscript>
                         {% elsif post.image %}
-                            <img src="/assets/img/placeholder.png" width="600px" data-url="{{ post.image }}" class="preload">
+                            <img src="/assets/img/placeholder.png" width="600px" data-url="{{ post.image }}" class="preload" alt="{{ post.title }}">
                             <noscript>
-                                <img src="{{ post.image }}" width="600px">
+                                <img src="{{ post.image }}" width="600px" alt="{{ post.title }}">
                             </noscript>
                         {% else %}
-                            <img src="/assets/img/placeholder.png" width="600px" data-url="/assets/img/off.jpg" class="preload">
+                            <img src="/assets/img/placeholder.png" width="600px" data-url="/assets/img/off.jpg" class="preload" alt="placeholder image">
                             <noscript>
-                                <img src="/assets/img/off.jpg" width="380px">
+                                <img src="/assets/img/off.jpg" width="380px" alt="placeholder image">
                             </noscript>
                         {% endif %}
                         {% include new-post-tag.html date=post.date %}

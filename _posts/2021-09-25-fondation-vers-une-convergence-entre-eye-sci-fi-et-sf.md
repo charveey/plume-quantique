@@ -5,8 +5,8 @@ title: "Fondation : vers une convergence entre “eye-sci-fi” et s.f. ?"
 subtitle: null
 description: La nouvelle série de David S. Goyer arrivera-t-elle à faire le pont
   entre les audiences modernes et l'oeuvre de Isaac Asimov ?
-image: https://res.cloudinary.com/dj6o6enl9/image/upload/v1684853554/bg-3.png
-optimized_image: https://res.cloudinary.com/dj6o6enl9/image/upload/c_scale,w_600/v1684853554/bg-3.png
+image: https://res.cloudinary.com/dj6o6enl9/image/upload/f_auto,q_auto/v1684853554/bg-3.png
+optimized_image: https://res.cloudinary.com/dj6o6enl9/image/upload/c_scale,w_600,f_auto,q_auto/v1684853554/bg-3.png
 category: edito
 tags:
   - asimov
@@ -19,9 +19,13 @@ Aujourd’hui vendredi 24 septembre 2021, débute sur le service de streaming de
 
 Plus d’un demi-siècle après, l’héritage de l’auteur n’a toujours pas trouvé son chemin dans les foyers ou sur grand écran, du moins pas de manière significative. Ce constat est d’autant plus marquant au vu du nombre impressionnant de textes écrits par Asimov et de leur influence indéniable sur la culture populaire. Comment cela s’explique-t-il ?
 
+![Isaac Asimov, 1979. © Reichenthal—AP/REX/Shutterstock.com](https://res.cloudinary.com/dfqlcc1vj/image/upload/f_auto,q_auto/v1715265769/Foundation/Asimov_nr8b0q.png)
+
 > Au cinéma et à la télévision, la science-fiction traite principalement d’images, nous pourrions donc l’appeler la science-fiction par l’image.
 
 Pour les audiences modernes, science-fiction rime avec grosses batailles spatiales, aliens et mondes extraterrestres, lasers, voyages interstellaires et j’en passe. Un étalage impressionnant d’effets spéciaux se voulant toujours plus réalistes.  “*Au cinéma et à la télévision, la science-fiction traite principalement d’images, nous pourrions donc l’appeler la science-fiction par l’image”* écrivait l’auteur en 1979. Cette version “modernisée” de la science-fiction, popularisée par la télévision est ce qu’il qualifie de “*eye-sci-fi*” ou plus simplement science-fiction de l’image. Ici, le spectaculaire prend le pas sur la substance, l’image sur les idées. Il s’il y’a bien une chose dans laquelle Asimov excellait avec ses textes, c’était d’aborder de grandes idées avec des intrigues en forme d’énigme inspirées de ses connaissances en science et en histoire, le tout en restant très accessible pour le lecteur. L’auteur préférait retranscrire dans ses écrits de longues et approfondies conversations entre de petits groupes d’individus se livrant à des parties d’échecs mentales pour essayer de prendre l’ascendant les uns sur les autres plutôt que mettre l’accent sur le spectaculaire. Il semblait presque ennuyé par les aspects les plus spectaculaires de ses histoires, au point que dans les histoires de la Fondation et ailleurs, Asimov faisait en sorte que les batailles spatiales et autres scènes d’action se déroulent “hors champ” — même s’il n’avait pas à se soucier d’un budget d’effets spéciaux. Cette vision de la science-fiction, focalisée sur la substance, les idées ; la “science-fiction littéraire” en somme, il lui réservait l’abréviation de s.f. et espérait qu’un jour la science-fiction de l’image s’élèverait à son niveau.
+
+![David S.Goyer © David Buchan/Variety/REX/Shutterstock](https://res.cloudinary.com/dfqlcc1vj/image/upload/f_auto,q_auto/v1715266102/Foundation/david-s-goyer_foezp2.jpg)
 
 > Les gens essaient d’adapter Fondation depuis plus de 50 ans
 
