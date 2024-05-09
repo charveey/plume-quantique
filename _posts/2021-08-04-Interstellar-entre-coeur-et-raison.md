@@ -24,7 +24,7 @@ J'étais tout autant fasciné par la possibilité de la vie ailleurs dans l'Univ
 C'est donc sans surprise que mon attention s'est portée sur ***Interstellar*** de Christopher Nolan. Le film dépeint un monde en proie à des tempêtes de poussière où l'espèce humaine est au bord de l'extinction. Une équipe d'astronautes part en mission à la recherche d'une planète habitable où les habitants de la Terre pourraient se réinstaller.
 Au-delà de son scénario ambitieux, de la justesse avec laquelle le film aborde certains concepts scientifiques complexes, ce qui m'aura le plus marqué au cours de mes nombreux visionnages c'est la façon dont le film traite son thème central : l'Amour. Car oui, derrière ses allures de *space opera* classique ***Interstellar*** est en réalité un film sur la parentalité mais aussi sur l'amour dans sa dimension universelle.
 
-![Murph et Cooper](https://res.cloudinary.com/dj6o6enl9/image/upload/v1684854572/interstellar.jpg)
+![Murph et Cooper](https://res.cloudinary.com/dj6o6enl9/image/upload/f_auto,q_auto/v1684854572/interstellar.jpg)
 
 > *Dès qu'on est parents, on devient le fantôme de l'avenir de ses enfants*
 
@@ -34,7 +34,7 @@ Il y a cette scène très touchante, dans laquelle Cooper s'absente pendant quel
 
 De toutes les scènes émotionnelles du film, c'est probablement celle qui me touche le plus. Simple et intimiste, cette scène a un impact émotionnel intense et contraste avec la vastitude du reste du film. Elle illustre parfaitement toute la dimension sentimentale d’***Interstellar***.
 
-![Cooper ému par le message de ses enfants](https://res.cloudinary.com/dj6o6enl9/image/upload/v1684854572/interstellar-2.png)
+![Cooper ému par le message de ses enfants](https://res.cloudinary.com/dj6o6enl9/image/upload/f_auto,q_auto/v1684854572/interstellar-2.png)
 
 > *De toutes les choses que nous percevons, seul l'amour transcende le temps et l'espace.*
 
@@ -42,12 +42,12 @@ De toutes les scènes émotionnelles du film, c'est probablement celle qui me to
 
 A un moment donné dans le film, l'équipage doit décider quelle est la prochaine planète à visiter car il n'a plus assez carburant pour toutes les explorer. Le personnage d'Anne Hathaway, le Dr Amelia Brand suggère alors à équipage que le meilleur choix serait de se diriger sur la planète du Dr. Edmonds. Mais au moment de voter, Cooper informe le reste de l'équipage que Brandt est en réalité amoureuse de Edmonds, sous-entendant que son choix n'est motivé que par ses émotions. Le Dr. Brand retorque que *"L'amour est la seule chose que nous sommes capables de percevoir et qui transcende les dimensions du temps et de l'espace, peut-être devrions-nous lui faire confiance même si nous ne pouvons pas encore le comprendre."* Pour elle, ce sentiment ne peut être cantonné à la simple "construction sociale" parce qu'on n'a pas inventé l'amour. *« On aime les gens après leur mort. Quelle utilité sociale ? Aucune. Il y a peut-être là une signification qui nous échappe encore... »*, ajoute-elle.
 
-![Le docteur Amélia Brandt](https://res.cloudinary.com/dj6o6enl9/image/upload/v1684854572/interstellar-3.png)
+![Le docteur Amélia Brandt](https://res.cloudinary.com/dj6o6enl9/image/upload/f_auto,q_auto/v1684854572/interstellar-3.png)
 
 De même, les choix opérés par Cooper, que le film nous présente comme des décisions rationnelles et logiques sont en réalité mus par son désir de revoir sa famille, cet espoir infime qu'il a de tenir la promesse faite à sa fille. En effet, la planète du Dr. Mann pour laquelle il a voté offrait le trajet le plus court, lui permettant ainsi de rentrer plus tôt auprès de sa famille.
 Et même à la fin du film, le lien qui unissait Cooper et sa fille est resté l'élément central lors des retrouvailles que beaucoup ont trouvé ambiguë. Bien que toute la descendance de Murphy soit présente au moment des retrouvailles, la caméra s'obstine à diriger toute notre attention sur Cooper et Murphy, le père et la fille enfin réunis...
 
-![Murph et Cooper enfin réunis](https://res.cloudinary.com/dj6o6enl9/image/upload/v1684854572/interstellar-4.png)
+![Murph et Cooper enfin réunis](https://res.cloudinary.com/dj6o6enl9/image/upload/f_auto,q_auto/v1684854572/interstellar-4.png)
 
 > L'amour est dans sa version universelle la force qui défie la science et relie l'Humanité toute entière.
 
