@@ -46,7 +46,7 @@ POSTPATH="${BINPATH}/_posts"
 DIST_FOLDER="$POSTPATH"
 
 # Set your blog URL
-BLOG_URL="https://jekflix.rossener.com/"
+BLOG_URL="https://poetic-buttercream-0d3e15.netlify.app/"
 
 # Set your assets URL
 ASSETS_URL="assets/img/"
