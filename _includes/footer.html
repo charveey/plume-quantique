@@ -100,10 +100,10 @@
 </script>
 
 <!-- Include the script that allows Netlify CMS login -->
-<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js" defer></script>
 
 <!-- Include the website scripts -->
-<script src="{{ '/assets/js/scripts.min.js' | prepend: site.baseurl }}"></script>
+<script src="{{ '/assets/js/scripts.min.js' | prepend: site.baseurl }}" defer></script>
 
 <!-- Include Google Analytics script if set in config -->
 {% if site.google_analytics %}
