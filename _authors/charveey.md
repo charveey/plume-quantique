@@ -9,7 +9,7 @@ twitter_username:   im_kveen
 github_username:    
 facebook_username:  charveey
 instagram_username:  im_kveen
-linkedin_username: ange-kevin-amlaman-09813b244
+linkedin_username: kevin-amlaman-09813b244
 medium_username: positronic_brain
 threads_username:   im_kveen
 letterboxd_username:    charveey
