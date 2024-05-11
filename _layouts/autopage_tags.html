@@ -27,20 +27,23 @@
                         {% if post.optimized_image %}
                           <img
                             src="/assets/img/placeholder.png"
-                            width="600px"
+                            width="640px"
+                            height="360px"
                             data-url="{{ post.optimized_image }}"
                             class="preload"
                             alt="{{ post.title }}">
                           <noscript>
                             <img
                               src="{{ post.optimized_image }}"
-                              width="600px"
+                              width="640px"
+                              height="360px"
                               alt="{{ post.title }}">
                           </noscript>
                         {% elsif post.image %}
                           <img
                             src="/assets/img/placeholder.png"
-                            width="600px"
+                            width="640px"
+                            height="360px"
                             data-url="{{ post.image }}"
                             class="preload"
                             alt="{{ post.title }}">
