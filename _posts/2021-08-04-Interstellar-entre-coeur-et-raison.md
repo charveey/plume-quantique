@@ -7,7 +7,7 @@ description: Écouter passionnément son cœur ou se fier prudemment à sa raiso
   Découvrez comment la solution proposée par Interstellar a façonné ma
   conception du cinéma...
 image: https://res.cloudinary.com/dfqlcc1vj/image/upload/f_auto,q_auto/v1698519591/Interstellar/bg-interstellar_p1rx9l.png
-optimized_image: https://res.cloudinary.com/dfqlcc1vj/image/upload/f_auto,q_auto/v1698519591/Interstellar/bg-interstellar_p1rx9l.png
+optimized_image: https://res.cloudinary.com/dfqlcc1vj/image/upload/f_auto,q_auto,c_lfill,w_640,ar_16:9/v1698519591/Interstellar/bg-interstellar_p1rx9l.png
 category: edito
 tags:
   - science-fiction
