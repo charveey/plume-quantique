@@ -6,7 +6,7 @@ subtitle: null
 description: Retour sur le succès de cette franchise emblématique de la fin des
   années 60 qui a lentement sombré dans l'oubli...
 image: https://res.cloudinary.com/dj6o6enl9/image/upload/f_auto,q_auto/v1684853554/bg.png
-optimized_image: https://res.cloudinary.com/dj6o6enl9/image/upload/f_auto,q_auto,c_scale,w_600/v1684853554/bg.png
+optimized_image: https://res.cloudinary.com/dj6o6enl9/image/upload/f_auto,q_auto,c_lfill,w_640,ar_16:9/v1684853554/bg.png
 category: edito
 tags:
   - science-fiction
