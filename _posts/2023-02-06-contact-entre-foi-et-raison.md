@@ -7,7 +7,7 @@ description: Alors que le film fête son 26e anniversaire, les thèmes de la
   découverte, de la foi et de la quête de sens qu'il aborde continuent de
   trouver un écho auprès du public aujourd'hui...
 image: https://res.cloudinary.com/dj6o6enl9/image/upload/f_auto,q_auto/v1684853554/bg-2.jpg
-optimized_image: https://res.cloudinary.com/dj6o6enl9/image/upload/f_auto,q_auto,c_scale,w_600/v1684853554/bg-2.jpg
+optimized_image: https://res.cloudinary.com/dj6o6enl9/image/upload/f_auto,q_auto,c_lfill,w_640,ar_16:9/v1684853554/bg-2.jpg
 category: edito
 tags:
   - religion
