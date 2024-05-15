@@ -1,5 +1,6 @@
 .contact-form {
   @include mainFont();
+  @include center(rem(1024px));
   padding: rem(10px);
 
   fieldset {
@@ -15,7 +16,7 @@
     display: block;
     color: #333333;
     width: 100%;
-    padding: 7px;
+    padding: 10px;
     border: none;
     border-bottom: 1px solid #ddd;
     margin-bottom: 10px;
@@ -28,8 +29,15 @@
     }
   }
 
+
+  input[type="text"],
+  input[type="email"] {
+    border-radius: 15px;
+  }
+
   textarea {
     height: rem(200px);
+    border-radius: 10px;
   }
 
   span {
@@ -53,6 +61,7 @@
     cursor: pointer;
     transition: all 0.3s;
     outline: none;
+    border-radius: 15px;
 
     &:hover {
       background: darken($themeColor, 20%);
