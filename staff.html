@@ -1,21 +1,26 @@
 ---
 layout: page
-title: Notre Equipe
+title: Notre Équipe
 description: Découvrez notre équipe.
 permalink: /staff/
 ---
 
-<h1>Qui sommes-nous ?</h1>
+<h2>Notre équipe</h2>
 
-<div class="staff">
+<div class="staff_block">
   {% for author in site.authors %}
-    <div class="item">
-      <h2 class="name">
-        <a href="{{ site.baseurl }}{{ author.url }}">{{ author.display_name }}</a>
-      </h2>
-      {% if author.position %}
-        <h3 class="position">{{ author.position }}</h3>
-      {% endif %}
-    </div>
+    <a href="{{ site.baseurl }}{{ author.url }}" class="staff_item">
+      <img
+        alt=""
+        src="{{ author.photo }}"
+        class="image" />
+      <div class="info">
+        <h4 class="name">{{ author.display_name }}</h4>
+
+        {% if author.position %}
+          <p class="position">{{ author.position }}</p>
+        {% endif %}
+      </div>
+    </a>
   {% endfor %}
 </div>
