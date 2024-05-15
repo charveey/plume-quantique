@@ -67,7 +67,7 @@
   ul,
   ol,
   iframe {
-    @include center(rem(800px));
+    @include center(rem(1024px));
     @include mainFont(400);
     font-size: rem(17px);
     line-height: rem(30px);
