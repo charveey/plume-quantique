@@ -59,7 +59,7 @@
     padding: 2rem 1rem;
     border-radius: 0.5rem;
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-    background-color: rgba(0,0,0,.8);
+    background-color: lighten(#000, 5%);
 
     .info{
       margin-top: 1rem;
@@ -73,10 +73,25 @@
       }
 
       .position {
-        color: #eee;
-        margin-top:2px;
+        color: $lightGray;
+        margin-top: 2px;
+        font-size: rem(10px);
+        @include media(">=sm") {
+          font-size: rem(15px);
+        }
+      }
+      .icns {
+        margin-top: 1px;
+        padding: rem(10px) rem(5px); 
+      }
+      svg {
+        fill: $lightGray;
+        height: 22px;
+        width: 22px;
+        margin: rem(0px) rem(1px);
       }
     }
+    
 
 
     &:hover {
