@@ -43,7 +43,16 @@
   }
   display: grid!important;
   margin-top: 2.5rem;
-  grid-template-columns: repeat(1, minmax(0, 1fr));
+  @include media(">=sm") {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  @include media(">iphone", "<=tablet") {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  @include media("<=iphone") {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    justify-items: center;
+  }
   gap: 1.5rem;
 
   .image {
@@ -60,14 +69,18 @@
     border-radius: 0.5rem;
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
     background-color: lighten(#000, 5%);
+    @include media("<=iphone") {
+      display: inline-flex;
+      width: 80vw;
+    }
 
     .info{
       margin-top: 1rem;
       text-align: center;
 
       .name {
-        font-size: 1.125rem;
-        line-height: 1.75rem;
+        font-size: rem(18px);
+        line-height: rem(15px);
         font-weight: 600;
         padding-top:10px;
       }
@@ -75,9 +88,10 @@
       .position {
         color: $lightGray;
         margin-top: 2px;
-        font-size: rem(10px);
+        font-style: italic;
+        font-size: rem(12px);
         @include media(">=sm") {
-          font-size: rem(15px);
+          font-size: rem(17px);
         }
       }
       .icns {
@@ -101,19 +115,9 @@
     }
   }
 }
+.content{
+  @include media("<=iphone") {
+    width: 110vw;
+  }
+}
 
-@media (min-width: 640px) {
-  .staff_block {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-}
-@media (min-width: 768px) {
-  .staff_block {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-}
-@media (min-width: 1024px) {
-  .staff_block {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-}
