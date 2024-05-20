@@ -1,6 +1,6 @@
 .staff {
   @include media(">=sm") {
-    @include center(rem(800px));
+    @include center(rem(1024px));
   }
 
   .item:not(:last-child) {
@@ -36,3 +36,84 @@
     }
   }
 }
+
+.staff_block {
+  @include media(">=sm") {
+    @include center(rem(1024px));
+  }
+  display: grid!important;
+  margin-top: 2.5rem;
+  @include media(">=laptop") {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  @include media(">iphone", "<laptop") {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  @include media("<=iphone") {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    justify-items: center;
+  }
+  gap: 1.5rem;
+
+  .image {
+    object-fit: cover;
+    border-radius: 9999px;
+    width: 8rem;
+    height: 8rem;
+    padding:0;
+    border: 2px solid $themeColor;
+  }
+
+  .staff_item{
+    padding: 2rem 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    background-color: lighten(#000, 5%);
+    @include media("<=iphone") {
+      display: inline-flex;
+      width: 80vw;
+    }
+
+    .info{
+      margin-top: 1rem;
+      text-align: center;
+
+      .name {
+        font-size: rem(18px);
+        line-height: rem(15px);
+        font-weight: 600;
+        padding-top:10px;
+      }
+
+      .position {
+        color: $lightGray;
+        margin-top: 2px;
+        font-style: italic;
+        font-size: rem(12px);
+        @include media(">=sm") {
+          font-size: rem(17px);
+        }
+      }
+      .icns {
+        margin-top: 1px;
+        padding: rem(10px) rem(5px); 
+      }
+      svg {
+        fill: $lightGray;
+        height: 22px;
+        width: 22px;
+        margin: rem(0px) rem(1px);
+      }
+    }
+    
+
+
+    &:hover {
+      .name {
+        color:$themeColor;
+      }
+    }
+  }
+}
+
+
