@@ -1,8 +1,8 @@
 <header class="bar-header">
-
-        <a id="menu" role="button" aria-label="Open Menu">
-            <svg id="open" class="icon-menu"><use xlink:href="#icon-menu"></use></svg>
-        </a>
+        <div class="logo-container">
+            <a id="menu" role="button" aria-label="Open Menu">
+                <svg id="open" class="icon-menu"><use xlink:href="#icon-menu"></use></svg>
+            </a>
 
             <a id="logo" href="{{ site.baseurl }}/" title="Le 7eptième Œil">
                 {% if site.use_logo %}
@@ -11,6 +11,8 @@
                     {{ site.name }} <span class="version">{{ site.version }}</span>
                 {% endif %}
             </a>
+        </div>
+            
 
         <div class="nav-bar"> 
             {% include nav-bar.html %}
