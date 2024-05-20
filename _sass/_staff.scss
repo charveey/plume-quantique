@@ -43,10 +43,10 @@
   }
   display: grid!important;
   margin-top: 2.5rem;
-  @include media(">=sm") {
+  @include media(">=laptop") {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
-  @include media(">iphone", "<=tablet") {
+  @include media(">iphone", "<laptop") {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
   @include media("<=iphone") {
