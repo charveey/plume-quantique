@@ -18,10 +18,20 @@ body {
   @include media(">=sm") {
     padding: rem(15px) rem(0px);
   }
+  .logo-container {
+    @include media(">tablet") {
+      margin: 0 0 0 rem(20px);
+    }
+    @include media("<=tablet") {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: calc(2 / 3 * 90vw);
+    }
 
   .logo {
-    flex: auto;
-    height: rem(32px);
+    height: rem(50px);
+    width: rem(104px);
     line-height: rem(32px);
 
     a {
@@ -55,6 +65,7 @@ body {
     transform: translateX(110%);
     opacity: 0.3;
   }
+}
 
   .icon-menu {
     float: left;

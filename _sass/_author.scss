@@ -5,7 +5,7 @@
   padding: rem(40px) 0;
   margin: rem(40px) 0;
 
-  @include media(">=tablet") {
+  @include media(">=laptop") {
     padding: rem(50px) 0;
   }
 
@@ -15,7 +15,7 @@
     padding: 0 rem(20px);
     text-align: justify;
 
-    @include media("<=tablet") {
+    @include media("<=laptop") {
       text-align: center;
     }
   }
@@ -44,7 +44,7 @@
     object-fit: cover;
     aspect-ratio: 1/1;
 
-    @include media(">=tablet") {
+    @include media(">=laptop") {
       width: rem(200px);
       float: left;
       margin-right: 3.125rem;
@@ -59,7 +59,7 @@
     @include mainFont(300);
     margin: rem(10px);
 
-    @include media(">=tablet") {
+    @include media(">=laptop") {
       margin: 0;
     }
   }
@@ -89,13 +89,14 @@
     margin: rem(10px);
     font-size: rem(16px);
     line-height: rem(25px);
+    text-align: justify;
 
     @include media(">=sm") {
       font-size: rem(18px);
     }
   }
   .icns {
-    @include media(">=tablet") {
+    @include media(">=laptop") {
       text-align: right;
     }
   }

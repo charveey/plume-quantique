@@ -67,7 +67,7 @@
   ul,
   ol,
   iframe {
-    @include center(rem(800px));
+    @include center(rem(1024px));
     @include mainFont(400);
     font-size: rem(17px);
     line-height: rem(30px);
@@ -81,7 +81,7 @@
       margin: rem(29px) auto 0;
     }
   }
-
+  
   h1.post-title {
     color: $accentDark;
     line-height: 1.2;
@@ -99,6 +99,10 @@
       font-size: rem(20px);
     }
   }
+  svg {
+    @include size(25, 25);
+    margin-right: rem(10px);
+  };
 
   img.post-cover {
     padding: 0;
