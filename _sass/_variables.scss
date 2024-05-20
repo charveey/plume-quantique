@@ -11,8 +11,10 @@ $texts: map-get($theme, texts) !default;
 // Breakpoints
 $breakpoints: (
   sm: 47.5rem,
-  iphone: 400px,
-  tablet: 768px,
+  phone: 26.25rem,  /* 420px / 16px (base font size) */
+  iphone: 48rem,       /* 767px / 16px */
+  tablet: 64rem,   /* 1024px / 16px */
+  desktop: 100rem,  /* 1600px / 16px */
 );
 
 // Margins
