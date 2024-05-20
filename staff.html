@@ -1,21 +1,42 @@
 ---
 layout: page
-title: Notre Equipe
+title: Notre Équipe
 description: Découvrez notre équipe.
 permalink: /staff/
 ---
 
-<h1>Qui sommes-nous ?</h1>
+<h2>Notre équipe</h2>
 
-<div class="staff">
+<div class="staff_block fullwidth">
   {% for author in site.authors %}
-    <div class="item">
-      <h2 class="name">
-        <a href="{{ site.baseurl }}{{ author.url }}">{{ author.display_name }}</a>
-      </h2>
-      {% if author.position %}
-        <h3 class="position">{{ author.position }}</h3>
-      {% endif %}
+    <div class="staff_item">
+      <img
+        alt=""
+        src="{{ author.photo }}"
+        class="image" />
+      <div class="info">
+        <h4 class="name"><a href="{{ site.baseurl }}{{ author.url }}">{{ author.display_name }}</a></h4>
+        {% if author.position %}
+          <p class="position">{{ author.position }}</p>
+        {% endif %}
+        <p class="icns">
+          {% if author.linkedin_username %}
+            <a href="https://www.linkedin.com/in/{{ author.linkedin_username }}" title="{{ author.display_name }} on LinkedIn">
+              <svg><use xlink:href="#icon-linkedin"></use></svg>
+            </a>
+          {% endif %}
+          {% if author.facebook_username %}
+            <a href="https://www.facebook.com/{{ author.facebook_username }}" title="{{ author.display_name }} on Facebook">
+              <svg><use xlink:href="#icon-facebook"></use></svg>
+            </a>
+          {% endif %}
+          {% if author.instagram_username %}
+            <a href="https://www.instagram.com/{{ author.instagram_username }}" title="{{ author.display_name }} on Instagram">
+              <svg><use xlink:href="#icon-instagram"></use></svg>
+            </a>
+          {% endif %}
+        </p>
+      </div>
     </div>
   {% endfor %}
 </div>
