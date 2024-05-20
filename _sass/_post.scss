@@ -55,6 +55,7 @@
     color: darken($lightGray, 30%);
     text-align: center;
     @include mainFont(300);
+    font-style: italic
   }
 
   p,
