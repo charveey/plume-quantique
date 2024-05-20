@@ -115,9 +115,5 @@
     }
   }
 }
-.content{
-  @include media("<=iphone") {
-    width: 110vw;
-  }
-}
+
 
