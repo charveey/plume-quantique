@@ -6,15 +6,14 @@ footer {
   margin-bottom: rem(120px);
   @include mainFont(300);
 
-  @include media(">=sm") {
+  @include media(">=iphone") {
     margin-top: rem(100px);
   }
 
   p {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    gap: 100px;
+    justify-content: space-evenly;
     text-decoration: none;
     color: $primaryDark;
     font-size: rem(16px);
