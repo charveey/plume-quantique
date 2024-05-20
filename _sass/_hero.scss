@@ -10,6 +10,9 @@
     @include media(">=sm") {
       margin-top: rem(-80px);
     }
+    @include media("<=iphone") {
+      margin-top: calc(-1 / 8 * 100vh);
+    }
   }
 
   .gradient,
@@ -40,10 +43,10 @@
     height: 100%;
     padding-left: 10%;
 
-    @include media(">=sm") {
+    @include media(">=laptop") {
       width: 60%;
     }
-    @include media(">iphone", "<=tablet") {
+    @include media(">iphone", "<laptop") {
       width: 70%;
     }
     @include media("<=iphone") {
@@ -66,7 +69,7 @@
       @include media(">=sm") {
         font-size: rem(50px);
       }
-      @include media(">iphone", "<=tablet") {
+      @include media(">iphone", "<=laptop") {
         font-size: rem(40px);
       }
       @include media("<=iphone") {
@@ -83,7 +86,7 @@
       @include media(">=sm") {
         font-size: rem(26px);
       }
-      @include media(">iphone", "<=tablet") {
+      @include media(">iphone", "<=laptop") {
         font-size: rem(24px);
       }
       @include media("<=iphone") {
@@ -93,7 +96,7 @@
 
     .buttons {
       margin-top: rem(50px);
-      @include media(">iphone", "<=tablet") {
+      @include media(">iphone", "<=laptop") {
         margin-top: rem(35px);
       }
       @include media("<=iphone") {
