@@ -61,9 +61,9 @@ collections:
       - label: "Date de publication"
         name: "date"
         widget: "datetime"
-        format: "YYYY-MM-DD HH:mm:ss"
-        date_format: true
-        time_format: true
+        format: "LLL"
+        date_format: "YYYY-MM-DD"
+        time_format: "HH:mm"
         picker_utc: true
       - label: "Layout"
         name: "layout"
