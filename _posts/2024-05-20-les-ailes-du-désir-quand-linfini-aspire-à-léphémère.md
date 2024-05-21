@@ -15,7 +15,7 @@ tags:
 author: charveey
 paginate: false
 ---
-Il y a quelques mois de cela, alors que je scrollais sur mon fil d'actualité X, une image a soudainement attiré mon attention. Perchée au-dessus d'une ville grise, une silhouette ailée contemplait ses habitants avec une profonde mélancolie. Son regard, à la fois distant et intense, semblait sonder les âmes des mortels qui grouillaient en contrebas. Intrigué par cette image, je me suis empressé de rechercher sa provenance. Et c'est ainsi que j'ai découvert qu'elle était tirée du film ***Les Ailes du désir*** réalisé en 1987 par le cinéaste allemand Wim Wenders. Fasciné par l'atmosphère mystérieuse et poétique qui se dégageait de cette photo, je n'ai eu d'autre choix que de visionner le film...
+Il y a quelques mois de cela, alors que je scrollais sur mon feed X, une image a soudainement attiré mon attention. Perchée au-dessus d'une ville grise, une silhouette ailée contemplait ses habitants avec une profonde mélancolie. Son regard, à la fois distant et intense, semblait sonder les âmes des mortels qui grouillaient en contrebas. Intrigué par cette image, je me suis empressé de rechercher sa provenance. Et c'est ainsi que j'ai découvert qu'elle était tirée du film ***Les Ailes du désir*** réalisé en 1987 par le cinéaste allemand Wim Wenders. Fasciné par l'atmosphère mystérieuse et poétique qui se dégageait de cette photo, je n'ai eu d'autre choix que de visionner le film...
 
 ![Des anges et des hommes](https://res.cloudinary.com/dfqlcc1vj/image/upload/f_auto,q_auto/v1716234969/Wings%20of%20Desire/200id_182_yjwwqt.tiff)
 *Des anges et des hommes*
