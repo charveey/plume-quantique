@@ -43,4 +43,4 @@ Le choix de Damiel de renoncer à son immortalité pour embrasser la condition h
 
 En somme, ***Les Ailes du désir*** transcende le simple cadre narratif pour devenir une méditation poétique sur l'essence de notre humanité. À travers la perspective des anges, le film nous invite à contempler notre existence avec une nouvelle acuité, à apprécier la beauté éphémère de notre passage sur terre.
 
-En ce sens, l'œuvre de Wim Wenders résonne comme une ode à la vie, une reflexion sur la condition humaine nous invitant à célébrer notre humanité dans toute sa splendeur et sa fragilité. Elle nous encourage à nous reconnecter les uns aux autres et à apprécier les petits plaisirs simples de la vie quotidienne - à redécouvrir la joie de vivre.
+En ce sens, l'œuvre de Wim Wenders résonne comme une ode à la vie, une réflexion sur la condition humaine nous invitant à célébrer notre humanité dans toute sa splendeur et sa fragilité. Elle nous encourage à nous reconnecter les uns aux autres et à apprécier les petits plaisirs simples de la vie quotidienne - à redécouvrir la joie de vivre.
