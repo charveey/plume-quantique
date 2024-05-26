@@ -121,6 +121,7 @@ sass:
 # Plugins
 plugins:
   - jekyll-paginate-v2
+  - liquid_reading_time
 
 # Exclude my node related stuff
 exclude: [

@@ -1,9 +1,8 @@
-{% assign words = content | number_of_words %}
-
-{% if words < 360 %}
-  {% assign totalMinutes = 1 %}
+{% capture time %}{{ content | reading_time }}{% endcapture %}
+{% if time == '1' %}
+  {% assign timeStr = ' minute de lecture' %}
 {% else %}
-  {% assign totalMinutes = words | divided_by:180 %}
+  {% assign timeStr = ' minutes de lecture' %}
 {% endif %}
 
-{% assign minutesText = totalMinutes | append: ' minutes de lecture' %}
+{% assign minutesText = time | append: timeStr %}
