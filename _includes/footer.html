@@ -110,5 +110,7 @@
   {% include stats.html %}
 {% endif %}
 
-<!-- Include extra scripts -->
-{% include extra-js.html %}
+<!-- Include Metricool tracker script if set in config -->
+{% if site.metricool_analytics %}
+  {% include extra-js.html %}
+{% endif %}
