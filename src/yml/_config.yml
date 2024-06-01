@@ -44,6 +44,7 @@ sass:
 # Plugins
 plugins:
   - jekyll-paginate-v2
+  - liquid_reading_time
 
 # Exclude my node related stuff
 exclude: [
@@ -77,3 +78,8 @@ autopages:
     slugify:
       mode: 'default'   # :tag is slugified.
       case: false
+
+# HTML Compress
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]

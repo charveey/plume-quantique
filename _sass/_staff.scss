@@ -57,11 +57,14 @@
 
   .image {
     object-fit: cover;
-    border-radius: 9999px;
-    width: 8rem;
-    height: 8rem;
+    border-radius: 50%;
+    width: rem(140px);
+    height: rem(140px);
     padding:0;
     border: 2px solid $themeColor;
+    @include media("<=iphone") {
+      margin: rem(0px) rem(20px);
+    }
   }
 
   .staff_item{
