@@ -82,39 +82,6 @@
         {% include author.html %}
         {% include footer.html %}
 
-        {% assign author = site.authors | where: "name", post.author | first %}
-
-        {% assign author_urls = '' %}
-        {% if author.github_username %}
-            {% assign author_urls = author_urls | append: '"https://github.com/' | append: author.github_username | append: '",' %}
-        {% endif %}
-        {% if author.facebook_username %}
-            {% assign author_urls = author_urls | append: '"https://www.facebook.com/' | append: author.facebook_username | append: '",' %}
-        {% endif %}
-        {% if author.twitter_username %}
-            {% assign author_urls = author_urls | append: '"https://twitter.com/' | append: author.twitter_username | append: '",' %}
-        {% endif %}
-        {% if author.medium_username %}
-            {% assign author_urls = author_urls | append: '"https://medium.com/@' | append: author.medium_username | append: '",' %}
-        {% endif %}
-        {% if author.instagram_username %}
-            {% assign author_urls = author_urls | append: '"https://www.instagram.com/' | append: author.instagram_username | append: '",' %}
-        {% endif %}
-        {% if author.linkedin_username %}
-            {% assign author_urls = author_urls | append: '"https://www.linkedin.com/in/' | append: author.linkedin_username | append: '",' %}
-        {% endif %}
-        {% if author.threads_username %}
-            {% assign author_urls = author_urls | append: '"https://www.threads.net/@' | append: author.threads_username | append: '",' %}
-        {% endif %}
-        {% if author.letterboxd_username %}
-            {% assign author_urls = author_urls | append: '"https://www.letterboxd.com/' | append: author.letterboxd_username | append: '",' %}
-        {% endif %}
-        {% if author.serializd_username %}
-            {% assign author_urls = author_urls | append: '"https://www.serializd.com/user/' | append: author.serializd_username | append: '",' %}
-        {% endif %}
-        {% if author.myanimelist_username %}
-            {% assign author_urls = author_urls | append: '"https://myanimelist.net/profile/' | append: author.myanimelist_username | append: '",' %}
-        {% endif %}
         {% if page.math %}
         <script>
             MathJax = {
@@ -136,7 +103,7 @@
             "description": "{{ page.description }}",
             "image": "{{ page.image }}",
             "url": "{{ page.url | prepend: site.baseurl | prepend: site.url }}",
-            "articleBody": "{{ content | strip_html | xml_escape | textilize }}",
+            "articleBody": {{ content | strip_html | jsonify }},
             "wordcount": "{{ content | number_of_words }}",
             "inLanguage": "{{ site.language }}",
             "dateCreated": "{{ page.date | date: '%Y-%m-%d/' }}",
