@@ -78,3 +78,8 @@ autopages:
     slugify:
       mode: 'default'   # :tag is slugified.
       case: false
+
+# HTML Compress
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
