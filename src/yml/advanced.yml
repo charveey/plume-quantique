@@ -1,5 +1,6 @@
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://poetic-buttercream-0d3e15.netlify.app" # the base hostname & protocol for your site
 #google_analytics: "G-XXXXXXXX"
+metricool_analytics: "8dda68d84f408d2be2d3db28261e1346"
 categories_folder: category
 sent_message_url: "/contact/message-sent/"
