@@ -24,6 +24,9 @@
 
     &.name {
       padding-top: rem(10px);
+      @include media("<=phone") {
+        font-size: rem(30px);
+      }
     }
 
     &.position {
