@@ -23,10 +23,14 @@ layout: page
 
   <p>{{ page.bio }}</p>
 
-  <h2>Publications</h2>
+
+  {% assign filtered_posts = site.posts | where: 'author', page.name | where_exp: "post", "post.is_generated != true" %}
+  {% if filtered_posts.size > 0 %}
+    <h2>Publications</h2>
+  {% endif %}
+
 
   <ul>
-    {% assign filtered_posts = site.posts | where: 'author', page.name | where_exp: "post", "post.is_generated != true" %}
     {% for post in filtered_posts %}
       <li>
         <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
