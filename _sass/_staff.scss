@@ -64,9 +64,14 @@
     width: rem(140px);
     height: rem(140px);
     padding:0;
-    border: 2px solid $themeColor;
     @include media("<=iphone") {
       margin: rem(0px) rem(20px);
+      width: rem(110px);
+      height: rem(110px);
+    }
+    @include media("<=phone") {
+      width: rem(90px);
+      height: rem(90px);
     }
   }
 
@@ -78,14 +83,22 @@
     @include media("<=iphone") {
       display: inline-flex;
       width: 80vw;
+      justify-content: space-between;
     }
 
     .info{
-      margin-top: 1rem;
+      @include media(">=iphone") {
+        margin-top: rem(10px);
+      }
       text-align: center;
 
       .name {
         font-size: rem(18px);
+        @include media("<iphone") {
+          font-size: rem(15px);
+          padding: rem(5px) rem(8px);
+          
+        }
         line-height: rem(15px);
         font-weight: 600;
         padding-top:10px;
@@ -95,8 +108,13 @@
         color: $lightGray;
         margin-top: 2px;
         font-style: italic;
-        font-size: rem(12px);
-        @include media(">=sm") {
+        font-size: rem(10px);
+        line-height: rem(15px);
+        @include media(">=iphone") {
+          font-size: rem(14px);
+          line-height: rem(40px);
+        }
+        @include media(">=tablet") {
           font-size: rem(17px);
         }
       }
