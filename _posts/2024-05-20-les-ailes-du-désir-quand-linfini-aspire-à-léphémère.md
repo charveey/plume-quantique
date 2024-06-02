@@ -7,7 +7,7 @@ description: Par des gestes subtils et imperceptibles pour les humains, les
   nouveau regard sur la beauté du monde qui les entoure...
 image: https://res.cloudinary.com/dfqlcc1vj/image/upload/f_auto,q_auto/v1716234973/Wings%20of%20Desire/200id_173_s8vydp.tiff
 optimized_image: https://res.cloudinary.com/dfqlcc1vj/image/upload/f_auto,q_auto,c_lfill,w_640,ar_16:9/v1716234973/Wings%20of%20Desire/200id_173_s8vydp.tiff
-category: critiques
+category: edito
 tags:
   - cinema
   - wenders
@@ -34,7 +34,7 @@ Car ces anges, bien que dotés d'une compassion et d'une attention profondes pou
 ![i](https://res.cloudinary.com/dfqlcc1vj/image/upload/f_auto,q_auto/v1716235134/Wings%20of%20Desire/200id_176_rczjvw.tiff)
 *Je sais enfin ce qu’aucun ange ne sait.*
 
-Damiel incarne un paradoxe fascinant : il désire ardemment sortir de sa passivité angélique, pour se plonger dans l'incertitude et la complexité de la vie humaine. Il aspire à connaître le monde par les sens, à ressentir la chaleur d'une tasse de café, la douleur d'une perte et l'extase de l'amour, à ressentir les émotions dans toute leur intensité, même si cela implique la souffrance et la mort. La rencontre de Marion, une trapéziste pleine de vie et d'énergie, cristallise le désir de Damiel de s'intégrer au monde des humains. Son amour pour elle devient le catalyseur de sa transformation, le poussant à franchir le pas et à renoncer à son immortalité pour goûter aux joies et aux peines de l'existence humaine.
+Damiel incarne un paradoxe fascinant : il désire ardemment échapper à la monotonie inhérente à son statut d'ange, pour se plonger dans l'incertitude et la complexité de l'expérience humaine. Il aspire à connaître le monde par les sens, à ressentir la chaleur d'une tasse de café, la douleur d'une perte et l'extase de l'amour, à ressentir les émotions dans toute leur intensité, même si cela implique la souffrance et la mort. La rencontre de Marion, une trapéziste pleine de vie et d'énergie, cristallise le désir de Damiel de s'intégrer au monde des humains. Son amour pour elle devient le catalyseur de sa transformation, le poussant à franchir le pas et à renoncer à son immortalité pour goûter aux joies et aux peines de l'existence humaine.
 
 Le choix de Damiel de renoncer à son immortalité pour embrasser la condition humaine, est une affirmation puissante de la valeur de la vie, même dans sa brièveté et son imperfection. Ce choix suggère que la vie, dans toute sa complexité et ses défis, possède une richesse inestimable qui dépasse de loin l'existence éternelle.
 
