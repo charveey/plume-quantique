@@ -101,3 +101,43 @@
     }
   }
 }
+
+.staff {
+  .staff_item {
+    .name {
+      h1 {
+        font-size: rem(450px);
+        @include media("<=phone") {
+          font-size: rem(45px);
+        }
+      }
+    }
+    .icns {
+      @include media(">=tablet") {
+        text-align: right;
+      }
+      a {
+        fill: darken($lightGray, 30%);
+        text-decoration: none;
+        border: none;
+        transition: all 0.3s;
+    
+        &:hover {
+          fill: $themeColor;
+        }
+      }
+      svg {
+        @include media(">=tablet") {
+          @include size(32, 32);
+        }
+        @include media("<=phone") {
+          @include size(15, 15);
+          margin-right: rem(10px);
+        }
+        @include size(25, 25);
+        margin-right: rem(15px);
+  }
+    }
+  }
+  
+}

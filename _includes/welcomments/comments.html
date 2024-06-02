@@ -7,7 +7,9 @@
 {%- if include.website_id == "YOUR-WEBSITE-ID-HERE" -%}
   <div style="color: #ff0000;">
     <h1>Website id not configured!</h1>
-    <p>Please replace <code>YOUR-WEBSITE-ID-HERE</code> with the website id from Welcomments console.</p>
+    <p>Please replace
+      <code>YOUR-WEBSITE-ID-HERE</code>
+      with the website id from Welcomments console.</p>
   </div>
 {%- endif -%}
 
@@ -22,17 +24,18 @@
 
   <div id="comments-title-container">
     {%- if all_comments.size > 0 -%}
-      <h3 id="welcomments__comment-count-title" class="welcomments__comments-title">{{ all_comments.size }} commentaire{%- if all_comments.size > 1 -%}s{%- endif -%}</h3>
+      <h3 id="welcomments__comment-count-title" class="welcomments__comments-title">{{ all_comments.size }} commentaire{%- if all_comments.size > 1 -%}s{%- endif -%}
+      </h3>
     {%- else -%}
       <h3 id="welcomments__comment-count-title" class="welcomments__comments-title">N'hésitez pas à commenter</h3>
     {%- endif -%}
     <div id="like-button-container">
       <div id="welcomments__like-button" data-count="20"></div>
-        <p class="subtitle">likes</p>
+      <p class="subtitle">likes</p>
     </div>
   </div>
 
-  {{include.page_author }}
+  {{ include.page_author }}
 
   <section id="welcomments__comment-container" class="welcomments__comment-container">
     {%- if all_comments.size > 0 -%}
@@ -40,25 +43,18 @@
 
       {%- for comment_map in parent_comments -%}
         {%- assign comment = comment_map -%}
-        {%- include welcomments/single_comment.html
-          nesting_level        = 0
-          all_comments         = all_comments
-          comment              = comment
-          api_url              = api_url
-          website_id           = include.website_id -%}
+        {%- include welcomments/single_comment.html nesting_level = 0 all_comments = all_comments comment = comment api_url = api_url website_id = include.website_id -%}
       {%- endfor -%}
     {%- endif -%}
   </section>
 
-  {%- include welcomments/comment_form.html
-    api_url    = api_url
-    website_id = include.website_id -%}
+  {%- include welcomments/comment_form.html api_url = api_url website_id = include.website_id -%}
 </div>
 
 <!--
   Contains some basic comment section styling, so that you can get started quickly
   without having to come up with your own CSS if you don't want to.
-                                                                               -->
+-->
 <link rel="stylesheet" href="https://cdn.welcomments.io/welcomments.css" />
 
 <!--
@@ -72,8 +68,12 @@
 
   It's gzipped and weighs just about 2.1kB. If you want, you can just delete this line
   and your comment form works just fine but is a bit less interactive! :-)
-                                                                               -->
-<script defer id="welcomments__script" src="https://cdn.welcomments.io/welcomments.js" type="text/javascript"></script>
+-->
+<script
+  defer
+  id="welcomments__script"
+  src="https://cdn.welcomments.io/welcomments.js"
+  type="text/javascript"></script>
 <script type="text/javascript">
   welcomments = {
     apiUrl: "{{ api_url }}",
