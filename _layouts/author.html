@@ -3,6 +3,7 @@ layout: page
 ---
 
 <div class="staff">
+  <div class="staff_item">
   {% if page.photo %}
     <img
       class="img-rounded"
@@ -21,19 +22,148 @@ layout: page
     <h2 class="position">{{ page.position }}</h2>
   {% endif %}
 
-  <p>{{ page.bio }}</p>
+  <p class="desc">{{ page.bio }}</p>
 
-  <h2>Publications</h2>
+  <p class="icns">
+        {% if page.github_username %}
+          <a href="https://github.com/{{ page.github_username }}" title="Github">
+            <svg><use xlink:href="#icon-github"></use></svg>
+          </a>
+        {% endif %}
+        {% if page.facebook_username %}
+          <a href="https://www.facebook.com/{{ page.facebook_username }}" title="Facebook">
+            <svg><use xlink:href="#icon-facebook"></use></svg>
+          </a>
+        {% endif %}
+        {% if page.twitter_username %}
+          <a href="https://twitter.com/{{ page.twitter_username }}" title="Twitter">
+            <svg><use xlink:href="#icon-twitter"></use></svg>
+          </a>
+        {% endif %}
+        {% if page.medium_username %}
+          <a href="https://medium.com/@{{ page.medium_username }}" title="Medium">
+            <svg><use xlink:href="#icon-medium"></use></svg>
+          </a>
+        {% endif %}
+        {% if page.instagram_username %}
+          <a href="https://www.instagram.com/{{ page.instagram_username }}" title="Instagram">
+            <svg><use xlink:href="#icon-instagram"></use></svg>
+          </a>
+        {% endif %}
+        {% if page.linkedin_username %}
+          <a href="https://www.linkedin.com/in/{{ page.linkedin_username }}" title="LinkedIn">
+            <svg><use xlink:href="#icon-linkedin"></use></svg>
+          </a>
+        {% endif %}
+        {% if page.threads_username %}
+        <a href="https://www.threads.net/@{{ page.threads_username }}" title="Threads">
+          <svg><use xlink:href="#icon-threads"></use></svg>
+        </a>
+      {% endif %}
+      {% if page.letterboxd_username %}
+        <a href="https://letterboxd.com/{{ page.letterboxd_username }}" title="Letterboxd">
+          <svg><use xlink:href="#icon-letterboxd"></use></svg>
+        </a>
+      {% endif %}
+      {% if page.serializd_username %}
+        <a href="https://www.serializd.com/user/{{ page.serializd_username }}" title="Serializd">
+          <svg><use xlink:href="#icon-serializd"></use></svg>
+        </a>
+      {% endif %}
+      {% if page.myanimelist_username %}
+        <a href="https://myanimelist.net/profile/{{ page.myanimelist_username }}" title="MyAnimeList">
+          <svg><use xlink:href="#icon-myanimelist"></use></svg>
+        </a>
+      {% endif %}
+      </p>
+      </div>
 
-  <ul>
-    {% assign filtered_posts = site.posts | where: 'author', page.name | where_exp: "post", "post.is_generated != true" %}
-    {% for post in filtered_posts %}
-      <li>
-        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
 </div>
+{% assign filtered_posts = site.posts | where: 'author', page.name | where_exp: "post", "post.is_generated != true" %}
+      {% if filtered_posts.size > 0 %}
+        <h2>Publications</h2>
+        <section class="content" style="display: flex; justify-content: center">
+          <main
+            class="home min"
+            id="post"
+            role="main">
+            <div id="grid" class="row flex-grid">
+              {% for post in filtered_posts %}
+                
+                    <article class="box-item">
+                      <div class="box-body">
+                        {% if post.image %}
+                          <a
+                            class="cover"
+                            href="{{ post.url | prepend: site.baseurl }}"
+                            aria-label="{{ post.title }}">
+                            {% include loader.html %}
+                            {% if post.optimized_image %}
+                              <img
+                                src="/assets/img/placeholder.png"
+                                width="640px"
+                                height="360px"
+                                data-url="{{ post.optimized_image }}"
+                                class="preload"
+                                alt="{{ post.title }}">
+                              <noscript>
+                                <img
+                                  src="{{ post.optimized_image }}"
+                                  width="640px"
+                                  height="360px"
+                                  alt="{{ post.title }}">
+                              </noscript>
+                            {% elsif post.image %}
+                              <img
+                                src="/assets/img/placeholder.png"
+                                width="640px"
+                                height="360px"
+                                data-url="{{ post.image }}"
+                                class="preload"
+                                alt="{{ post.title }}">
+                              <noscript>
+                                <img
+                                  src="{{ post.image }}"
+                                  width="100%"
+                                  alt="{{ post.title }}">
+                              </noscript>
+                            {% else %}
+                              <img
+                                src="/assets/img/placeholder.png"
+                                width="320px"
+                                data-url="/assets/img/off.jpg"
+                                class="preload"
+                                alt="placeholder image">
+                              <noscript>
+                                <img
+                                  src="/assets/img/off.jpg"
+                                  width="320px"
+                                  alt="placeholder image">
+                              </noscript>
+                            {% endif %}
+                            {% include new-post-tag.html date=post.date %}
+                            {% include read-icon.html %}
+                          </a>
+                        {% endif %}
+                        <div class="box-info min">
+                          <time datetime="{{ post.date | date_to_xmlschema }}" class="date">
+                            {% include date.html date=post.date %}
+                          </time>
+                          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+                            <h3 class="post-title min">
+                              {{ post.title }}
+                            </h3>
+                          </a>
+                        </div>
+                      </div>
+                    </article>
+                  
+              {% endfor %}
+            </div>
+          </main>
+        </section>
+      {% endif %}
+
 
 {% assign author_urls = '' %}
 {% if page.github_username %}
