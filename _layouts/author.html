@@ -78,20 +78,92 @@ layout: page
       </p>
       </div>
 
-  {% assign filtered_posts = site.posts | where: 'author', page.name | where_exp: "post", "post.is_generated != true" %}
-  {% if filtered_posts.size > 0 %}
-    <h2>Publications</h2>
-  {% endif %}
-
-
-  <ul>
-    {% for post in filtered_posts %}
-      <li>
-        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
 </div>
+{% assign filtered_posts = site.posts | where: 'author', page.name | where_exp: "post", "post.is_generated != true" %}
+      {% if filtered_posts.size > 0 %}
+        <h2>Publications</h2>
+        <section class="content" style="display: flex; justify-content: center">
+          <main
+            class="home min"
+            id="post"
+            role="main">
+            <div id="grid" class="row flex-grid">
+              {% for post in filtered_posts %}
+                
+                    <article class="box-item">
+                      <div class="box-body">
+                        {% if post.image %}
+                          <a
+                            class="cover"
+                            href="{{ post.url | prepend: site.baseurl }}"
+                            aria-label="{{ post.title }}">
+                            {% include loader.html %}
+                            {% if post.optimized_image %}
+                              <img
+                                src="/assets/img/placeholder.png"
+                                width="640px"
+                                height="360px"
+                                data-url="{{ post.optimized_image }}"
+                                class="preload"
+                                alt="{{ post.title }}">
+                              <noscript>
+                                <img
+                                  src="{{ post.optimized_image }}"
+                                  width="640px"
+                                  height="360px"
+                                  alt="{{ post.title }}">
+                              </noscript>
+                            {% elsif post.image %}
+                              <img
+                                src="/assets/img/placeholder.png"
+                                width="640px"
+                                height="360px"
+                                data-url="{{ post.image }}"
+                                class="preload"
+                                alt="{{ post.title }}">
+                              <noscript>
+                                <img
+                                  src="{{ post.image }}"
+                                  width="100%"
+                                  alt="{{ post.title }}">
+                              </noscript>
+                            {% else %}
+                              <img
+                                src="/assets/img/placeholder.png"
+                                width="320px"
+                                data-url="/assets/img/off.jpg"
+                                class="preload"
+                                alt="placeholder image">
+                              <noscript>
+                                <img
+                                  src="/assets/img/off.jpg"
+                                  width="320px"
+                                  alt="placeholder image">
+                              </noscript>
+                            {% endif %}
+                            {% include new-post-tag.html date=post.date %}
+                            {% include read-icon.html %}
+                          </a>
+                        {% endif %}
+                        <div class="box-info min">
+                          <time datetime="{{ post.date | date_to_xmlschema }}" class="date">
+                            {% include date.html date=post.date %}
+                          </time>
+                          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+                            <h3 class="post-title min">
+                              {{ post.title }}
+                            </h3>
+                          </a>
+                        </div>
+                      </div>
+                    </article>
+                  
+              {% endfor %}
+            </div>
+          </main>
+        </section>
+      {% endif %}
+
 
 {% assign author_urls = '' %}
 {% if page.github_username %}
