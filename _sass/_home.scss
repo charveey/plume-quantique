@@ -3,6 +3,13 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   padding-top: rem(80px);
+  &.min {
+    padding-top: rem(20px);
+    @include media(">=laptop") {
+      max-width: 90vw;
+    }
+    
+  }
 
   @include media(">=sm") {
     padding-top: rem(100px);
@@ -135,6 +142,17 @@
       color: $accentDark;
       line-height: rem(30px);
     }
+    h3.min {
+      padding-left: 0;
+      font-size: rem(22px);
+      @include media("<=phone") {
+        font-size: rem(20px);
+      }
+      @include media(">laptop") {
+        font-size: rem(18px);
+      }
+      padding-top: rem(10px);
+    }
 
     p {
       margin: 0 0 rem(30px);
@@ -216,6 +234,7 @@
 
         svg {
           width: rem(48px);
+          margin-right: 0;
         }
       }
     }
@@ -223,5 +242,8 @@
 
   .box-info {
     padding: rem(15px);
+    &.min {
+      padding: rem(10px);
+    }
   }
 }
