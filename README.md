@@ -52,25 +52,25 @@ The website is based of the [Jekflix Theme](https://github.com/thiagorossener/je
 
 In the case you're installing to existing Jekyll project, add this line to your project's `Gemfile`:
 
-```
+```gemfile
 gem "jekflix"
 ```
 
 Add this line to your project's `_config.yml`:
 
-```
+```yaml
 theme: jekflix
 ```
 
 And then run:
 
-```
+```sh
 $ bundle
 ```
 
 Or install it yourself as:
 
-```
+```sh
 $ gem install jekflix
 ```
 
@@ -78,7 +78,7 @@ $ gem install jekflix
 
 Create the file `/assets/css/styles.scss` and add:
 
-```
+```sass
 ---
 ---
 
@@ -97,7 +97,7 @@ Modify the variables above to change your theme colors.
 
 Below are some properties you can change in your project `_config.yml`, check the [documentation](docs/settings.md#settings) for more details.
 
-```
+```yaml
 # Site Settings
 name: Jekflix
 title: Jekflix | A blog theme for Jekyll
