@@ -163,9 +163,8 @@ const js = gulp.parallel(mainJs, previewJs);
 function images() {
   notify('Copying image files...');
   return gulp.src([ 'src/img/**/*.{jpg,png,gif,svg}' ], {
-    buffer: true,
-    removeBOM: false,
-    encoding: false
+    encoding: false,
+    cwd: '../../'
     })
     .pipe(plumber())
     .pipe(imagemin({ optimizationLevel: 5, progressive: true, interlaced: true }))
@@ -211,6 +210,7 @@ function watch() {
  * - Launch BrowserSync & watch files
  */
 const run = gulp.series(gulp.parallel(js, theme, images), config, jekyll, gulp.parallel(server, watch));
+
 
 /**
  * Build Task
