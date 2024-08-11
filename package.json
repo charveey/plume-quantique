@@ -39,7 +39,10 @@
     "lodash.merge": "^4.6.2",
     "vinyl-source-stream": "^2.0.0"
   },
+  "overrides": {
+        "glob-parent": "6.0.2"
+    },
   "engines": {
-    "node": "^16"
+    "node": ">=16"
   }
 }
