@@ -18,13 +18,14 @@
     line-height: 1.7149;
     min-height: 48px;
 }
-@media screen and (min-width: 832px) {
+@include media(">=desktop") {
     .welcomments__container {
         margin-left: auto !important;
         margin-right: auto !important;
         max-width: 55%;
     }
 }
+
 //Comment section styling
 .welcomments__comments-title,
    .welcomments__author-name,
@@ -100,7 +101,7 @@
   font-size: 1rem;
   user-select: none;
 }
-@media screen and (min-width: 832px) {
+@include media(">=desktop") {
   #like-button-container {
     position: fixed;
     right: calc(911px + ((100% - 948px)/2));
