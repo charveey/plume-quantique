@@ -40,6 +40,8 @@ pagination:
 # SASS
 sass:
   style: compressed
+  quiet_deps: true
+  verbose: false 
 
 # Plugins
 plugins:
