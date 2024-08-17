@@ -85,23 +85,3 @@
   height: 3rem;
 
 }
-
-@include media(">=desktop") {
-  #like-button-container {
-    position: fixed;
-    right: calc(911px + ((100% - 948px)/2));
-    top: 350px;
-    opacity: 0; /* Initially hidden */
-    transform: translateY(-10px); /* Initially slightly shifted up */
-    transition: opacity 0.3s ease, transform 0.3s ease; /* Smooth transition for both opacity and transform */
-  }
-  #like-button-container.visible {
-    opacity: 1; /* Visible state */
-    transform: translateY(0); /* Reset transform for visible state */
-  }
-  #like-button-container.fixed {
-    position: inherit;
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
