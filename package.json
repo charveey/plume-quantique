@@ -25,7 +25,7 @@
     "browser-sync": "^3.0.2",
     "child_process": "^1.0.2",
     "del": "^7.1.0",
-    "gulp": "^4.0.2",
+    "gulp": "^5.0.0",
     "gulp-concat": "^2.6.1",
     "gulp-imagemin": "^9.1.0",
     "gulp-include": "^2.4.1",
@@ -40,9 +40,12 @@
     "vinyl-source-stream": "^2.0.0"
   },
   "overrides": {
-        "glob-parent": "6.0.2"
-    },
+    "glob-parent": "6.0.2"
+  },
   "engines": {
     "node": ">=16"
+  },
+  "dependencies": {
+    "vinyl-fs": "^4.0.0"
   }
 }
