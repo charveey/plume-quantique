@@ -164,7 +164,6 @@ function images() {
   notify('Copying image files...');
   return gulp.src([ 'src/img/**/*.{jpg,png,gif,svg}' ], {
     encoding: false,
-    cwd: '../../'
     })
     .pipe(plumber())
     .pipe(imagemin({ optimizationLevel: 5, progressive: true, interlaced: true }))

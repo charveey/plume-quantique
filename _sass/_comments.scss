@@ -84,39 +84,4 @@
   width: 6rem;
   height: 3rem;
 
-  .subtitle {
-    color: $themeColor;
-    text-align: center;
-    font-size: .75rem;
-    font-weight: 500;  
-    line-height: 1.5;
-  }
-}
-
-#welcomments__like-button {
-  color: $themeColor;
-  text-align: center;
-  font-weight: 700;
-  cursor: pointer;
-  font-size: 1rem;
-  user-select: none;
-}
-@include media(">=desktop") {
-  #like-button-container {
-    position: fixed;
-    right: calc(911px + ((100% - 948px)/2));
-    top: 350px;
-    opacity: 0; /* Initially hidden */
-    transform: translateY(-10px); /* Initially slightly shifted up */
-    transition: opacity 0.3s ease, transform 0.3s ease; /* Smooth transition for both opacity and transform */
-  }
-  #like-button-container.visible {
-    opacity: 1; /* Visible state */
-    transform: translateY(0); /* Reset transform for visible state */
-  }
-  #like-button-container.fixed {
-    position: inherit;
-    opacity: 1;
-    transform: translateY(0);
-  }
 }
