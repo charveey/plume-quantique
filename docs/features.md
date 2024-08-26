@@ -25,6 +25,7 @@ _Jekflix_ comes with features to help you create/edit/share content and provide 
 - [Netlify CMS ready](features.md#netlify-cms-ready)
 - [Translations](setup.md#translations)
 - [Math Expressions](features.md#math-expressions) *(optional)*
+- [REST API](docs/features.md#rest-api) **new!**
 
 ## Live Search
 
@@ -196,6 +197,74 @@ You only need 2 steps:
 2. Adopt the _MathJax_'s grammar for $\LaTeX$.
 
 For example, `$\sum_{i=1}{10} = 55$` will be rendered as <img src="https://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,q_78,w_270/v1585835744/Screen_Shot_2020-04-02_at_10.55.24_uafb07.jpg" width="135">.
+
+## REST API
+
+The REST API provides a convenient way to integrate with an application and perform data scraping. Below are the details on how to access and utilize the API endpoints.
+
+### Endpoints
+
+#### List All Posts
+
+- **URL:** `/api/v1/post`
+- **Method:** `GET`
+- **Description:** Retrieves a JSON array containing all blog posts.
+- **Response Example:**
+
+    ```json
+    [
+        {
+            "id": "/this-is-the-id",
+            "title": "First Post",
+            "excerpt": "Lorem ipsum",
+            "cover": "link-to-the-compressed-cover-image",
+            "author": "Author Name",
+            "date": "2024-08-25",
+            "url": "/url-to-the-post/",
+            "tags": ["tag1","tag2","tag3"],
+            "category": "category",
+        },
+        {
+            "id": "/this-is-another-id",
+            "title": "Second Post",
+            "excerpt": "Lorem ipsum",
+            "cover": "link-to-the-compressed-cover-image",
+            "author": "Author Name",
+            "date": "2024-08-12",
+            "url": "/url-to-the-post/",
+            "tags": ["tag1","tag2","tag3"],
+            "category": "category",
+        }
+    ]
+    ```
+
+#### Get Single Post
+
+- **URL:** `/api/v1/{post-name}`
+- **Method:** `GET`
+- **Description:** Retrieves a JSON object containing the details of a specific blog post.
+- **URL Parameters:**
+    - `post-name` (string): The name of the blog post.
+- **Response Example:**
+
+    ```json
+    {
+        "title": "First Post",
+        "subtitle": "This is the subtitle",
+        "excerpt": "Lorem ipsum",
+        "cover": "link-to-the-cover-image",
+        "author": "Author Name",
+        "date": "2024-08-25",
+        "tags": ["tag1","tag2","tag3"],
+        "category": "category",
+        "content": "This is the content of the first post.",
+    }
+    ```
+
+### Usage Notes
+
+- Ensure that the `post-name` in the URL is URL-encoded if it contains special characters.
+- The API responses are in JSON format and include metadata such as the post ID, title, content, author, and date of publication.
 
 ## Netlify CMS ready
 
