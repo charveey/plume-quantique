@@ -10,3 +10,6 @@ _config.yml
 .bundle
 vendor
 
+api/v1/posts/*.md
+api/v1/posts/*.json
+api/v1/*.md
