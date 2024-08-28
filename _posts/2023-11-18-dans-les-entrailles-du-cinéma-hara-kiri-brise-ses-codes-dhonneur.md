@@ -24,7 +24,7 @@ L’honneur, désigne le fait de mériter la considération et de l'estime sur l
 
 ![Bonjour_suicide](https://res.cloudinary.com/dfqlcc1vj/image/upload/v1700267966/Hara%20Kiri/Subtitles/Harakiri-082_tlqzj3.jpg)
 
-Tout de suite après une introduction pleine d'effroi, nous sommes plongés dans un calme absolu, les bruits du décor comme unique mélodie pendant l’immense majorité du métrage nous forcent à nous concentrer sur le peu que l’on perçoit. Dans le clan noble de la famille Li, un ronin misérablement vêtu débarque. N'ayant pour seule fortune que ses sabres, vestiges de ses nombreuses batailles, Il demandera audience à l’intendant du clan. Tsugumo déterminé, taciturne, parfois même enjoué, requiert assistance pour le rituel du seppuku. Remarquez ; c’est avec une requête très enthousiaste de suicide que notre métrage se lance ! La suite du récit nous poussera à connaître les motivations de notre ronin, qui, dans un mélange de styles improbable et une narration au compte-goutte, m’aura tenu en haleine pendant un peu plus de 140 minutes.
+Tout de suite après une introduction pleine d'effroi, nous sommes plongés dans un calme absolu, les bruits du décor comme unique mélodie pendant l’immense majorité du métrage nous forcent à nous concentrer sur le peu que l’on perçoit. Dans le clan noble de la famille Li, un ronin misérablement vêtu débarque. N'ayant pour seule fortune que ses sabres, vestiges de ses nombreuses batailles, Il demandera audience à l’intendant du clan. Tsugumo déterminé, taciturne, mystérieusement enjoué, requiert assistance pour le rituel du seppuku. Remarquez ; c’est avec une requête très enthousiaste de suicide que notre métrage se lance ! La suite du récit nous poussera à connaître les motivations de notre ronin, qui, dans un mélange de styles improbable et une narration au compte-goutte, m’aura tenu en haleine pendant un peu plus de 140 minutes.
 
  Pendant deux heures et plus, Kobayashi, tel un peintre devant sa toile à la lumière de l’aube, dépeint un Japon empreint à la guerre et à la désolation. Dans cette fresque qui ne va pas sans rappeler un certain monde, il explique avec une finesse remarquable comment les élites, pour satisfaire des motivations purement politiques, anéantissent des structures sociales entières et montre de plein fouet comment ces dernières exploitent les dogmes et les traditions dans le but d'asservir les plus fragiles !
 
@@ -40,7 +40,7 @@ Dans un deuxième acte révélateur, tout en créant de la tension, le maître s
 
 Enfin, comme une invitation à nous rendre compte que ce n’est pas qu’un film, le Japonais entame l’explicit de son chef-d'œuvre avec une critique transperçant l'écran. Le jeu d'acteur formidable de **Tatsuya Nakadai** y aidant. S'ensuit l'explosion du crescendo initié dans l'acte précédent. Kobayashi dévoile son talent de metteur en scène, montrant que l'art du cinéma siège dans la paume de sa main tout en jouant avec mes attentes jusqu’aux dernières secondes.
 
-### Et si je n’ai pas envie de me Hara-Kiri ?
+### Et si je n’ai pas envie de me seppuku ?
 
 ![statue-Hkiri](https://res.cloudinary.com/dfqlcc1vj/image/upload/v1700268874/Hara%20Kiri/Subtitles/Harakiri-004_nru5r4.jpg)
 
