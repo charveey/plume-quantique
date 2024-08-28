@@ -28,9 +28,9 @@ Tout de suite après une introduction pleine d'effroi, nous sommes plongés dans
 
  Pendant deux heures et plus, Kobayashi, tel un peintre devant sa toile à la lumière de l’aube, dépeint un Japon empreint à la guerre et à la désolation. Dans cette fresque qui ne va pas sans rappeler un certain monde, il explique avec une finesse remarquable comment les élites, pour satisfaire des motivations purement politiques, anéantissent des structures sociales entières et montre de plein fouet comment ces dernières exploitent les dogmes et les traditions dans le but d'asservir les plus fragiles !
 
-### **Mourir avec classe!**
+### **Mourir avec classe !**
 
-***Hara Kiri*** sait se montrer beau, chaleureux, lent mais aussi rythmé, dramatique, touchant. Ce film est une véritable démonstration de technique qui a tendance à partir dans tous les sens. Un style caractérisé par un minimalisme constant, des zooms imprévisibles, un cadrage digne des plus grands westerns et le tout baigné d’un éclairage tout droit venu des cieux.
+***Hara-Kiri*** sait se montrer beau, chaleureux, lent mais aussi rythmé, dramatique, touchant. Ce film est une véritable démonstration de technique qui a tendance à partir dans tous les sens. Un style caractérisé par un minimalisme constant, des zooms imprévisibles, un cadrage digne des plus grands westerns et le tout baigné d’un éclairage tout droit venu des cieux.
 
 ![joy-hkiri](https://res.cloudinary.com/dfqlcc1vj/image/upload/v1700267760/Hara%20Kiri/Subtitles/Harakiri-054_shwtg4.jpg)
 
@@ -44,7 +44,7 @@ Enfin, comme une invitation à nous rendre compte que ce n’est pas qu’un fil
 
 ![statue-Hkiri](https://res.cloudinary.com/dfqlcc1vj/image/upload/v1700268874/Hara%20Kiri/Subtitles/Harakiri-004_nru5r4.jpg)
 
-Je veux bien entendre que ce ne soit pas votre genre de film, mais je vais quand même vous promettre que son visionnage vaut le coup, surtout pour des neophytes. Je m’explique : sans compter l’argument du Grand Prix du festival de Cannes (1962), ***Hara Kiri*** fait partie du club strictement fermé d’œuvres qui transcendent leur médium de par leur fonds. Je ne peux m’empêcher de voir un écho aux soldats kamikazes de la Seconde Guerre mondiale, utilisés par le japon, sous la pression d’un système bien trop colossal. Et j’irais même jusqu’à dire que c’est une œuvre qui invite à la réflexion sur des thèmes qui nous touchent, nous en Côte d’Ivoire, comme l’importance de l’ego, le virilisme, la centralisation du pouvoir, etc. et c’est pour toutes ces raisons que pour moi c’est un indispensable du cinéma, à voir au grand minimum deux fois avant de mourir ! 
+Je veux bien entendre que ce ne soit pas votre genre de film, mais je vais quand même vous promettre que son visionnage vaut le coup, surtout pour des néophytes. Je m’explique : sans compter l’argument du Grand Prix du festival de Cannes (1962), ***Hara-Kiri*** fait partie du club strictement fermé d’œuvres qui transcendent leur médium de par leur fonds. Je ne peux m’empêcher de voir un écho aux soldats kamikazes de la Seconde Guerre mondiale, utilisés par le japon, sous la pression d’un système bien trop colossal. Et j’irais même jusqu’à dire que c’est une œuvre qui invite à la réflexion sur des thèmes qui nous touchent, nous en Côte d’Ivoire, comme l’importance de l’ego, le virilisme, la centralisation du pouvoir, etc. et c’est pour toutes ces raisons que pour moi c’est un indispensable du cinéma, à voir au grand minimum deux fois avant de mourir ! 
 
  [^1]: Citation de *Miguel de Cervantès*
 
