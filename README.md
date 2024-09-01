@@ -39,6 +39,7 @@ The website is based of the [Jekflix Theme](https://github.com/thiagorossener/je
 - [Netlify CMS ready](docs/features.md#netlify-cms-ready)
 - [Translations](docs/setup.md#translations) **new!**
 - [Math Expressions](docs/features.md#math-expressions) *(optional)* **new!**
+- [REST API](docs/features.md#rest-api) **new!**
 
 ## SEO
 

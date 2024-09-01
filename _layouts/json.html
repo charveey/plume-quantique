@@ -1,0 +1,14 @@
+---
+layout: none
+---
+    {
+        "title":      {{- page.title | jsonify }},
+        "subtitle":      {{- page.subtitle | jsonify }},
+        "excerpt":      {{- page.description | jsonify }},
+        "cover":      {{- page.image | jsonify }},
+        "author":      {{- page.author | jsonify }},
+        "date":       {{- page.date | jsonify }},
+        "tags":       {{- page.tags | jsonify }},
+        "category": {{- page.category | jsonify }},
+        "content": {{- page.content | jsonify }}
+      }
