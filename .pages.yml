@@ -15,11 +15,14 @@ content:
     view:
       fields: [title, date, author, category]
       primary: title
-      sort: [date, title]
+      sort: [date, title, author]
       default:
         sort: date
         order: desc
     fields:
+      - name: layout
+        default: post
+        hidden: true
       - name: title
         label: Titre
         type: string
@@ -36,7 +39,20 @@ content:
         label: Rubrique
         type: select
         options:
-          values: [actu, conseils, coup-de-gueule, critiques, discussions, edito]
+          values: 
+          - value: actu
+            label: L'Œil Averti
+          - value: conseils
+            label: Le Clin d'Œil
+          - value: coup-de-gueule
+            label: L'Œil Irrité
+          - value: critiques
+            label: L'Œil Critique
+          - value: discussions
+            label: Œil pour Œil
+          - value: edito
+            label: L'Œil Avisé
+        required: true
       - name: tags
         label: Tags
         type: string
@@ -47,6 +63,10 @@ content:
       - name: description
         label: Synopsis
         type: string
+      - name: paginate
+        label: Activer la pagination
+        type: boolean
+        default: false
       - name: body
         label: Contenu
         type: rich-text
