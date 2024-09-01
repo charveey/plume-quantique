@@ -24,6 +24,9 @@ content:
         type: string
         default: post
         hidden: true
+      - name: image
+        label: Image de couverture
+        type: image
       - name: title
         label: Titre
         type: string
@@ -58,9 +61,6 @@ content:
         label: Tags
         type: string
         list: true
-      - name: image
-        label: Image de couverture
-        type: image
       - name: description
         label: Synopsis
         type: string
