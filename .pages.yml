@@ -99,6 +99,9 @@ content:
     view:
       primary: display_name
     fields:
+      - name: avatar
+        label: Avatar
+        type: image
       - name: name
         label: Layout
         type: string
@@ -115,6 +118,9 @@ content:
       - name: position
         label: Role
         type: string
+      - name: bio
+        label: Biographie
+        type: text
       - name: twitter_username
         label: Pseudo Twitter
         type: string
@@ -142,9 +148,3 @@ content:
       - name: myanimelist_username
         label: Pseudo MyAnimeList
         type: string
-      - name: bio
-        label: Biographie
-        type: text
-      - name: avatar
-        label: Avatar
-        type: image
