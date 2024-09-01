@@ -70,8 +70,8 @@ content:
 
   - name: authors
     label: Rédacteurs
-    type: file
-    path: _data/authors.json
+    type: collection
+    path: _authors
     fields:
       - name: name
         label: Nom
