@@ -71,7 +71,7 @@ content:
   - name: authors
     label: Rédacteurs
     type: collection
-    icon: user-pen
+    icon: square-user
     path: _authors
     fields:
       - name: name
