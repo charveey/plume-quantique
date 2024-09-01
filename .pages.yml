@@ -1,0 +1,85 @@
+# Media configuration
+media:
+  input: assets/img/uploads
+  output: /assets/img/uploads
+  path: assets/img/uploads
+  extensions: [jpg, jpeg, png, gif, svg]
+
+# Content configuration
+content:
+  - name: posts
+    label: Articles
+    type: collection
+    path: _posts
+    view:
+      fields: [title, date, author, category]
+      primary: title
+      sort: [date, title]
+      default:
+        sort: date
+        order: desc
+    fields:
+      - name: title
+        label: Titre
+        type: string
+        required: true
+      - name: date
+        label: Date de publication
+        type: date
+        required: true
+      - name: author
+        label: Auteur
+        type: string
+        required: true
+      - name: category
+        label: Rubrique
+        type: select
+        options:
+          values: [Cinéma, Télévision, Critique]
+      - name: tags
+        label: Tags
+        type: string
+        list: true
+      - name: image
+        label: Image de couverture
+        type: image
+      - name: description
+        label: Description
+        type: string
+      - name: body
+        label: Contenu
+        type: rich-text
+
+  - name: pages
+    label: Pages
+    type: collection
+    path: pages
+    view:
+      fields: [title, description]
+    fields:
+      - name: title
+        label: Titre
+        type: string
+        required: true
+      - name: description
+        label: Description
+        type: string
+      - name: body
+        label: Contenu
+        type: rich-text
+
+  - name: authors
+    label: Rédacteurs
+    type: file
+    path: _data/authors.json
+    fields:
+      - name: name
+        label: Nom
+        type: string
+        required: true
+      - name: bio
+        label: Biographie
+        type: text
+      - name: avatar
+        label: Avatar
+        type: image
