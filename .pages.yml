@@ -77,9 +77,48 @@ content:
     path: _authors
     fields:
       - name: name
+        label: Layout
+        type: string
+        default: author
+        hidden: True
+      - name: name
         label: Pseudonyme
         type: string
         required: true
+      - name: display_name
+        label: Nom complet
+        type: string
+        required: true
+      - name: position
+        label: Role
+        type: string
+      - name: name
+        label: Pseudo Twitter
+        type: string
+      - name: name
+        label: Pseudo Github
+        type: string
+      - name: name
+        label: Pseudo Facebook
+        type: string
+      - name: name
+        label: Pseudo Instagram
+        type: string
+      - name: name
+        label: Pseudo LinkedIn
+        type: string
+      - name: name
+        label: Pseudo Medium
+        type: string
+      - name: name
+        label: Pseudo Threads
+        type: string
+      - name: name
+        label: Pseudo Letterboxd
+        type: string
+      - name: name
+        label: Pseudo MyAnimeList
+        type: string
       - name: bio
         label: Biographie
         type: text
