@@ -97,7 +97,7 @@ content:
     icon: square-user
     path: _authors
     view:
-      fields: [display_name, name]
+      fields: [display_name]
     fields:
       - name: name
         label: Layout
