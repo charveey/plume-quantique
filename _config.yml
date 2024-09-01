@@ -95,7 +95,7 @@ translations:
 # Build settings
 markdown: kramdown
 highlighter: rouge
-permalink: /:title/
+permalink: /:slug/
 collections:
   authors:
     output: true

@@ -15,6 +15,9 @@ import { deleteAsync } from "del";
 import fs from "fs";
 import jsonSass from "json-sass";
 import source from "vinyl-source-stream";
+import replace from "gulp-replace";
+import tap from "gulp-tap";
+
 
 
 /**
@@ -198,6 +201,22 @@ function watch() {
   gulp.watch(['*.html', '_includes/*.html', '_layouts/*.html', '_posts/*', '_authors/*', 'pages/*', 'category/*'], gulp.series(config, jekyll, reload));
 }
 
+function slugify(filename) {
+  // Regex pour enlever la date (format YYYY-MM-DD) au début du nom de fichier
+  return filename.replace(/^\d{4}-\d{2}-\d{2}-/, '');          // Retire les tirets à la fin
+}
+
+function apiBuild() {
+  return gulp.src('_posts/*')
+    .pipe(replace(/layout\: post/, 'layout: json'))
+    .pipe(tap(function (file) {
+      const filename = file.stem; // Obtient le nom de fichier sans extension
+      const slug = slugify(filename).toLowerCase();
+      file.path = file.base + '/' + slug + '.md'; // Renomme le fichier avec le slug sans la date
+    }))
+    .pipe(gulp.dest('api/v1/'));
+}
+
 /**
  * Default Task
  *
@@ -208,7 +227,7 @@ function watch() {
  * - Compile the Jekyll site
  * - Launch BrowserSync & watch files
  */
-const run = gulp.series(gulp.parallel(js, theme, images), config, jekyll, gulp.parallel(server, watch));
+const run = gulp.series(gulp.parallel(js, theme, images), apiBuild, config, jekyll, gulp.parallel(server, watch));
 
 
 /**
@@ -220,6 +239,6 @@ const run = gulp.series(gulp.parallel(js, theme, images), config, jekyll, gulp.p
  * - Build the config file
  * - Compile the Jekyll site
  */
-const build = gulp.series(gulp.parallel(js, theme, images), config, jekyll);
+const build = gulp.series(gulp.parallel(js, theme, images), apiBuild, config, jekyll);
 
 export { run as default, build };

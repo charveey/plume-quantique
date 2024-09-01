@@ -1,0 +1,19 @@
+---
+layout: none
+---
+[
+  {%- for post in site.posts %}
+    {
+      "id":         {{- post.id | jsonify -}},
+      "title":      {{- post.title | jsonify }},
+      "excerpt":      {{- post.description | jsonify }},
+      "cover":      {{- post.optimized_image | jsonify }},
+      "author":      {{- post.author | jsonify }},
+      "date":       {{- post.date | jsonify }},
+      "url":        {{- post.url | relative_url | slugify | jsonify }},
+      "tags":       {{- post.tags | jsonify }},
+      "category": {{- post.category | jsonify }}
+    }
+    {% unless forloop.last %},{% endunless %}
+  {% endfor -%}
+]
