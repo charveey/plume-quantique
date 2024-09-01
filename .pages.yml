@@ -44,7 +44,7 @@ content:
         label: Image de couverture
         type: image
       - name: description
-        label: Description
+        label: Synopsis
         type: string
       - name: body
         label: Contenu
@@ -71,10 +71,11 @@ content:
   - name: authors
     label: Rédacteurs
     type: collection
+    icon: user-pen
     path: _authors
     fields:
       - name: name
-        label: Nom
+        label: Pseudonyme
         type: string
         required: true
       - name: bio
