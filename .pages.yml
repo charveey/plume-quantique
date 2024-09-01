@@ -92,31 +92,31 @@ content:
       - name: position
         label: Role
         type: string
-      - name: name
+      - name: twitter_username
         label: Pseudo Twitter
         type: string
-      - name: name
+      - name: github_username
         label: Pseudo Github
         type: string
-      - name: name
+      - name: facebook_username
         label: Pseudo Facebook
         type: string
-      - name: name
+      - name: instagram_username
         label: Pseudo Instagram
         type: string
-      - name: name
+      - name: linkedin_username
         label: Pseudo LinkedIn
         type: string
-      - name: name
+      - name: medium_username
         label: Pseudo Medium
         type: string
-      - name: name
+      - name: threads_username
         label: Pseudo Threads
         type: string
-      - name: name
+      - name: letterboxd_username
         label: Pseudo Letterboxd
         type: string
-      - name: name
+      - name: myanimelist_username
         label: Pseudo MyAnimeList
         type: string
       - name: bio
