@@ -54,6 +54,7 @@ content:
   - name: pages
     label: Pages
     type: collection
+    icon: layers
     path: pages
     view:
       fields: [title, description]
