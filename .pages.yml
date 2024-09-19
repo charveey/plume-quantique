@@ -1,0 +1,150 @@
+# Media configuration
+media:
+  input: assets/img/uploads
+  output: /assets/img/uploads
+  path: assets/img/uploads
+  extensions: [jpg, jpeg, png, gif, svg]
+
+# Content configuration
+content:
+  - name: posts
+    label: Articles
+    type: collection
+    path: _posts
+    icon: newspaper
+    view:
+      fields: [title, date, author, category]
+      primary: title
+      sort: [date, title, author]
+      default:
+        sort: date
+        order: desc
+    fields:
+      - name: layout
+        type: string
+        default: post
+        hidden: true
+      - name: image
+        label: Image de couverture
+        type: image
+      - name: title
+        label: Titre
+        type: string
+        required: true
+      - name: date
+        label: Date de publication
+        type: date
+        required: true
+      - name: author
+        label: Auteur
+        type: string
+        required: true
+      - name: category
+        label: Rubrique
+        type: select
+        options:
+          values: 
+          - value: actu
+            label: L'Œil Averti
+          - value: conseils
+            label: Le Clin d'Œil
+          - value: coup-de-gueule
+            label: L'Œil Irrité
+          - value: critiques
+            label: L'Œil Critique
+          - value: discussions
+            label: Œil pour Œil
+          - value: edito
+            label: L'Œil Avisé
+        required: true
+      - name: tags
+        label: Tags
+        type: string
+        list: true
+      - name: description
+        label: Synopsis
+        type: string
+      - name: paginate
+        label: Activer la pagination
+        type: boolean
+        default: false
+      - name: body
+        label: Contenu
+        type: rich-text
+
+  - name: pages
+    label: Pages
+    type: collection
+    icon: layers
+    path: pages
+    view:
+      fields: [title, description]
+    fields:
+      - name: title
+        label: Titre
+        type: string
+        required: true
+      - name: description
+        label: Description
+        type: string
+      - name: body
+        label: Contenu
+        type: rich-text
+
+  - name: authors
+    label: Rédacteurs
+    type: collection
+    icon: square-user
+    path: _authors
+    view:
+      primary: display_name
+    fields:
+      - name: avatar
+        label: Avatar
+        type: image
+      - name: name
+        label: Layout
+        type: string
+        default: author
+        hidden: True
+      - name: name
+        label: Pseudonyme
+        type: string
+        required: true
+      - name: display_name
+        label: Nom complet
+        type: string
+        required: true
+      - name: position
+        label: Role
+        type: string
+      - name: bio
+        label: Biographie
+        type: text
+      - name: twitter_username
+        label: Pseudo Twitter
+        type: string
+      - name: github_username
+        label: Pseudo Github
+        type: string
+      - name: facebook_username
+        label: Pseudo Facebook
+        type: string
+      - name: instagram_username
+        label: Pseudo Instagram
+        type: string
+      - name: linkedin_username
+        label: Pseudo LinkedIn
+        type: string
+      - name: medium_username
+        label: Pseudo Medium
+        type: string
+      - name: threads_username
+        label: Pseudo Threads
+        type: string
+      - name: letterboxd_username
+        label: Pseudo Letterboxd
+        type: string
+      - name: myanimelist_username
+        label: Pseudo MyAnimeList
+        type: string
