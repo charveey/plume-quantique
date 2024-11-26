@@ -1,5 +1,5 @@
 ---
-date: November 26, 2024 7:51 AM
+date: May 6, 2024 7:51 AM
 layout: post
 title: Le fils maudit de David Lynch
 description: NON vous ne rêvez pas, plongeons dans l'adaptation la plus
