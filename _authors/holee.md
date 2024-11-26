@@ -5,11 +5,11 @@ name: holee
 display_name: Olivier Bablé
 position: Me-Mania
 bio: J'aime le cinéma et Florence Pugh.
-twitter_username: s_olivier_b
-instagram_username: s_olivier_b
+twitter_username: solivierb_
+instagram_username: solivierb_
 linkedin_username: null
 medium_username: null
-threads_username: s_olivier_b
-letterboxd_username: ivorianpsycho
+threads_username: ""
+letterboxd_username: IvorianPsycho
 serializd_username: null
 ---
