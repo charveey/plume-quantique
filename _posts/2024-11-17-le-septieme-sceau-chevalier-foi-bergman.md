@@ -27,7 +27,7 @@ _« Je veux que Dieu me tende la main, qu’il me dévoile son visage et qu’il
 
 > _Est-il vraiment inconcevable qu'un homme parvienne à comprendre Dieu ? Pourquoi se cache-t-Il dans un nuage de pseudo-promesses et de miracles invisibles ? Comment peut-on croire au miracle de la Foi quand elle nous manque ? [...] Pourquoi je n'arrive pas à tuer Dieu en moi ? Pourquoi survit-Il en moi de cette façon humiliante, alors que je veux le chasser de mon cœur ?_
 
-Dans une scène clé, Antonius dévoile toute l’étendu de son tourment spirituel à la Mort, déguisée en prêtre. Ce moment dévoile toute la profondeur du dilemme spirituel d’Antonius : il ne cherche pas seulement à repousser sa mort, mais à comprendre le sens de son existence. Or, ce silence de Dieu face à ses interrogations le plonge dans ce qu’Albert Camus a appelé **l’Absurde**. Comme l’écrit Camus dans ***Le Mythe de Sisyphe*** : _"L'absurde naît de cette confrontation entre l'appel humain et le silence déraisonnable du monde."_ Nous cherchons désespérément un sens, mais le monde reste indifférent à nos attentes. Pour Antonius, ce silence divin est insupportable, et il oscille entre la quête de foi et un rejet désespéré de Dieu. Il l’exprime en ces termes :
+Dans une scène clé, Antonius dévoile toute l’étendue de son tourment spirituel à la Mort, déguisée en prêtre. Ce moment dévoile toute la profondeur du dilemme spirituel d’Antonius : il ne cherche pas seulement à repousser sa mort, mais à comprendre le sens de son existence. Or, ce silence de Dieu face à ses interrogations le plonge dans ce qu’Albert Camus a appelé **l’Absurde**. Comme l’écrit Camus dans ***Le Mythe de Sisyphe*** : _"L'absurde naît de cette confrontation entre l'appel humain et le silence déraisonnable du monde."_ Nous cherchons désespérément un sens, mais le monde reste indifférent à nos attentes. Pour Antonius, ce silence divin est insupportable, et il oscille entre la quête de foi et un rejet désespéré de Dieu. Il l’exprime en ces termes :
 > _À notre crainte il nous faut une image. Et cette image, nous l'appelons Dieu._
 
 Le paradoxe central du film peut se résumer ainsi : Antonius a besoin de foi pour renoncer à la raison, mais il sait qu’il ne pourra avoir foi tant qu’il ne renonce pas à la raison. Comment une personne rationnelle peut-elle alors accéder à une foi sincère ?
@@ -49,7 +49,7 @@ Ce qui pourrait être perçu comme un signe de faiblesse – le doute, la lutte 
 
 ![Quid de l'angoisse existentielle ?](https://res.cloudinary.com/dfqlcc1vj/image/upload/f_auto,q_auto/v1731888114/The%20Seventh%20Seal/12seventh_seal_iyvipy.jpg)
 
-> _« La vie n'est pas un problème à résoudre mais une réalité dont il faut faire l'expérience.[^2]»_
+> _« La vie n'est pas un problème à résoudre mais une réalité dont il faut faire l'expérience.[^2]»_
 
 En fin de compte, ***Le Septième Sceau*** explore la quête humaine de sens et de réconfort, suggérant que l’homme a besoin de croire en quelque chose de plus grand – en un amour transcendant ou en une providence divine – pour supporter l’angoisse de l’existence. En confrontant son protagoniste à sa propre mortalité, Bergman interroge la possibilité de trouver un sens authentique dans un univers souvent silencieux. La réponse, semble-t-il, ne se trouve pas dans la certitude intellectuelle, mais dans la capacité d’agir avec foi malgré nos doutes, d’embrasser le mystère plutôt que de chercher à le résoudre.
 
