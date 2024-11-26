@@ -24,7 +24,7 @@ C'est très impressionnant, mais ce n'est que de l'intrigue, des intrigues que n
 
 ## Chapitre 2 : L'apogée
 
-![Michael&fredo](https://res.cloudinary.com/dfqlcc1vj/image/upload/v1713963793/The%20Godfather/TGF%20II/39_20_1081_dziqve.jpg)
+![Michael & Fredo](https://res.cloudinary.com/dfqlcc1vj/image/upload/v1713963793/The%20Godfather/TGF%20II/39_20_1081_dziqve.jpg)
 
 Comment faire mieux que le Parrain premier du nom ? Impossible. Comment faire aussi bien ? En ramenant Robert De Niro dans sa suite directe, cette fois-ci Coppola va encore plus loin dans sa proposition en nous dévoilant non pas un, mais deux récits en parallèle explosant la barre des trois heures et quarts. D'un côté nous avons l'évolution de la famille Corleone plus puissante et fragile que jamais, de l'autre un flash-back de la Jeunesse de Vito, et de comment il devint Don Corleone. En effet, c'est le Taxi Driver en personne qui enfile le costume. L'invitation est plus que claire. Regardez et constatez par vous-même comment l'histoire se répète nous dit Maître Coppola. Si la simple proposition d'être l'une des quatre uniques œuvres qui comporte à la fois ces deux dieux de l'acting ne suffit pas à vous convaincre, je vous rassure cette suite fait honneur à son prédécesseur dans tous les aspects si caractéristiques de ce dernier.
 
