@@ -9,7 +9,7 @@ twitter_username: solivierb_
 instagram_username: solivierb_
 linkedin_username: null
 medium_username: null
-threads_username: ""
+threads_username: null
 letterboxd_username: IvorianPsycho
 serializd_username: null
 ---
