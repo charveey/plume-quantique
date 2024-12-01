@@ -63,7 +63,7 @@ In order to translate texts throughout the theme, create a `translations.yml` fi
 
 > **Note:** If you're using the `gem`, just add it into your `_config.yml`.
 
-```
+```yml
 translations:
   text:
     new_post: "New Post"
