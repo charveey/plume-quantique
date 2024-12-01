@@ -10,6 +10,7 @@ tags:
   - cinema
   - critique
 show_hero: true
+hero_categories: "edito,conseils,coup-de-gueule,critiques,discussions"
 menu:
   - title: Accueil
     url: /
