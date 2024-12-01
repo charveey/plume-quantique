@@ -18,6 +18,18 @@ layout: main
     {% if site.show_hero and paginator == nil or paginator.page == 1 %}
         <!-- Hero -->
         {% assign featured = posts.first %}
+        {% assign allowed_categories = site.hero_categories | split: "," %}
+        {% assign featured = nil %}
+        
+        {% for post in posts %}
+            {% assign post_category = post.categories.first %}
+            {% if allowed_categories contains post_category %}
+                {% assign featured = post %}
+                {% break %}
+            {% endif %}
+        {% endfor %}
+        
+        {% if featured %}
         <section class="hero" style="background-image: url({{ featured.image }})">
             <div class="pixels"></div>
             <div class="gradient"></div>
@@ -43,6 +55,7 @@ layout: main
                 </div>
             </div>
         </section>
+        {% endif %}
     {% endif %}
     <!-- Posts -->
     <section id="grid" class="row flex-grid">
