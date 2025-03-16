@@ -2,11 +2,9 @@
 date: March 16, 2025 1:49 PM
 layout: post
 title: Neon Genesis Evangelion ou la quête perpétuelle de complémentarité
-description: Lors de sa sortie originale, il fut acclamé comme une révolution,
-  et 25 ans plus tard, il demeure tout aussi subversif, insidieux et crucial
-  qu'auparavant. Bien que je ne puisse pas prétendre comprendre pleinement
-  toutes ses subtilités, l’oeuvre de Hideaki Anno m'a indéniablement marquée par
-  sa façon d’aborder l’individualité et la nature du soi.
+description: Lors de sa sortie originale, la série fut acclamée comme une
+  révolution, et 29 ans plus tard, l'œuvre de Hideaki Anno demeure tout aussi
+  subversive, insidieuse et cruciale qu'auparavant.
 image: https://res.cloudinary.com/dfqlcc1vj/image/upload/c_scale,f_auto,q_auto/v1742126211/Neon%20Genesis%20Evangelion/end-of-evangelion-review_fan2lj.webp
 category: edito
 tags:
