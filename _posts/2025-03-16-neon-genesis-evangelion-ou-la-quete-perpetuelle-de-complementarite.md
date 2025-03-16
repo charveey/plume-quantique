@@ -1,7 +1,7 @@
 ---
 date: March 16, 2025 1:49 PM
 layout: post
-title: Neon Genesis Evangelion ou la quete perpetuelle de complementarite
+title: Neon Genesis Evangelion ou la quête perpétuelle de complémentarité
 description: Lors de sa sortie originale, il fut acclamé comme une révolution,
   et 25 ans plus tard, il demeure tout aussi subversif, insidieux et crucial
   qu'auparavant. Bien que je ne puisse pas prétendre comprendre pleinement
