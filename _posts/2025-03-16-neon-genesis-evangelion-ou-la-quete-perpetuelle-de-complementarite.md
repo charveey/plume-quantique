@@ -1,7 +1,7 @@
 ---
 date: March 16, 2025 1:49 PM
 layout: post
-title: Neon Genesis Evangelion ou le dilemme du soi face à la complémentarité
+title: Neon Genesis Evangelion ou le dilemme du soi en quête de complétude
 description: Lors de sa sortie originale, la série fut acclamée comme une
   révolution, et 29 ans plus tard, l'œuvre de Hideaki Anno demeure tout aussi
   subversive, insidieuse et cruciale qu'auparavant.
