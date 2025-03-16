@@ -2,7 +2,6 @@
 
 import gulp from "gulp";
 import concat from "gulp-concat";
-import imagemin from "gulp-imagemin";
 import include from "gulp-include";
 import plumber from "gulp-plumber";
 import rename from "gulp-rename";
@@ -163,15 +162,18 @@ const js = gulp.parallel(mainJs, previewJs);
  * 
  * All images are optimized and copied to assets folder.
  */
-function images() {
+gulp.task("optimize", async () => {
+  const imagemin = (await import("gulp-imagemin")).default;
   notify('Copying image files...');
-  return gulp.src([ 'src/img/**/*.{jpg,png,gif,svg}' ], {
-    encoding: false,
-    })
+  return gulp
+    .src([ 'src/img/**/*.{jpg,png,gif,svg}' ], {
+      encoding: false,
+      })
     .pipe(plumber())
     .pipe(imagemin({ optimizationLevel: 5, progressive: true, interlaced: true }))
-    .pipe(gulp.dest('assets/img/'));
-}
+    .pipe(gulp.dest("assets/img/"));
+});
+
 
 /**
  * Watch Task
@@ -195,7 +197,7 @@ function watch() {
   gulp.watch('src/js/preview/**/*.js', gulp.series(previewJs, reload));
 
   // Watch images for changes, optimize & recompile
-  gulp.watch('src/img/**/*', gulp.series(images, config, jekyll, reload));
+  gulp.watch('src/img/**/*', gulp.series("optimize", config, jekyll, reload));
 
   // Watch html/md files, rebuild config, run Jekyll & reload BrowserSync
   gulp.watch(['*.html', '_includes/*.html', '_layouts/*.html', '_posts/*', '_authors/*', 'pages/*', 'category/*'], gulp.series(config, jekyll, reload));
@@ -227,7 +229,7 @@ function apiBuild() {
  * - Compile the Jekyll site
  * - Launch BrowserSync & watch files
  */
-const run = gulp.series(gulp.parallel(js, theme, images), apiBuild, config, jekyll, gulp.parallel(server, watch));
+const run = gulp.series(gulp.parallel(js, theme, "optimize"), apiBuild, config, jekyll, gulp.parallel(server, watch));
 
 
 /**
@@ -239,6 +241,6 @@ const run = gulp.series(gulp.parallel(js, theme, images), apiBuild, config, jeky
  * - Build the config file
  * - Compile the Jekyll site
  */
-const build = gulp.series(gulp.parallel(js, theme, images), apiBuild, config, jekyll);
+const build = gulp.series(gulp.parallel(js, theme, "optimize"), apiBuild, config, jekyll);
 
 export { run as default, build };
