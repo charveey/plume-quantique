@@ -18,7 +18,7 @@ Nous sommes en l’an 2015, l’humanité vient de frôler l’extinction suite 
 
 - - -
 
-Il y a quelques semaines de cela, j'ai terminé mon premier visionnage de ***Neon Genesis Evangelion***. Bien que je ne puisse pas prétendre comprendre pleinement toutes ses subtilités, l’oeuvre de Hideaki Anno m'a indéniablement marquée par sa façon d’aborder l’individualité et la nature du soi. Mon intention initiale était de rédiger une analyse de personnage des protagonistes de la série, mais j’ai finalement opté pour une approche beaucoup plus personnelle, en mettant en parallèle les démons intérieurs des personnages d'Evangelion avec mes propres angoisses.
+Il y a à peu près un an de cela, j'ai terminé mon premier visionnage de ***Neon Genesis Evangelion***. Bien que je ne puisse pas prétendre comprendre pleinement toutes ses subtilités, l’oeuvre de Hideaki Anno m'a indéniablement marquée par sa façon d’aborder l’individualité et la nature du soi. Mon intention initiale était de rédiger une analyse de personnage des protagonistes de la série, mais j’ai finalement opté pour une approche beaucoup plus personnelle, en mettant en parallèle les démons intérieurs des personnages d'Evangelion avec mes propres angoisses.
 
 À travers cette lentille personnelle, la série se révèle être un miroir de la condition humaine, capable de résonner avec chacun par la force de ses cicatrices, qu'elles soient physiques ou psychologiques. Dans un univers où chacun lutte contre la solitude, la peur et le désespoir, Evangelion offre un écho, parfois douloureux, à nos expériences les plus intimes.
 
@@ -42,7 +42,7 @@ L'oeuvre de Anno répresente ce processus de fusion des âmes sous la forme d'un
 
 ![Exister malgré tout](https://res.cloudinary.com/dfqlcc1vj/image/upload/c_scale,f_auto,q_auto/v1742155248/Neon%20Genesis%20Evangelion/eva-title-4_udobbs.png "Exister malgré tout") *Chapitre final : Exister malgré tout*
 
->Tant qu'on a la volonté de vivre, n'importe où peut être un paradis. — <sub>**The End of Evangelion (1997).**<sub>
+> Tant qu'on a la volonté de vivre, n'importe où peut être un paradis. — <sub>**The End of Evangelion (1997).**<sub>
 
 À la fin de mon visionnage, j’ai été confronté à une vérité amère : celle de l’absurde, ce gouffre qu’Albert Camus définit comme l’affrontement entre notre quête de sens et un monde qui n’en a aucun. Une fois cette contradiction révélée, il est impossible de revenir en arrière. C’est ce dilemme que les personnages d’Evangelion cherchent désespérément à résoudre : comment exister autrement que dans la douleur, comment donner un sens à une existence marquée par la solitude et la peur du rejet ?
 
