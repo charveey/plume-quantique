@@ -1,7 +1,7 @@
 ---
 date: August 8, 2025 1:04 AM
 layout: post
-title: "Taste of Cherry : l’espoir au creux du désespoir"
+title: "Taste of Cherry : il ne faut qu'une mûre pour être heureux"
 description: Taste of cherry
 category: edito
 author: charveey
@@ -26,7 +26,7 @@ Cette économie d’informations rend Badii d’autant plus universel. L’absen
 
 C’est là l’une des forces du film : ne pas instrumentaliser la souffrance de son protagoniste. Camus écrivait que « l’absurde naît de cette confrontation entre l’appel humain et le silence déraisonnable du monde ». Taste of Cherry illustre cette tension : Badii ne cherche pas tant à expliquer sa décision qu’à la faire entendre, à trouver un témoin qui accepte sans comprendre.
 
-## L’ordinaire comme antidote
+## Il ne faut qu'une mûre pour être heureux ?
 
 > *J'étais parti pour me suicider, je suis revenu avec des mûres. Une mûre m'a sauvé la vie...*
 
@@ -37,19 +37,17 @@ Ici, l’espoir ne se manifeste pas par un miracle, mais par l’attention au mi
 
 Bagheri précise que les mûres, le lever du soleil, les enfants existaient déjà dans sa vie. Ce qui a changé, ce n’est pas le monde, mais son regard. Le film traduit cette idée par un basculement visuel : jusque-là dominée par les teintes ocres et la sécheresse des paysages, l’image s’enrichit soudain de verdure et de couleurs.
 
-## L’énigme comme horizon
+## Habiter l'incertitude de l'existence ?
 
-*Taste of Cherry* n’offre pas de résolution. La dernière image ne dit pas si Badii a survécu ou non. Cette ambiguïté n’est pas un artifice, elle est la conséquence logique de la démarche du film :. Kiarostami ne cherche pas à résoudre l’énigme, mais à nous apprendre à l’habiter.
+*Taste of Cherry* n’offre pas de résolution. La dernière image ne dit pas si Badii a survécu ou non. Cette ambiguïté n’est pas un artifice, elle est la conséquence logique de la démarche du film : Kiarostami ne cherche pas à résoudre l’énigme, mais à nous apprendre à l’habiter.
 
 Cette approche rejoint une tradition philosophique où le sens n’est pas donné mais cherché. Chez Camus, par exemple, l’absurde naît de cette confrontation entre notre désir de clarté et l’opacité du monde. Face à cet écart, deux attitudes s’offrent : exiger une réponse définitive, ou accepter de marcher dans le brouillard. *Taste of Cherry* choisit la seconde.
 
 En cela, le film se rapproche plus d’une méditation que d’un récit traditionnel. Kiarostami nous convie à marcher dans le silence avec ses personnages, à accepter de ne pas tout savoir, et à découvrir que l’absence de réponse est parfois la réponse elle-même.
 
-## Goûter à la cerise
+## Don't worry, be happy
 
-La cerise du titre n’est pas un symbole forcé de renaissance. Ce que Kiarostami semble nous dire, c’est qu’au cœur du désespoir, il reste toujours, peut-être, une cerise à goûter. Une rencontre, un parfum d’air frais, la saveur d’un fruit mûr : autant de détails qui ne résolvent pas la détresse, mais qui laissent entrouverte la porte de la vie.
+Ce que Kiarostami semble nous dire, c’est qu’au cœur du désespoir, il reste toujours, peut-être, une cerise à goûter. Une rencontre, un parfum d’air frais, la saveur d’un fruit mûr : autant de détails qui ne résolvent pas la détresse, mais qui laissent entrouverte la porte de la vie.
 
-Kiarostami ne promet pas que cela suffira à sauver qui que ce soit. Mais il rappelle que, parfois, c'est assez pour faire hésiter, pour offrir un sursis. Et qu'au fond, vivre se joue peut-être dans ces moments suspendus, quand une simple cerise a le pouvoir de retenir un homme sur le seuil.
-
-Taste of Cherry, Palme d'Or à Cannes en 1997, reste l'un des sommets du cinéma contemporain : un film qui ose la lenteur dans un monde d'impatience, qui choisit les questions plutôt que les réponses, et qui trouve dans cette retenue sa plus grande force.
+Kiarostami ne promet pas que cela suffira à sauver qui que ce soit. Mais il rappelle que, parfois, c'est assez pour faire hésiter, pour offrir un sursis. Et qu'au fond, vivre se joue peut-être dans ces moments suspendus, quand une simple cerise a le pouvoir de retenir un homme sur le seuil. C'est en cela que le film, malgré son sujet, se révèle être une ode à la vie, un rappel que l'espoir ne se trouve pas dans les grandes certitudes, mais dans la révérence accordée à chaque instant qui nous est donné.
 
