@@ -16,23 +16,27 @@ La première fois que je l’ai vu, j’ai eu l’impression d’entrer dans un 
 > *Tu peux compatir, me comprendre, m'exprimer de la compassion. Mais ressentir ma douleur ? Non.*
 
 
-Kiarostami refuse obstinément de nous livrer les raisons de ce geste. Pas de cause à effet, pas de justification psychologique. En refusant de réduire le désespoir de Badii à une cause identifiable, à un événement précis, il le rend étrangement universel et rejoint les préoccupations de l'existentialisme contemporain. Le film parle à ce que chacun porte de plus intime : l’énigme de vivre, et parfois, l’impossibilité d’en supporter le poids. Nous n’avons pas tous connu le point de rupture qui pousse à creuser sa propre tombe, mais nous avons tous frôlé cette lassitude existentielle, cette fatigue qui vide les gestes de leur sens.
+Kiarostami ne donne jamais la raison du projet de Badii. Pas de cause à effet, pas d’explication psychologique. Ce silence préserve l’énigme et élargit la portée de son désespoir. En refusant de réduire le désespoir de Badii à une cause identifiable, à un événement précis, il le rend étrangement universel et rejoint les préoccupations de l'existentialisme contemporain. Le film parle à ce que chacun porte de plus intime : nous n’avons pas tous creusé notre tombe, mais qui n’a pas ressenti, ne serait-ce qu’un instant, cette lassitude qui vide les gestes de leur sens ?
 
-Les conversations avec ses trois interlocuteurs sont filmées selon un découpage rigoureux : champ-contrechamp où l'on ne voit jamais les deux personnages dans le même plan. Cette fragmentation visuelle traduit l'isolement fondamental de Badii, tout en créant une intimité paradoxale avec le spectateur, seul témoin de cette confession éclatée.
+Les conversations avec ses trois interlocuteurs sont filmées dans un découpage strict en champ-contrechamp. On ne voit jamais les deux personnages dans le même plan, comme si chaque échange confirmait l’isolement fondamental de Badii. En même temps, cette fragmentation crée une intimité paradoxale avec le spectateur, seul à rassembler les morceaux de cette confession éclatée.
 
-C’est là l’une des forces du film : ne pas instrumentaliser la souffrance en la liant à un drame passé ou à une injustice précise. La douleur de Badii devient celle de l’humanité face au poids de vivre, à ces jours où la lumière peine à franchir la surface.
+C’est là l’une des forces du film : ne pas instrumentaliser la souffrance de son protagoniste. Camus écrivait que « l’absurde naît de cette confrontation entre l’appel humain et le silence déraisonnable du monde ». Taste of Cherry illustre cette tension : Badii ne cherche pas tant à expliquer sa décision qu’à la faire entendre, à trouver un témoin qui accepte sans comprendre.
 
 ## L’ordinaire comme antidote
 
 > *J'étais parti pour me suicider, je suis revenu avec des mûres. Une mûre m'a sauvé la vie...*
 
-Dans sa dernière rencontre, Badii écoute un vieil homme raconter comment le goût inattendu d’une mûre cueillie au petit matin l’avait détourné de son projet suicidaire. On pourrait y voir une anecdote anodine, presque naïve. Mais chez Kiarostami, cet épisode n’a rien d’anecdotique : il est le cœur du film. Cette séquence, la plus longue du film, brise le rythme contemplatif pour installer une temporalité différente, celle de la transmission. Le vieillard évoque ses enfants, ses petits-enfants, les changements de saison, inscrivant la tentation suicidaire dans la durée cyclique de la vie. La caméra s'attarde alors sur son visage buriné, filmé en lumière naturelle.
 
-L’espoir, ici, n’est pas un miracle spectaculaire ni un retournement hollywoodien : il naît dans l’attention portée au minuscule, au presque rien. La mise en scène épouse cette simplicité : plans longs, paysages dépouillés, gestes ordinaires. Comme pour nous dire que la vie, parfois, ne nous retient pas par des certitudes, mais par de minuscules accroches qui se révèlent au moment où l’on pensait tout perdre. Kiarostami nous rappelle que la beauté du monde ne s’impose pas toujours avec éclat, parfois elle chuchote.
+
+---
+
+Dans sa dernière rencontre, Badii écoute un vieil homme raconter comment le goût inattendu d’une mûre cueillie au petit matin l’avait détourné de son projet suicidaire. On pourrait y voir une anecdote anodine, presque naïve. Mais chez Kiarostami, cet épisode n’a rien d’anecdotique : il est le cœur du film. Cette séquence, la plus longue du film, brise le rythme contemplatif pour installer une temporalité différente, celle de la transmission. La caméra s’attarde sur son visage buriné, éclairé par la lumière naturelle, comme si elle enregistrait la patine du temps. Le vieillard évoque ses enfants, ses petits-enfants, les changements de saison, inscrivant la tentation suicidaire dans le cycle plus vaste de la vie.
+
+Ici, l’espoir ne se manifeste pas par un miracle, mais par l’attention au minuscule. Une sensation, un goût, un geste. La mise en scène épouse cette simplicité : plans longs, paysages dépouillés, gestes ordinaires. Kiarostami nous rappelle que la beauté du monde ne s’impose pas toujours avec éclat, parfois elle chuchote. La vie ne nous retient pas toujours par de grandes certitudes, mais par ces accroches infimes qui surgissent au moment où l’on pensait tout perdre.
 
 ## L’énigme comme horizon
 
-*Taste of Cherry* n’offre pas de résolution. La dernière image ne dit pas si Badii a survécu ou non. Cette ambiguïté n’est pas un artifice : elle est la conséquence logique de la démarche du film. Kiarostami ne cherche pas à résoudre l’énigme, mais à nous apprendre à l’habiter.
+*Taste of Cherry* n’offre pas de résolution. La dernière image ne dit pas si Badii a survécu ou non. Cette ambiguïté n’est pas un artifice, elle est la conséquence logique de la démarche du film :. Kiarostami ne cherche pas à résoudre l’énigme, mais à nous apprendre à l’habiter.
 
 Cette approche rejoint une tradition philosophique où le sens n’est pas donné mais cherché. Chez Camus, par exemple, l’absurde naît de cette confrontation entre notre désir de clarté et l’opacité du monde. Face à cet écart, deux attitudes s’offrent : exiger une réponse définitive, ou accepter de marcher dans le brouillard. *Taste of Cherry* choisit la seconde.
 
