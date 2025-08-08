@@ -1,5 +1,5 @@
 ---
-date: trueTtrue
+date: August 8, 2025 12:57 AM
 layout: post
 title: Le frère cadet du film d'action
 subtitle: ""
