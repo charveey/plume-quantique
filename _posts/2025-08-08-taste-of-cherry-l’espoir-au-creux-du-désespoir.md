@@ -16,15 +16,17 @@ La première fois que je l’ai vu, j’ai eu l’impression d’entrer dans un 
 > *Tu peux compatir, me comprendre, m'exprimer de la compassion. Mais ressentir ma douleur ? Non.*
 
 
-Kiarostami refuse obstinément de nous livrer les raisons de ce geste. Pas de cause à effet, pas de justification psychologique. En refusant de réduire le désespoir de Badii à une cause identifiable, à un événement précis, il le rend étrangement universel. Le film parle à ce que chacun porte de plus intime : l’énigme de vivre, et parfois, l’impossibilité d’en supporter le poids. Nous n’avons pas tous connu le point de rupture qui pousse à creuser sa propre tombe, mais nous avons tous frôlé cette lassitude existentielle, cette fatigue qui vide les gestes de leur sens.
+Kiarostami refuse obstinément de nous livrer les raisons de ce geste. Pas de cause à effet, pas de justification psychologique. En refusant de réduire le désespoir de Badii à une cause identifiable, à un événement précis, il le rend étrangement universel et rejoint les préoccupations de l'existentialisme contemporain. Le film parle à ce que chacun porte de plus intime : l’énigme de vivre, et parfois, l’impossibilité d’en supporter le poids. Nous n’avons pas tous connu le point de rupture qui pousse à creuser sa propre tombe, mais nous avons tous frôlé cette lassitude existentielle, cette fatigue qui vide les gestes de leur sens.
 
-C’est là l’une des forces du film : ne pas instrumentaliser la souffrance en la liant à un drame passé ou à une injustice précise. La douleur de Badii devient celle de l’humanité face au poids de vivre, à ces jours où la lumière peine à franchir la surface.s.
+Les conversations avec ses trois interlocuteurs sont filmées selon un découpage rigoureux : champ-contrechamp où l'on ne voit jamais les deux personnages dans le même plan. Cette fragmentation visuelle traduit l'isolement fondamental de Badii, tout en créant une intimité paradoxale avec le spectateur, seul témoin de cette confession éclatée.
+
+C’est là l’une des forces du film : ne pas instrumentaliser la souffrance en la liant à un drame passé ou à une injustice précise. La douleur de Badii devient celle de l’humanité face au poids de vivre, à ces jours où la lumière peine à franchir la surface.
 
 ## L’ordinaire comme antidote
 
 > *J'étais parti pour me suicider, je suis revenu avec des mûres. Une mûre m'a sauvé la vie...*
 
-Dans sa dernière rencontre, Badii écoute un vieil homme raconter comment le goût inattendu d’une mûre cueillie au petit matin l’avait détourné de son projet suicidaire. On pourrait y voir une anecdote anodine, presque naïve. Mais chez Kiarostami, cet épisode n’a rien d’anecdotique : il est le cœur du film.
+Dans sa dernière rencontre, Badii écoute un vieil homme raconter comment le goût inattendu d’une mûre cueillie au petit matin l’avait détourné de son projet suicidaire. On pourrait y voir une anecdote anodine, presque naïve. Mais chez Kiarostami, cet épisode n’a rien d’anecdotique : il est le cœur du film. Cette séquence, la plus longue du film, brise le rythme contemplatif pour installer une temporalité différente, celle de la transmission. Le vieillard évoque ses enfants, ses petits-enfants, les changements de saison, inscrivant la tentation suicidaire dans la durée cyclique de la vie. La caméra s'attarde alors sur son visage buriné, filmé en lumière naturelle.
 
 L’espoir, ici, n’est pas un miracle spectaculaire ni un retournement hollywoodien : il naît dans l’attention portée au minuscule, au presque rien. La mise en scène épouse cette simplicité : plans longs, paysages dépouillés, gestes ordinaires. Comme pour nous dire que la vie, parfois, ne nous retient pas par des certitudes, mais par de minuscules accroches qui se révèlent au moment où l’on pensait tout perdre. Kiarostami nous rappelle que la beauté du monde ne s’impose pas toujours avec éclat, parfois elle chuchote.
 
@@ -40,4 +42,7 @@ En cela, le film se rapproche plus d’une méditation que d’un récit traditi
 
 La cerise du titre n’est pas un symbole forcé de renaissance. Ce que Kiarostami semble nous dire, c’est qu’au cœur du désespoir, il reste toujours, peut-être, une cerise à goûter. Une rencontre, un parfum d’air frais, la saveur d’un fruit mûr : autant de détails qui ne résolvent pas la détresse, mais qui laissent entrouverte la porte de la vie.
 
-Kiarostami ne promet pas que cela suffira à sauver qui que ce soit. Mais il rappelle que, parfois, c’est assez pour faire hésiter, pour offrir un sursis. Et qu’au fond, vivre se joue peut-être dans ces moments suspendus, quand une simple cerise a le pouvoir de retenir un homme sur le seuil.
+Kiarostami ne promet pas que cela suffira à sauver qui que ce soit. Mais il rappelle que, parfois, c'est assez pour faire hésiter, pour offrir un sursis. Et qu'au fond, vivre se joue peut-être dans ces moments suspendus, quand une simple cerise a le pouvoir de retenir un homme sur le seuil.
+
+Taste of Cherry, Palme d'Or à Cannes en 1997, reste l'un des sommets du cinéma contemporain : un film qui ose la lenteur dans un monde d'impatience, qui choisit les questions plutôt que les réponses, et qui trouve dans cette retenue sa plus grande force.
+
