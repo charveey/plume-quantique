@@ -8,19 +8,17 @@ category: edito
 author: charveey
 paginate: false
 ---
-Il y a des films qui ne se contentent pas de raconter une histoire : ils s’installent en vous comme une respiration lente, une route qui s’étire à perte de vue. *Taste of Cherry* (1997) d’Abbas Kiarostami est de ceux-là.
-
-La première fois que je l’ai vu, j’ai eu l’impression d’entrer dans un après-midi sans fin : un ciel blanchi par le soleil, des collines arides, le ronronnement monotone d’un moteur. M. Badii est au volant. Il roule depuis on ne sait quand, peut-être depuis toujours. Sa demande est simple, presque administrative : il cherche quelqu’un qui, demain matin, viendra vérifier s’il est mort, et, le cas échéant, l’enterrera sous un cerisier. Ce point de départ minimaliste, presque absurde, ouvre un champ d’interprétation immense. Car le film ne s’attarde pas sur les causes du geste (aucun flashback, aucune explication) mais sur le trajet, les visages rencontrés, et ce qu’ils révèlent du rapport que nous entretenons avec la vie et la mort.
-
-Dès les premières séquences, Kiarostami joue avec la notion de contexte. Nous voyons Badii conduire, s’arrêter, observer, repartir. Ses intentions sont floues, presque inquiétantes. Ce n’est que plus tard que l’on comprend l’objet de sa quête. Comme le spectateur, les personnes qu’il croise réagissent sans disposer de toutes les informations, et chaque nouvel élément modifie notre perception de ce que nous avons déjà vu.
+Aux abords arides de Téhéran, un homme conduit sans hâte, scrutant le paysage à la recherche de quelqu’un prêt à accomplir une demande pour le moins inhabituelle. M. Badii, comme il se présente, a décidé de mettre fin à ses jours dans la nuit. Il lui faut simplement une personne qui, le lendemain matin, viendra vérifier s’il est mort et, le cas échéant, l’ensevelira dans une fosse peu profonde, sous un cerisier...
 
 ![Highway to pain](https://res.cloudinary.com/dfqlcc1vj/image/upload/c_scale,f_auto,q_auto/v1754767246/Taste%20of%20Cherry/Taste_of_Cherry_05_orkjbz.jpg "Highway to pain") *Highway to pain*
 
 > *Vous pouvez compatir, comprendre, montrer de l'empathie. Mais ressentir ma douleur ? Non.*
 
-Cette économie d’informations rend Badii d’autant plus universel. L’absence de passé détaillé ne crée pas une distance, mais une ouverture : chacun peut projeter sur lui ses propres blessures ou épuisements. Ce que nous ne savons pas sur lui nous appartient presque.
+Ce point de départ minimaliste, presque absurde, ouvre un champ d’interprétation immense. Le film ne s’attarde pas sur les motivations du protagoniste (aucun flashback, aucune explication) mais sur le trajet, les visages croisés, et ce qu’ils révèlent de notre rapport à la vie et à la mort. Dès les premières séquences, Kiarostami joue avec la notion de contexte. Nous voyons Badii conduire, s’arrêter, observer, repartir. Ses intentions sont floues, presque inquiétantes. Ce n’est que plus tard que l’on comprend l’objet de sa quête. Comme le spectateur, les personnes qu’il rencontre réagissent sans disposer de toutes les informations, et chaque nouvel élément reconfigure ce que nous pensions avoir compris.
 
-C’est là l’une des forces du film : ne pas instrumentaliser la souffrance de son protagoniste. Camus écrivait que « l’absurde naît de cette confrontation entre l’appel humain et le silence déraisonnable du monde ». Taste of Cherry illustre cette tension : Badii ne cherche pas tant à expliquer sa décision qu’à la faire entendre, à trouver un témoin qui accepte sans comprendre.
+Cette économie d’informations rend Badii universel. L’absence de passé détaillé ne crée pas une distance, mais une ouverture : chacun peut projeter sur lui ses propres blessures ou épuisements. Ce que nous ignorons de lui devient, en un sens, nôtre.
+
+Kiarostami refuse d’instrumentaliser cette souffrance. Camus écrivait que « l’absurde naît de cette confrontation entre l’appel humain et le silence déraisonnable du monde ». _Taste of Cherry_ illustre cette tension : Badii ne cherche pas à justifier son choix, mais à trouver un témoin qui l’accepte sans comprendre.
 
 ![Il ne faut qu'une mûre pour être heureux ?](https://res.cloudinary.com/dfqlcc1vj/image/upload/c_scale,f_auto,q_auto/v1754767247/Taste%20of%20Cherry/Taste_of_Cherry_30_magqpr.jpg "Il ne faut qu'une mûre pour être heureux ?") *Il ne faut qu'une mûre pour être heureux ?*
 
