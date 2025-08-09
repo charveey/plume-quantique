@@ -2,10 +2,12 @@
 date: August 8, 2025 1:04 AM
 layout: post
 title: "Taste of Cherry: don't worry, be happy!"
-description: Taste of Cherry n’est pas seulement l’histoire d’un homme qui sonde
-  sa fin, c’est une invitation à sonder la nôtre.
+description: "Et si la vie ne tenait finalement qu'au goût d'une cerise ? "
 image: https://res.cloudinary.com/dfqlcc1vj/image/upload/c_scale,f_auto,q_auto/v1754767876/Taste%20of%20Cherry/Taste_of_Cherry_16_fixbs0.jpg
 category: edito
+tags:
+  - cinema
+  - kiarostami
 author: charveey
 paginate: false
 ---
