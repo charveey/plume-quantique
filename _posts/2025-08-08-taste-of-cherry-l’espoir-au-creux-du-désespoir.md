@@ -17,11 +17,9 @@ Aux abords arides de Téhéran, un homme conduit sans hâte, scrutant le paysage
 
 > *Vous pouvez compatir, comprendre, montrer de l'empathie. Mais ressentir ma douleur ? Non.*
 
-Ce point de départ minimaliste, presque absurde, ouvre un champ d’interprétation immense. Le film ne s’attarde pas sur les motivations du protagoniste (aucun flashback, aucune explication) mais sur le trajet, les visages croisés, et ce qu’ils révèlent de notre rapport à la vie et à la mort. Dès les premières séquences, ses intentions restent floues, presque inquiétantes. Comme le spectateur, les personnes qu’il rencontre réagissent sans disposer de toutes les informations, et chaque échange reconfigure notre compréhension.
+Kiarostami élude volontairement les explications psychologiques. Aucun flashback, aucune justification : le film se contente d'accompagner Badii sur sa route, de filmer les rencontres, d'observer ce qu'elles révèlent de notre rapport à la vie et à la mort. Dès les premières séquences, les intentions du protagoniste restent floues, presque inquiétantes. Comme le spectateur, les personnes qu’il rencontre réagissent sans disposer de toutes les informations, et chaque conversation apporte de nouveaux éléments sans jamais lever le voile complètement.
 
-Cette économie d’informations rend Badii universel. L’absence de passé détaillé ne crée pas une distance, mais une ouverture : chacun peut projeter sur lui ses propres blessures et démons. Ce que nous ignorons de lui devient, en un sens, nôtre.
-
-Kiarostami refuse d’instrumentaliser cette souffrance : Badii ne cherche pas à justifier son choix, mais à trouver un témoin qui l’accepte sans comprendre.
+Cette économie d’informations rend Badii universel. Son passé effacé ne l'éloigne pas de nous, au contraire : il nous invite à combler les blancs avec nos propres expériences. Nos blessures personnelles viennent habiter son silence. Kiarostami évite de faire du voyeurisme avec la détresse de son héros. Badii ne plaide pas sa cause, il cherche simplement quelqu'un qui acceptera sa demande sans exiger d'explications.
 
 ![Il ne faut qu'une mûre pour être heureux ?](https://res.cloudinary.com/dfqlcc1vj/image/upload/c_scale,f_auto,q_auto/v1754767247/Taste%20of%20Cherry/Taste_of_Cherry_30_magqpr.jpg "Il ne faut qu'une mûre pour être heureux ?") *Il ne faut qu'une mûre pour être heureux ?*
 
@@ -37,7 +35,7 @@ Les mûres, le lever du soleil, les enfants existaient déjà dans la vie de Bag
 
 > Vous devez changer de perspective pour changer le monde. Soyez optimiste.
 
-La dernière scène du film ne dit pas si Badii a survécu ou non. Cette ambiguïté n’est pas un artifice : elle découle de la démarche du film. Kiarostami ne cherche pas à résoudre l’énigme, mais à nous apprendre à l’habiter.
+Cette leçon de sagesse résonne-t-elle suffisamment pour détourner Badii de son projet ? Le film refuse de nous le dire. Cette ambiguïté n’est pas un artifice : elle découle de la démarche du film. Kiarostami ne cherche pas à résoudre l’énigme, mais à nous apprendre à l’habiter.
 
 Camus écrivait que « l’absurde naît de cette confrontation entre l’appel humain et le silence déraisonnable du monde ». Face à l’opacité du réel, deux voies s’offrent : exiger une réponse définitive, ou accepter de marcher dans le brouillard. _Taste of Cherry_ choisit la seconde.
 
