@@ -4,6 +4,7 @@ layout: post
 title: "Taste of Cherry: don't worry, be happy!"
 description: "Et si la vie ne tenait finalement qu'au goût d'une cerise ? "
 image: https://res.cloudinary.com/dfqlcc1vj/image/upload/c_scale,f_auto,q_auto/v1754767876/Taste%20of%20Cherry/Taste_of_Cherry_16_fixbs0.jpg
+optimized_image: https://res.cloudinary.com/dfqlcc1vj/image/upload/f_auto,q_auto,c_lfill,w_640,ar_16:9/v1754767876/Taste%20of%20Cherry/Taste_of_Cherry_16_fixbs0.jpg
 category: edito
 tags:
   - cinema
@@ -37,6 +38,6 @@ Les mûres, le lever du soleil, les enfants existaient déjà dans la vie de Bag
 
 Cette leçon de sagesse résonne-t-elle suffisamment pour détourner Badii de son projet ? Le film refuse de nous le dire. Cette ambiguïté n’est pas un artifice : elle découle de la démarche du film. Kiarostami ne cherche pas à résoudre l’énigme, mais à nous apprendre à l’habiter.
 
-Camus écrivait que « l’absurde naît de cette confrontation entre l’appel humain et le silence déraisonnable du monde ». Face à l’opacité du réel, deux voies s’offrent : exiger une réponse définitive, ou accepter de marcher dans le brouillard. _Taste of Cherry_ choisit la seconde.
+Camus écrivait que « l’absurde naît de cette confrontation entre l’appel humain et le silence déraisonnable du monde ». Face à l’opacité du réel, deux voies s’offrent : exiger une réponse définitive, ou accepter de marcher dans le brouillard. *Taste of Cherry* choisit la seconde.
 
 Kiarostami ne ferme pas le livre : il nous le tend, pour que nous y inscrivions notre propre réponse. Peut-être que la vie tient moins à ce qu’elle promet qu’aux gestes minuscules qui la traversent, à ces instants où, même face à l’absurde, nous choisissons d’être encore là, ne serait-ce qu’un jour de plus.
