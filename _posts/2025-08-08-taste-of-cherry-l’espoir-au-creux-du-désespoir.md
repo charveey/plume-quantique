@@ -20,7 +20,9 @@ Aux abords arides de Téhéran, un homme conduit sans hâte, scrutant le paysage
 
 Kiarostami élude volontairement les explications psychologiques. Aucun flashback, aucune justification : le film se contente d'accompagner Badii sur sa route, de filmer les rencontres, d'observer ce qu'elles révèlent de notre rapport à la vie et à la mort. Dès les premières séquences, les intentions du protagoniste restent floues, presque inquiétantes. Comme le spectateur, les personnes qu’il rencontre réagissent sans disposer de toutes les informations, et chaque conversation apporte de nouveaux éléments sans jamais lever le voile complètement.
 
-Cette économie d’informations rend Badii universel. Son passé effacé ne l'éloigne pas de nous, au contraire : il nous invite à combler les blancs avec nos propres expériences. Nos blessures personnelles viennent habiter son silence. Kiarostami évite de faire du voyeurisme avec la détresse de son héros. Badii ne plaide pas sa cause, il cherche simplement quelqu'un qui acceptera sa demande sans exiger d'explications.
+Les conversations avec ses trois interlocuteurs sont filmées en champ-contrechamp strict : elles ne montrent jamais les deux personnages ensemble. Cette séparation visuelle matérialise son isolement tout en créant une intimité troublante avec le spectateur, seul témoin capable de reconstituer le puzzle de cette confession éclatée. Kiarostami évite de faire du voyeurisme avec la détresse de son héros. Badii ne plaide pas sa cause, il cherche simplement quelqu'un qui acceptera sa demande sans exiger d'explications.
+
+Cette économie d’informations rend Badii universel. Son passé effacé ne l'éloigne pas de nous, au contraire : il nous invite à combler les blancs avec nos propres expériences. Nos blessures personnelles viennent habiter son silence.
 
 ![Il ne faut qu'une mûre pour être heureux ?](https://res.cloudinary.com/dfqlcc1vj/image/upload/c_scale,f_auto,q_auto/v1754767247/Taste%20of%20Cherry/Taste_of_Cherry_30_magqpr.jpg "Il ne faut qu'une mûre pour être heureux ?") *Il ne faut qu'une mûre pour être heureux ?*
 
