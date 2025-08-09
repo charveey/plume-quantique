@@ -14,7 +14,7 @@ La première fois que je l’ai vu, j’ai eu l’impression d’entrer dans un 
 
 Dès les premières séquences, Kiarostami joue avec la notion de contexte. Nous voyons Badii conduire, s’arrêter, observer, repartir. Ses intentions sont floues, presque inquiétantes. Ce n’est que plus tard que l’on comprend l’objet de sa quête. Comme le spectateur, les personnes qu’il croise réagissent sans disposer de toutes les informations, et chaque nouvel élément modifie notre perception de ce que nous avons déjà vu.
 
-![Highway to pain](https://res.cloudinary.com/dfqlcc1vj/image/upload/c_scale,f_auto,q_auto/v1754767246/Taste%20of%20Cherry/Taste_of_Cherry_05_orkjbz.jpg "Highway to pain")
+![Highway to pain](https://res.cloudinary.com/dfqlcc1vj/image/upload/c_scale,f_auto,q_auto/v1754767246/Taste%20of%20Cherry/Taste_of_Cherry_05_orkjbz.jpg "Highway to pain") *Highway to pain*
 
 > *Vous pouvez compatir, comprendre, montrer de l'empathie. Mais ressentir ma douleur ? Non.*
 
@@ -22,7 +22,7 @@ Cette économie d’informations rend Badii d’autant plus universel. L’absen
 
 C’est là l’une des forces du film : ne pas instrumentaliser la souffrance de son protagoniste. Camus écrivait que « l’absurde naît de cette confrontation entre l’appel humain et le silence déraisonnable du monde ». Taste of Cherry illustre cette tension : Badii ne cherche pas tant à expliquer sa décision qu’à la faire entendre, à trouver un témoin qui accepte sans comprendre.
 
-![Il ne faut qu'une mûre pour être heureux ?](https://res.cloudinary.com/dfqlcc1vj/image/upload/c_scale,f_auto,q_auto/v1754767247/Taste%20of%20Cherry/Taste_of_Cherry_30_magqpr.jpg "Il ne faut qu'une mûre pour être heureux ?")
+![Il ne faut qu'une mûre pour être heureux ?](https://res.cloudinary.com/dfqlcc1vj/image/upload/c_scale,f_auto,q_auto/v1754767247/Taste%20of%20Cherry/Taste_of_Cherry_30_magqpr.jpg "Il ne faut qu'une mûre pour être heureux ?") *Il ne faut qu'une mûre pour être heureux ?*
 
 > *J'étais parti pour me tuer, et je suis rentré avec des mûres. Une mûre m'a sauvé la vie.*
 
@@ -32,7 +32,7 @@ Ici, l’espoir ne se manifeste pas par un miracle, mais par l’attention au mi
 
 Bagheri précise que les mûres, le lever du soleil, les enfants existaient déjà dans sa vie. Ce qui a changé, ce n’est pas le monde, mais son regard. Le film traduit cette idée par un basculement visuel : jusque-là dominée par les teintes ocres et la sécheresse des paysages, l’image s’enrichit soudain de verdure et de couleurs.
 
-![Don't worry, be happy!](https://res.cloudinary.com/dfqlcc1vj/image/upload/c_scale,f_auto,q_auto/v1754767249/Taste%20of%20Cherry/Taste_of_Cherry_26_cwsegx.jpg "Don't worry, be happy!")
+![Don't worry, be happy!](https://res.cloudinary.com/dfqlcc1vj/image/upload/c_scale,f_auto,q_auto/v1754767249/Taste%20of%20Cherry/Taste_of_Cherry_26_cwsegx.jpg "Don't worry, be happy!") *Don't worry, be happy!*
 
 > Vous devez changer de perspective pour changer le monde. Soyez optimiste.
 
