@@ -27,7 +27,7 @@ Cette économie d’informations rend Badii universel. Son passé effacé ne l'�
 
 Dans sa dernière rencontre, Badii écoute un vieil homme, Bagheri (incarné par Abdolrahman Bagheri) raconter comment le goût inattendu d’une mûre cueillie au petit matin l’avait détourné de son projet suicidaire. L’anecdote, en apparence anodine, devient le cœur du film. La caméra s’attarde sur le visage buriné de l’homme, éclairé par la lumière naturelle, comme pour enregistrer la patine du temps. Le vieillard parle de ses enfants, de ses petits-enfants, des saisons qui passent, inscrivant la tentation suicidaire dans le cycle plus vaste de la vie.
 
-Ici, l’espoir ne se manifeste pas par un miracle, mais par l’attention au minuscule. Une sensation, un geste. La mise en scène épouse cette simplicité : plans longs, paysages dépouillés, gestes ordinaires. Kiarostami nous rappelle que la beauté du monde ne s’impose pas toujours avec éclat ; parfois elle chuchote.
+Ici, l’espoir ne se manifeste pas par un miracle, mais par la redécouverte de l'ordinaire. La mise en scène épouse cette simplicité : plans longs, paysages dépouillés, gestes ordinaires. Kiarostami nous rappelle que la beauté du monde ne s’impose pas toujours avec éclat ; parfois elle chuchote.
 
 Les mûres, le lever du soleil, les enfants existaient déjà dans la vie de Bagheri. Ce qui a changé, ce n’est pas le monde, mais son regard. Le film traduit cette idée par un basculement visuel : jusque-là dominée par les teintes ocres et la poussière des collines, l’image s’enrichit soudain de verdure et de couleurs.
 
