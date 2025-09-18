@@ -1,111 +1,118 @@
-# Changelog
+## [unreleased]
 
-All notable changes to this project will be documented in this file.
+### 📝 Articles
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
-and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+- New article Wings of Desire (1987)
+- New article The Seventh Seal (1957)
+- New article Evangelion
+- New article Taste of Cherry (1997)
 
-## [3.1.2] - 2022-09-27
+### 🚀 Features
 
-### Changed
+- Cloudinary image optimizations to all assets
+- Disabled google analytics"
+- Added facebook page
+- Staff page design update
+- Updated the contact page CSS
+- Normalized website logo size
+- Staff page layout improvements
+- Mobile layout optimization
+- Responsive layout optimization
+- JS script version bump
+- Staff page mobile layout tweak
+- Enable comments removal in HTML compress
+- Support for Metricool tracker
+- Added a check to conditionally display publications on authors page
+- Removed menu bar links from footer
+- Author page revamp
+- Removed staff picture border
+- *(node)* [**breaking**] Support for Gulp v5 #1
+- Added new button to like articles
+- *(api)* REST api implementation to integrate with an application and perform data scraping
+- Support for PagesCMS
+- Filter articles featured on home page
 
-- Moved documentation from wiki to repo
-- Bumped up NPM dependencies
-- Created this `CHANGELOG.md` file
-- Cleaned up the `README.md` file
+### 💼 Other
 
-## [3.1.1] - 2021-04-15
+- Card check if image url is absolute or relative (to add baseurl)
+- “about” deleted by olivierbable95
+- “2023-10-31-dans-les-entrailles-du-cinéma-hara-kiri-brise-ses-codes-dhonneur” deleted by Ibrahim.nouhounkoita
+- Justify author bio at the end of post
+- *(node)* Bump axios and browser-sync
+- *(node)* Bump gulp-imagemin from 9.0.0 to 9.1.0
+- *(node)* Follow-redirects from 1.15.2 to 1.15.6
+- *(node)* [**breaking**] Support for Gulp v5 #3
+- *(syntax)* Syntax fix
 
-### Changed
+### 🐛 Bug Fixes
 
-- Added `formspree_form_id` config
-- Bumped up dependencies
+- Post author photo position
+- Author picture placement
+- CSS fonts
+- Tweaked post layout
+- Staff page CSS tweaks
+- Tweaked authors order
+- CSS breakpoints update
+- CSS breakpoints update
+- Logo position on different layouts
+- Figcaption styling tweak
+- Reverted SmoothScroll to v7.1.1
+- Disabled metricool analytics
+- JSON-LD schemas
+- Authors page layout tweaks
+- Tweaked footer layout
+- *(node)* Support for Gulp v5 #2
+- Sitemap error
+- *(cms)* PagesCMS QoL
+- *(cms)* PagesCMS QoL improvements
+- *(comments)* Correctly formatting the date to be properly displayed in the comment thread
+- Authors profile photo update
+- Author info update: olivierbable95 updated Rédacteurs: “hole” (#62)
+- *(node)* [**breaking**] Add support for node 22.x
 
-### Fixed
+### 🚜 Refactor
 
-- Fixed minor bugs
+- Reading time estimation logic
 
-## [3.1.0] - 2020-04-02
+### 📚 Documentation
 
-### Added
+- Documentation cleanup
 
-- Added MathJax library to render math expressions, thanks to [@XieGuochao](https://github.com/XieGuochao)
+### 🎨 Styling
 
-### Changed
+- Formating fixes
+- *(css)* Minor CSS tweaks
+- *(post)* Minor editorial edits
+- *(post)* Syntax fix
+- *(post)* Minor editorial fixes
 
-- Updated Google Analytics script, thanks to [@JHLeeeMe](https://github.com/JHLeeeMe)
+### ⚙️ Miscellaneous Tasks
 
-### Fixed
-
-- Fixed hero URL, thanks to [@JoelSalzesson](https://github.com/JoelSalzesson)
-
-## [3.0.2] - 2020-02-05
-
-### Fixed
-
-- Added assets folder
-
-## [3.0.1] - 2020-02-05
-
-### Fixed
-
-- Fixed post SVG icons
-
-## [3.0.0] - 2020-02-05
-
-### Added
-
-- Created theme `gem`
-- Enabled text translations
-- Added heading anchor links
-
-### Changed
-
-- Changed code highlight colors
-- Changed from Stylus to SASS
-
-## [2.0.1] - 2020-01-30
-
-### Changed
-
-- Optimized to support disabled JS
-
-### Fixed
-
-- Fixed bugs
-
-## [2.0.0] - 2019-08-24
-
-### Added
-
-- Added optional [sidebar](docs/features.md#posts-sidebar)
-- Added optional [Featured post](docs/features.md#featured-post)
-- Added optional ["Before you go" modal](docs/features.md#before-you-go-modal)
-- Added optional [post pagination](docs/features.md#paginated-posts)
-- Added [post recommendation](docs/features.md#post-recommendation)
-- Added meta keywords to improve SEO
-- Added JSON-LD to improve SEO
-- Set up [Netlify CMS](docs/features.md#netlify-cms-ready)
-
-### Changed
-
-- Changed pagination to be [optional](docs/features.md#home-page-pagination)
-- Improved [Tags page](docs/features.md#tags-page)
-- Cleaned up and improved [Front Matter properties](docs/post.md#front-matter-properties)
-- Improved customization settings
-- Minor design updates
-
-## [1.0.1] - 2019-08-16
-
-### Changed
-
-- Upgraded to Gulp 4
-
-### Fixed
-
-- Fixed bugs
-
-## [1.0.0] - 2019-08-16
-
-- Initial release
-
+- CSS optimisation
+- Updated LinkedIn username
+- Assets optimizations
+- Robot.txt file update
+- Updated DecapCMS to v3.1.10
+- Bump Jekyll-compress to v3.2.0
+- *(ruby)* Added webrick as dependency
+- _config.yml update
+- Bumped ruby version
+- Node deps version bump
+- Code cleanup
+- *(cms)* Config update
+- *(cms)* Config update
+- *(cms)* Config update
+- *(cms)* Config update
+- *(cms)* Config update
+- *(cms)* Config update
+- *(cms)* Config update
+- *(cms)* Typos
+- Config update
+- *(cms)* Config update
+- *(cms)* Config update
+- *(cms)* Config update
+- *(cms)* Config update
+- *(cms)* Config update
+- *(cms)* Config update
+- Author info update
+- Updated Gemfile for Ruby 3.5.0
