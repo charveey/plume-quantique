@@ -1,51 +1,57 @@
+@use "sass:color";
+@use "functions";
+@use "include-media";
+@use "mixins";
+@use "variables";
+
 .author {
-  background: $primaryDark;
+  background: variables.$primaryDark;
   display: table;
   width: 100%;
-  padding: rem(40px) 0;
-  margin: rem(40px) 0;
+  padding: functions.rem(40px) 0;
+  margin: functions.rem(40px) 0;
 
-  @include media(">=laptop") {
-    padding: rem(50px) 0;
+  @include include-media.media(">=laptop") {
+    padding: functions.rem(50px) 0;
   }
 
   .details {
     margin: auto;
-    max-width: rem(800px);
-    padding: 0 rem(20px);
+    max-width: functions.rem(800px);
+    padding: 0 functions.rem(20px);
     text-align: justify;
 
-    @include media("<=laptop") {
+    @include include-media.media("<=laptop") {
       text-align: center;
     }
   }
 
   svg {
-    @include size(25, 25);
-    margin-right: rem(10px);
+    @include mixins.size(25, 25);
+    margin-right: functions.rem(10px);
   }
 
   a {
-    fill: darken($lightGray, 30%);
+    fill: color.adjust(variables.$lightGray, $lightness: -30%);
     text-decoration: none;
     border: none;
     transition: all 0.3s;
 
     &:hover {
-      fill: $themeColor;
+      fill: variables.$themeColor;
     }
   }
 
   img {
-    width: rem(160px);
+    width: functions.rem(160px);
     border-radius: 50%;
     display: block;
     margin: auto;
     object-fit: cover;
     aspect-ratio: 1/1;
 
-    @include media(">=laptop") {
-      width: rem(200px);
+    @include include-media.media(">=laptop") {
+      width: functions.rem(200px);
       float: left;
       margin-right: 3.125rem;
       margin-top: 2.125rem;
@@ -55,11 +61,11 @@
 
   .def {
     color: gray;
-    font-size: rem(18px);
-    @include mainFont(300);
-    margin: rem(10px);
+    font-size: functions.rem(18px);
+    @include mixins.mainFont(300);
+    margin: functions.rem(10px);
 
-    @include media(">=laptop") {
+    @include include-media.media(">=laptop") {
       margin: 0;
     }
   }
@@ -68,35 +74,35 @@
     margin: 0;
 
     a {
-      @include mainFont();
+      @include mixins.mainFont();
       text-decoration: none;
-      color: $lightGray;
-      font-size: rem(30px);
+      color: variables.$lightGray;
+      font-size: functions.rem(30px);
 
-      @include media(">=sm") {
-        font-size: rem(45px);
+      @include include-media.media(">=sm") {
+        font-size: functions.rem(45px);
       }
 
       &:hover {
-        color: $texts;
+        color: variables.$texts;
       }
     }
   }
 
   .desc {
-    @include mainFont(300);
-    color: darken($accentDark, 25%);
-    margin: rem(10px);
-    font-size: rem(16px);
-    line-height: rem(25px);
+    @include mixins.mainFont(300);
+    color: color.adjust(variables.$accentDark, $lightness: -25%);
+    margin: functions.rem(10px);
+    font-size: functions.rem(16px);
+    line-height: functions.rem(25px);
     text-align: justify;
 
-    @include media(">=sm") {
-      font-size: rem(18px);
+    @include include-media.media(">=sm") {
+      font-size: functions.rem(18px);
     }
   }
   .icns {
-    @include media(">=laptop") {
+    @include include-media.media(">=laptop") {
       text-align: right;
     }
   }
@@ -106,36 +112,36 @@
   .staff_item {
     .name {
       h1 {
-        font-size: rem(450px);
-        @include media("<=phone") {
-          font-size: rem(45px);
+        font-size: functions.rem(450px);
+        @include include-media.media("<=phone") {
+          font-size: functions.rem(45px);
         }
       }
     }
     .icns {
-      @include media(">=tablet") {
+      @include include-media.media(">=tablet") {
         text-align: right;
       }
       a {
-        fill: darken($lightGray, 30%);
+        fill: color.adjust(variables.$lightGray, $lightness: -30%);
         text-decoration: none;
         border: none;
         transition: all 0.3s;
     
         &:hover {
-          fill: $themeColor;
+          fill: variables.$themeColor;
         }
       }
       svg {
-        @include media(">=tablet") {
-          @include size(32, 32);
+        @include include-media.media(">=tablet") {
+          @include mixins.size(32, 32);
         }
-        @include media("<=phone") {
-          @include size(15, 15);
-          margin-right: rem(10px);
+        @include include-media.media("<=phone") {
+          @include mixins.size(15, 15);
+          margin-right: functions.rem(10px);
         }
-        @include size(25, 25);
-        margin-right: rem(15px);
+        @include mixins.size(25, 25);
+        margin-right: functions.rem(15px);
   }
     }
   }

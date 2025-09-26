@@ -1,3 +1,7 @@
+@use "functions";
+@use "include-media";
+@use "variables";
+
 .modal {
   .mask {
     position: fixed;
@@ -16,48 +20,48 @@
     left: 50%;
     z-index: 1001;
     transform: translate(-50%, -50%);
-    width: calc(100% - #{rem(40px)});
-    max-width: rem(800px);
+    width: calc(100% - #{functions.rem(40px)});
+    max-width: functions.rem(800px);
     background-color: #fff;
-    border-radius: rem(10px);
-    padding: rem(5px) 0;
+    border-radius: functions.rem(10px);
+    padding: functions.rem(5px) 0;
     box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.3);
     animation: 0.3s fadeIn 0.5s ease both;
 
-    @include media(">=sm") {
-      min-width: rem(400px);
+    @include include-media.media(">=sm") {
+      min-width: functions.rem(400px);
     }
 
     .close {
       position: absolute;
-      right: rem(-10px);
-      top: rem(-10px);
-      width: rem(30px);
-      height: rem(30px);
+      right: functions.rem(-10px);
+      top: functions.rem(-10px);
+      width: functions.rem(30px);
+      height: functions.rem(30px);
       fill: #fff;
-      background-color: $primaryDark;
+      background-color: variables.$primaryDark;
       border-radius: 50%;
       border: 2px solid #fff;
-      padding: rem(5px);
+      padding: functions.rem(5px);
       cursor: pointer;
     }
 
     .header {
       text-align: center;
-      border-bottom: 1px solid $lightGray;
-      padding: rem(15px);
+      border-bottom: 1px solid variables.$lightGray;
+      padding: functions.rem(15px);
 
       h2,
       p {
         margin: 0;
-        font-size: rem(13px);
+        font-size: functions.rem(13px);
       }
     }
 
     .content {
       max-height: 90vh;
       overflow: auto;
-      padding: rem(10px);
+      padding: functions.rem(10px);
 
       ul {
         margin: 0;
@@ -66,13 +70,13 @@
         display: flex;
         flex-direction: column;
 
-        @include media(">=sm") {
+        @include include-media.media(">=sm") {
           flex-direction: row;
         }
 
         li {
           flex: 1;
-          margin: rem(15px);
+          margin: functions.rem(15px);
 
           figure {
             position: relative;
@@ -82,12 +86,12 @@
               content: "Read now";
               text-transform: uppercase;
               display: inline-block;
-              background: $themeColor;
+              background: variables.$themeColor;
               color: #fff;
-              font-size: rem(13px);
+              font-size: functions.rem(13px);
               font-weight: 700;
-              line-height: rem(24px);
-              padding: 0 rem(8px);
+              line-height: functions.rem(24px);
+              padding: 0 functions.rem(8px);
               position: absolute;
               bottom: 10%;
               left: -5px;
@@ -105,7 +109,7 @@
 
           a {
             font-weight: normal;
-            color: $primaryDark;
+            color: variables.$primaryDark;
             text-decoration: none;
             transition: all 0.3s;
 
@@ -119,23 +123,23 @@
 
               figure {
                 &:after {
-                  background: $primaryDark;
+                  background: variables.$primaryDark;
                 }
               }
             }
           }
           h3 {
-            font-size: rem(20px);
+            font-size: functions.rem(20px);
             margin-bottom: 0;
           }
 
           p {
             display: none;
 
-            @include media(">=sm") {
+            @include include-media.media(">=sm") {
               display: block;
-              font-size: rem(15px);
-              line-height: rem(20px);
+              font-size: functions.rem(15px);
+              line-height: functions.rem(20px);
             }
           }
         }

@@ -1,12 +1,17 @@
-.share {
-  background: $primaryDark;
-  @include center(800px);
-  text-align: center;
-  padding-top: rem(20px);
-  margin-top: rem(10px);
+@use "functions";
+@use "include-media";
+@use "mixins";
+@use "variables";
 
-  @include media(">=sm") {
-    margin-top: rem(50px);
+.share {
+  background: variables.$primaryDark;
+  @include mixins.center(800px);
+  text-align: center;
+  padding-top: functions.rem(20px);
+  margin-top: functions.rem(10px);
+
+  @include include-media.media(">=sm") {
+    margin-top: functions.rem(50px);
   }
 
   article & {
@@ -14,8 +19,8 @@
   }
 
   svg {
-    margin: rem(15px);
-    @include size(35, 35);
+    margin: functions.rem(15px);
+    @include mixins.size(35, 35);
   }
 
   a {
@@ -25,17 +30,17 @@
 
   .icon {
     transition: all 0.3s;
-    fill: $lightGray
+    fill: variables.$lightGray
   }
 
   .icon-twitter:hover {
-    fill: $themeColor;
+    fill: variables.$themeColor;
   }
   
   .icon-facebook:hover {
-    fill: $themeColor;
+    fill: variables.$themeColor;
   }
   h3 {
-    color: $lightGray;
+    color: variables.$lightGray;
   }
 }

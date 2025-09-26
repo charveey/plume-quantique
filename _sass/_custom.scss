@@ -1,5 +1,7 @@
+@use "variables";
+
 body {
-  background-color: $primaryDark;
+  background-color: variables.$primaryDark;
 }
 
 // certification icon 
@@ -8,7 +10,7 @@ body {
     width: 15px;
     height: auto;
     display: inline;
-    fill: $themeColor;
+    fill: variables.$themeColor;
 }
 
 // New navbar

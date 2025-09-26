@@ -1,3 +1,9 @@
+@use "sass:color";
+@use "functions";
+@use "include-media";
+@use "mixins";
+@use "variables";
+
 .search-wrapper {
   position: fixed;
   top: 30px;
@@ -23,15 +29,15 @@
 
   .search-field {
     width: 100%;
-    height: rem(40px);
-    line-height: rem(30px);
-    @include mainFont(300);
-    font-size: rem(20px);
-    color: $primaryDark;
-    background-color: $accentDark;
+    height: functions.rem(40px);
+    line-height: functions.rem(30px);
+    @include mixins.mainFont(300);
+    font-size: functions.rem(20px);
+    color: variables.$primaryDark;
+    background-color: variables.$accentDark;
     border: 0;
-    border-radius: rem(20px);
-    padding: rem(5px) rem(25px);
+    border-radius: functions.rem(20px);
+    padding: functions.rem(5px) functions.rem(25px);
     outline: 0;
   }
 
@@ -48,13 +54,13 @@
   .search-list {
     position: absolute;
     width: 100%;
-    @include mainFont(300);
+    @include mixins.mainFont(300);
     display: none;
-    padding: 0 rem(20px);
-    margin: rem(20px) 0;
+    padding: 0 functions.rem(20px);
+    margin: functions.rem(20px) 0;
     list-style-type: none;
 
-    @include media("<sm") {
+    @include include-media.media("<sm") {
       height: 380px;
       overflow: scroll;
     }
@@ -66,36 +72,36 @@
     .entry-date {
       float: right;
       display: none;
-      font-size: rem(14px);
+      font-size: functions.rem(14px);
 
-      @include media(">=sm") {
+      @include include-media.media(">=sm") {
         display: inline;
       }
     }
 
     .entry-category {
       text-transform: uppercase;
-      background-color: $themeColor;
-      margin-right: rem(5px);
-      height: rem(20px);
-      border-radius: rem(10px);
-      font-size: rem(12px);
-      padding: rem(2px) rem(8px);
+      background-color: variables.$themeColor;
+      margin-right: functions.rem(5px);
+      height: functions.rem(20px);
+      border-radius: functions.rem(10px);
+      font-size: functions.rem(12px);
+      padding: functions.rem(2px) functions.rem(8px);
       color: #ffffff;
     }
 
     a {
-      color: $accentDark;
+      color: variables.$accentDark;
       text-decoration: none;
       display: block;
-      padding: rem(15px) 0;
+      padding: functions.rem(15px) 0;
       width: 100%;
-      border-bottom: 1px solid darken($accentDark, 80%);
+      border-bottom: 1px solid color.adjust(variables.$accentDark, $lightness: -80%);
       transition: all 0.3s;
-      line-height: rem(25px);
+      line-height: functions.rem(25px);
 
       &:hover {
-        color: $themeColor;
+        color: variables.$themeColor;
         .entry-category {
           color: #ffffff;
         }
@@ -108,13 +114,13 @@
     top: 0;
     right: 0;
     display: block;
-    width: rem(26px);
-    height: rem(26px);
-    padding: rem(5px);
-    fill: $accentDark;
-    background-color: $themeColor;
+    width: functions.rem(26px);
+    height: functions.rem(26px);
+    padding: functions.rem(5px);
+    fill: variables.$accentDark;
+    background-color: variables.$themeColor;
     border-radius: 13px;
-    margin: rem(7px);
+    margin: functions.rem(7px);
     cursor: pointer;
     outline: 0;
     z-index: 1;
@@ -131,7 +137,7 @@
     width: 100%;
     height: 100%;
     min-height: 100%;
-    background-color: $primaryDark;
+    background-color: variables.$primaryDark;
     content: "";
     z-index: 18;
   }

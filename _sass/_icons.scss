@@ -1,29 +1,34 @@
+@use "functions";
+@use "include-media";
+@use "mixins";
+@use "variables";
+
 .icons-home {
   text-align: center;
 
   a {
     display: inline-block;
-    padding: rem(15px);
-    margin: rem(2px);
+    padding: functions.rem(15px);
+    margin: functions.rem(2px);
     border-radius: 50%;
-    border: rem(2px) solid $accentDark;
+    border: functions.rem(2px) solid variables.$accentDark;
     line-height: 0;
     transition: all 0.7s;
 
     .icon {
-      fill: $accentDark;
-      @include size(18, 18);
+      fill: variables.$accentDark;
+      @include mixins.size(18, 18);
 
-      @include media(">=sm") {
-        @include size();
+      @include include-media.media(">=sm") {
+        @include mixins.size();
       }
     }
 
     &:hover {
-      background: $accentDark;
+      background: variables.$accentDark;
 
       .icon {
-        fill: $texts;
+        fill: variables.$texts;
       }
     }
   }
@@ -37,9 +42,9 @@
   text-align: center;
 
   .icon {
-    @include align(both);
-    @include size(100, 100);
-    fill: $accentDark;
+    @include mixins.align(both);
+    @include mixins.size(100, 100);
+    fill: variables.$accentDark;
     animation: pulse 1.3s infinite;
   }
 }

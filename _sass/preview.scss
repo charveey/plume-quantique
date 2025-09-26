@@ -1,28 +1,29 @@
-@import "include-media";
-@import "normalize";
-@import "theme";
-@import "variables";
-@import "functions";
-@import "mixins";
-@import "typo";
-@import "post";
-@import "highlight";
+@use "sass:color";
+@use "include-media";
+@use "normalize";
+@use "theme";
+@use "variables";
+@use "functions";
+@use "mixins";
+@use "typo";
+@use "post";
+@use "highlight";
 
 body {
   overflow-x: auto;
 
-  @include media(">=sm") {
-    padding: rem(50px) rem(30px);
+  @include include-media.media(">=sm") {
+    padding: functions.rem(50px) functions.rem(30px);
   }
 
   img {
     max-width: 100%;
-    margin: 0 auto rem(20px);
+    margin: 0 auto functions.rem(20px);
     display: block;
     padding: 10px 0;
 
-    @include media(">=sm") {
-      margin: 0 auto rem(29px);
+    @include include-media.media(">=sm") {
+      margin: 0 auto functions.rem(29px);
     }
   }
 
@@ -33,9 +34,9 @@ body {
   figcaption,
   img + em {
     display: block;
-    color: darken($lightGray, 30%);
+    color: color.adjust(variables.$lightGray, $lightness: -30%);
     text-align: center;
-    @include mainFont(300);
+    @include mixins.mainFont(300);
   }
 
   p,
@@ -49,59 +50,59 @@ body {
   ol,
   iframe,
   div[class^="css"] {
-    @include center(rem(800px));
-    @include mainFont(400);
-    font-size: rem(17px);
-    line-height: rem(30px);
+    @include mixins.center( functions.rem(800px));
+    @include mixins.mainFont(400);
+    font-size: functions.rem(17px);
+    line-height: functions.rem(30px);
     letter-spacing: 0.05rem;
-    padding: 0 rem(20px);
-    margin: 0 auto rem(20px);
+    padding: 0 functions.rem(20px);
+    margin: 0 auto functions.rem(20px);
 
-    @include media(">=sm") {
-      font-size: rem(20px);
-      line-height: rem(40px);
-      margin: 0 auto rem(29px);
+    @include include-media.media(">=sm") {
+      font-size: functions.rem(20px);
+      line-height: functions.rem(40px);
+      margin: 0 auto functions.rem(29px);
       padding: 0;
     }
   }
 
   h1.post-title {
     margin: 0 auto;
-    line-height: rem(40px);
-    @include media(">=sm") {
-      line-height: rem(60px);
-      margin: 0 auto rem(10px);
+    line-height: functions.rem(40px);
+    @include include-media.media(">=sm") {
+      line-height: functions.rem(60px);
+      margin: 0 auto functions.rem(10px);
     }
   }
 
   p.post-subtitle {
-    color: darken($lightGray, 30%);
-    font-size: rem(17px);
-    margin: 0 auto rem(10px);
-    line-height: rem(30px);
+    color: color.adjust(variables.$lightGray, $lightness: -30%);
+    font-size: functions.rem(17px);
+    margin: 0 auto functions.rem(10px);
+    line-height: functions.rem(30px);
 
-    @include media(">=sm") {
-      font-size: rem(20px);
-      line-height: rem(40px);
+    @include include-media.media(">=sm") {
+      font-size: functions.rem(20px);
+      line-height: functions.rem(40px);
     }
   }
 
   img.post-cover {
-    margin-bottom: rem(20px);
-    @include media(">=sm") {
-      margin-bottom: rem(29px);
+    margin-bottom: functions.rem(20px);
+    @include include-media.media(">=sm") {
+      margin-bottom: functions.rem(29px);
     }
   }
 
   p.post-info {
-    @include mainFont(300);
-    font-size: rem(13px);
+    @include mixins.mainFont(300);
+    font-size: functions.rem(13px);
     letter-spacing: 0;
-    color: darken($lightGray, 30%);
+    color: color.adjust(variables.$lightGray, $lightness: -30%);
     margin: 0 auto;
 
-    @include media(">=sm") {
-      font-size: rem(16px);
+    @include include-media.media(">=sm") {
+      font-size: functions.rem(16px);
     }
 
     span,
@@ -110,24 +111,24 @@ body {
     }
 
     time {
-      margin-right: rem(10px);
+      margin-right: functions.rem(10px);
 
-      @include media(">=sm") {
-        margin-right: rem(30px);
+      @include include-media.media(">=sm") {
+        margin-right: functions.rem(30px);
       }
     }
 
     svg {
-      width: rem(15px);
-      height: rem(15px);
-      fill: darken($lightGray, 30%);
+      width: functions.rem(15px);
+      height: functions.rem(15px);
+      fill: color.adjust(variables.$lightGray, $lightness: -30%);
       vertical-align: middle;
-      margin-right: rem(5px);
+      margin-right: functions.rem(5px);
     }
   }
 
   li {
-    padding: rem(10px) 0;
+    padding: functions.rem(10px) 0;
     ul {
       margin-bottom: 0;
     }
@@ -135,16 +136,16 @@ body {
 
   p,
   li {
-    color: $texts;
+    color: variables.$texts;
     code {
-      font-size: rem(15px);
+      font-size: functions.rem(15px);
       color: #bf616a;
       word-wrap: break-word;
-      background: $lightGray;
-      padding: rem(3px) rem(5px);
+      background: variables.$lightGray;
+      padding: functions.rem(3px) functions.rem(5px);
       border-radius: 3px;
-      @include media(">=sm") {
-        font-size: rem(17px);
+      @include include-media.media(">=sm") {
+        font-size: functions.rem(17px);
       }
     }
   }
@@ -155,7 +156,7 @@ body {
   }
 
   iframe {
-    margin-top: rem(30px);
+    margin-top: functions.rem(30px);
     width: 100%;
   }
 
@@ -165,73 +166,73 @@ body {
   h4,
   h5,
   h6 {
-    @include mainFont(700);
+    @include mixins.mainFont(700);
   }
 
   h1 {
-    font-size: rem(32px);
+    font-size: functions.rem(32px);
     line-height: 1.4;
 
-    @include media(">=sm") {
-      font-size: rem(47px);
+    @include include-media.media(">=sm") {
+      font-size: functions.rem(47px);
     }
   }
 
   h2 {
-    font-size: rem(24px);
+    font-size: functions.rem(24px);
     line-height: 1.4;
-    @include media(">=sm") {
-      font-size: rem(37px);
+    @include include-media.media(">=sm") {
+      font-size: functions.rem(37px);
     }
   }
 
   h3 {
-    font-size: rem(20px);
+    font-size: functions.rem(20px);
     line-height: 1.4;
-    @include media(">=sm") {
-      font-size: rem(27px);
+    @include include-media.media(">=sm") {
+      font-size: functions.rem(27px);
     }
   }
 
   ul,
   ol {
-    padding-left: rem(40px);
+    padding-left: functions.rem(40px);
   }
 
   ul.post-list {
     padding: 0;
 
-    @include media("<sm") {
-      padding: 0 rem(20px);
+    @include include-media.media("<sm") {
+      padding: 0 functions.rem(20px);
     }
   }
 
   blockquote {
-    @include center(rem(730px));
-    border-left: rem(5px) solid $themeColor;
-    margin: rem(30px) auto;
+    @include mixins.center( functions.rem(730px));
+    border-left: functions.rem(5px) solid variables.$themeColor;
+    margin: functions.rem(30px) auto;
     width: 90%;
-    font-size: rem(18px);
+    font-size: functions.rem(18px);
     font-style: italic;
-    padding:0.6em 30px 0.6em rem(25px);
-    border-left:3px solid $themeColor ;
+    padding:0.6em 30px 0.6em functions.rem(25px);
+    border-left:3px solid variables.$themeColor ;
     line-height:1.25;
     position: relative;
 
-    @include media(">=sm") {
+    @include include-media.media(">=sm") {
       width: 100%;
-      margin: rem(50px) auto;
-      font-size: rem(22px);
-      padding:0.6em 30px 0.6em rem(35px);
+      margin: functions.rem(50px) auto;
+      font-size: functions.rem(22px);
+      padding:0.6em 30px 0.6em functions.rem(35px);
     }
 
     p {
       font-style: italic;
-      font-size: rem(17px);
-      color: $texts;
+      font-size: functions.rem(17px);
+      color: variables.$texts;
       margin: 0;
-      @include media(">=sm") {
-        font-size: rem(20px);
+      @include include-media.media(">=sm") {
+        font-size: functions.rem(20px);
       }
     }
   }
@@ -239,7 +240,7 @@ body {
   blockquote::before{
     font-family:Arial;
     content: "\201C";
-    color: $themeColor;
+    color: variables.$themeColor;
     font-size:4em;
     position: absolute;
     left: 10px;
@@ -253,34 +254,34 @@ body {
   // For the author of the quote
   blockquote span{
     display:block;
-    color:$lightGray;
+    color:variables.$lightGray;
     font-style: normal;
     font-weight: bold;
     margin-top:1rem;
   }
 
   hr {
-    @include center(rem(760px));
-    border: 1px solid $lightGray;
+    @include mixins.center( functions.rem(760px));
+    border: 1px solid variables.$lightGray;
     margin: 50px auto;
   }
 
   hr.page-divider {
-    @include center(rem(760px));
+    @include mixins.center( functions.rem(760px));
     border: 0;
     margin: 50px auto;
     position: relative;
-    height: rem(54px);
+    height: functions.rem(54px);
 
     &:after {
       display: block;
       content: "Page divider";
-      padding: rem(5px) rem(10px);
-      border: 2px solid $themeColor;
-      border-radius: rem(5px);
-      font-size: rem(14px);
+      padding: functions.rem(5px) functions.rem(10px);
+      border: 2px solid variables.$themeColor;
+      border-radius: functions.rem(5px);
+      font-size: functions.rem(14px);
       font-weight: bold;
-      color: $themeColor;
+      color: variables.$themeColor;
       text-align: center;
       text-transform: uppercase;
     }
@@ -296,33 +297,33 @@ body {
       position: absolute;
       top: 0;
       left: 0;
-      padding: 0 rem(15px);
-      @include mainFont(400);
-      font-size: rem(14px);
-      background-color: $themeColor;
+      padding: 0 functions.rem(15px);
+      @include mixins.mainFont(400);
+      font-size: functions.rem(14px);
+      background-color: variables.$themeColor;
       color: #fff;
     }
   }
 
   table {
-    @include mainFont(400);
-    font-size: rem(17px);
-    line-height: rem(35px);
+    @include mixins.mainFont(400);
+    font-size: functions.rem(17px);
+    line-height: functions.rem(35px);
     letter-spacing: 0.05rem;
-    margin: rem(50px) auto;
+    margin: functions.rem(50px) auto;
 
-    @include media(">=sm") {
-      font-size: rem(20px);
+    @include include-media.media(">=sm") {
+      font-size: functions.rem(20px);
     }
 
     th,
     td {
-      border: rem(1px) solid #ccc;
-      padding: rem(5px) rem(10px);
+      border: functions.rem(1px) solid #ccc;
+      padding: functions.rem(5px) functions.rem(10px);
 
-      @include media(">=sm") {
-        border: rem(2px) solid #ccc;
-        padding: rem(10px) rem(20px);
+      @include include-media.media(">=sm") {
+        border: functions.rem(2px) solid #ccc;
+        padding: functions.rem(10px) functions.rem(20px);
       }
     }
   }

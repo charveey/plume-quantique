@@ -1,3 +1,7 @@
+@use "sass:color";
+@use "include-media";
+@use "variables";
+
 // Welcomments CSS
 .welcomments__container {
     margin-left: auto !important;
@@ -5,7 +9,7 @@
     max-width: 85%;
 }
 .welcomments__submit-button {
-    background-color: $themeColor !important;
+    background-color: variables.$themeColor !important;
 }
 .welcomments__author-avatar-img {
     object-fit: cover;
@@ -18,7 +22,7 @@
     line-height: 1.7149;
     min-height: 48px;
 }
-@include media(">=desktop") {
+@include include-media.media(">=desktop") {
     .welcomments__container {
         margin-left: auto !important;
         margin-right: auto !important;
@@ -31,7 +35,7 @@
    .welcomments__author-name,
    .welcomments__comment-message a,
     .welcomments__comment-form label {
-        color: $accentDark !important;
+        color: variables.$accentDark !important;
     }
     .welcomments__comment-time a time,
     .welcomments__comment-form p {
@@ -41,24 +45,24 @@
         color: #d1d5db !important;
     }
     .welcomments__comment-reply-link {
-      background-color: $themeColor;
+      background-color: variables.$themeColor;
       color: #9ca3af;
     }
     .welcomments__comment-form textarea,
     .welcomments__comment-form input {
-        background-color: lighten($primaryDark, 5%)  !important;
-        border-color: lighten($primaryDark, 5%) !important;
+        background-color: color.adjust(variables.$primaryDark, $lightness: 5%)  !important;
+        border-color: color.adjust(variables.$primaryDark, $lightness: 5%) !important;
     }
     .welcomments__submit-button {
-        background-color: $themeColor !important;
+        background-color: variables.$themeColor !important;
     }
     .welcomments__comment {
-        border-color: lighten($primaryDark, 5%) !important;
+        border-color: color.adjust(variables.$primaryDark, $lightness: 5%) !important;
     }
 
     .welcomments__comment-message {
       p {
-        color: darken($lightGray, 20%)
+        color: color.adjust(variables.$lightGray, $lightness: -20%)
       }
     }
     .welcomments__container input::-moz-placeholder,

@@ -1,60 +1,66 @@
+@use "sass:color";
+@use "functions";
+@use "include-media";
+@use "mixins";
+@use "variables";
+
 .post {
   position: relative;
-  top: rem(30px);
-  background: $primaryDark;
+  top: functions.rem(30px);
+  background: variables.$primaryDark;
 
-  @include media(">=sm") {
-    top: rem(50px);
+  @include include-media.media(">=sm") {
+    top: functions.rem(50px);
   }
 }
 
 .post.two-columns {
   display: flex;
   flex-direction: column;
-  padding-bottom: rem(40px);
+  padding-bottom: functions.rem(40px);
 
-  @include media(">=sm") {
-    max-width: rem(1100px);
+  @include include-media.media(">=sm") {
+    max-width: functions.rem(1100px);
     flex-direction: row;
     margin: 0 auto;
-    padding: rem(40px) 0;
+    padding: functions.rem(40px) 0;
   }
 
   .post-content {
-    padding-bottom: rem(10px);
+    padding-bottom: functions.rem(10px);
 
-    @include media(">=sm") {
+    @include include-media.media(">=sm") {
       flex-basis: 70%;
-      padding: 0 rem(30px) 0 rem(10px);
+      padding: 0 functions.rem(30px) 0 functions.rem(10px);
     }
   }
 }
 
 .post-content {
   overflow-x: auto;
-  padding: rem(40px) 0;
+  padding: functions.rem(40px) 0;
 
   &.fullwidth {
-    padding: rem(60px) rem(10px) 0;
+    padding: functions.rem(60px) functions.rem(10px) 0;
   }
 
   img {
     max-width: 100%;
-    margin: rem(0px) auto;
+    margin: functions.rem(0px) auto;
     display: block;
     padding: 10px 0;
   }
 
   figure {
-    margin: rem(20px) auto 0;
+    margin: functions.rem(20px) auto 0;
   }
 
   figcaption,
   img + em {
     display: block;
-    color: darken($lightGray, 30%);
+    color: color.adjust(variables.$lightGray, $lightness: -30%);
     text-align: center;
-    @include mainFont(300);
+    @include mixins.mainFont(300);
     font-style: italic
   }
 
@@ -68,63 +74,63 @@
   ul,
   ol,
   iframe {
-    @include center(rem(1024px));
-    @include mainFont(400);
-    font-size: rem(17px);
-    line-height: rem(30px);
+    @include mixins.center(functions.rem(1024px));
+    @include mixins.mainFont(400);
+    font-size: functions.rem(17px);
+    line-height: functions.rem(30px);
     letter-spacing: 0.025rem;
-    padding: 0 rem(20px);
-    margin: rem(20px) auto 0;
+    padding: 0 functions.rem(20px);
+    margin: functions.rem(20px) auto 0;
 
-    @include media(">=sm") {
-      font-size: rem(20px);
-      line-height: rem(40px);
-      margin: rem(29px) auto 0;
+    @include include-media.media(">=sm") {
+      font-size: functions.rem(20px);
+      line-height: functions.rem(40px);
+      margin: functions.rem(29px) auto 0;
     }
   }
   
   h1.post-title {
-    color: $accentDark;
+    color: variables.$accentDark;
     line-height: 1.2;
-    margin: rem(5px) auto rem(10px);
+    margin: functions.rem(5px) auto functions.rem(10px);
     padding-top: 0;
   }
 
   p.post-subtitle {
-    color: lighten($lightGray, 30%);
-    font-size: rem(17px);
-    margin: rem(10px) auto;
+    color: color.adjust(variables.$lightGray, $lightness: 30%);
+    font-size: functions.rem(17px);
+    margin: functions.rem(10px) auto;
     line-height: 1.6;
 
-    @include media(">=sm") {
-      font-size: rem(20px);
+    @include include-media.media(">=sm") {
+      font-size: functions.rem(20px);
     }
   }
   svg {
-    @include size(25, 25);
-    margin-right: rem(10px);
+    @include mixins.size(25, 25);
+    margin-right: functions.rem(10px);
   };
 
   img.post-cover {
     padding: 0;
-    margin-top: rem(20px);
-    margin-bottom: rem(20px);
+    margin-top: functions.rem(20px);
+    margin-bottom: functions.rem(20px);
 
-    @include media(">=sm") {
-      margin-top: rem(29px);
-      margin-bottom: rem(29px);
+    @include include-media.media(">=sm") {
+      margin-top: functions.rem(29px);
+      margin-bottom: functions.rem(29px);
     }
   }
 
   p.post-info {
-    @include mainFont(300);
-    font-size: rem(13px);
+    @include mixins.mainFont(300);
+    font-size: functions.rem(13px);
     letter-spacing: 0;
-    color: darken($lightGray, 30%);
+    color: color.adjust(variables.$lightGray, $lightness: -30%);
     margin: 0 auto;
 
-    @include media(">=sm") {
-      font-size: rem(15px);
+    @include include-media.media(">=sm") {
+      font-size: functions.rem(15px);
     }
 
     span,
@@ -133,34 +139,34 @@
     }
 
     time {
-      margin-right: rem(10px);
+      margin-right: functions.rem(10px);
 
-      @include media(">=sm") {
-        margin-right: rem(30px);
+      @include include-media.media(">=sm") {
+        margin-right: functions.rem(30px);
       }
     }
   }
 
   p,
   li {
-    color: darken($lightGray, 20%);
+    color: color.adjust(variables.$lightGray, $lightness: -20%);
 
     code {
-      font-size: rem(15px);
+      font-size: functions.rem(15px);
       background: #282a36;
       color: #fff;
       word-wrap: break-word;
-      padding: rem(3px) rem(5px);
+      padding: functions.rem(3px) functions.rem(5px);
       border-radius: 3px;
 
-      @include media(">=sm") {
-        font-size: rem(17px);
+      @include include-media.media(">=sm") {
+        font-size: functions.rem(17px);
       }
     }
   }
 
   li {
-    padding: rem(10px) 0;
+    padding: functions.rem(10px) 0;
 
     ul {
       margin-bottom: 0;
@@ -173,7 +179,7 @@
   }
 
   a {
-    color: $themeColor;
+    color: variables.$themeColor;
     text-decoration: none;
 
     &:hover {
@@ -182,7 +188,7 @@
   }
 
   iframe {
-    margin-top: rem(30px);
+    margin-top: functions.rem(30px);
     width: 100%;
   }
 
@@ -192,82 +198,82 @@
   h4,
   h5,
   h6 {
-    color: $accentDark;
-    @include mainFont(700);
+    color: variables.$accentDark;
+    @include mixins.mainFont(700);
     margin-top: 0;
-    padding-top: rem(50px);
+    padding-top: functions.rem(50px);
 
-    @include media(">=sm") {
+    @include include-media.media(">=sm") {
       margin-top: 0;
-      padding-top: rem(60px);
+      padding-top: functions.rem(60px);
     }
   }
   h1 {
-    font-size: rem(36px);
+    font-size: functions.rem(36px);
     line-height: 1.4;
-    @include media(">=sm") {
-      font-size: rem(50px);
+    @include include-media.media(">=sm") {
+      font-size: functions.rem(50px);
     }
   }
 
   h2 {
-    font-size: rem(28px);
+    font-size: functions.rem(28px);
     line-height: 1.4;
 
-    @include media(">=sm") {
-      font-size: rem(37px);
+    @include include-media.media(">=sm") {
+      font-size: functions.rem(37px);
     }
   }
 
   h3 {
-    font-size: rem(22px);
+    font-size: functions.rem(22px);
     line-height: 1.4;
 
-    @include media(">=sm") {
-      font-size: rem(27px);
+    @include include-media.media(">=sm") {
+      font-size: functions.rem(27px);
     }
   }
   ul,
   ol {
-    padding-left: rem(60px);
+    padding-left: functions.rem(60px);
   }
 
   ul.post-list {
-    padding: 0 rem(20px);
+    padding: 0 functions.rem(20px);
 
-    @include media(">=sm") {
+    @include include-media.media(">=sm") {
       padding: 0;
     }
   }
 
   blockquote {
-    @include center(rem(730px));
-    border-left: rem(5px) solid $themeColor;
-    margin: rem(30px) auto;
+    @include mixins.center(functions.rem(730px));
+    border-left: functions.rem(5px) solid variables.$themeColor;
+    margin: functions.rem(30px) auto;
     width: 90%;
-    font-size: rem(18px);
+    font-size: functions.rem(18px);
     font-style: italic;
-    padding:0.6em 30px 0.6em rem(25px);
-    border-left:3px solid $themeColor ;
+    padding:0.6em 30px 0.6em functions.rem(25px);
+    border-left:3px solid variables.$themeColor ;
     line-height:1.25;
     position: relative;
-    background:lighten($primaryDark, 1%);
+    background:color.adjust(variables.$primaryDark, $lightness: 1%);
 
 
-    @include media(">=sm") {
+    @include include-media.media(">=sm") {
       width: 100%;
-      margin: rem(50px) auto;
-      font-size: rem(22px);
-      padding:0.6em 30px 0.6em rem(35px);
+      margin: functions.rem(50px) auto;
+      font-size: functions.rem(22px);
+      padding:0.6em 30px 0.6em functions.rem(35px);
     }
 
     p {
       font-style: italic;
-      font-size: rem(17px);
-      color: $lightGray;
+      font-size: functions.rem(17px);
+      color: variables.$lightGray;
       margin: 0;
-      @include media(">=sm") {
-        font-size: rem(20px);
+      @include include-media.media(">=sm") {
+        font-size: functions.rem(20px);
       }
     }
   }
@@ -275,7 +281,7 @@
   blockquote::before{
     font-family:Arial;
     content: "\201C";
-    color: $themeColor;
+    color: variables.$themeColor;
     font-size:4em;
     position: absolute;
     left: 10px;
@@ -288,15 +294,15 @@
   // For the author of the quote
   blockquote span{
     display:block;
-    color:$lightGray;
+    color:variables.$lightGray;
     font-style: normal;
     font-weight: bold;
     margin-top:1rem;
   }
 
   hr {
-    @include center(rem(760px));
-    border: 1px solid $lightGray;
+    @include mixins.center(functions.rem(760px));
+    border: 1px solid variables.$lightGray;
     margin: 50px auto;
   }
 
@@ -305,25 +311,25 @@
   }
 
   table {
-    @include mainFont(400);
-    font-size: rem(17px);
-    line-height: rem(35px);
+    @include mixins.mainFont(400);
+    font-size: functions.rem(17px);
+    line-height: functions.rem(35px);
     letter-spacing: 0.025rem;
-    margin: rem(50px) auto;
+    margin: functions.rem(50px) auto;
     border-collapse: collapse;
 
-    @include media(">=sm") {
-      font-size: rem(20px);
+    @include include-media.media(">=sm") {
+      font-size: functions.rem(20px);
     }
 
     th,
     td {
-      border: rem(1px) solid #ccc;
-      padding: rem(5px) rem(10px);
+      border: functions.rem(1px) solid #ccc;
+      padding: functions.rem(5px) functions.rem(10px);
 
-      @include media(">=sm") {
-        border: rem(2px) solid #ccc;
-        padding: rem(10px) rem(20px);
+      @include include-media.media(">=sm") {
+        border: functions.rem(2px) solid #ccc;
+        padding: functions.rem(10px) functions.rem(20px);
       }
     }
   }
@@ -334,8 +340,8 @@
   }
 
   td.gutter.gl {
-    padding-right: rem(25px);
-    line-height: rem(24px);
+    padding-right: functions.rem(25px);
+    line-height: functions.rem(24px);
   }
 
   h1,
@@ -348,15 +354,15 @@
 
     .anchor {
       display: none;
-      height: rem(16px);
+      height: functions.rem(16px);
       left: 0;
-      margin-top: rem(30px);
+      margin-top: functions.rem(30px);
       position: absolute;
       top: 50%;
       transform: translate(-50%, -50%);
-      width: rem(16px);
+      width: functions.rem(16px);
 
-      @include media(">=sm") {
+      @include include-media.media(">=sm") {
         display: block;
         opacity: 0;
       }
@@ -376,20 +382,20 @@
 /* See also */
 
 .see-also {
-  padding: 0 rem(20px);
+  padding: 0 functions.rem(20px);
 
-  @include media(">=sm") {
+  @include include-media.media(">=sm") {
     flex-basis: 30%;
-    padding: 0 rem(10px);
+    padding: 0 functions.rem(10px);
   }
 
   h2 {
-    font-size: rem(24px);
+    font-size: functions.rem(24px);
     font-weight: bold;
-    border-bottom: 1px solid $lightGray;
-    padding: rem(10px) 0;
-    @include media(">=sm") {
-      padding: rem(48px) 0 rem(20px);
+    border-bottom: 1px solid variables.$lightGray;
+    padding: functions.rem(10px) 0;
+    @include include-media.media(">=sm") {
+      padding: functions.rem(48px) 0 functions.rem(20px);
     }
   }
 
@@ -408,7 +414,7 @@
 
       a {
         font-weight: normal;
-        color: $primaryDark;
+        color: variables.$primaryDark;
         text-decoration: none;
         transition: all 0.3s;
 
@@ -431,16 +437,16 @@
   align-items: center;
   width: 100%;
   height: 38px;
-  padding: rem(30px) 0;
-  border-bottom: 1px solid $themeColor;
+  padding: functions.rem(30px) 0;
+  border-bottom: 1px solid variables.$themeColor;
   background-color: #fff;
   transition: bottom 0.5s;
 
   .bar {
     position: relative;
     flex: 1;
-    height: rem(10px);
-    background-color: $themeColor;
+    height: functions.rem(10px);
+    background-color: variables.$themeColor;
     opacity: 0.2;
   }
 
@@ -454,8 +460,8 @@
 
   .star {
     position: relative;
-    width: rem(40px);
-    height: rem(40px);
+    width: functions.rem(40px);
+    height: functions.rem(40px);
     animation: 1s pulse cubic-bezier(0.36, 0.07, 0.19, 0.97) alternate infinite;
   }
 
@@ -476,19 +482,19 @@
   bottom: -100%;
   display: block;
   width: 100%;
-  padding: rem(10px) rem(20px) rem(5px);
+  padding: functions.rem(10px) functions.rem(20px) functions.rem(5px);
   transition: bottom 0.5s;
   background-color: rgba(0, 0, 0, 0.85);
   z-index: 1;
 
-  @include media(">=sm") {
-    padding: rem(16px) rem(20px) rem(9px);
+  @include include-media.media(">=sm") {
+    padding: functions.rem(16px) functions.rem(20px) functions.rem(9px);
   }
 
   .bar {
     display: block;
     width: 100%;
-    padding: rem(8px) rem(60px);
+    padding: functions.rem(8px) functions.rem(60px);
     &:after {
       clear: both;
       display: block;
@@ -499,21 +505,21 @@
   .completed {
     float: left;
     display: block;
-    height: rem(5px);
-    background-color: $themeColor;
+    height: functions.rem(5px);
+    background-color: variables.$themeColor;
   }
 
   .remaining {
     float: left;
     display: block;
-    height: rem(5px);
+    height: functions.rem(5px);
     background-color: #ccc;
   }
 
   .time-completed,
   .time-remaining {
-    @include mainFont(400);
-    font-size: rem(18px);
+    @include mixins.mainFont(400);
+    font-size: functions.rem(18px);
     color: #fff;
   }
 
@@ -529,39 +535,39 @@
 /* Recommendation */
 
 .recommendation {
-  @include mainFont(400);
+  @include mixins.mainFont(400);
   position: fixed;
   left: 0;
   right: 0;
   bottom: -100%;
   display: block;
   width: 100%;
-  padding: rem(10px);
+  padding: functions.rem(10px);
   transition: bottom 0.5s;
   background-color: rgba(0, 0, 0, 0.85);
   display: flex;
   justify-content: space-between;
   z-index: 1;
 
-  @include media(">=sm") {
-    padding: rem(15px);
+  @include include-media.media(">=sm") {
+    padding: functions.rem(15px);
   }
 
   .message {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    font-size: rem(16px);
+    font-size: functions.rem(16px);
     color: #fff;
-    padding-right: rem(20px);
+    padding-right: functions.rem(20px);
 
-    @include media(">=sm") {
-      font-size: rem(20px);
+    @include include-media.media(">=sm") {
+      font-size: functions.rem(20px);
     }
 
     strong {
       display: block;
-      margin: rem(10px) 0;
+      margin: functions.rem(10px) 0;
     }
 
     button {
@@ -570,19 +576,19 @@
       color: #fff;
       cursor: pointer;
       display: inline-block;
-      font-size: rem(13px);
+      font-size: functions.rem(13px);
       text-decoration: none;
       outline: 0;
 
-      @include media(">=sm") {
-        font-size: rem(15px);
+      @include include-media.media(">=sm") {
+        font-size: functions.rem(15px);
       }
     }
 
     svg {
       fill: #fff;
-      width: rem(22px);
-      height: rem(22px);
+      width: functions.rem(22px);
+      height: functions.rem(22px);
       transform: rotate(-90deg);
       border: 1px solid #fff;
       border-radius: 50%;
@@ -590,9 +596,9 @@
       margin-right: 10px;
       vertical-align: middle;
 
-      @include media(">=sm") {
-        width: rem(28px);
-        height: rem(28px);
+      @include include-media.media(">=sm") {
+        width: functions.rem(28px);
+        height: functions.rem(28px);
       }
     }
 
@@ -605,13 +611,13 @@
     align-items: center;
     flex-direction: column;
     background-color: #000;
-    padding: rem(5px);
+    padding: functions.rem(5px);
     max-width: 35%;
     text-decoration: none;
 
-    @include media(">=sm") {
+    @include include-media.media(">=sm") {
       flex-direction: row;
-      padding: rem(5px) rem(50px) rem(5px) rem(5px);
+      padding: functions.rem(5px) functions.rem(50px) functions.rem(5px) functions.rem(5px);
       max-width: 50%;
     }
 
@@ -630,18 +636,18 @@
     .image > img {
       display: block;
       width: 100%;
-      max-width: rem(200px);
+      max-width: functions.rem(200px);
       transition: all 0.3s;
     }
 
     .title {
-      font-size: rem(16px);
+      font-size: functions.rem(16px);
       color: #fff;
-      margin: rem(5px) 0;
+      margin: functions.rem(5px) 0;
       transition: all 0.3s;
-      @include media(">=sm") {
-        font-size: rem(23px);
-        margin: 0 0 0 rem(20px);
+      @include include-media.media(">=sm") {
+        font-size: functions.rem(23px);
+        margin: 0 0 0 functions.rem(20px);
       }
     }
   }
@@ -649,104 +655,104 @@
 
 .icon-clock,
 .icon-calendar {
-  width: rem(14px);
-  height: rem(14px);
-  fill: darken($lightGray, 30%);
+  width: functions.rem(14px);
+  height: functions.rem(14px);
+  fill: color.adjust(variables.$lightGray, $lightness: -30%);
   vertical-align: middle;
-  margin-right: rem(3px);
+  margin-right: functions.rem(3px);
 }
 
 /* Tags */
 
 .post-content {
   .tags {
-    @include center(rem(800px));
-    @include mainFont(400);
-    font-size: rem(18px);
-    margin: 0 auto rem(29px);
-    margin-top: rem(30px);
+    @include mixins.center(functions.rem(800px));
+    @include mixins.mainFont(400);
+    font-size: functions.rem(18px);
+    margin: 0 auto functions.rem(29px);
+    margin-top: functions.rem(30px);
     letter-spacing: 0.025rem;
-    line-height: rem(40px);
-    padding: 0 rem(10px);
+    line-height: functions.rem(40px);
+    padding: 0 functions.rem(10px);
 
-    @include media(">=sm") {
-      font-size: rem(20px);
+    @include include-media.media(">=sm") {
+      font-size: functions.rem(20px);
       padding: 0;
     }
 
     a {
-      font-size: rem(14px);
-      color: $primaryDark;
+      font-size: functions.rem(14px);
+      color: variables.$primaryDark;
       display: inline-block;
-      border: 1px solid $primaryDark;
-      border-radius: rem(20px);
-      padding: 0 rem(10px);
-      margin-right: rem(2px);
-      margin-bottom: rem(8px);
+      border: 1px solid variables.$primaryDark;
+      border-radius: functions.rem(20px);
+      padding: 0 functions.rem(10px);
+      margin-right: functions.rem(2px);
+      margin-bottom: functions.rem(8px);
       text-decoration: none;
 
-      @include media(">=sm") {
+      @include include-media.media(">=sm") {
         border-width: 2px;
       }
 
       &:hover {
-        color: $accentDark;
-        background-color: $primaryDark;
+        color: variables.$accentDark;
+        background-color: variables.$primaryDark;
       }
     }
   }
 
   .tag-title {
-    @include mainFont(300);
-    @include center(rem(800px));
-    font-size: rem(30px);
-    margin-top: rem(20px);
-    padding: 0 rem(10px);
+    @include mixins.mainFont(300);
+    @include mixins.center(functions.rem(800px));
+    font-size: functions.rem(30px);
+    margin-top: functions.rem(20px);
+    padding: 0 functions.rem(10px);
 
     span {
-      padding: rem(3px) rem(10px);
-      background-color: $themeColor;
-      border-radius: rem(5px);
+      padding: functions.rem(3px) functions.rem(10px);
+      background-color: variables.$themeColor;
+      border-radius: functions.rem(5px);
       color: #fff;
     }
 
-    @include media(">=sm") {
-      font-size: rem(22px);
-      margin-top: rem(80px);
+    @include include-media.media(">=sm") {
+      font-size: functions.rem(22px);
+      margin-top: functions.rem(80px);
       padding: 0;
     }
   }
 
   a.post-anchor {
     display: block;
-    height: rem(40px);
+    height: functions.rem(40px);
 
-    @include media(">=sm") {
-      height: rem(10px);
+    @include include-media.media(">=sm") {
+      height: functions.rem(10px);
     }
   }
 
   ul.post-list {
     list-style: none;
-    margin: rem(25px) auto 0;
-    padding: 0 rem(10px);
+    margin: functions.rem(25px) auto 0;
+    padding: 0 functions.rem(10px);
 
-    @include media(">=sm") {
+    @include include-media.media(">=sm") {
       padding: 0;
     }
 
     a {
       display: flex;
       justify-content: space-between;
-      border-bottom: 1px solid darken($lightGray, 10%);
-      padding: rem(10px) 0;
+      border-bottom: 1px solid color.adjust(variables.$lightGray, $lightness: -10%);
+      padding: functions.rem(10px) 0;
       text-decoration: none;
-      font-size: rem(18px);
+      font-size: functions.rem(18px);
     }
 
     .entry-date {
       float: right;
-      @include media("<sm") {
+      @include include-media.media("<sm") {
         display: none;
       }
     }

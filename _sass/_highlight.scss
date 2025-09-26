@@ -1,22 +1,27 @@
+@use "functions";
+@use "include-media";
+@use "mixins";
+@use "variables";
+
 pre {
   background: #282a36;
   width: 100%;
-  padding: rem(20px) 0;
-  color: $accentDark;
-  margin: rem(30px) 0;
-  font-size: rem(14px);
+  padding: functions.rem(20px) 0;
+  color: variables.$accentDark;
+  margin: functions.rem(30px) 0;
+  font-size: functions.rem(14px);
 
-  @include media(">=sm") {
-    font-size: rem(16px);
-    padding: rem(40px) 0;
-    margin: rem(50px) 0;
+  @include include-media.media(">=sm") {
+    font-size: functions.rem(16px);
+    padding: functions.rem(40px) 0;
+    margin: functions.rem(50px) 0;
   }
 
   code {
-    @include center(rem(800px));
-    padding: 0 rem(20px);
+    @include mixins.center(functions.rem(800px));
+    padding: 0 functions.rem(20px);
 
-    @include media("<sm") {
+    @include include-media.media("<sm") {
       overflow-x: scroll;
     }
   }
@@ -28,11 +33,11 @@ pre {
 }
 
 .highlight {
-  margin: rem(20px) 0;
+  margin: functions.rem(20px) 0;
 
-  @include media(">=sm") {
+  @include include-media.media(">=sm") {
     word-wrap: break-word;
-    margin: rem(29px) 0;
+    margin: functions.rem(29px) 0;
   }
 
   .hll {

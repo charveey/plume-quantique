@@ -1,15 +1,19 @@
+@use "sass:map";
+@use "include-media";
+@use "theme";
+
 /**
  * Set up here the general appearance of the theme.
  */
 
-$themeColor: map-get($theme, themeColor) !default;
-$primaryDark: map-get($theme, primaryDark) !default;
-$accentDark: map-get($theme, accentDark) !default;
-$lightGray: map-get($theme, lightGray) !default;
-$texts: map-get($theme, texts) !default;
+$themeColor: map.get(theme.$theme, themeColor) !default;
+$primaryDark: map.get(theme.$theme, primaryDark) !default;
+$accentDark: map.get(theme.$theme, accentDark) !default;
+$lightGray: map.get(theme.$theme, lightGray) !default;
+$texts: map.get(theme.$theme, texts) !default;
 
 // Breakpoints
-$breakpoints: (
+include-media.$breakpoints: (
   sm: 47.5rem,
   phone: 26.25rem,  /* 420px / 16px (base font size) */
   iphone: 47.5rem,       /* 767px / 16px */
