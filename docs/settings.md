@@ -8,7 +8,7 @@ The general settings can be found in [`src/yml/site.yml`](https://github.com/thi
 
 > **IMPORTANT:** Only when cloning the repo. If you're using the `gem`, modify those properties in your `_config.yml`.
 
-#### `name`
+### `name`
 
 Type: *string*
 
@@ -21,7 +21,7 @@ Example:
 name: Jekflix
 ```
 
-#### `title`
+### `title`
 
 Type: *string*
 
@@ -34,7 +34,7 @@ Example:
 title: Jekflix | A blog theme for Jekyll
 ```
 
-#### `description`
+### `description`
 
 Type: *string*
 
@@ -47,7 +47,7 @@ Example:
 description: Jekflix is a template for Jekyll inspired by Netflix and made by Thiago Rossener.
 ```
 
-#### `tags`
+### `tags`
 
 Type: *list*
 
@@ -65,7 +65,7 @@ tags:
   - netlify
 ```
 
-#### `email`
+### `email`
 
 Type: *string*
 
@@ -82,7 +82,7 @@ Example:
 email: youremail@xyz.com
 ```
 
-#### `formspree_form_id `
+### `formspree_form_id `
 
 Type: *string*
 
@@ -97,7 +97,7 @@ Example:
 formspree_form_id: your_formspree_form_id
 ```
 
-#### `disqus_username`
+### `disqus_username`
 
 Type: *string*
 
@@ -110,7 +110,7 @@ Example:
 disqus_username: disqus_username
 ```
 
-#### `show_hero`
+### `show_hero`
 
 Type: *boolean*
 
@@ -134,7 +134,7 @@ show_hero: false
 
 ![Home page without hero screenshot](https://res.cloudinary.com/dm7h7e8xj/image/upload/v1566477862/page-without-hero-screenshot_gobnva.jpg)
 
-#### `paginate`
+### `paginate`
 
 Type: *integer*
 
@@ -153,7 +153,7 @@ The social settings can be found in [`src/yml/social.yml`](https://github.com/th
 
 > **IMPORTANT:** Only when cloning the repo. If you're using the `gem`, modify those properties in your `_config.yml`.
 
-#### `github_username`
+### `github_username`
 
 Type: *string*
 
@@ -164,7 +164,7 @@ Set the GitHub username for the website.
 github_username: github_username
 ```
 
-#### `facebook_username`
+### `facebook_username`
 
 Type: *string*
 
@@ -175,7 +175,7 @@ Set the Facebook username for the website.
 facebook_username: facebook_username
 ```
 
-#### `twitter_username`
+### `twitter_username`
 
 Type: *string*
 
@@ -186,7 +186,7 @@ Set the Twitter username for the website.
 twitter_username: twitter_username
 ```
 
-#### `instagram_username`
+### `instagram_username`
 
 Type: *string*
 
@@ -197,7 +197,7 @@ Set the Instagram username for the website.
 instagram_username: instagram_username
 ```
 
-#### `linkedin_username`
+### `linkedin_username`
 
 Type: *string*
 
@@ -208,7 +208,7 @@ Set the LinkedIn username for the website.
 linkedin_username: linkedin_username
 ```
 
-#### `medium_username`
+### `medium_username`
 
 Type: *string*
 
@@ -219,7 +219,7 @@ Set the Medium username for the website.
 medium_username: medium_username
 ```
 
-#### `threads_username`
+### `threads_username`
 
 Type: *string*
 
@@ -230,7 +230,7 @@ Set the Threads by Instagram username for the website.
 threads_username: threads_username
 ```
 
-#### `letterboxd_username`
+### `letterboxd_username`
 
 Type: *string*
 
@@ -241,7 +241,7 @@ Set the Letterboxd username for the website.
 threads_username: letterboxd_username
 ```
 
-#### `serializd_username`
+### `serializd_username`
 
 Type: *string*
 
@@ -335,7 +335,7 @@ The posts settings can be found in [`src/yml/posts.yml`](https://github.com/thia
 
 > **IMPORTANT:** Only when cloning the repo. If you're using the `gem`, modify those properties in your `_config.yml`.
 
-#### `show_time_bar`
+### `show_time_bar`
 
 Type: *boolean*
 
@@ -348,7 +348,7 @@ show_time_bar: true
 
 ![Reading Progress Bar Screenshot](https://res.cloudinary.com/dm7h7e8xj/image/upload/v1566425470/progress-bar-screenshot_gem7xb.jpg)
 
-#### `show_modal_on_exit`
+### `show_modal_on_exit`
 
 Type: *boolean*
 
@@ -361,7 +361,7 @@ show_modal_on_exit: false
 
 ![Modal screenshot](https://res.cloudinary.com/dm7h7e8xj/image/upload/v1566478245/before-you-go-screenshot_prrplk.jpg)
 
-#### `show_modal_on_finish_post`
+### `show_modal_on_finish_post`
 
 Type: *boolean*
 
@@ -374,7 +374,7 @@ show_modal_on_finish_post: false
 
 ![Modal screenshot](https://res.cloudinary.com/dm7h7e8xj/image/upload/v1566478245/before-you-go-screenshot_prrplk.jpg)
 
-#### `two_columns_layout`
+### `two_columns_layout`
 
 Type: *boolean*
 
@@ -404,7 +404,7 @@ The advanced settings can be found in [`src/yml/advanced.yml`](https://github.co
 
 > **IMPORTANT:** Only when cloning the repo. If you're using the `gem`, modify those properties in your `_config.yml`.
 
-#### `baseurl`
+### `baseurl`
 
 Type: *string*
 
@@ -415,7 +415,7 @@ Set the subpath of your site, e.g. `/blog`.
 baseurl: ""
 ```
 
-#### `url`
+### `url`
 
 Type: *string*
 
@@ -426,7 +426,7 @@ Set the base hostname and protocol for your site, e.g. `https://rossener.com`
 url: ""
 ```
 
-#### `google_analytics`
+### `google_analytics`
 
 Type: *string*
 
@@ -437,7 +437,7 @@ Set your Google Analytics [tracking ID](https://www.youtube.com/watch?v=Mtzl4tkV
 google_analytics: "G-XXXXXXXXXX"
 ```
 
-#### `language`
+### `language`
 
 Type: *string*
 

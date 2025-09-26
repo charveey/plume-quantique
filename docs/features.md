@@ -80,7 +80,7 @@ A script named [initpost.sh](https://github.com/thiagorossener/jekflix-template/
 In the project directory, just run:
 
 ```bash
-$ ./initpost.sh -c "New post title"
+./initpost.sh -c "New post title"
 ```
 
 ## Tags page
@@ -189,7 +189,7 @@ This feature is supposed to be similar to the Netflix recommendation when you fi
 
 _(Optional)_
 
-*Jekflix Template 3.1.0* now supports math expressions through [MathJax](https://www.mathjax.org/) library, thanks to **[@XieGuochao](https://github.com/XieGuochao)**.
+_Jekflix Template 3.1.0_ now supports math expressions through [MathJax](https://www.mathjax.org/) library, thanks to **[@XieGuochao](https://github.com/XieGuochao)**.
 
 You only need 2 steps:
 

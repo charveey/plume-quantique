@@ -6,7 +6,7 @@ You can use the `initpost.sh` script to generate new posts when you clone the re
 
 To do so, in your project directory, just run:
 
-```
+```shell
 ./initpost.sh -c "Your Post Title"
 ```
 
@@ -43,7 +43,7 @@ bla bla bla
 
 Below is a full list of the template Front Matter properties explained:
 
-#### `date`
+### `date`
 
 Type: *datetime*
 
@@ -60,7 +60,7 @@ date: 2019-05-16 23:48:05
 ---
 ```
 
-#### `layout`
+### `layout`
 
 Type: *string*
 
@@ -75,7 +75,7 @@ layout: post
 ---
 ```
 
-#### `title`
+### `title`
 
 Type: *string*
 
@@ -92,7 +92,7 @@ title: Welcome to the desert of the real
 ---
 ```
 
-#### `subtitle`
+### `subtitle`
 
 *(Optional)*
 
@@ -111,7 +111,7 @@ subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 ---
 ```
 
-#### `description`
+### `description`
 
 Type: *string*
 
@@ -130,7 +130,7 @@ description: >-
 ---
 ```
 
-#### `image`
+### `image`
 
 Type: *url*
 
@@ -151,7 +151,7 @@ image: https://res.cloudinary.com/dm7h7e8xj/image/upload/v1559821647/theme6_qeeo
 ---
 ```
 
-#### `optimized_image`
+### `optimized_image`
 
 *(Optional*)
 
@@ -174,7 +174,7 @@ optimized_image: https://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_380
 ---
 ```
 
-#### `category`
+### `category`
 
 Type: *string*
 
@@ -191,7 +191,7 @@ category: blog
 ---
 ```
 
-#### `tags`
+### `tags`
 
 Type: *list*
 
@@ -210,7 +210,7 @@ tags:
 ---
 ```
 
-#### `author`
+### `author`
 
 *(Optional)*
 
@@ -233,7 +233,7 @@ author: thiagorossener
 ---
 ```
 
-#### `paginate`
+### `paginate`
 
 *(Optional)*
 
