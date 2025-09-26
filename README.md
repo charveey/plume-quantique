@@ -89,7 +89,7 @@ $accentDark: #ffffff;
 $lightGray: #f2f2f2;
 $texts: #333333;
 
-@import "jekflix";
+@use "jekflix";
 ```
 
 Modify the variables above to change your theme colors.
