@@ -127,7 +127,7 @@
         text-decoration: none;
         border: none;
         transition: all 0.3s;
-    
+
         &:hover {
           fill: variables.$themeColor;
         }
@@ -142,8 +142,41 @@
         }
         @include mixins.size(25, 25);
         margin-right: functions.rem(15px);
-  }
+      }
     }
   }
-  
 }
+
+#letterboxd .stars {
+  color: #f5c518;
+  font-family: serif;
+  margin-right: 0.3em;
+}
+
+#letterboxd .date {
+  font-size: 0.8em;
+  color: #aaa;
+}
+
+#letterboxd .rewatch {
+  background: #58a4b0;
+  color: #fff;
+  font-size: 0.8em;
+  border-radius: 4px;
+  padding: 0.1em 0.5em;
+  margin-left: 0.3em;
+}
+
+#letterboxd .cover img {
+  aspect-ratio: 9/16;
+  max-width: 50vw;
+  height: auto
+}
+
+.post-content h2, {
+  @include mixins.center(100%);
+  @include include-media.media(">=laptop") {
+      max-width: 90vw;
+    }
+}
+
