@@ -101,37 +101,67 @@ layout: page
 </div>
 
 {% if page.letterboxd_username %}
-  {% assign lb_data = site.data.letterboxd[page.letterboxd_username] %}
+  {% assign lb_data = site.data.letterboxd[page.name] %}
   {% if lb_data and lb_data.size > 0 %}
     <h2>Derniers visionnages</h2>
-    <section class="content" id="letterboxd" style="display: flex; justify-content: center">
-      <main class="home min" id="letterboxd" role="main">
+    <section class="content" style="display: flex; justify-content: center">
+      <main
+        class="home min"
+        id="post"
+        role="main"
+      >
         <div id="grid" class="row flex-grid">
-          {% for film in lb_data limit: 5 %}
-            <article class="box-item">
+          {% for item in lb_data limit: 6 %}
+            <article class="box-item" id="letterboxd">
               <div class="box-body">
-                <time datetime="{{ film.watchedDate | date_to_xmlschema }}" class="date">
-                  {% include date.html date=film.watchedDate %}
+                <time datetime="{{ item.watchedDate | date_to_xmlschema }}" class="date">
+                  {% include date.html date=item.watchedDate %}
                 </time>
-                <a class="cover" href="{{ film.link }}" aria-label="{{ film.filmTitle }}" target="_blank">
-                  <img
-                    src="{{ film.poster }}"
-                    alt="{{ film.filmTitle }}"
-                    class="preload"
-                    width="100%"
+                {% if item.poster %}
+                  <a
+                    class="cover"
+                    href="{{ item.link }}"
+                    aria-label="{{ item.filmtitle }}"
                   >
-                </a>
-                <div class="box-info min" id="film-info">
-                  <h3 class="post-title min" style="font-size:1em;">
-                    {{ film.filmTitle }}
-                    <span style="color:#888;font-size:0.9em;">({{ film.filmYear }})</span>
-                  </h3>
-                  <div class="film-rating">
-                    <span class="stars">{{ film.starRating }}</span>
-                    {% if film.rewatch %}
-                      <span class="rewatch">Revu</span>
+                    {% include loader.html %}
+                    {% if item.poster %}
+                      <img
+                        id="letterboxd"
+                        src="{{ item.poster }}"
+                        alt="{{ item.filmTitle }}"
+                      >
+
+                    {% else %}
+                      <img
+                        src="/assets/img/placeholder.png"
+                        width="320px"
+                        data-url="/assets/img/off.jpg"
+                        class="preload"
+                        alt="placeholder image"
+                      >
+                      <noscript>
+                        <img
+                          src="/assets/img/off.jpg"
+                          width="320px"
+                          alt="placeholder image"
+                        >
+                      </noscript>
                     {% endif %}
-                  </div>
+                  </a>
+                {% endif %}
+                <div class="box-info min">
+                  <a class="post-link" href="{{ item.link }}">
+                    <h3 class="post-title min">
+                      {{ item.filmTitle }}
+                      <span style="color:#888;font-size:0.8em;">{{ item.filmYear }}</span>
+                    </h3>
+                    <a>
+                      {{ item.starRating }}
+                      {% if item.rewatch %}
+                        <span class="rewatch">↺</span>
+                      {% endif %}
+                    </a>
+                  </a>
                 </div>
               </div>
             </article>

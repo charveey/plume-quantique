@@ -147,16 +147,13 @@
   }
 }
 
-#letterboxd .stars {
-  color: #f5c518;
-  font-family: serif;
-  margin-right: 0.3em;
-}
-
-#letterboxd .date {
-  font-size: 0.8em;
-  color: #aaa;
-}
+#letterboxd img {
+      width: 100%;
+      height: auto;
+      margin: 0 auto;
+      transition: all 0.2s ease-in-out;
+      aspect-ratio: 2/3;
+  }
 
 #letterboxd .rewatch {
   background: #58a4b0;
@@ -166,17 +163,3 @@
   padding: 0.1em 0.5em;
   margin-left: 0.3em;
 }
-
-#letterboxd .cover img {
-  aspect-ratio: 9/16;
-  max-width: 50vw;
-  height: auto
-}
-
-.post-content h2, {
-  @include mixins.center(100%);
-  @include include-media.media(">=laptop") {
-      max-width: 90vw;
-    }
-}
-
