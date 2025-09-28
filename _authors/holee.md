@@ -10,6 +10,6 @@ instagram_username: srg.olvr
 linkedin_username: serge-olivier-bable-95a175306
 medium_username: null
 threads_username: null
-letterboxd_username: IvorianPsycho
+letterboxd_username: Oli
 serializd_username: null
 ---
