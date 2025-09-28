@@ -5,7 +5,7 @@ name: holee
 display_name: Serge-Olivier Bablé
 position: Co-fondateur, rédacteur
 bio: J'aime le cinéma et Florence Pugh.
-twitter_username: null
+twitter_username: Olishit_99
 instagram_username: srg.olvr
 linkedin_username: serge-olivier-bable-95a175306
 medium_username: null
