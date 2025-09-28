@@ -148,12 +148,12 @@
 }
 
 #letterboxd img {
-      width: 100%;
-      height: auto;
-      margin: 0 auto;
-      transition: all 0.2s ease-in-out;
-      aspect-ratio: 2/3;
-  }
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  transition: all 0.2s ease-in-out;
+  aspect-ratio: 2/3;
+}
 
 #letterboxd .rewatch {
   background: #58a4b0;
@@ -185,7 +185,7 @@
   @include include-media.media(">=phone") {
     margin: 0 functions.rem(15px) functions.rem(15px);
   }
-  
+
   @include include-media.media(">=iphone") {
     margin: 0 functions.rem(15px) functions.rem(30px);
   }
@@ -193,46 +193,48 @@
   // Note 1: This complex calc right here is what makes the leftover box items
   // have the same width than their siblings.
   @for $n from 2 through variables.$maxItemsPerRow {
-    $resolution: (2 * variables.$rowMargin) + ($n * variables.$portraitItemMinWidth);
+    $resolution: (2 * variables.$rowMargin) +
+      ($n * variables.$portraitItemMinWidth);
     @include include-media.media(">=#{$resolution}") {
-      max-width: calc(100%/#{$n} - #{variables.$itemMargin * 2});
+      max-width: calc(100% /#{$n} - #{variables.$itemMargin * 2});
     }
   }
 
   // Note 2: This sets the maximum number of box items per row.
-  @include include-media.media(">=#{(2 * variables.$rowMargin) + (variables.$maxItemsPerRow * variables.$portraitItemMinWidth)}") {
-    flex: 1 0 calc(100%/#{variables.$maxItemsPerRow} - #{variables.$itemMargin * 2});
+  @include include-media.media(
+    ">=#{(2 * variables.$rowMargin) + (variables.$maxItemsPerRow * variables.$portraitItemMinWidth)}"
+  ) {
+    flex: 1 0
+      calc(100% /#{variables.$maxItemsPerRow} - #{variables.$itemMargin * 2});
   }
 
-h3.post-title.min {
-      padding-left: 0;
-      font-size: functions.rem(12px);
-      @include include-media.media("<=phone") {
-        font-size: functions.rem(20px);
-      }
-      @include include-media.media(">=tablet") {
-        font-size: functions.rem(15px);
-      }
-      padding-top: functions.rem(1px);
+  h3.post-title.min {
+    padding-left: 0;
+    font-size: functions.rem(12px);
+    @include include-media.media("<=phone") {
+      font-size: functions.rem(20px);
+    }
+    @include include-media.media(">=tablet") {
+      font-size: functions.rem(15px);
+    }
+    padding-top: functions.rem(1px);
 
-      span {
-        font-style: italic;
-        color: lighten($color: variables.$texts, $amount: 30%);
-        font-size: functions.rem(10px);
-        @include include-media.media("<=phone") {
-          font-size: functions.rem(15px);
-        }
+    span {
+      font-style: italic;
+      color: lighten($color: variables.$texts, $amount: 30%);
+      font-size: functions.rem(10px);
+      @include include-media.media("<=phone") {
+        font-size: functions.rem(15px);
       }
     }
+  }
 
-.box-body time.date {
-      font-size: functions.rem(13px);
-      @include include-media.media("<=phone") {
-        font-size: functions.rem(15px);
-      }
-}
-
-
+  .box-body time.date {
+    font-size: functions.rem(13px);
+    @include include-media.media("<=phone") {
+      font-size: functions.rem(15px);
+    }
+  }
 }
 
 h2.section-title {
@@ -240,6 +242,6 @@ h2.section-title {
   margin: functions.rem(20px) auto 0;
 
   @include include-media.media(">=desktop") {
-      margin: functions.rem(29px) functions.rem(80px) 0;
-    }
+    margin: functions.rem(29px) functions.rem(80px) 0;
+  }
 }

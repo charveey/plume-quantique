@@ -1,30 +1,32 @@
 <header class="bar-header">
-        <div class="logo-container">
-            <a id="menu" role="button" aria-label="Open Menu">
-                <svg id="open" class="icon-menu"><use xlink:href="#icon-menu"></use></svg>
-            </a>
+  <div class="logo-container">
+    <a id="menu" role="button" aria-label="Open Menu">
+      <svg id="open" class="icon-menu">
+        <use xlink:href="#icon-menu"></use>
+      </svg>
+    </a>
 
-            <a id="logo" href="{{ site.baseurl }}/" title="Le 7eptième Œil">
-                {% if site.use_logo %}
-                    <img class="logo" src="/assets/img/logo-web.png" alt="Le 7eptième Œil">
-                {% else %}
-                    {{ site.name }} <span class="version">{{ site.version }}</span>
-                {% endif %}
-            </a>
-        </div>
-            
+    <a id="logo" href="{{ site.baseurl }}/" title="Le 7eptième Œil">
+      {% if site.use_logo %}
+        <img class="logo" src="/assets/img/logo-web.png" alt="Le 7eptième Œil">
+      {% else %}
+        {{ site.name }}
+        <span class="version">{{ site.version }}</span>
+      {% endif %}
+    </a>
+  </div>
 
-        <div class="nav-bar"> 
-            {% include nav-bar.html %}
-        </div>
-        <a id="search" class="dosearch" role="button" aria-label="Search">
-            <svg class="icon-search"><use xlink:href="#icon-search"></use></svg>
-        </a>
-        {% if site.show_get_theme_btn %}
-            <a href="https://github.com/thiagorossener/jekflix-template" class="get-theme" role="button">
-                Get this theme!
-            </a>
-        {% endif %}
+  <div class="nav-bar">
+    {% include nav-bar.html %}
+  </div>
+  <a id="search" class="dosearch" role="button" aria-label="Search">
+    <svg class="icon-search">
+      <use xlink:href="#icon-search"></use>
+    </svg>
+  </a>
+  {% if site.show_get_theme_btn %}
+    <a href="https://github.com/thiagorossener/jekflix-template" class="get-theme" role="button"> Get this theme! </a>
+  {% endif %}
 </header>
 
 <div id="mask" class="overlay"></div>

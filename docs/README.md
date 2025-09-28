@@ -1,6 +1,6 @@
 # Home
 
-Welcome to the *Jekflix Template* docs!
+Welcome to the _Jekflix Template_ docs!
 
 Here you will find everything you need to get your website up and running with the template:
 
@@ -8,7 +8,7 @@ Here you will find everything you need to get your website up and running with t
 - How to [customize](settings.md#settings) your website, changing theme colors, layout, titles, etc.
 - How to [deploy](netlify-cms.md#deploy-with-netlify) your website using Netlify and edit content using [Netlify CMS](netlify-cms.md#integrate-with-netlify-cms)
 
-*and the list goes on...*
+_and the list goes on..._
 
 Navigate through the menu below as you wish, and most of all, have fun! 😄
 

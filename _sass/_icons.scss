@@ -19,7 +19,7 @@
       fill: variables.$accentDark;
       @include mixins.size(18, 18);
 
-      @include include-media.media(">=sm") {
+      @include include-media.media(">=iphone") {
         @include mixins.size();
       }
     }

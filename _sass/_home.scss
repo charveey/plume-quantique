@@ -14,10 +14,9 @@
     @include include-media.media(">=laptop") {
       max-width: 90vw;
     }
-    
   }
 
-  @include include-media.media(">=sm") {
+  @include include-media.media(">=iphone") {
     padding-top: functions.rem(100px);
   }
 
@@ -60,7 +59,7 @@
   position: relative;
   z-index: 1;
 
-  @include include-media.media(">=sm") {
+  @include include-media.media(">=iphone") {
     margin: 0 functions.rem(variables.$itemMargin) functions.rem(30px);
   }
 
@@ -69,13 +68,16 @@
   @for $n from 2 through variables.$maxItemsPerRow {
     $resolution: (2 * variables.$rowMargin) + ($n * variables.$itemMinWidth);
     @include include-media.media(">=#{$resolution}") {
-      max-width: calc(100%/#{$n} - #{variables.$itemMargin * 2});
+      max-width: calc(100% /#{$n} - #{variables.$itemMargin * 2});
     }
   }
 
   // Note 2: This sets the maximum number of box items per row.
-  @include include-media.media(">=#{(2 * variables.$rowMargin) + (variables.$maxItemsPerRow * variables.$itemMinWidth)}") {
-    flex: 1 0 calc(100%/#{variables.$maxItemsPerRow} - #{variables.$itemMargin * 2});
+  @include include-media.media(
+    ">=#{(2 * variables.$rowMargin) + (variables.$maxItemsPerRow * variables.$itemMinWidth)}"
+  ) {
+    flex: 1 0
+      calc(100% /#{variables.$maxItemsPerRow} - #{variables.$itemMargin * 2});
   }
 
   &:hover {

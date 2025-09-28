@@ -28,7 +28,7 @@
     box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.3);
     animation: 0.3s fadeIn 0.5s ease both;
 
-    @include include-media.media(">=sm") {
+    @include include-media.media(">=iphone") {
       min-width: functions.rem(400px);
     }
 
@@ -70,7 +70,7 @@
         display: flex;
         flex-direction: column;
 
-        @include include-media.media(">=sm") {
+        @include include-media.media(">=iphone") {
           flex-direction: row;
         }
 
@@ -136,7 +136,7 @@
           p {
             display: none;
 
-            @include include-media.media(">=sm") {
+            @include include-media.media(">=iphone") {
               display: block;
               font-size: functions.rem(15px);
               line-height: functions.rem(20px);
@@ -152,7 +152,9 @@
 
   &.exit {
     .window {
-      animation: 0.5s fadeIn 0.5s both, 0.5s zoomIn 0.5s both;
+      animation:
+        0.5s fadeIn 0.5s both,
+        0.5s zoomIn 0.5s both;
     }
   }
 }

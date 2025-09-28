@@ -15,11 +15,15 @@ body {
   left: 0;
   width: 100%;
   z-index: 10;
-  transition: top 0.5s, left 0.3s ease, background-color 0.5s, box-shadow 0.5s;
+  transition:
+    top 0.5s,
+    left 0.3s ease,
+    background-color 0.5s,
+    box-shadow 0.5s;
   justify-content: space-between;
   align-items: center;
-  
-  @include include-media.media(">=sm") {
+
+  @include include-media.media(">=iphone") {
     padding: functions.rem(15px) functions.rem(0px);
   }
   .logo-container {
@@ -33,43 +37,43 @@ body {
       width: calc(2 / 3 * 90vw);
     }
 
-  .logo {
-    height: functions.rem(50px);
-    width: functions.rem(104px);
-    line-height: functions.rem(32px);
+    .logo {
+      height: functions.rem(50px);
+      width: functions.rem(104px);
+      line-height: functions.rem(32px);
 
-    a {
+      a {
         display: block;
         color: variables.$accentDark;
         text-decoration: none;
         font-size: functions.rem(32px);
         outline: 0;
-    }
+      }
 
-    svg {
+      svg {
         width: functions.rem(170px);
         height: functions.rem(40px);
-        transition: all .4s;
-        
-        @include include-media.media(">=sm") {
-            width: functions.rem(207px);
-        }
-    }
-}
+        transition: all 0.4s;
 
-  .version {
-    color: variables.$accentDark;
-    font-size: functions.rem(10px);
-    font-weight: normal;
-    line-height: 1;
-    position: absolute;
-    top: 0;
-    right: 0;
-    display: block;
-    transform: translateX(110%);
-    opacity: 0.3;
+        @include include-media.media(">=iphone") {
+          width: functions.rem(207px);
+        }
+      }
+    }
+
+    .version {
+      color: variables.$accentDark;
+      font-size: functions.rem(10px);
+      font-weight: normal;
+      line-height: 1;
+      position: absolute;
+      top: 0;
+      right: 0;
+      display: block;
+      transform: translateX(110%);
+      opacity: 0.3;
+    }
   }
-}
 
   .icon-menu {
     float: left;
@@ -79,8 +83,9 @@ body {
     height: functions.rem(20px);
     fill: variables.$accentDark;
 
-    @include include-media.media(">=sm") {
-      margin: functions.rem(5px) functions.rem(20px) functions.rem(5px) functions.rem(25px);
+    @include include-media.media(">=iphone") {
+      margin: functions.rem(5px) functions.rem(20px) functions.rem(5px)
+        functions.rem(25px);
     }
   }
 
@@ -90,7 +95,7 @@ body {
     height: functions.rem(30px);
     cursor: pointer;
     margin: 0;
-    @include include-media.media(">=sm") {
+    @include include-media.media(">=iphone") {
       margin: 0 functions.rem(20px) 0 0;
     }
   }
@@ -112,9 +117,10 @@ body {
     padding: functions.rem(5px) functions.rem(10px);
     border-radius: functions.rem(5px);
     float: right;
-    margin: functions.rem(5px) functions.rem(15px) functions.rem(5px) functions.rem(5px);
+    margin: functions.rem(5px) functions.rem(15px) functions.rem(5px)
+      functions.rem(5px);
 
-    @include include-media.media(">=sm") {
+    @include include-media.media(">=iphone") {
       display: inline-block;
     }
   }

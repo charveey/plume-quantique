@@ -1,9 +1,12 @@
 @use "mixins";
 
 a {
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   @include mixins.mainFont();
 }

@@ -17,9 +17,9 @@ media_library:
     api_key: 569845682662826
     output_filename_only: false
     default_transformations:
-        - - fetch_format: auto    
-            quality: auto
-            crop: scale
+      - - fetch_format: auto
+          quality: auto
+          crop: scale
 site_url: https://poetic-buttercream-0d3e15.netlify.app/
 display_url: https//le7eptiemeoeil.ci
 logo_url: https://poetic-buttercream-0d3e15.netlify.app/assets/img/icons/widetile.png
@@ -96,7 +96,7 @@ collections:
             default_transformations:
               - - fetch_format: auto
                   width: 160
-                  height: 90    
+                  height: 90
                   quality: auto
                   crop: fill
                   gravity: face
@@ -576,5 +576,3 @@ collections:
             name: "sent_message_url"
             hint: "URL vers laquelle l'utilisateur sera redirigé après avoir soumis le formulaire de contact. Ex: /contact/message-sent/"
             required: false
-
-

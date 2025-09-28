@@ -42,7 +42,7 @@ aside.sidebar {
   background-color: variables.$primaryDark;
   z-index: 20;
 
-  @include include-media.media(">=sm") {
+  @include include-media.media(">=iphone") {
     padding: functions.rem(10px) 0 0;
   }
 
@@ -63,7 +63,7 @@ aside.sidebar {
     border-bottom: 1px solid variables.$primaryDark;
     line-height: 50px;
 
-    @include include-media.media(">=sm") {
+    @include include-media.media(">=iphone") {
       font-size: functions.rem(20px);
     }
   }
@@ -73,7 +73,7 @@ aside.sidebar {
       padding: 0;
       margin: functions.rem(5px) 0;
 
-      @include include-media.media(">=sm") {
+      @include include-media.media(">=iphone") {
         margin: functions.rem(10px) 0;
       }
 

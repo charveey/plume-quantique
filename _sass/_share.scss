@@ -10,7 +10,7 @@
   padding-top: functions.rem(20px);
   margin-top: functions.rem(10px);
 
-  @include include-media.media(">=sm") {
+  @include include-media.media(">=iphone") {
     margin-top: functions.rem(50px);
   }
 
@@ -30,13 +30,13 @@
 
   .icon {
     transition: all 0.3s;
-    fill: variables.$lightGray
+    fill: variables.$lightGray;
   }
 
   .icon-twitter:hover {
     fill: variables.$themeColor;
   }
-  
+
   .icon-facebook:hover {
     fill: variables.$themeColor;
   }

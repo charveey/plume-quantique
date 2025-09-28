@@ -48,7 +48,7 @@
     justify-content: space-between;
     padding: functions.rem(15px) functions.rem(20px) functions.rem(30px);
 
-    @include include-media.media(">=sm") {
+    @include include-media.media(">=iphone") {
       @include mixins.center(functions.rem(800px));
     }
 
@@ -66,7 +66,7 @@
       border-radius: 5px;
       transition: all 0.3s;
 
-      @include include-media.media(">=sm") {
+      @include include-media.media(">=iphone") {
         font-size: functions.rem(17px);
         border: 2px solid variables.$themeColor;
       }
