@@ -1,13 +1,20 @@
+# Use DecapBridge auth (required)
 backend:
   name: git-gateway
+  repo: charveey/plume-quantique
   branch: dev
+  identity_url: https://auth.decapbridge.com/sites/71693d24-29ef-4453-8f77-dc1eae301b69
+  gateway_url: https://gateway.decapbridge.com
   squash_merges: true
+
+# Quickly see who did what (optional)  
   commit_messages:
-    create: "{{author-name}} published a new {{collection}}: “{{slug}}”"
-    update: "{{author-name}} updated {{collection}}: “{{slug}}”"
-    delete: "{{collection}}: “{{slug}}” deleted by {{author-name}}"
-    uploadMedia: Upload “{{path}}”
-    deleteMedia: Delete “{{path}}”
+    create: "New {{collection}} “{{slug}}” - {{author-name}} via DecapBridge"
+    update: "{{author-name}} updated {{collection}}: “{{slug}}” via DecapBridge"
+    delete: "{{collection}}: “{{slug}}” deleted by {{author-name}} via DecapBridge"
+    uploadMedia: Upload “{{path}}” via DecapBridge
+    deleteMedia: Delete “{{path}}” via DecapBridge
+    openAuthoring: Message {{message}} - {{author-name}} <{{author-login}}> via DecapBridge
 publish_mode: editorial_workflow
 media_folder: "assets/img/uploads"
 media_library:
@@ -17,12 +24,15 @@ media_library:
     api_key: 569845682662826
     output_filename_only: false
     default_transformations:
-        - - fetch_format: auto    
-            quality: auto
-            crop: scale
+      - - fetch_format: auto
+          quality: auto
+          crop: scale
 site_url: https://poetic-buttercream-0d3e15.netlify.app/
 display_url: https//le7eptiemeoeil.ci
-logo_url: https://poetic-buttercream-0d3e15.netlify.app/assets/img/icons/widetile.png
+logo:
+  src: "/assets/img/logo-web.png"   # required, replaces logo_url
+  show_in_header: true   # optional boolean, default is false
+
 locale: fr
 collections:
   - label: "Rubriques"
@@ -96,7 +106,7 @@ collections:
             default_transformations:
               - - fetch_format: auto
                   width: 160
-                  height: 90    
+                  height: 90
                   quality: auto
                   crop: fill
                   gravity: face
@@ -576,5 +586,3 @@ collections:
             name: "sent_message_url"
             hint: "URL vers laquelle l'utilisateur sera redirigé après avoir soumis le formulaire de contact. Ex: /contact/message-sent/"
             required: false
-
-

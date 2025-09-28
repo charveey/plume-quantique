@@ -1,18 +1,23 @@
+@use "sass:color";
+@use "functions";
+@use "include-media";
+@use "mixins";
+@use "variables";
+
 .home {
-  @include mainFont(400);
+  @include mixins.mainFont(400);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  padding-top: rem(80px);
+  padding-top: functions.rem(80px);
   &.min {
-    padding-top: rem(20px);
-    @include media(">=laptop") {
+    padding-top: functions.rem(20px);
+    @include include-media.media(">=laptop") {
       max-width: 90vw;
     }
-    
   }
 
-  @include media(">=sm") {
-    padding-top: rem(100px);
+  @include include-media.media(">=iphone") {
+    padding-top: functions.rem(100px);
   }
 
   &.no-padding {
@@ -21,8 +26,8 @@
 }
 
 .row {
-  @include center(100%);
-  margin: 0px rem($rowMargin);
+  @include mixins.center(100%);
+  margin: 0px functions.rem(variables.$rowMargin);
 }
 
 .flex-grid {
@@ -31,45 +36,48 @@
 }
 
 .title-category {
-  font-size: rem(32px);
-  margin: 0 0 rem(20px);
-  padding: 0 rem(23px);
+  font-size: functions.rem(32px);
+  margin: 0 0 functions.rem(20px);
+  padding: 0 functions.rem(23px);
   text-transform: uppercase;
-  color: darken($accentDark, 10%);
+  color: color.adjust(variables.$accentDark, $lightness: -10%);
 }
 
 .description-category {
-  margin: 0 0 rem(40px);
-  color: darken($lightGray, 5%);
-  font-size: rem(20px);
-  padding: 0 rem(23px);
+  margin: 0 0 functions.rem(40px);
+  color: color.adjust(variables.$lightGray, $lightness: -5%);
+  font-size: functions.rem(20px);
+  padding: 0 functions.rem(23px);
 }
 
 .box-item {
-  flex: 1 0 $itemMinWidth;
-  margin: 0 0 rem(30px);
+  flex: 1 0 variables.$itemMinWidth;
+  margin: 0 0 functions.rem(30px);
   display: inline-block;
-  min-height: rem(285px);
+  min-height: functions.rem(285px);
   transition: all 0.3s;
   position: relative;
   z-index: 1;
 
-  @include media(">=sm") {
-    margin: 0 rem($itemMargin) rem(30px);
+  @include include-media.media(">=iphone") {
+    margin: 0 functions.rem(variables.$itemMargin) functions.rem(30px);
   }
 
   // Note 1: This complex calc right here is what makes the leftover box items
   // have the same width than their siblings.
-  @for $n from 2 through $maxItemsPerRow {
-    $resolution: (2 * $rowMargin) + ($n * $itemMinWidth);
-    @include media(">=#{$resolution}") {
-      max-width: calc(100%/#{$n} - #{$itemMargin * 2});
+  @for $n from 2 through variables.$maxItemsPerRow {
+    $resolution: (2 * variables.$rowMargin) + ($n * variables.$itemMinWidth);
+    @include include-media.media(">=#{$resolution}") {
+      max-width: calc(100% /#{$n} - #{variables.$itemMargin * 2});
     }
   }
 
   // Note 2: This sets the maximum number of box items per row.
-  @include media(">=#{(2 * $rowMargin) + ($maxItemsPerRow * $itemMinWidth)}") {
-    flex: 1 0 calc(100%/#{$maxItemsPerRow} - #{$itemMargin * 2});
+  @include include-media.media(
+    ">=#{(2 * variables.$rowMargin) + (variables.$maxItemsPerRow * variables.$itemMinWidth)}"
+  ) {
+    flex: 1 0
+      calc(100% /#{variables.$maxItemsPerRow} - #{variables.$itemMargin * 2});
   }
 
   &:hover {
@@ -85,7 +93,7 @@
     .box-body {
       time,
       p {
-        color: $accentDark;
+        color: variables.$accentDark;
       }
 
       .cover {
@@ -107,15 +115,15 @@
 
   .category {
     display: block;
-    height: rem(36px);
-    line-height: rem(36px);
+    height: functions.rem(36px);
+    line-height: functions.rem(36px);
     text-transform: uppercase;
     font-weight: bold;
-    font-size: rem(18px);
-    padding: 0 rem(15px);
+    font-size: functions.rem(18px);
+    padding: 0 functions.rem(15px);
 
     a {
-      color: $accentDark;
+      color: variables.$accentDark;
     }
   }
 
@@ -130,53 +138,53 @@
 
     time {
       font-weight: 300;
-      font-size: rem(16px);
-      color: darken($lightGray, 50%);
+      font-size: functions.rem(16px);
+      color: color.adjust(variables.$lightGray, $lightness: -50%);
       pointer-events: none;
     }
 
     h2 {
-      margin: rem(10px) 0;
-      font-size: rem(24px);
-      @include mainFont(800);
-      color: $accentDark;
-      line-height: rem(30px);
+      margin: functions.rem(10px) 0;
+      font-size: functions.rem(24px);
+      @include mixins.mainFont(800);
+      color: variables.$accentDark;
+      line-height: functions.rem(30px);
     }
     h3.min {
       padding-left: 0;
-      font-size: rem(22px);
-      @include media("<=phone") {
-        font-size: rem(20px);
+      font-size: functions.rem(22px);
+      @include include-media.media("<=phone") {
+        font-size: functions.rem(20px);
       }
-      @include media(">laptop") {
-        font-size: rem(18px);
+      @include include-media.media(">laptop") {
+        font-size: functions.rem(18px);
       }
-      padding-top: rem(10px);
+      padding-top: functions.rem(10px);
     }
 
     p {
-      margin: 0 0 rem(30px);
-      color: darken($lightGray, 20%);
-      font-size: rem(17px);
-      line-height: rem(26px);
+      margin: 0 0 functions.rem(30px);
+      color: color.adjust(variables.$lightGray, $lightness: -20%);
+      font-size: functions.rem(17px);
+      line-height: functions.rem(26px);
     }
 
     .tags a {
-      font-size: rem(12px);
-      height: rem(28px);
-      line-height: rem(26px);
-      color: $accentDark;
-      padding: 0 rem(10px);
-      border: 1px solid $accentDark;
+      font-size: functions.rem(12px);
+      height: functions.rem(28px);
+      line-height: functions.rem(26px);
+      color: variables.$accentDark;
+      padding: 0 functions.rem(10px);
+      border: 1px solid variables.$accentDark;
       border-radius: 15px;
       display: inline-block;
-      margin: 0 rem(10px) rem(10px) 0;
+      margin: 0 functions.rem(10px) functions.rem(10px) 0;
       z-index: 50;
 
       &:hover {
-        color: $primaryDark;
-        background: $themeColor;
-        border-color: $themeColor;
+        color: variables.$primaryDark;
+        background: variables.$themeColor;
+        border-color: variables.$themeColor;
       }
     }
 
@@ -189,7 +197,7 @@
         top: 50%;
         left: 50%;
         transform: translate3d(-50%, -50%, 0);
-        color: $themeColor;
+        color: variables.$themeColor;
         z-index: 1;
       }
 
@@ -201,14 +209,14 @@
       .new-post-tag {
         text-transform: uppercase;
         display: inline-block;
-        background: $themeColor;
+        background: variables.$themeColor;
         color: #fff;
-        font-size: rem(13px);
+        font-size: functions.rem(13px);
         font-weight: 700;
-        line-height: rem(24px);
-        padding: 0 rem(8px);
+        line-height: functions.rem(24px);
+        padding: 0 functions.rem(8px);
         position: absolute;
-        bottom: rem(8px);
+        bottom: functions.rem(8px);
         left: 0;
         z-index: 3;
       }
@@ -220,20 +228,20 @@
         align-items: center;
         justify-content: center;
         content: "";
-        width: rem(80px);
-        height: rem(80px);
+        width: functions.rem(80px);
+        height: functions.rem(80px);
         border-radius: 40px;
         position: absolute;
         top: 50%;
         left: 50%;
-        margin-top: rem(-40px);
-        margin-left: rem(-40px);
+        margin-top: functions.rem(-40px);
+        margin-left: functions.rem(-40px);
         border: 2px solid #fff;
-        color: $themeColor;
+        color: variables.$themeColor;
         z-index: 4;
 
         svg {
-          width: rem(48px);
+          width: functions.rem(48px);
           margin-right: 0;
         }
       }
@@ -241,9 +249,9 @@
   }
 
   .box-info {
-    padding: rem(15px);
+    padding: functions.rem(15px);
     &.min {
-      padding: rem(10px);
+      padding: functions.rem(10px);
     }
   }
 }

@@ -8,9 +8,9 @@ The general settings can be found in [`src/yml/site.yml`](https://github.com/thi
 
 > **IMPORTANT:** Only when cloning the repo. If you're using the `gem`, modify those properties in your `_config.yml`.
 
-#### `name`
+### `name`
 
-Type: *string*
+Type: _string_
 
 The website name will appear in several places, the most important one is at the header.
 
@@ -21,9 +21,9 @@ Example:
 name: Jekflix
 ```
 
-#### `title`
+### `title`
 
-Type: *string*
+Type: _string_
 
 The website title is used for SEO purposes and set the home page title.
 
@@ -34,9 +34,9 @@ Example:
 title: Jekflix | A blog theme for Jekyll
 ```
 
-#### `description`
+### `description`
 
-Type: *string*
+Type: _string_
 
 The website description is used for SEO purposes only.
 
@@ -47,9 +47,9 @@ Example:
 description: Jekflix is a template for Jekyll inspired by Netflix and made by Thiago Rossener.
 ```
 
-#### `tags`
+### `tags`
 
-Type: *list*
+Type: _list_
 
 The website tags are used as keywords for SEO purposes.
 
@@ -65,9 +65,9 @@ tags:
   - netlify
 ```
 
-#### `email`
+### `email`
 
-Type: *string*
+Type: _string_
 
 The email is used for the Contact page with legacy [Formspree](https://formspree.io/) forms.
 
@@ -82,9 +82,9 @@ Example:
 email: youremail@xyz.com
 ```
 
-#### `formspree_form_id `
+### `formspree_form_id `
 
-Type: *string*
+Type: _string_
 
 The [Formspree](https://formspree.io/) ID is used in Contact page.
 
@@ -97,9 +97,9 @@ Example:
 formspree_form_id: your_formspree_form_id
 ```
 
-#### `disqus_username`
+### `disqus_username`
 
-Type: *string*
+Type: _string_
 
 Set your [Disqus](https://disqus.com) username to add comments to your posts. Leave it blank if you don't want enable comments.
 
@@ -110,9 +110,9 @@ Example:
 disqus_username: disqus_username
 ```
 
-#### `show_hero`
+### `show_hero`
 
-Type: *boolean*
+Type: _boolean_
 
 Show/hide hero in the home page. It accepts the values `true` or `false`.
 
@@ -134,9 +134,9 @@ show_hero: false
 
 ![Home page without hero screenshot](https://res.cloudinary.com/dm7h7e8xj/image/upload/v1566477862/page-without-hero-screenshot_gobnva.jpg)
 
-#### `paginate`
+### `paginate`
 
-Type: *integer*
+Type: _integer_
 
 Add pagination to the home page.
 
@@ -153,9 +153,9 @@ The social settings can be found in [`src/yml/social.yml`](https://github.com/th
 
 > **IMPORTANT:** Only when cloning the repo. If you're using the `gem`, modify those properties in your `_config.yml`.
 
-#### `github_username`
+### `github_username`
 
-Type: *string*
+Type: _string_
 
 Set the GitHub username for the website.
 
@@ -164,9 +164,9 @@ Set the GitHub username for the website.
 github_username: github_username
 ```
 
-#### `facebook_username`
+### `facebook_username`
 
-Type: *string*
+Type: _string_
 
 Set the Facebook username for the website.
 
@@ -175,9 +175,9 @@ Set the Facebook username for the website.
 facebook_username: facebook_username
 ```
 
-#### `twitter_username`
+### `twitter_username`
 
-Type: *string*
+Type: _string_
 
 Set the Twitter username for the website.
 
@@ -186,9 +186,9 @@ Set the Twitter username for the website.
 twitter_username: twitter_username
 ```
 
-#### `instagram_username`
+### `instagram_username`
 
-Type: *string*
+Type: _string_
 
 Set the Instagram username for the website.
 
@@ -197,9 +197,9 @@ Set the Instagram username for the website.
 instagram_username: instagram_username
 ```
 
-#### `linkedin_username`
+### `linkedin_username`
 
-Type: *string*
+Type: _string_
 
 Set the LinkedIn username for the website.
 
@@ -208,9 +208,9 @@ Set the LinkedIn username for the website.
 linkedin_username: linkedin_username
 ```
 
-#### `medium_username`
+### `medium_username`
 
-Type: *string*
+Type: _string_
 
 Set the Medium username for the website.
 
@@ -219,9 +219,9 @@ Set the Medium username for the website.
 medium_username: medium_username
 ```
 
-#### `threads_username`
+### `threads_username`
 
-Type: *string*
+Type: _string_
 
 Set the Threads by Instagram username for the website.
 
@@ -230,9 +230,9 @@ Set the Threads by Instagram username for the website.
 threads_username: threads_username
 ```
 
-#### `letterboxd_username`
+### `letterboxd_username`
 
-Type: *string*
+Type: _string_
 
 Set the Letterboxd username for the website.
 
@@ -241,9 +241,9 @@ Set the Letterboxd username for the website.
 threads_username: letterboxd_username
 ```
 
-#### `serializd_username`
+### `serializd_username`
 
-Type: *string*
+Type: _string_
 
 Set the Serializd username for the website.
 
@@ -266,7 +266,7 @@ To see how your website is going to look like when you deploy it, run `bundle ex
 
 #### `themeColor`
 
-Type: *hexadecimal*
+Type: _hexadecimal_
 
 Default: ![#ff0a16](https://placehold.it/15/ff0a16/000000?text=+) `#FF0A16`
 
@@ -279,7 +279,7 @@ themeColor: "#ff0a16"
 
 #### `primaryDark`
 
-Type: *hexadecimal*
+Type: _hexadecimal_
 
 Default: ![#141414](https://placehold.it/15/141414/000000?text=+) `#141414`
 
@@ -292,7 +292,7 @@ primaryDark: "#141414"
 
 #### `accentDark`
 
-Type: *hexadecimal*
+Type: _hexadecimal_
 
 Default: ![#ffffff](https://placehold.it/15/ffffff/000000?text=+) `#FFFFFF`
 
@@ -305,7 +305,7 @@ accentDark: "#ffffff"
 
 #### `lightGray`
 
-Type: *hexadecimal*
+Type: _hexadecimal_
 
 Default: ![#f2f2f2](https://placehold.it/15/f2f2f2/000000?text=+) `#F2F2F2`
 
@@ -318,7 +318,7 @@ lightGray: "#f2f2f2"
 
 #### `texts`
 
-Type: *hexadecimal*
+Type: _hexadecimal_
 
 Default: ![#333333](https://placehold.it/15/333333/000000?text=+) `#333333`
 
@@ -335,9 +335,9 @@ The posts settings can be found in [`src/yml/posts.yml`](https://github.com/thia
 
 > **IMPORTANT:** Only when cloning the repo. If you're using the `gem`, modify those properties in your `_config.yml`.
 
-#### `show_time_bar`
+### `show_time_bar`
 
-Type: *boolean*
+Type: _boolean_
 
 Show/hide the reading progress bar. It accepts the values `true` or `false`.
 
@@ -348,9 +348,9 @@ show_time_bar: true
 
 ![Reading Progress Bar Screenshot](https://res.cloudinary.com/dm7h7e8xj/image/upload/v1566425470/progress-bar-screenshot_gem7xb.jpg)
 
-#### `show_modal_on_exit`
+### `show_modal_on_exit`
 
-Type: *boolean*
+Type: _boolean_
 
 Show/hide recommendation modal when visitor is leaving the page. It accepts the values `true` or `false`.
 
@@ -361,9 +361,9 @@ show_modal_on_exit: false
 
 ![Modal screenshot](https://res.cloudinary.com/dm7h7e8xj/image/upload/v1566478245/before-you-go-screenshot_prrplk.jpg)
 
-#### `show_modal_on_finish_post`
+### `show_modal_on_finish_post`
 
-Type: *boolean*
+Type: _boolean_
 
 Show/hide recommendation modal when visitor reaches the end of the post. It accepts the values `true` or `false`.
 
@@ -374,9 +374,9 @@ show_modal_on_finish_post: false
 
 ![Modal screenshot](https://res.cloudinary.com/dm7h7e8xj/image/upload/v1566478245/before-you-go-screenshot_prrplk.jpg)
 
-#### `two_columns_layout`
+### `two_columns_layout`
 
-Type: *boolean*
+Type: _boolean_
 
 Switch posts layout between one and two column. It accepts the values `true` or `false`.
 
@@ -404,9 +404,9 @@ The advanced settings can be found in [`src/yml/advanced.yml`](https://github.co
 
 > **IMPORTANT:** Only when cloning the repo. If you're using the `gem`, modify those properties in your `_config.yml`.
 
-#### `baseurl`
+### `baseurl`
 
-Type: *string*
+Type: _string_
 
 Set the subpath of your site, e.g. `/blog`.
 
@@ -415,9 +415,9 @@ Set the subpath of your site, e.g. `/blog`.
 baseurl: ""
 ```
 
-#### `url`
+### `url`
 
-Type: *string*
+Type: _string_
 
 Set the base hostname and protocol for your site, e.g. `https://rossener.com`
 
@@ -426,9 +426,9 @@ Set the base hostname and protocol for your site, e.g. `https://rossener.com`
 url: ""
 ```
 
-#### `google_analytics`
+### `google_analytics`
 
-Type: *string*
+Type: _string_
 
 Set your Google Analytics [tracking ID](https://www.youtube.com/watch?v=Mtzl4tkVdbI).
 
@@ -437,9 +437,9 @@ Set your Google Analytics [tracking ID](https://www.youtube.com/watch?v=Mtzl4tkV
 google_analytics: "G-XXXXXXXXXX"
 ```
 
-#### `language`
+### `language`
 
-Type: *string*
+Type: _string_
 
 Set your website language. It's used for SEO purposes (e.g. `pt-BR`, `en`, `es`, `fr`)
 

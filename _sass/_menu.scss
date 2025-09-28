@@ -1,3 +1,8 @@
+@use "functions";
+@use "include-media";
+@use "mixins";
+@use "variables";
+
 *,
 *:before,
 *:after {
@@ -16,29 +21,29 @@ body.has-push-menu {
   left: 0;
 
   &.push-menu-to-right {
-    left: rem(240px);
+    left: functions.rem(240px);
 
     .progress-bar {
-      left: rem(240px);
+      left: functions.rem(240px);
     }
 
     .bar-header {
-      left: rem(240px);
+      left: functions.rem(240px);
     }
   }
 }
 
 aside.sidebar {
   position: fixed;
-  width: rem(240px);
+  width: functions.rem(240px);
   height: 100%;
   top: 0;
-  left: rem(-240px);
-  background-color: $primaryDark;
+  left: functions.rem(-240px);
+  background-color: variables.$primaryDark;
   z-index: 20;
 
-  @include media(">=sm") {
-    padding: rem(10px) 0 0;
+  @include include-media.media(">=iphone") {
+    padding: functions.rem(10px) 0 0;
   }
 
   &.open {
@@ -51,25 +56,25 @@ aside.sidebar {
   }
 
   h2 {
-    margin: 0 rem(20px) 0;
-    @include mainFont(400);
-    font-size: rem(18px);
-    color: $accentDark;
-    border-bottom: 1px solid $primaryDark;
+    margin: 0 functions.rem(20px) 0;
+    @include mixins.mainFont(400);
+    font-size: functions.rem(18px);
+    color: variables.$accentDark;
+    border-bottom: 1px solid variables.$primaryDark;
     line-height: 50px;
 
-    @include media(">=sm") {
-      font-size: rem(20px);
+    @include include-media.media(">=iphone") {
+      font-size: functions.rem(20px);
     }
   }
 
   nav {
     ul {
       padding: 0;
-      margin: rem(5px) 0;
+      margin: functions.rem(5px) 0;
 
-      @include media(">=sm") {
-        margin: rem(10px) 0;
+      @include include-media.media(">=iphone") {
+        margin: functions.rem(10px) 0;
       }
 
       li {
@@ -79,14 +84,14 @@ aside.sidebar {
         a {
           width: 100%;
           display: block;
-          padding: rem(15px) rem(20px);
+          padding: functions.rem(15px) functions.rem(20px);
           text-decoration: none;
-          @include mainFont(300);
-          color: $accentDark;
+          @include mixins.mainFont(300);
+          color: variables.$accentDark;
 
           &:hover {
-            color: $accentDark;
-            background: $themeColor;
+            color: variables.$accentDark;
+            background: variables.$themeColor;
           }
         }
       }

@@ -6,54 +6,69 @@ Before starting, make sure you have [Ruby](https://www.ruby-lang.org/en/document
 
 Then install Jekyll:
 
-```
-$ gem install jekyll
+```shell
+gem install jekyll
 ```
 
 And install Gulp client:
 
-```
-$ npm install gulp-cli -g
+```shell
+npm install gulp-cli -g
 ```
 
 ## Installing template
 
 1. Fork the [Jekflix Template](https://github.com/thiagorossener/jekflix-template/fork)
+
 2. Clone the repo you just forked:
+
+```shell
+git clone https://github.com/<your-github-username>/jekflix-template.git
 ```
-$ git clone https://github.com/<your-github-username>/jekflix-template.git
+
+1. Access the local project:
+
+```shell
+cd path/to/jekyll-template
 ```
-3. Access the local project:
+
+1. Install npm packages:
+
+```shell
+npm install
 ```
-$ cd path/to/jekyll-template
+
+1. Install Ruby dependencies:
+
+```shell
+bundle install
+
 ```
-4. Install npm packages:
+
+1. Build Jekyll:
+
+```shell
+bundle exec jekyll build
+
 ```
-$ npm install
-```
-5. Install Ruby dependencies:
-```
-$ bundle install
-```
-6. Build Jekyll:
-```
-$ bundle exec jekyll build
-```
-7. Then run Gulp:
-```
-$ gulp
+
+1. Then run Gulp:
+
+```shell
+gulp
 ```
 
 ## Running local
 
 After the steps above, to run Jekyll locally, you'll just need to run Gulp:
-```
-$ gulp
+
+```shell
+gulp
 ```
 
 ## Customization
 
-*Jekflix Template* allows you to personalize your site with several settings. See the [docs](settings.md#settings) for more details.
+_Jekflix Template_ allows you to personalize your site with several settings. See the [docs](settings.md#settings) for more details.
 
 For advanced theme customization, check the directory `_sass` for style files.
 

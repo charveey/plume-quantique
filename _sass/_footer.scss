@@ -1,14 +1,20 @@
-footer {
-  @include center(rem(800px));
-  background: $primaryDark;
-  border-top: 1px solid lighten($primaryDark, 10%);
-  padding: rem(20px) rem(25px);
-  margin-top: rem(50px);
-  margin-bottom: rem(120px);
-  @include mainFont(300);
+@use "sass:color";
+@use "functions";
+@use "include-media";
+@use "mixins";
+@use "variables";
 
-  @include media(">=iphone") {
-    margin-top: rem(100px);
+footer {
+  @include mixins.center(functions.rem(800px));
+  background: variables.$primaryDark;
+  border-top: 1px solid color.adjust(variables.$primaryDark, $lightness: 10%);
+  padding: functions.rem(20px) functions.rem(25px);
+  margin-top: functions.rem(50px);
+  margin-bottom: functions.rem(120px);
+  @include mixins.mainFont(300);
+
+  @include include-media.media(">=iphone") {
+    margin-top: functions.rem(100px);
   }
 
   p {
@@ -16,10 +22,10 @@ footer {
     flex-direction: row;
     justify-content: space-evenly;
     text-decoration: none;
-    color: $primaryDark;
-    font-size: rem(16px);
-    line-height: rem(25px);
-    padding-bottom: rem(10px);
+    color: variables.$primaryDark;
+    font-size: functions.rem(16px);
+    line-height: functions.rem(25px);
+    padding-bottom: functions.rem(10px);
   }
 
   span {
@@ -27,21 +33,21 @@ footer {
   }
 
   svg {
-    @include size(28, 28);
+    @include mixins.size(28, 28);
     display: inline-block;
     vertical-align: middle;
-    margin-right: rem(10px);
+    margin-right: functions.rem(10px);
 
-    @include media(">=sm") {
-      margin-right: rem(20px);
+    @include include-media.media(">=iphone") {
+      margin-right: functions.rem(20px);
     }
 
     &.love {
-      @include size(20, 20);
-      fill: $themeColor;
-      margin-top: rem(-2px);
-      margin-left: rem(3px);
-      margin-right: rem(3px);
+      @include mixins.size(20, 20);
+      fill: variables.$themeColor;
+      margin-top: functions.rem(-2px);
+      margin-left: functions.rem(3px);
+      margin-right: functions.rem(3px);
     }
   }
 
@@ -51,11 +57,11 @@ footer {
     transition: all 0.3s ease;
     text-decoration: none;
     color: #808080;
-    
+
     &:hover {
-      fill: $themeColor;
+      fill: variables.$themeColor;
     }
-    
+
     &.creator:hover {
       text-decoration: underline;
     }
@@ -66,13 +72,13 @@ footer {
     list-style-type: none;
 
     li {
-      margin-bottom: rem(10px);
+      margin-bottom: functions.rem(10px);
     }
 
     a {
       text-decoration: none;
-      font-size: rem(15px);
-      
+      font-size: functions.rem(15px);
+
       &:hover {
         text-decoration: underline;
       }
@@ -82,10 +88,10 @@ footer {
 
 .main-page {
   footer {
-    background: $primaryDark;
-    
+    background: variables.$primaryDark;
+
     p {
-      color: $accentDark;
+      color: variables.$accentDark;
     }
   }
 }

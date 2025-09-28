@@ -1,116 +1,127 @@
+@use "functions";
+@use "include-media";
+@use "variables";
+
 html,
 body {
   height: 100%;
 }
 
 .bar-header {
-  background-color: $primaryDark;
+  background-color: variables.$primaryDark;
   display: flex;
-  padding: rem(10px) rem(15px);
+  padding: functions.rem(10px) functions.rem(15px);
   position: fixed;
   left: 0;
   width: 100%;
   z-index: 10;
-  transition: top 0.5s, left 0.3s ease, background-color 0.5s, box-shadow 0.5s;
+  transition:
+    top 0.5s,
+    left 0.3s ease,
+    background-color 0.5s,
+    box-shadow 0.5s;
   justify-content: space-between;
   align-items: center;
-  
-  @include media(">=sm") {
-    padding: rem(15px) rem(0px);
+
+  @include include-media.media(">=iphone") {
+    padding: functions.rem(15px) functions.rem(0px);
   }
   .logo-container {
-    @include media(">tablet") {
-      margin: 0 0 0 rem(20px);
+    @include include-media.media(">tablet") {
+      margin: 0 0 0 functions.rem(20px);
     }
-    @include media("<=tablet") {
+    @include include-media.media("<=tablet") {
       display: flex;
       justify-content: space-between;
       align-items: center;
       width: calc(2 / 3 * 90vw);
     }
 
-  .logo {
-    height: rem(50px);
-    width: rem(104px);
-    line-height: rem(32px);
+    .logo {
+      height: functions.rem(50px);
+      width: functions.rem(104px);
+      line-height: functions.rem(32px);
 
-    a {
+      a {
         display: block;
-        color: $accentDark;
+        color: variables.$accentDark;
         text-decoration: none;
-        font-size: rem(32px);
+        font-size: functions.rem(32px);
         outline: 0;
-    }
+      }
 
-    svg {
-        width: rem(170px);
-        height: rem(40px);
-        transition: all .4s;
-        
-        @include media(">=sm") {
-            width: rem(207px);
+      svg {
+        width: functions.rem(170px);
+        height: functions.rem(40px);
+        transition: all 0.4s;
+
+        @include include-media.media(">=iphone") {
+          width: functions.rem(207px);
         }
+      }
     }
-}
 
-  .version {
-    color: $accentDark;
-    font-size: rem(10px);
-    font-weight: normal;
-    line-height: 1;
-    position: absolute;
-    top: 0;
-    right: 0;
-    display: block;
-    transform: translateX(110%);
-    opacity: 0.3;
+    .version {
+      color: variables.$accentDark;
+      font-size: functions.rem(10px);
+      font-weight: normal;
+      line-height: 1;
+      position: absolute;
+      top: 0;
+      right: 0;
+      display: block;
+      transform: translateX(110%);
+      opacity: 0.3;
+    }
   }
 }
 
   .icon-menu {
     float: left;
     cursor: pointer;
-    margin: rem(5px) rem(20px) rem(5px) 0;
-    width: rem(20px);
-    height: rem(20px);
-    fill: $accentDark;
+    margin: functions.rem(5px) functions.rem(20px) functions.rem(5px) 0;
+    width: functions.rem(20px);
+    height: functions.rem(20px);
+    fill: variables.$accentDark;
 
-    @include media(">=sm") {
-      margin: rem(5px) rem(20px) rem(5px) rem(25px);
+    @include include-media.media(">=iphone") {
+      margin: functions.rem(5px) functions.rem(20px) functions.rem(5px)
+        functions.rem(25px);
     }
   }
 
   .dosearch {
     float: right;
-    width: rem(30px);
-    height: rem(30px);
+    width: functions.rem(30px);
+    height: functions.rem(30px);
     cursor: pointer;
     margin: 0;
-    @include media(">=sm") {
-      margin: 0 rem(20px) 0 0;
+    @include include-media.media(">=iphone") {
+      margin: 0 functions.rem(20px) 0 0;
     }
   }
 
   .icon-search {
-    width: rem(20px);
-    height: rem(20px);
-    fill: $accentDark;
-    margin: rem(5px);
+    width: functions.rem(20px);
+    height: functions.rem(20px);
+    fill: variables.$accentDark;
+    margin: functions.rem(5px);
   }
 
   .get-theme {
     display: none;
-    font-size: rem(13px);
+    font-size: functions.rem(13px);
     font-weight: bold;
     text-decoration: none;
-    background-color: $themeColor;
-    color: $accentDark;
-    padding: rem(5px) rem(10px);
-    border-radius: rem(5px);
+    background-color: variables.$themeColor;
+    color: variables.$accentDark;
+    padding: functions.rem(5px) functions.rem(10px);
+    border-radius: functions.rem(5px);
     float: right;
-    margin: rem(5px) rem(15px) rem(5px) rem(5px);
+    margin: functions.rem(5px) functions.rem(15px) functions.rem(5px)
+      functions.rem(5px);
 
-    @include media(">=sm") {
+    @include include-media.media(">=iphone") {
       display: inline-block;
     }
   }

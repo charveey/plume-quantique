@@ -9,34 +9,42 @@ permalink: /staff/
 
 <div class="staff_block fullwidth">
   {% for author in site.authors %}
-    <div class="staff_item">
-      <img
-        alt=""
-        src="{{ author.photo }}"
-        class="image" />
-      <div class="info">
-        <h4 class="name"><a href="{{ site.baseurl }}{{ author.url }}">{{ author.display_name }}</a></h4>
-        {% if author.position %}
-          <p class="position">{{ author.position }}</p>
+  <div class="staff_item">
+    <img alt="" src="{{ author.photo }}" class="image" />
+    <div class="info">
+      <h4 class="name">
+        <a href="{{ site.baseurl }}{{ author.url }}"
+          >{{ author.display_name }}</a
+        >
+      </h4>
+      {% if author.position %}
+      <p class="position">{{ author.position }}</p>
+      {% endif %}
+      <p class="icns">
+        {% if author.linkedin_username %}
+        <a
+          href="https://www.linkedin.com/in/{{ author.linkedin_username }}"
+          title="{{ author.display_name }} on LinkedIn"
+        >
+          <svg><use xlink:href="#icon-linkedin"></use></svg>
+        </a>
+        {% endif %} {% if author.facebook_username %}
+        <a
+          href="https://www.facebook.com/{{ author.facebook_username }}"
+          title="{{ author.display_name }} on Facebook"
+        >
+          <svg><use xlink:href="#icon-facebook"></use></svg>
+        </a>
+        {% endif %} {% if author.instagram_username %}
+        <a
+          href="https://www.instagram.com/{{ author.instagram_username }}"
+          title="{{ author.display_name }} on Instagram"
+        >
+          <svg><use xlink:href="#icon-instagram"></use></svg>
+        </a>
         {% endif %}
-        <p class="icns">
-          {% if author.linkedin_username %}
-            <a href="https://www.linkedin.com/in/{{ author.linkedin_username }}" title="{{ author.display_name }} on LinkedIn">
-              <svg><use xlink:href="#icon-linkedin"></use></svg>
-            </a>
-          {% endif %}
-          {% if author.facebook_username %}
-            <a href="https://www.facebook.com/{{ author.facebook_username }}" title="{{ author.display_name }} on Facebook">
-              <svg><use xlink:href="#icon-facebook"></use></svg>
-            </a>
-          {% endif %}
-          {% if author.instagram_username %}
-            <a href="https://www.instagram.com/{{ author.instagram_username }}" title="{{ author.display_name }} on Instagram">
-              <svg><use xlink:href="#icon-instagram"></use></svg>
-            </a>
-          {% endif %}
-        </p>
-      </div>
+      </p>
     </div>
+  </div>
   {% endfor %}
 </div>

@@ -1,58 +1,64 @@
+@use "sass:color";
+@use "functions";
+@use "include-media";
+@use "mixins";
+@use "variables";
+
 .staff {
-  @include media(">=sm") {
-    @include center(rem(1024px));
+  @include include-media.media(">=iphone") {
+    @include mixins.center(functions.rem(1024px));
   }
 
   .item:not(:last-child) {
-    border-bottom: 1px solid $lightGray;
+    border-bottom: 1px solid variables.$lightGray;
   }
 
   img {
-    width: rem(150px);
-    margin: 0 rem(20px) rem(20px);
+    width: functions.rem(150px);
+    margin: 0 functions.rem(20px) functions.rem(20px);
 
-    @include media(">=sm") {
-      width: rem(200px);
-      margin-bottom: rem(30px);
+    @include include-media.media(">=iphone") {
+      width: functions.rem(200px);
+      margin-bottom: functions.rem(30px);
     }
   }
 
   h1,
   h2,
   h3 {
-    margin-bottom: rem(10px);
+    margin-bottom: functions.rem(10px);
 
     &.name {
-      padding-top: rem(10px);
-      @include media("<=phone") {
-        font-size: rem(25px);
+      padding-top: functions.rem(10px);
+      @include include-media.media("<=phone") {
+        font-size: functions.rem(25px);
       }
     }
 
     &.position {
-      font-size: rem(19px);
+      font-size: functions.rem(19px);
       font-weight: normal;
       font-style: italic;
       color: #999;
       padding-top: 0;
-      margin-bottom: rem(20px);
+      margin-bottom: functions.rem(20px);
     }
   }
 }
 
 .staff_block {
-  @include media(">=sm") {
-    @include center(rem(1024px));
+  @include include-media.media(">=iphone") {
+    @include mixins.center(functions.rem(1024px));
   }
-  display: grid!important;
+  display: grid !important;
   margin-top: 2.5rem;
-  @include media(">=laptop") {
+  @include include-media.media(">=laptop") {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
-  @include media(">iphone", "<laptop") {
+  @include include-media.media(">iphone", "<laptop") {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
-  @include media("<=iphone") {
+  @include include-media.media("<=iphone") {
     grid-template-columns: repeat(1, minmax(0, 1fr));
     justify-items: center;
   }
@@ -61,83 +67,78 @@
   .image {
     object-fit: cover;
     border-radius: 50%;
-    width: rem(140px);
-    height: rem(140px);
-    padding:0;
-    @include media("<=iphone") {
-      margin: rem(0px) rem(20px);
-      width: rem(110px);
-      height: rem(110px);
+    width: functions.rem(140px);
+    height: functions.rem(140px);
+    padding: 0;
+    @include include-media.media("<=iphone") {
+      margin: functions.rem(0px) functions.rem(20px);
+      width: functions.rem(110px);
+      height: functions.rem(110px);
     }
-    @include media("<=phone") {
-      width: rem(90px);
-      height: rem(90px);
+    @include include-media.media("<=phone") {
+      width: functions.rem(90px);
+      height: functions.rem(90px);
     }
   }
 
-  .staff_item{
+  .staff_item {
     padding: 2rem 1rem;
     border-radius: 0.5rem;
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-    background-color: lighten(#000, 5%);
-    @include media("<=iphone") {
+    background-color: color.adjust(#000, $lightness: 5%);
+    @include include-media.media("<=iphone") {
       display: inline-flex;
       width: 80vw;
       justify-content: space-between;
     }
 
-    .info{
-      @include media(">=iphone") {
-        margin-top: rem(10px);
+    .info {
+      @include include-media.media(">=iphone") {
+        margin-top: functions.rem(10px);
       }
       text-align: center;
 
       .name {
-        font-size: rem(18px);
-        @include media("<iphone") {
-          font-size: rem(15px);
-          padding: rem(5px) rem(8px);
-          
+        font-size: functions.rem(18px);
+        @include include-media.media("<iphone") {
+          font-size: functions.rem(15px);
+          padding: functions.rem(5px) functions.rem(8px);
         }
-        line-height: rem(15px);
+        line-height: functions.rem(15px);
         font-weight: 600;
-        padding-top:10px;
+        padding-top: 10px;
       }
 
       .position {
-        color: $lightGray;
+        color: variables.$lightGray;
         margin-top: 2px;
         font-style: italic;
-        font-size: rem(10px);
-        line-height: rem(15px);
-        @include media(">=iphone") {
-          font-size: rem(14px);
-          line-height: rem(40px);
+        font-size: functions.rem(10px);
+        line-height: functions.rem(15px);
+        @include include-media.media(">=iphone") {
+          font-size: functions.rem(14px);
+          line-height: functions.rem(40px);
         }
-        @include media(">=tablet") {
-          font-size: rem(17px);
+        @include include-media.media(">=tablet") {
+          font-size: functions.rem(17px);
         }
       }
       .icns {
         margin-top: 1px;
-        padding: rem(10px) rem(5px); 
+        padding: functions.rem(10px) functions.rem(5px);
       }
       svg {
-        fill: $lightGray;
+        fill: variables.$lightGray;
         height: 22px;
         width: 22px;
-        margin: rem(0px) rem(1px);
+        margin: functions.rem(0px) functions.rem(1px);
       }
     }
-    
-
 
     &:hover {
       .name {
-        color:$themeColor;
+        color: variables.$themeColor;
       }
     }
   }
 }
-
-

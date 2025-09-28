@@ -28,11 +28,12 @@ email: le7eptiemeoeil@gmail.com
 twitter_username:
 facebook_username: 61559794971817
 instagram_username: le7eptiemeoeil
-medium_username: 
+medium_username:
 threads_username: le7eptiemeoeil
 letterboxd_username:
 serializd_username:
 linkedin_username: 103512316
+
 
 # Posts Settings
 show_time_bar: false
@@ -92,6 +93,7 @@ translations:
     after_send:
       title: "Message envoyé !"
       message: "Nous vous remercions de nous avoir contactés et nous vous répondrons dès que possible."
+
 
 # Build settings
 markdown: kramdown

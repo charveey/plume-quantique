@@ -6,7 +6,7 @@ You can use the `initpost.sh` script to generate new posts when you clone the re
 
 To do so, in your project directory, just run:
 
-```
+```shell
 ./initpost.sh -c "Your Post Title"
 ```
 
@@ -16,7 +16,7 @@ The new file will be created in `_posts` with the format `YYYY-MM-DD-your-post-t
 
 If you don't know what these are, check the Jekyll [documentation](https://jekyllrb.com/docs/front-matter/).
 
-A *Jekflix* post file looks like:
+A _Jekflix_ post file looks like:
 
 ```yaml
 # _posts/2010-01-01-welcome-to-the-desert-of-the-real.md
@@ -37,15 +37,14 @@ tags:
 author: thiagorossener
 paginate: true
 ---
-
 bla bla bla
 ```
 
 Below is a full list of the template Front Matter properties explained:
 
-#### `date`
+### `date`
 
-Type: *datetime*
+Type: _datetime_
 
 The post publishing date. Format: `YYYY-MM-DD hh:mm:ss`
 
@@ -54,30 +53,28 @@ Example:
 ```yaml
 # _posts/2019-08-22-example.md
 ---
-...
+---
 date: 2019-05-16 23:48:05
-...
 ---
 ```
 
-#### `layout`
+### `layout`
 
-Type: *string*
+Type: _string_
 
 The layout file that will be used. The template has only one valid layout for posts, which is `post`.
 
 ```yaml
 # _posts/2019-08-22-example.md
 ---
-...
+---
 layout: post
-...
 ---
 ```
 
-#### `title`
+### `title`
 
-Type: *string*
+Type: _string_
 
 The post title.
 
@@ -86,17 +83,16 @@ Example:
 ```yaml
 # _posts/2019-08-22-example.md
 ---
-...
+---
 title: Welcome to the desert of the real
-...
 ---
 ```
 
-#### `subtitle`
+### `subtitle`
 
-*(Optional)*
+_(Optional)_
 
-Type: *string*
+Type: _string_
 
 The post subtitle. It appears below the title.
 
@@ -105,15 +101,14 @@ Example:
 ```yaml
 # _posts/2019-08-22-example.md
 ---
-...
+---
 subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-...
 ---
 ```
 
-#### `description`
+### `description`
 
-Type: *string*
+Type: _string_
 
 The post description. It's used in the home and category pages, in meta description tag for SEO purposes and for social media sharing.
 
@@ -122,61 +117,58 @@ Example:
 ```yaml
 # _posts/2019-08-22-example.md
 ---
-...
+---
 description: >-
   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
   tempor incididunt ut labore et dolore magna aliqua.
-...
 ---
 ```
 
-#### `image`
+### `image`
 
-Type: *url*
+Type: _url_
 
 The featured image. It's used in the home and category pages and for social media sharing.
 
 **Tip:** Use a media server to provide images for your website, like [Cloudinary](https://cloudinary.com)
 
-*Obs: The recommended image resolution is 760x399*
+_Obs: The recommended image resolution is 760x399_
 
 Example:
 
 ```yaml
 # _posts/2019-08-22-example.md
 ---
-...
+---
 image: https://res.cloudinary.com/dm7h7e8xj/image/upload/v1559821647/theme6_qeeojf.jpg
-...
 ---
 ```
 
-#### `optimized_image`
+### `optimized_image`
 
-*(Optional*)
+_(Optional_)
 
-Type: *url*
+Type: _url_
 
 The optimized featured image. Set a smaller image to appear in the home and category pages, they will load faster.
 
 In case there is no `optimized_image` set, the pages show the one in the `image` property.
 
-*Obs: The recommended image resolution is 380x200*
+_Obs: The recommended image resolution is 380x200_
 
 Example:
 
 ```yaml
 # _posts/2019-08-22-example.md
 ---
-...
+---
 optimized_image: https://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_380/v1559821647/theme6_qeeojf.jpg
-...
 ---
 ```
 
-#### `category`
+### `category`
 
-Type: *string*
+Type: _string_
 
 Only one category is allowed. Make sure to create a `<category>.md` file in `category` directory if it's a new one.
 
@@ -185,15 +177,14 @@ Example:
 ```yaml
 # _posts/2019-08-22-example.md
 ---
-...
+---
 category: blog
-...
 ---
 ```
 
-#### `tags`
+### `tags`
 
-Type: *list*
+Type: _list_
 
 A list of the post keywords. It's used in the home, category and tags pages, and as meta keywords for SEO purposes.
 
@@ -202,19 +193,18 @@ Example:
 ```yaml
 # _posts/2019-08-22-example.md
 ---
-...
+---
 tags:
   - welcome
   - blog
-...
 ---
 ```
 
-#### `author`
+### `author`
 
-*(Optional)*
+_(Optional)_
 
-Type: *string*
+Type: _string_
 
 The post author. Set the author filename used in the `_authors` folder.
 
@@ -227,17 +217,16 @@ Example:
 ```yaml
 # _posts/2019-08-22-example.md
 ---
-...
+---
 author: thiagorossener
-...
 ---
 ```
 
-#### `paginate`
+### `paginate`
 
-*(Optional)*
+_(Optional)_
 
-Type: *boolean*
+Type: _boolean_
 
 To break your post into pages, set the property `paginate` to `true` and use the divider `--page-break--` where you want to break it.
 
@@ -248,11 +237,9 @@ Example:
 ```yaml
 # 2019-08-20-ten-skills-you-need-to-have-to-become-a-good-developer.md
 ---
-...
-paginate: true
-...
 ---
-
+paginate: true
+---
 Skill 1
 
 --page-break--

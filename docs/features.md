@@ -80,7 +80,7 @@ A script named [initpost.sh](https://github.com/thiagorossener/jekflix-template/
 In the project directory, just run:
 
 ```bash
-$ ./initpost.sh -c "New post title"
+./initpost.sh -c "New post title"
 ```
 
 ## Tags page
@@ -189,7 +189,7 @@ This feature is supposed to be similar to the Netflix recommendation when you fi
 
 _(Optional)_
 
-*Jekflix Template 3.1.0* now supports math expressions through [MathJax](https://www.mathjax.org/) library, thanks to **[@XieGuochao](https://github.com/XieGuochao)**.
+_Jekflix Template 3.1.0_ now supports math expressions through [MathJax](https://www.mathjax.org/) library, thanks to **[@XieGuochao](https://github.com/XieGuochao)**.
 
 You only need 2 steps:
 
@@ -211,32 +211,32 @@ The REST API provides a convenient way to integrate with an application and perf
 - **Description:** Retrieves a JSON array containing all blog posts.
 - **Response Example:**
 
-    ```json
-    [
-        {
-            "id": "/this-is-the-id",
-            "title": "First Post",
-            "excerpt": "Lorem ipsum",
-            "cover": "link-to-the-compressed-cover-image",
-            "author": "Author Name",
-            "date": "2024-08-25",
-            "url": "/url-to-the-post/",
-            "tags": ["tag1","tag2","tag3"],
-            "category": "category",
-        },
-        {
-            "id": "/this-is-another-id",
-            "title": "Second Post",
-            "excerpt": "Lorem ipsum",
-            "cover": "link-to-the-compressed-cover-image",
-            "author": "Author Name",
-            "date": "2024-08-12",
-            "url": "/url-to-the-post/",
-            "tags": ["tag1","tag2","tag3"],
-            "category": "category",
-        }
-    ]
-    ```
+  ```json
+  [
+    {
+      "id": "/this-is-the-id",
+      "title": "First Post",
+      "excerpt": "Lorem ipsum",
+      "cover": "link-to-the-compressed-cover-image",
+      "author": "Author Name",
+      "date": "2024-08-25",
+      "url": "/url-to-the-post/",
+      "tags": ["tag1", "tag2", "tag3"],
+      "category": "category"
+    },
+    {
+      "id": "/this-is-another-id",
+      "title": "Second Post",
+      "excerpt": "Lorem ipsum",
+      "cover": "link-to-the-compressed-cover-image",
+      "author": "Author Name",
+      "date": "2024-08-12",
+      "url": "/url-to-the-post/",
+      "tags": ["tag1", "tag2", "tag3"],
+      "category": "category"
+    }
+  ]
+  ```
 
 #### Get Single Post
 
@@ -247,19 +247,19 @@ The REST API provides a convenient way to integrate with an application and perf
   - `post-name` (string): The name of the blog post.
 - **Response Example:**
 
-    ```json
-    {
-        "title": "First Post",
-        "subtitle": "This is the subtitle",
-        "excerpt": "Lorem ipsum",
-        "cover": "link-to-the-cover-image",
-        "author": "Author Name",
-        "date": "2024-08-25",
-        "tags": ["tag1","tag2","tag3"],
-        "category": "category",
-        "content": "This is the content of the first post.",
-    }
-    ```
+  ```json
+  {
+    "title": "First Post",
+    "subtitle": "This is the subtitle",
+    "excerpt": "Lorem ipsum",
+    "cover": "link-to-the-cover-image",
+    "author": "Author Name",
+    "date": "2024-08-25",
+    "tags": ["tag1", "tag2", "tag3"],
+    "category": "category",
+    "content": "This is the content of the first post."
+  }
+  ```
 
 ### Usage Notes
 

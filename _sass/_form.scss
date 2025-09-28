@@ -1,7 +1,13 @@
+@use "sass:color";
+@use "functions";
+@use "include-media";
+@use "mixins";
+@use "variables";
+
 .contact-form {
-  @include mainFont();
-  @include center(rem(1024px));
-  padding: rem(10px);
+  @include mixins.mainFont();
+  @include mixins.center(functions.rem(1024px));
+  padding: functions.rem(10px);
 
   fieldset {
     border: none;
@@ -21,14 +27,13 @@
     border-bottom: 1px solid #ddd;
     margin-bottom: 10px;
     font-family: inherit;
-    font-size: rem(18px);
-    height: rem(45px);
+    font-size: functions.rem(18px);
+    height: functions.rem(45px);
 
     &.has-error {
       border-color: #f04242;
     }
   }
-
 
   input[type="text"],
   input[type="email"] {
@@ -36,39 +41,41 @@
   }
 
   textarea {
-    height: rem(200px);
+    height: functions.rem(200px);
     border-radius: 10px;
   }
 
   span {
     display: block;
-    font-size: rem(14px);
+    font-size: functions.rem(14px);
     color: #f04242;
-    padding-bottom: rem(10px);
+    padding-bottom: functions.rem(10px);
   }
 
   button[type="submit"] {
     display: block;
-    padding: rem(14px) rem(39px) rem(14px) rem(39px);
+    padding: functions.rem(14px) functions.rem(39px) functions.rem(14px)
+      functions.rem(39px);
     color: #ffffff;
-    background: $themeColor;
-    font-size: rem(18px);
+    background: variables.$themeColor;
+    font-size: functions.rem(18px);
     width: 100%;
-    border: 1px solid darken($themeColor, 30%);
+    border: 1px solid color.adjust(variables.$themeColor, $lightness: -30%);
     border-width: 1px 1px 3px;
-    margin-top: rem(50px);
-    margin-bottom: rem(10px);
+    margin-top: functions.rem(50px);
+    margin-bottom: functions.rem(10px);
     cursor: pointer;
     transition: all 0.3s;
     outline: none;
     border-radius: 15px;
 
     &:hover {
-      background: darken($themeColor, 20%);
+      background: color.adjust(variables.$themeColor, $lightness: -20%);
     }
 
-    @include media(">=sm") {
-      padding: rem(19px) rem(39px) rem(18px) rem(39px);
+    @include include-media.media(">=iphone") {
+      padding: functions.rem(19px) functions.rem(39px) functions.rem(18px)
+        functions.rem(39px);
     }
   }
 

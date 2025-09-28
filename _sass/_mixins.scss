@@ -1,3 +1,5 @@
+@use "sass:list";
+@use "sass:map";
 @mixin mainFont($weight: 700) {
   font-family: "Titillium Web", "Helvetica Neue", Helvetica, sans-serif;
   font-weight: $weight;
@@ -9,7 +11,7 @@
   height: #{$height}px;
 }
 
-@mixin center($max-width: map-get($jeet, 'max-width'), $pad: 0) {
+@mixin center($max-width: map.get($jeet, "max-width"), $pad: 0) {
   @include clearfix;
   width: auto;
   max-width: $max-width;
@@ -17,22 +19,22 @@
   display: block;
   margin: {
     right: auto;
-    left:  auto;
-  };
+    left: auto;
+  }
   padding: {
-    left:  $pad;
+    left: $pad;
     right: $pad;
-  };
+  }
 }
 
 @mixin align($direction: both) {
   position: absolute;
   transform-style: preserve-3d;
 
-  @if index("horizontal" "h", $direction) {
+  @if list.index("horizontal" "h", $direction) {
     left: 50%;
     transform: translateX(-50%);
-  } @else if index("vertical" "v", $direction) {
+  } @else if list.index("vertical" "v", $direction) {
     top: 50%;
     transform: translateY(-50%);
   } @else {
@@ -44,7 +46,7 @@
 
 @mixin clearfix() {
   &::after {
-    content: '';
+    content: "";
     display: table;
     clear: both;
   }

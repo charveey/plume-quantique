@@ -1,22 +1,27 @@
+@use "functions";
+@use "include-media";
+@use "mixins";
+@use "variables";
+
 pre {
   background: #282a36;
   width: 100%;
-  padding: rem(20px) 0;
-  color: $accentDark;
-  margin: rem(30px) 0;
-  font-size: rem(14px);
+  padding: functions.rem(20px) 0;
+  color: variables.$accentDark;
+  margin: functions.rem(30px) 0;
+  font-size: functions.rem(14px);
 
-  @include media(">=sm") {
-    font-size: rem(16px);
-    padding: rem(40px) 0;
-    margin: rem(50px) 0;
+  @include include-media.media(">=iphone") {
+    font-size: functions.rem(16px);
+    padding: functions.rem(40px) 0;
+    margin: functions.rem(50px) 0;
   }
 
   code {
-    @include center(rem(800px));
-    padding: 0 rem(20px);
+    @include mixins.center(functions.rem(800px));
+    padding: 0 functions.rem(20px);
 
-    @include media("<sm") {
+    @include include-media.media("<iphone") {
       overflow-x: scroll;
     }
   }
@@ -28,11 +33,11 @@ pre {
 }
 
 .highlight {
-  margin: rem(20px) 0;
+  margin: functions.rem(20px) 0;
 
-  @include media(">=sm") {
+  @include include-media.media(">=iphone") {
     word-wrap: break-word;
-    margin: rem(29px) 0;
+    margin: functions.rem(29px) 0;
   }
 
   .hll {
@@ -43,11 +48,13 @@ pre {
   .cm,    // Comment.Multiline
   .cp,    // Comment.Preproc
   .c1,    // Comment.Single
-  .cs {   // Comment.Special
+  .cs {
+    // Comment.Special
     color: #6272a4;
   }
 
-  .err {  // Error
+  .err {
+    // Error
     color: #ff5555;
     background-color: #282a36;
   }
@@ -56,7 +63,8 @@ pre {
   .kp,    // Keyword.Pseudo
   .kr,    // Keyword.Reserved
   .kt,    // Keyword.Type
-  .no {   // Name.Constant
+  .no {
+    // Name.Constant
     color: #66d9ef;
   }
 
@@ -66,12 +74,14 @@ pre {
   .mi,    // Literal.Number.Integer
   .mo,    // Literal.Number.Oct
   .se,    // Literal.String.Escape
-  .il {   // Literal.Number.Integer.Long
+  .il {
+    // Literal.Number.Integer.Long
     color: #ae81ff;
   }
 
   .p,     // Punctuation
-  .nx {   // Name.Other
+  .nx {
+    // Name.Other
     color: #f7f7f2;
   }
 
@@ -83,17 +93,20 @@ pre {
   .bp,    // Name.Builtin.Pseudo
   .vc,    // Name.Variable.Class
   .vg,    // Name.Variable.Global
-  .vi {   // Name.Variable.Instance
+  .vi {
+    // Name.Variable.Instance
     color: #50fa7b;
   }
 
-  .nl {   // Name.Label
+  .nl {
+    // Name.Label
     color: #8be9fd;
   }
 
   .n,     // Name
   .nb,    // Name.Builtin
-  .m {    // Literal.Number
+  .m {
+    // Literal.Number
     color: #bd93f9;
   }
 
@@ -102,15 +115,18 @@ pre {
   .kn,    // Keyword.Namespace
   .kd,    // Keyword.Declaration
   .o,     // Operator
-  .ow {   // Operator.Word
+  .ow {
+    // Operator.Word
     color: #ff79c6;
   }
 
-  .ge {   // Generic.Emph
+  .ge {
+    // Generic.Emph
     font-style: italic;
   }
 
-  .gs {   // Generic.Strong
+  .gs {
+    // Generic.Strong
     font-weight: bold;
   }
 
@@ -126,7 +142,8 @@ pre {
   .sr,     // Literal.String.Regex
   .s1,     // Literal.String.Single
   .ss,     // Literal.String.Symbol
-  .vglnk { // Link
+  .vglnk {
+    // Link
     color: #f1fa8c;
   }
 
@@ -134,7 +151,8 @@ pre {
   .nc,    // Name.Class
   .nd,    // Name.Decorator
   .ne,    // Name.Exception
-  .nf {   // Name.Function
+  .nf {
+    // Name.Function
     color: #50fa7b;
   }
 }

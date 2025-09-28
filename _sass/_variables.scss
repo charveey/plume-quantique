@@ -1,29 +1,45 @@
+@use "sass:map";
+@use "include-media";
+@use "theme";
+
 /**
  * Set up here the general appearance of the theme.
  */
 
-$themeColor: map-get($theme, themeColor) !default;
-$primaryDark: map-get($theme, primaryDark) !default;
-$accentDark: map-get($theme, accentDark) !default;
-$lightGray: map-get($theme, lightGray) !default;
-$texts: map-get($theme, texts) !default;
+$themeColor: map.get(theme.$theme, themeColor) !default;
+$primaryDark: map.get(theme.$theme, primaryDark) !default;
+$accentDark: map.get(theme.$theme, accentDark) !default;
+$lightGray: map.get(theme.$theme, lightGray) !default;
+$texts: map.get(theme.$theme, texts) !default;
 
 // Breakpoints
-$breakpoints: (
-  sm: 47.5rem,
-  phone: 26.25rem,  /* 420px / 16px (base font size) */
-  iphone: 47.5rem,       /* 767px / 16px */
+include-media.$breakpoints: (
+  phone: 23.4375rem,
+  // 375px - common small phones (iPhone SE, Pixel 4a)
+  phone-lg: 26.25rem,
+  // 420px - larger phones
+  iphone: 47.5rem,
+  // 760px - large phones / iPhone landscape
   tablet: 48rem,
-  laptop: 64rem,   /* 1024px / 16px */
-  desktop: 100rem,  /* 1600px / 16px */
+  // 768px - iPad portrait / Android tablets
+  tablet-lg: 64rem,
+  // 1024px - iPad landscape / small laptops
+  laptop: 75rem,
+  // 1200px - MacBook Air / mid-size laptops
+  desktop: 90rem,
+  // 1440px - common desktop monitors
+  wide: 120rem,
+  // 1920px - full HD / 1080p displays
+  ultra: 160rem // 2560px+ - 2K/4K and ultra-wide monitors
 );
 
 // Margins
-$rowMargin: 10px;
+$rowMargin: 25px;
 $itemMargin: 15px;
 
 // Sizes
 $itemMinWidth: 300px;
+$portraitItemMinWidth: 180px;
 
 // Settings
 $maxItemsPerRow: 6;

@@ -7,7 +7,6 @@ _site
 node_modules
 _drafts
 _config.yml
-.bundle
 vendor
 
 api/v1/posts/*.md
