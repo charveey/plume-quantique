@@ -57,6 +57,6 @@
     "vinyl-fs": "^4.0.0"
   },
   "scripts": {
-    "prettier": "prettier . --write"
+    "format": "prettier --log-level warn --write \"{src/js,src/yml,_authors,_includes,_layouts,_sass,api/v1,docs,pages,admin}/**/*.{scss,html,md,yml}\""
   }
 }

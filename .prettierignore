@@ -1,0 +1,14 @@
+# Ignore artifacts:
+_site
+_data
+_posts
+_plugins
+.bundle
+node_modules
+scripts
+src/js
+vendor
+
+# Ignore thses HTML files:
+_layouts/compress.html
+_layouts/tags.html
