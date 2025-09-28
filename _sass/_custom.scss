@@ -4,13 +4,13 @@ body {
   background-color: variables.$primaryDark;
 }
 
-// certification icon 
+// certification icon
 
 #certification_icon {
-    width: 15px;
-    height: auto;
-    display: inline;
-    fill: variables.$themeColor;
+  width: 15px;
+  height: auto;
+  display: inline;
+  fill: variables.$themeColor;
 }
 
 // New navbar
@@ -20,7 +20,7 @@ body {
 @media (min-width: 769px) {
   /* Masquer la barre latérale et l'icône du menu sur les appareils de bureau */
   .sidebar {
-      display: none; 
+    display: none;
   }
   .icon-menu {
     display: none;
@@ -35,7 +35,6 @@ body {
     flex-direction: row;
     list-style: none;
     margin: 0;
-
   }
   .nav-item {
     flex: auto;

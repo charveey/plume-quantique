@@ -38,7 +38,7 @@ footer {
     vertical-align: middle;
     margin-right: functions.rem(10px);
 
-    @include include-media.media(">=sm") {
+    @include include-media.media(">=iphone") {
       margin-right: functions.rem(20px);
     }
 
@@ -57,11 +57,11 @@ footer {
     transition: all 0.3s ease;
     text-decoration: none;
     color: #808080;
-    
+
     &:hover {
       fill: variables.$themeColor;
     }
-    
+
     &.creator:hover {
       text-decoration: underline;
     }
@@ -78,7 +78,7 @@ footer {
     a {
       text-decoration: none;
       font-size: functions.rem(15px);
-      
+
       &:hover {
         text-decoration: underline;
       }
@@ -89,7 +89,7 @@ footer {
 .main-page {
   footer {
     background: variables.$primaryDark;
-    
+
     p {
       color: variables.$accentDark;
     }

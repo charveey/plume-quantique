@@ -5,7 +5,7 @@
 @use "variables";
 
 .staff {
-  @include include-media.media(">=sm") {
+  @include include-media.media(">=iphone") {
     @include mixins.center(functions.rem(1024px));
   }
 
@@ -17,7 +17,7 @@
     width: functions.rem(150px);
     margin: 0 functions.rem(20px) functions.rem(20px);
 
-    @include include-media.media(">=sm") {
+    @include include-media.media(">=iphone") {
       width: functions.rem(200px);
       margin-bottom: functions.rem(30px);
     }
@@ -47,10 +47,10 @@
 }
 
 .staff_block {
-  @include include-media.media(">=sm") {
+  @include include-media.media(">=iphone") {
     @include mixins.center(functions.rem(1024px));
   }
-  display: grid!important;
+  display: grid !important;
   margin-top: 2.5rem;
   @include include-media.media(">=laptop") {
     grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -69,7 +69,7 @@
     border-radius: 50%;
     width: functions.rem(140px);
     height: functions.rem(140px);
-    padding:0;
+    padding: 0;
     @include include-media.media("<=iphone") {
       margin: functions.rem(0px) functions.rem(20px);
       width: functions.rem(110px);
@@ -81,7 +81,7 @@
     }
   }
 
-  .staff_item{
+  .staff_item {
     padding: 2rem 1rem;
     border-radius: 0.5rem;
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
@@ -92,7 +92,7 @@
       justify-content: space-between;
     }
 
-    .info{
+    .info {
       @include include-media.media(">=iphone") {
         margin-top: functions.rem(10px);
       }
@@ -103,11 +103,10 @@
         @include include-media.media("<iphone") {
           font-size: functions.rem(15px);
           padding: functions.rem(5px) functions.rem(8px);
-          
         }
         line-height: functions.rem(15px);
         font-weight: 600;
-        padding-top:10px;
+        padding-top: 10px;
       }
 
       .position {
@@ -126,7 +125,7 @@
       }
       .icns {
         margin-top: 1px;
-        padding: functions.rem(10px) functions.rem(5px); 
+        padding: functions.rem(10px) functions.rem(5px);
       }
       svg {
         fill: variables.$lightGray;
@@ -135,15 +134,11 @@
         margin: functions.rem(0px) functions.rem(1px);
       }
     }
-    
-
 
     &:hover {
       .name {
-        color:variables.$themeColor;
+        color: variables.$themeColor;
       }
     }
   }
 }
-
-

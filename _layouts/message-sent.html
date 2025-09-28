@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-
 <style type="text/css" media="screen">
   .container {
     margin: 0 auto;
@@ -15,9 +14,15 @@ layout: default
   <img
     src="/assets/img/message.gif"
     width="540"
-    alt="{{ site.translations.contact.after_send.title | default: 'Message sent!' }}">
+    alt="{{ site.translations.contact.after_send.title | default: 'Message sent!' }}"
+  >
   <p>
-    <strong>{{ site.translations.contact.after_send.title | default: "Message sent!" }}</strong>
+    <strong>{{ site.translations.contact.after_send.title | default: 'Message sent!' }}</strong>
   </p>
-  <p>{{ site.translations.contact.after_send.message | default: "Thank you for sending me a message. I'm going to answer ASAP." }}</p>
+  <p>
+    {{
+      site.translations.contact.after_send.message
+      | default: "Thank you for sending me a message. I'm going to answer ASAP."
+    }}
+  </p>
 </div>

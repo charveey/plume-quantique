@@ -1,10 +1,10 @@
 {
-// Enables formatting of all .html files
-"[html]": {
-    "editor.defaultFormatter": "sissel.shopify-liquid"
+  // Enables formatting of all .html files
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[liquid]": {
-    "editor.defaultFormatter": "sissel.shopify-liquid",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true
   },
   "liquid.engine": "jekyll",
@@ -24,7 +24,8 @@
   "liquid.hover.schema": true,
   // Set all HTML to Liquid for the repo
   "files.associations": {
-    "*.html": "liquid"
+    "*.html": "liquid",
+    "*.md": "liquid"
   },
   "css.validate": false,
   "less.validate": false,

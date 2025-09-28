@@ -9,7 +9,7 @@
   top: functions.rem(30px);
   background: variables.$primaryDark;
 
-  @include include-media.media(">=sm") {
+  @include include-media.media(">=iphone") {
     top: functions.rem(50px);
   }
 }
@@ -19,7 +19,7 @@
   flex-direction: column;
   padding-bottom: functions.rem(40px);
 
-  @include include-media.media(">=sm") {
+  @include include-media.media(">=iphone") {
     max-width: functions.rem(1100px);
     flex-direction: row;
     margin: 0 auto;
@@ -29,7 +29,7 @@
   .post-content {
     padding-bottom: functions.rem(10px);
 
-    @include include-media.media(">=sm") {
+    @include include-media.media(">=iphone") {
       flex-basis: 70%;
       padding: 0 functions.rem(30px) 0 functions.rem(10px);
     }
@@ -61,7 +61,7 @@
     color: color.adjust(variables.$lightGray, $lightness: -30%);
     text-align: center;
     @include mixins.mainFont(300);
-    font-style: italic
+    font-style: italic;
   }
 
   p,
@@ -82,13 +82,13 @@
     padding: 0 functions.rem(20px);
     margin: functions.rem(20px) auto 0;
 
-    @include include-media.media(">=sm") {
+    @include include-media.media(">=iphone") {
       font-size: functions.rem(20px);
       line-height: functions.rem(40px);
       margin: functions.rem(29px) auto 0;
     }
   }
-  
+
   h1.post-title {
     color: variables.$accentDark;
     line-height: 1.2;
@@ -102,21 +102,21 @@
     margin: functions.rem(10px) auto;
     line-height: 1.6;
 
-    @include include-media.media(">=sm") {
+    @include include-media.media(">=iphone") {
       font-size: functions.rem(20px);
     }
   }
   svg {
     @include mixins.size(25, 25);
     margin-right: functions.rem(10px);
-  };
+  }
 
   img.post-cover {
     padding: 0;
     margin-top: functions.rem(20px);
     margin-bottom: functions.rem(20px);
 
-    @include include-media.media(">=sm") {
+    @include include-media.media(">=iphone") {
       margin-top: functions.rem(29px);
       margin-bottom: functions.rem(29px);
     }
@@ -129,7 +129,7 @@
     color: color.adjust(variables.$lightGray, $lightness: -30%);
     margin: 0 auto;
 
-    @include include-media.media(">=sm") {
+    @include include-media.media(">=iphone") {
       font-size: functions.rem(15px);
     }
 
@@ -141,7 +141,7 @@
     time {
       margin-right: functions.rem(10px);
 
-      @include include-media.media(">=sm") {
+      @include include-media.media(">=iphone") {
         margin-right: functions.rem(30px);
       }
     }
@@ -159,7 +159,7 @@
       padding: functions.rem(3px) functions.rem(5px);
       border-radius: 3px;
 
-      @include include-media.media(">=sm") {
+      @include include-media.media(">=iphone") {
         font-size: functions.rem(17px);
       }
     }
@@ -203,7 +203,7 @@
     margin-top: 0;
     padding-top: functions.rem(50px);
 
-    @include include-media.media(">=sm") {
+    @include include-media.media(">=iphone") {
       margin-top: 0;
       padding-top: functions.rem(60px);
     }
@@ -211,7 +211,7 @@
   h1 {
     font-size: functions.rem(36px);
     line-height: 1.4;
-    @include include-media.media(">=sm") {
+    @include include-media.media(">=iphone") {
       font-size: functions.rem(50px);
     }
   }
@@ -220,7 +220,7 @@
     font-size: functions.rem(28px);
     line-height: 1.4;
 
-    @include include-media.media(">=sm") {
+    @include include-media.media(">=iphone") {
       font-size: functions.rem(37px);
     }
   }
@@ -229,7 +229,7 @@
     font-size: functions.rem(22px);
     line-height: 1.4;
 
-    @include include-media.media(">=sm") {
+    @include include-media.media(">=iphone") {
       font-size: functions.rem(27px);
     }
   }
@@ -241,7 +241,7 @@
   ul.post-list {
     padding: 0 functions.rem(20px);
 
-    @include include-media.media(">=sm") {
+    @include include-media.media(">=iphone") {
       padding: 0;
     }
   }
@@ -253,18 +253,17 @@
     width: 90%;
     font-size: functions.rem(18px);
     font-style: italic;
-    padding:0.6em 30px 0.6em functions.rem(25px);
-    border-left:3px solid variables.$themeColor ;
-    line-height:1.25;
+    padding: 0.6em 30px 0.6em functions.rem(25px);
+    border-left: 3px solid variables.$themeColor;
+    line-height: 1.25;
     position: relative;
-    background:color.adjust(variables.$primaryDark, $lightness: 1%);
+    background: color.adjust(variables.$primaryDark, $lightness: 1%);
 
-
-    @include include-media.media(">=sm") {
+    @include include-media.media(">=iphone") {
       width: 100%;
       margin: functions.rem(50px) auto;
       font-size: functions.rem(22px);
-      padding:0.6em 30px 0.6em functions.rem(35px);
+      padding: 0.6em 30px 0.6em functions.rem(35px);
     }
 
     p {
@@ -272,32 +271,32 @@
       font-size: functions.rem(17px);
       color: variables.$lightGray;
       margin: 0;
-      @include include-media.media(">=sm") {
+      @include include-media.media(">=iphone") {
         font-size: functions.rem(20px);
       }
     }
   }
 
-  blockquote::before{
-    font-family:Arial;
+  blockquote::before {
+    font-family: Arial;
     content: "\201C";
     color: variables.$themeColor;
-    font-size:4em;
+    font-size: 4em;
     position: absolute;
     left: 10px;
-    top:-10px;
+    top: -10px;
   }
 
-  blockquote::after{
-    content: '';
+  blockquote::after {
+    content: "";
   }
   // For the author of the quote
-  blockquote span{
-    display:block;
-    color:variables.$lightGray;
+  blockquote span {
+    display: block;
+    color: variables.$lightGray;
     font-style: normal;
     font-weight: bold;
-    margin-top:1rem;
+    margin-top: 1rem;
   }
 
   hr {
@@ -318,7 +317,7 @@
     margin: functions.rem(50px) auto;
     border-collapse: collapse;
 
-    @include include-media.media(">=sm") {
+    @include include-media.media(">=iphone") {
       font-size: functions.rem(20px);
     }
 
@@ -327,7 +326,7 @@
       border: functions.rem(1px) solid #ccc;
       padding: functions.rem(5px) functions.rem(10px);
 
-      @include include-media.media(">=sm") {
+      @include include-media.media(">=iphone") {
         border: functions.rem(2px) solid #ccc;
         padding: functions.rem(10px) functions.rem(20px);
       }
@@ -362,7 +361,7 @@
       transform: translate(-50%, -50%);
       width: functions.rem(16px);
 
-      @include include-media.media(">=sm") {
+      @include include-media.media(">=iphone") {
         display: block;
         opacity: 0;
       }
@@ -384,7 +383,7 @@
 .see-also {
   padding: 0 functions.rem(20px);
 
-  @include include-media.media(">=sm") {
+  @include include-media.media(">=iphone") {
     flex-basis: 30%;
     padding: 0 functions.rem(10px);
   }
@@ -394,7 +393,7 @@
     font-weight: bold;
     border-bottom: 1px solid variables.$lightGray;
     padding: functions.rem(10px) 0;
-    @include include-media.media(">=sm") {
+    @include include-media.media(">=iphone") {
       padding: functions.rem(48px) 0 functions.rem(20px);
     }
   }
@@ -487,7 +486,7 @@
   background-color: rgba(0, 0, 0, 0.85);
   z-index: 1;
 
-  @include include-media.media(">=sm") {
+  @include include-media.media(">=iphone") {
     padding: functions.rem(16px) functions.rem(20px) functions.rem(9px);
   }
 
@@ -549,7 +548,7 @@
   justify-content: space-between;
   z-index: 1;
 
-  @include include-media.media(">=sm") {
+  @include include-media.media(">=iphone") {
     padding: functions.rem(15px);
   }
 
@@ -561,7 +560,7 @@
     color: #fff;
     padding-right: functions.rem(20px);
 
-    @include include-media.media(">=sm") {
+    @include include-media.media(">=iphone") {
       font-size: functions.rem(20px);
     }
 
@@ -580,7 +579,7 @@
       text-decoration: none;
       outline: 0;
 
-      @include include-media.media(">=sm") {
+      @include include-media.media(">=iphone") {
         font-size: functions.rem(15px);
       }
     }
@@ -596,7 +595,7 @@
       margin-right: 10px;
       vertical-align: middle;
 
-      @include include-media.media(">=sm") {
+      @include include-media.media(">=iphone") {
         width: functions.rem(28px);
         height: functions.rem(28px);
       }
@@ -615,9 +614,10 @@
     max-width: 35%;
     text-decoration: none;
 
-    @include include-media.media(">=sm") {
+    @include include-media.media(">=iphone") {
       flex-direction: row;
-      padding: functions.rem(5px) functions.rem(50px) functions.rem(5px) functions.rem(5px);
+      padding: functions.rem(5px) functions.rem(50px) functions.rem(5px)
+        functions.rem(5px);
       max-width: 50%;
     }
 
@@ -645,7 +645,7 @@
       color: #fff;
       margin: functions.rem(5px) 0;
       transition: all 0.3s;
-      @include include-media.media(">=sm") {
+      @include include-media.media(">=iphone") {
         font-size: functions.rem(23px);
         margin: 0 0 0 functions.rem(20px);
       }
@@ -675,7 +675,7 @@
     line-height: functions.rem(40px);
     padding: 0 functions.rem(10px);
 
-    @include include-media.media(">=sm") {
+    @include include-media.media(">=iphone") {
       font-size: functions.rem(20px);
       padding: 0;
     }
@@ -691,7 +691,7 @@
       margin-bottom: functions.rem(8px);
       text-decoration: none;
 
-      @include include-media.media(">=sm") {
+      @include include-media.media(">=iphone") {
         border-width: 2px;
       }
 
@@ -716,7 +716,7 @@
       color: #fff;
     }
 
-    @include include-media.media(">=sm") {
+    @include include-media.media(">=iphone") {
       font-size: functions.rem(22px);
       margin-top: functions.rem(80px);
       padding: 0;
@@ -727,7 +727,7 @@
     display: block;
     height: functions.rem(40px);
 
-    @include include-media.media(">=sm") {
+    @include include-media.media(">=iphone") {
       height: functions.rem(10px);
     }
   }
@@ -737,14 +737,15 @@
     margin: functions.rem(25px) auto 0;
     padding: 0 functions.rem(10px);
 
-    @include include-media.media(">=sm") {
+    @include include-media.media(">=iphone") {
       padding: 0;
     }
 
     a {
       display: flex;
       justify-content: space-between;
-      border-bottom: 1px solid color.adjust(variables.$lightGray, $lightness: -10%);
+      border-bottom: 1px solid
+        color.adjust(variables.$lightGray, $lightness: -10%);
       padding: functions.rem(10px) 0;
       text-decoration: none;
       font-size: functions.rem(18px);
@@ -752,7 +753,7 @@
 
     .entry-date {
       float: right;
-      @include include-media.media("<sm") {
+      @include include-media.media("<iphone") {
         display: none;
       }
     }

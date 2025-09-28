@@ -26,11 +26,13 @@
 - Removed menu bar links from footer
 - Author page revamp
 - Removed staff picture border
-- *(node)* [**breaking**] Support for Gulp v5 #1
+- _(node)_ [**breaking**] Support for Gulp v5 #1
 - Added new button to like articles
-- *(api)* REST api implementation to integrate with an application and perform data scraping
+- _(api)_ REST api implementation to integrate with an application and perform data scraping
 - Support for PagesCMS
 - Filter articles featured on home page
+- Added Letterboxd watch history
+- Add support for author letterboxd watch history
 
 ### 💼 Other
 
@@ -38,11 +40,11 @@
 - “about” deleted by olivierbable95
 - “2023-10-31-dans-les-entrailles-du-cinéma-hara-kiri-brise-ses-codes-dhonneur” deleted by Ibrahim.nouhounkoita
 - Justify author bio at the end of post
-- *(node)* Bump axios and browser-sync
-- *(node)* Bump gulp-imagemin from 9.0.0 to 9.1.0
-- *(node)* Follow-redirects from 1.15.2 to 1.15.6
-- *(node)* [**breaking**] Support for Gulp v5 #3
-- *(syntax)* Syntax fix
+- _(node)_ Bump axios and browser-sync
+- _(node)_ Bump gulp-imagemin from 9.0.0 to 9.1.0
+- _(node)_ Follow-redirects from 1.15.2 to 1.15.6
+- _(node)_ [**breaking**] Support for Gulp v5 #3
+- _(syntax)_ Syntax fix
 
 ### 🐛 Bug Fixes
 
@@ -61,30 +63,41 @@
 - JSON-LD schemas
 - Authors page layout tweaks
 - Tweaked footer layout
-- *(node)* Support for Gulp v5 #2
+- _(node)_ Support for Gulp v5 #2
 - Sitemap error
-- *(cms)* PagesCMS QoL
-- *(cms)* PagesCMS QoL improvements
-- *(comments)* Correctly formatting the date to be properly displayed in the comment thread
+- _(cms)_ PagesCMS QoL
+- _(cms)_ PagesCMS QoL improvements
+- _(comments)_ Correctly formatting the date to be properly displayed in the comment thread
 - Authors profile photo update
 - Author info update: olivierbable95 updated Rédacteurs: “hole” (#62)
-- *(node)* [**breaking**] Add support for node 22.x
+- _(node)_ [**breaking**] Add support for node 22.x
+- Update gulp-cli feature source in devcontainer configuration
+- Corrected Letterboxd svg icon colors
+- Mise à jour de la description et du contenu de la page À propos
+- Updated authors infos
+- Typo in author username
+- Layout optimizations on mobile for watch history
 
 ### 🚜 Refactor
 
 - Reading time estimation logic
+- Make SASS files to use module system with @use and @forward
 
 ### 📚 Documentation
 
 - Documentation cleanup
+- Changelog update
+- Update docs to reflect the SASS refactor
 
 ### 🎨 Styling
 
 - Formating fixes
-- *(css)* Minor CSS tweaks
-- *(post)* Minor editorial edits
-- *(post)* Syntax fix
-- *(post)* Minor editorial fixes
+- _(css)_ Minor CSS tweaks
+- _(post)_ Minor editorial edits
+- _(post)_ Syntax fix
+- _(post)_ Minor editorial fixes
+- Documentation Markdown syntax cleanup
+- Formatting fixes
 
 ### ⚙️ Miscellaneous Tasks
 
@@ -94,25 +107,32 @@
 - Robot.txt file update
 - Updated DecapCMS to v3.1.10
 - Bump Jekyll-compress to v3.2.0
-- *(ruby)* Added webrick as dependency
-- _config.yml update
+- _(ruby)_ Added webrick as dependency
+- \_config.yml update
 - Bumped ruby version
 - Node deps version bump
 - Code cleanup
-- *(cms)* Config update
-- *(cms)* Config update
-- *(cms)* Config update
-- *(cms)* Config update
-- *(cms)* Config update
-- *(cms)* Config update
-- *(cms)* Config update
-- *(cms)* Typos
+- _(cms)_ Config update
+- _(cms)_ Config update
+- _(cms)_ Config update
+- _(cms)_ Config update
+- _(cms)_ Config update
+- _(cms)_ Config update
+- _(cms)_ Config update
+- _(cms)_ Typos
 - Config update
-- *(cms)* Config update
-- *(cms)* Config update
-- *(cms)* Config update
-- *(cms)* Config update
-- *(cms)* Config update
-- *(cms)* Config update
+- _(cms)_ Config update
+- _(cms)_ Config update
+- _(cms)_ Config update
+- _(cms)_ Config update
+- _(cms)_ Config update
+- _(cms)_ Config update
 - Author info update
 - Updated Gemfile for Ruby 3.5.0
+- Git-cliff config update
+- Upgrade CodeQL action versions to v3 in workflow
+- Add .bundle/config file and update .gitignore to exclude .bundle directory
+- Update JS dependencies
+- Editor QoL improvement
+- Job to fetch Letterboxd feed data
+- Configure Prettier formatting

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="{{ site.language }}" class="no-js">
   {% include head.html %}
   <body class="main-page has-push-menu">
@@ -8,11 +8,11 @@
       <main
         class="home"
         id="post"
-        role="main">
-        <h1 class="title-category">
-          Tous les posts avec le tag "{{ page.autopages.display_name }}"</h1>
+        role="main"
+      >
+        <h1 class="title-category">Tous les posts avec le tag "{{ page.autopages.display_name }}"</h1>
         <div id="grid" class="row flex-grid">
-          {% assign posts = site.posts | where_exp: "post", "post.is_generated != true" %}
+          {% assign posts = site.posts | where_exp: 'post', 'post.is_generated != true' %}
           {% for post in posts %}
             {% for tag in post.tags %}
               {% if tag == page.autopages.display_name %}
@@ -22,7 +22,8 @@
                       <a
                         class="cover"
                         href="{{ post.url | prepend: site.baseurl }}"
-                        aria-label="{{ post.title }}">
+                        aria-label="{{ post.title }}"
+                      >
                         {% include loader.html %}
                         {% if post.optimized_image %}
                           <img
@@ -31,13 +32,15 @@
                             height="360px"
                             data-url="{{ post.optimized_image }}"
                             class="preload"
-                            alt="{{ post.title }}">
+                            alt="{{ post.title }}"
+                          >
                           <noscript>
                             <img
                               src="{{ post.optimized_image }}"
                               width="640px"
                               height="360px"
-                              alt="{{ post.title }}">
+                              alt="{{ post.title }}"
+                            >
                           </noscript>
                         {% elsif post.image %}
                           <img
@@ -46,12 +49,14 @@
                             height="360px"
                             data-url="{{ post.image }}"
                             class="preload"
-                            alt="{{ post.title }}">
+                            alt="{{ post.title }}"
+                          >
                           <noscript>
                             <img
                               src="{{ post.image }}"
                               width="100%"
-                              alt="{{ post.title }}">
+                              alt="{{ post.title }}"
+                            >
                           </noscript>
                         {% else %}
                           <img
@@ -59,12 +64,14 @@
                             width="320px"
                             data-url="/assets/img/off.jpg"
                             class="preload"
-                            alt="placeholder image">
+                            alt="placeholder image"
+                          >
                           <noscript>
                             <img
                               src="/assets/img/off.jpg"
                               width="320px"
-                              alt="placeholder image">
+                              alt="placeholder image"
+                            >
                           </noscript>
                         {% endif %}
                         {% include new-post-tag.html date=post.date %}
@@ -85,7 +92,7 @@
                       </a>
                       <div class="tags">
                         {% for tag in post.tags %}
-                          {% if tag != "" %}
+                          {% if tag != '' %}
                             <a href="{{ site.baseurl}}/tags/{{tag | slugify }}">#{{ tag }}</a>
                           {% endif %}
                         {% endfor %}

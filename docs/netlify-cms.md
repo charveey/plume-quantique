@@ -1,12 +1,12 @@
 # Netlify CMS
 
-*Jekflix* is ready for Netlify CMS integration, which means you can create/edit posts, authors, categories, theme, etc... without touching a line of code!
+_Jekflix_ is ready for Netlify CMS integration, which means you can create/edit posts, authors, categories, theme, etc... without touching a line of code!
 
 However, you **can only use this if you're cloning the repo**. In the case you're using the `gem`, you'll need to setup Netlify CMS in your project by yourself.
 
 ## Deploy with Netlify
 
-Use the Netlify [documentation](https://www.netlify.com/docs/continuous-deployment/) to set up *Continuous Deployment*.
+Use the Netlify [documentation](https://www.netlify.com/docs/continuous-deployment/) to set up _Continuous Deployment_.
 
 When setting the **Build command**, change it to `gulp build`. If you deployed your site already and forgot to do that, follow the steps below:
 
@@ -24,8 +24,8 @@ Some important things to keep in mind:
 
 1. Access your CMS locally through `localhost:3000/admin` or `yourdomain.com/admin`
 1. The available CMS data is **always** pulled in from your repo. Which means, even if you are working locally, the CMS won't get local changes till you push them into GitHub.
-1. Every change *published* through CMS will be automatically deployed to production, so be careful with what you publish.
-1. The CMS allows you to save data as *draft* though, so it won't go to production till you publish the changes 🙂
+1. Every change _published_ through CMS will be automatically deployed to production, so be careful with what you publish.
+1. The CMS allows you to save data as _draft_ though, so it won't go to production till you publish the changes 🙂
 
 See some CMS screenshots:
 

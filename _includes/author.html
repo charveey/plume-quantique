@@ -1,4 +1,4 @@
-{% assign author = site.authors | where: "name", page.author | first %}
+{% assign author = site.authors | where: 'name', page.author | first %}
 {% if author %}
   <section class="author">
     <div class="details">
@@ -7,7 +7,7 @@
       {% else %}
         <img class="img-rounded" src="/assets/img/user.jpg" alt="{{ author.display_name }}">
       {% endif %}
-      <p class="def">{{ site.translations.text.author | default: "Author" }}</p>
+      <p class="def">{{ site.translations.text.author | default: 'Author' }}</p>
       <h3 class="name">
         <a href="{{ author.url }}">{{ author.display_name }}</a>
       </h3>
@@ -15,105 +15,165 @@
       <p class="icns">
         {% if author.github_username %}
           <a href="https://github.com/{{ author.github_username }}" title="Github">
-            <svg><use xlink:href="#icon-github"></use></svg>
+            <svg>
+              <use xlink:href="#icon-github"></use>
+            </svg>
           </a>
         {% endif %}
         {% if author.facebook_username %}
           <a href="https://www.facebook.com/{{ author.facebook_username }}" title="Facebook">
-            <svg><use xlink:href="#icon-facebook"></use></svg>
+            <svg>
+              <use xlink:href="#icon-facebook"></use>
+            </svg>
           </a>
         {% endif %}
         {% if author.twitter_username %}
           <a href="https://twitter.com/{{ author.twitter_username }}" title="Twitter">
-            <svg><use xlink:href="#icon-twitter"></use></svg>
+            <svg>
+              <use xlink:href="#icon-twitter"></use>
+            </svg>
           </a>
         {% endif %}
         {% if author.medium_username %}
           <a href="https://medium.com/@{{ author.medium_username }}" title="Medium">
-            <svg><use xlink:href="#icon-medium"></use></svg>
+            <svg>
+              <use xlink:href="#icon-medium"></use>
+            </svg>
           </a>
         {% endif %}
         {% if author.instagram_username %}
           <a href="https://www.instagram.com/{{ author.instagram_username }}" title="Instagram">
-            <svg><use xlink:href="#icon-instagram"></use></svg>
+            <svg>
+              <use xlink:href="#icon-instagram"></use>
+            </svg>
           </a>
         {% endif %}
         {% if author.linkedin_username %}
           <a href="https://www.linkedin.com/in/{{ author.linkedin_username }}" title="LinkedIn">
-            <svg><use xlink:href="#icon-linkedin"></use></svg>
+            <svg>
+              <use xlink:href="#icon-linkedin"></use>
+            </svg>
           </a>
         {% endif %}
         {% if author.threads_username %}
-        <a href="https://www.threads.net/@{{ author.threads_username }}" title="Threads">
-          <svg><use xlink:href="#icon-threads"></use></svg>
-        </a>
-      {% endif %}
-      {% if author.letterboxd_username %}
-        <a href="https://letterboxd.com/{{ author.letterboxd_username }}" title="Letterboxd">
-          <svg><use xlink:href="#icon-letterboxd"></use></svg>
-        </a>
-      {% endif %}
-      {% if author.serializd_username %}
-        <a href="https://www.serializd.com/user/{{ author.serializd_username }}" title="Serializd">
-          <svg><use xlink:href="#icon-serializd"></use></svg>
-        </a>
-      {% endif %}
-      {% if author.myanimelist_username %}
-        <a href="https://myanimelist.net/profile/{{ author.myanimelist_username }}" title="MyAnimeList">
-          <svg><use xlink:href="#icon-myanimelist"></use></svg>
-        </a>
-      {% endif %}
+          <a href="https://www.threads.net/@{{ author.threads_username }}" title="Threads">
+            <svg>
+              <use xlink:href="#icon-threads"></use>
+            </svg>
+          </a>
+        {% endif %}
+        {% if author.letterboxd_username %}
+          <a href="https://letterboxd.com/{{ author.letterboxd_username }}" title="Letterboxd">
+            <svg>
+              <use xlink:href="#icon-letterboxd"></use>
+            </svg>
+          </a>
+        {% endif %}
+        {% if author.serializd_username %}
+          <a href="https://www.serializd.com/user/{{ author.serializd_username }}" title="Serializd">
+            <svg>
+              <use xlink:href="#icon-serializd"></use>
+            </svg>
+          </a>
+        {% endif %}
+        {% if author.myanimelist_username %}
+          <a href="https://myanimelist.net/profile/{{ author.myanimelist_username }}" title="MyAnimeList">
+            <svg>
+              <use xlink:href="#icon-myanimelist"></use>
+            </svg>
+          </a>
+        {% endif %}
       </p>
     </div>
   </section>
 
   {% assign author_urls = '' %}
   {% if author.github_username %}
-      {% assign author_urls = author_urls | append: '"https://github.com/' | append: author.github_username | append: '",' %}
+    {% assign author_urls = author_urls
+      | append: '"https://github.com/'
+      | append: author.github_username
+      | append: '",'
+    %}
   {% endif %}
   {% if author.facebook_username %}
-      {% assign author_urls = author_urls | append: '"https://www.facebook.com/' | append: author.facebook_username | append: '",' %}
+    {% assign author_urls = author_urls
+      | append: '"https://www.facebook.com/'
+      | append: author.facebook_username
+      | append: '",'
+    %}
   {% endif %}
   {% if author.twitter_username %}
-      {% assign author_urls = author_urls | append: '"https://twitter.com/' | append: author.twitter_username | append: '",' %}
+    {% assign author_urls = author_urls
+      | append: '"https://twitter.com/'
+      | append: author.twitter_username
+      | append: '",'
+    %}
   {% endif %}
   {% if author.medium_username %}
-      {% assign author_urls = author_urls | append: '"https://medium.com/@' | append: author.medium_username | append: '",' %}
+    {% assign author_urls = author_urls
+      | append: '"https://medium.com/@'
+      | append: author.medium_username
+      | append: '",'
+    %}
   {% endif %}
   {% if author.instagram_username %}
-      {% assign author_urls = author_urls | append: '"https://www.instagram.com/' | append: author.instagram_username | append: '",' %}
+    {% assign author_urls = author_urls
+      | append: '"https://www.instagram.com/'
+      | append: author.instagram_username
+      | append: '",'
+    %}
   {% endif %}
   {% if author.linkedin_username %}
-      {% assign author_urls = author_urls | append: '"https://www.linkedin.com/in/' | append: author.linkedin_username | append: '",' %}
+    {% assign author_urls = author_urls
+      | append: '"https://www.linkedin.com/in/'
+      | append: author.linkedin_username
+      | append: '",'
+    %}
   {% endif %}
   {% if author.threads_username %}
-      {% assign author_urls = author_urls | append: '"https://www.threads.net/@' | append: author.threads_username | append: '",' %}
+    {% assign author_urls = author_urls
+      | append: '"https://www.threads.net/@'
+      | append: author.threads_username
+      | append: '",'
+    %}
   {% endif %}
   {% if author.letterboxd_username %}
-      {% assign author_urls = author_urls | append: '"https://www.letterboxd.com/' | append: author.letterboxd_username | append: '",' %}
+    {% assign author_urls = author_urls
+      | append: '"https://www.letterboxd.com/'
+      | append: author.letterboxd_username
+      | append: '",'
+    %}
   {% endif %}
   {% if author.serializd_username %}
-      {% assign author_urls = author_urls | append: '"https://www.serializd.com/user/' | append: author.serializd_username | append: '",' %}
+    {% assign author_urls = author_urls
+      | append: '"https://www.serializd.com/user/'
+      | append: author.serializd_username
+      | append: '",'
+    %}
   {% endif %}
   {% if author.myanimelist_username %}
-      {% assign author_urls = author_urls | append: '"https://www.myanimelist.net/profile/' | append: author.myanimelist_username | append: '",' %}
+    {% assign author_urls = author_urls
+      | append: '"https://www.myanimelist.net/profile/'
+      | append: author.myanimelist_username
+      | append: '",'
+    %}
   {% endif %}
 
   <script type="application/ld+json">
-  {
-      "@context": "http://schema.org",
-      "@type": "Person",
-      "name": "{{ author.display_name }}",
-      {% if author.photo %}
-      "image": "{{ author.photo }}",
-      {% else %}
-      "image": {{ "/assets/img/user.jpg" | prepend: site.baseurl | prepend: site.url }},
-      {% endif %}
-      "jobTitle": "{{ author.position }}",
-      "url": "{{ author.url | prepend: site.baseurl | prepend: site.url }}",
-      "sameAs": [
-        {{ author_urls | split: "," | join: "," }}
-      ]
-  }
+    {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "{{ author.display_name }}",
+        {% if author.photo %}
+        "image": "{{ author.photo }}",
+        {% else %}
+        "image": {{ "/assets/img/user.jpg" | prepend: site.baseurl | prepend: site.url }},
+        {% endif %}
+        "jobTitle": "{{ author.position }}",
+        "url": "{{ author.url | prepend: site.baseurl | prepend: site.url }}",
+        "sameAs": [
+          {{ author_urls | split: "," | join: "," }}
+        ]
+    }
   </script>
 {% endif %}

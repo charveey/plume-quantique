@@ -79,7 +79,7 @@
       color: variables.$lightGray;
       font-size: functions.rem(30px);
 
-      @include include-media.media(">=sm") {
+      @include include-media.media(">=iphone") {
         font-size: functions.rem(45px);
       }
 
@@ -97,7 +97,7 @@
     line-height: functions.rem(25px);
     text-align: justify;
 
-    @include include-media.media(">=sm") {
+    @include include-media.media(">=iphone") {
       font-size: functions.rem(18px);
     }
   }
@@ -127,7 +127,7 @@
         text-decoration: none;
         border: none;
         transition: all 0.3s;
-    
+
         &:hover {
           fill: variables.$themeColor;
         }
@@ -142,8 +142,106 @@
         }
         @include mixins.size(25, 25);
         margin-right: functions.rem(15px);
-  }
+      }
     }
   }
-  
+}
+
+#letterboxd img {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  transition: all 0.2s ease-in-out;
+  aspect-ratio: 2/3;
+}
+
+#letterboxd .rewatch {
+  background: #58a4b0;
+  color: #fff;
+  font-size: 0.8em;
+  border-radius: 4px;
+  padding: 0.1em 0.5em;
+  margin-left: 0.3em;
+}
+
+.letterboxd-section .row {
+  @include mixins.center(100%);
+  margin: 0px functions.rem(20px);
+}
+.letterboxd-section .flex-grid {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.letterboxd-section .box-item {
+  flex: 1 0 variables.$portraitItemMinWidth;
+  margin: 0 0 functions.rem(15px);
+  display: inline-block;
+  min-height: functions.rem(285px);
+  transition: all 0.3s;
+  position: relative;
+  z-index: 1;
+
+  @include include-media.media(">=phone") {
+    margin: 0 functions.rem(15px) functions.rem(15px);
+  }
+
+  @include include-media.media(">=iphone") {
+    margin: 0 functions.rem(15px) functions.rem(30px);
+  }
+
+  // Note 1: This complex calc right here is what makes the leftover box items
+  // have the same width than their siblings.
+  @for $n from 2 through variables.$maxItemsPerRow {
+    $resolution: (2 * variables.$rowMargin) +
+      ($n * variables.$portraitItemMinWidth);
+    @include include-media.media(">=#{$resolution}") {
+      max-width: calc(100% /#{$n} - #{variables.$itemMargin * 2});
+    }
+  }
+
+  // Note 2: This sets the maximum number of box items per row.
+  @include include-media.media(
+    ">=#{(2 * variables.$rowMargin) + (variables.$maxItemsPerRow * variables.$portraitItemMinWidth)}"
+  ) {
+    flex: 1 0
+      calc(100% /#{variables.$maxItemsPerRow} - #{variables.$itemMargin * 2});
+  }
+
+  h3.post-title.min {
+    padding-left: 0;
+    font-size: functions.rem(12px);
+    @include include-media.media("<=phone") {
+      font-size: functions.rem(20px);
+    }
+    @include include-media.media(">=tablet") {
+      font-size: functions.rem(15px);
+    }
+    padding-top: functions.rem(1px);
+
+    span {
+      font-style: italic;
+      color: lighten($color: variables.$texts, $amount: 30%);
+      font-size: functions.rem(10px);
+      @include include-media.media("<=phone") {
+        font-size: functions.rem(15px);
+      }
+    }
+  }
+
+  .box-body time.date {
+    font-size: functions.rem(13px);
+    @include include-media.media("<=phone") {
+      font-size: functions.rem(15px);
+    }
+  }
+}
+
+h2.section-title {
+  padding: 0 functions.rem(20px);
+  margin: functions.rem(20px) auto 0;
+
+  @include include-media.media(">=desktop") {
+    margin: functions.rem(29px) functions.rem(80px) 0;
+  }
 }

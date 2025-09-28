@@ -12,7 +12,7 @@
 body {
   overflow-x: auto;
 
-  @include include-media.media(">=sm") {
+  @include include-media.media(">=iphone") {
     padding: functions.rem(50px) functions.rem(30px);
   }
 
@@ -22,7 +22,7 @@ body {
     display: block;
     padding: 10px 0;
 
-    @include include-media.media(">=sm") {
+    @include include-media.media(">=iphone") {
       margin: 0 auto functions.rem(29px);
     }
   }
@@ -50,7 +50,7 @@ body {
   ol,
   iframe,
   div[class^="css"] {
-    @include mixins.center( functions.rem(800px));
+    @include mixins.center(functions.rem(800px));
     @include mixins.mainFont(400);
     font-size: functions.rem(17px);
     line-height: functions.rem(30px);
@@ -58,7 +58,7 @@ body {
     padding: 0 functions.rem(20px);
     margin: 0 auto functions.rem(20px);
 
-    @include include-media.media(">=sm") {
+    @include include-media.media(">=iphone") {
       font-size: functions.rem(20px);
       line-height: functions.rem(40px);
       margin: 0 auto functions.rem(29px);
@@ -69,7 +69,7 @@ body {
   h1.post-title {
     margin: 0 auto;
     line-height: functions.rem(40px);
-    @include include-media.media(">=sm") {
+    @include include-media.media(">=iphone") {
       line-height: functions.rem(60px);
       margin: 0 auto functions.rem(10px);
     }
@@ -81,7 +81,7 @@ body {
     margin: 0 auto functions.rem(10px);
     line-height: functions.rem(30px);
 
-    @include include-media.media(">=sm") {
+    @include include-media.media(">=iphone") {
       font-size: functions.rem(20px);
       line-height: functions.rem(40px);
     }
@@ -89,7 +89,7 @@ body {
 
   img.post-cover {
     margin-bottom: functions.rem(20px);
-    @include include-media.media(">=sm") {
+    @include include-media.media(">=iphone") {
       margin-bottom: functions.rem(29px);
     }
   }
@@ -101,7 +101,7 @@ body {
     color: color.adjust(variables.$lightGray, $lightness: -30%);
     margin: 0 auto;
 
-    @include include-media.media(">=sm") {
+    @include include-media.media(">=iphone") {
       font-size: functions.rem(16px);
     }
 
@@ -113,7 +113,7 @@ body {
     time {
       margin-right: functions.rem(10px);
 
-      @include include-media.media(">=sm") {
+      @include include-media.media(">=iphone") {
         margin-right: functions.rem(30px);
       }
     }
@@ -144,7 +144,7 @@ body {
       background: variables.$lightGray;
       padding: functions.rem(3px) functions.rem(5px);
       border-radius: 3px;
-      @include include-media.media(">=sm") {
+      @include include-media.media(">=iphone") {
         font-size: functions.rem(17px);
       }
     }
@@ -173,7 +173,7 @@ body {
     font-size: functions.rem(32px);
     line-height: 1.4;
 
-    @include include-media.media(">=sm") {
+    @include include-media.media(">=iphone") {
       font-size: functions.rem(47px);
     }
   }
@@ -181,7 +181,7 @@ body {
   h2 {
     font-size: functions.rem(24px);
     line-height: 1.4;
-    @include include-media.media(">=sm") {
+    @include include-media.media(">=iphone") {
       font-size: functions.rem(37px);
     }
   }
@@ -189,7 +189,7 @@ body {
   h3 {
     font-size: functions.rem(20px);
     line-height: 1.4;
-    @include include-media.media(">=sm") {
+    @include include-media.media(">=iphone") {
       font-size: functions.rem(27px);
     }
   }
@@ -202,28 +202,28 @@ body {
   ul.post-list {
     padding: 0;
 
-    @include include-media.media("<sm") {
+    @include include-media.media("<iphone") {
       padding: 0 functions.rem(20px);
     }
   }
 
   blockquote {
-    @include mixins.center( functions.rem(730px));
+    @include mixins.center(functions.rem(730px));
     border-left: functions.rem(5px) solid variables.$themeColor;
     margin: functions.rem(30px) auto;
     width: 90%;
     font-size: functions.rem(18px);
     font-style: italic;
-    padding:0.6em 30px 0.6em functions.rem(25px);
-    border-left:3px solid variables.$themeColor ;
-    line-height:1.25;
+    padding: 0.6em 30px 0.6em functions.rem(25px);
+    border-left: 3px solid variables.$themeColor;
+    line-height: 1.25;
     position: relative;
 
-    @include include-media.media(">=sm") {
+    @include include-media.media(">=iphone") {
       width: 100%;
       margin: functions.rem(50px) auto;
       font-size: functions.rem(22px);
-      padding:0.6em 30px 0.6em functions.rem(35px);
+      padding: 0.6em 30px 0.6em functions.rem(35px);
     }
 
     p {
@@ -231,43 +231,43 @@ body {
       font-size: functions.rem(17px);
       color: variables.$texts;
       margin: 0;
-      @include include-media.media(">=sm") {
+      @include include-media.media(">=iphone") {
         font-size: functions.rem(20px);
       }
     }
   }
 
-  blockquote::before{
-    font-family:Arial;
+  blockquote::before {
+    font-family: Arial;
     content: "\201C";
     color: variables.$themeColor;
-    font-size:4em;
+    font-size: 4em;
     position: absolute;
     left: 10px;
-    top:-10px;
+    top: -10px;
   }
 
-  blockquote::after{
-    content: '';
+  blockquote::after {
+    content: "";
   }
 
   // For the author of the quote
-  blockquote span{
-    display:block;
-    color:variables.$lightGray;
+  blockquote span {
+    display: block;
+    color: variables.$lightGray;
     font-style: normal;
     font-weight: bold;
-    margin-top:1rem;
+    margin-top: 1rem;
   }
 
   hr {
-    @include mixins.center( functions.rem(760px));
+    @include mixins.center(functions.rem(760px));
     border: 1px solid variables.$lightGray;
     margin: 50px auto;
   }
 
   hr.page-divider {
-    @include mixins.center( functions.rem(760px));
+    @include mixins.center(functions.rem(760px));
     border: 0;
     margin: 50px auto;
     position: relative;
@@ -312,7 +312,7 @@ body {
     letter-spacing: 0.05rem;
     margin: functions.rem(50px) auto;
 
-    @include include-media.media(">=sm") {
+    @include include-media.media(">=iphone") {
       font-size: functions.rem(20px);
     }
 
@@ -321,7 +321,7 @@ body {
       border: functions.rem(1px) solid #ccc;
       padding: functions.rem(5px) functions.rem(10px);
 
-      @include include-media.media(">=sm") {
+      @include include-media.media(">=iphone") {
         border: functions.rem(2px) solid #ccc;
         padding: functions.rem(10px) functions.rem(20px);
       }

@@ -60,7 +60,7 @@
     margin: functions.rem(20px) 0;
     list-style-type: none;
 
-    @include include-media.media("<sm") {
+    @include include-media.media("<iphone") {
       height: 380px;
       overflow: scroll;
     }
@@ -74,7 +74,7 @@
       display: none;
       font-size: functions.rem(14px);
 
-      @include include-media.media(">=sm") {
+      @include include-media.media(">=iphone") {
         display: inline;
       }
     }
@@ -96,7 +96,8 @@
       display: block;
       padding: functions.rem(15px) 0;
       width: 100%;
-      border-bottom: 1px solid color.adjust(variables.$accentDark, $lightness: -80%);
+      border-bottom: 1px solid
+        color.adjust(variables.$accentDark, $lightness: -80%);
       transition: all 0.3s;
       line-height: functions.rem(25px);
 

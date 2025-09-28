@@ -35,7 +35,6 @@
     }
   }
 
-
   input[type="text"],
   input[type="email"] {
     border-radius: 15px;
@@ -55,7 +54,8 @@
 
   button[type="submit"] {
     display: block;
-    padding: functions.rem(14px) functions.rem(39px) functions.rem(14px) functions.rem(39px);
+    padding: functions.rem(14px) functions.rem(39px) functions.rem(14px)
+      functions.rem(39px);
     color: #ffffff;
     background: variables.$themeColor;
     font-size: functions.rem(18px);
@@ -73,8 +73,9 @@
       background: color.adjust(variables.$themeColor, $lightness: -20%);
     }
 
-    @include include-media.media(">=sm") {
-      padding: functions.rem(19px) functions.rem(39px) functions.rem(18px) functions.rem(39px);
+    @include include-media.media(">=iphone") {
+      padding: functions.rem(19px) functions.rem(39px) functions.rem(18px)
+        functions.rem(39px);
     }
   }
 
