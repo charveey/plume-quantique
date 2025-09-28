@@ -103,8 +103,8 @@ layout: page
 {% if page.letterboxd_username %}
   {% assign lb_data = site.data.letterboxd[page.name] %}
   {% if lb_data and lb_data.size > 0 %}
-    <h2>Derniers visionnages</h2>
-    <section class="content" style="display: flex; justify-content: center">
+    <h2 class="section-title">Derniers visionnages</h2>
+    <section class="content letterboxd-section" style="display: flex; justify-content: center">
       <main
         class="home min"
         id="post"
@@ -147,13 +147,14 @@ layout: page
                         >
                       </noscript>
                     {% endif %}
+                    {% include view-on-letterboxd.html %}
                   </a>
                 {% endif %}
                 <div class="box-info min">
                   <a class="post-link" href="{{ item.link }}">
                     <h3 class="post-title min">
                       {{ item.filmTitle }}
-                      <span style="color:#888;font-size:0.8em;">{{ item.filmYear }}</span>
+                      <span>{{ item.filmYear }}</span>
                     </h3>
                     <a>
                       {{ item.starRating }}
@@ -174,7 +175,7 @@ layout: page
 
 {% assign filtered_posts = site.posts | where: 'author', page.name | where_exp: 'post', 'post.is_generated != true' %}
 {% if filtered_posts.size > 0 %}
-  <h2>Publications</h2>
+  <h2 class="section-title">Publications</h2>
   <section class="content" style="display: flex; justify-content: center">
     <main
       class="home min"
