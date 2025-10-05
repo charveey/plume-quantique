@@ -598,5 +598,17 @@
     "link": "https://letterboxd.com/ivorianpsycho/film/yes-day/1/",
     "poster": "https://a.ltrbxd.com/resized/film-poster/5/6/4/7/8/4/564784-yes-day-0-600-0-900-crop.jpg?v=c1433d8e55",
     "review": ""
+  },
+  {
+    "filmTitle": "Le Trou",
+    "filmYear": 1960,
+    "watchedDate": "2012-01-30",
+    "rating": 5.0,
+    "starRating": "★★★★★",
+    "rewatch": true,
+    "tmdbId": 29259,
+    "link": "https://letterboxd.com/oli/film/le-trou/",
+    "poster": "https://a.ltrbxd.com/resized/film-poster/3/3/0/1/2/33012-le-trou-0-600-0-900-crop.jpg?v=2d0ada5a48",
+    "review": ""
   }
 ]
