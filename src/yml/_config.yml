@@ -61,6 +61,10 @@ exclude: [
   'README.md'
 ]
 
+include: [
+  '_redirects' # for Netlify redirects rules
+]
+
 # Theme
 version: v3.1.2
 
