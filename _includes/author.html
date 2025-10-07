@@ -83,6 +83,26 @@
             </svg>
           </a>
         {% endif %}
+        {% if author.threads_username %}
+        <a href="https://www.threads.net/@{{ author.threads_username }}" title="Threads">
+          <svg><use xlink:href="#icon-threads"></use></svg>
+        </a>
+      {% endif %}
+      {% if author.letterboxd_username %}
+        <a href="https://letterboxd.com/{{ author.letterboxd_username }}" title="Letterboxd">
+          <svg><use xlink:href="#icon-letterboxd"></use></svg>
+        </a>
+      {% endif %}
+      {% if author.serializd_username %}
+        <a href="https://www.serializd.com/user/{{ author.serializd_username }}" title="Serializd">
+          <svg><use xlink:href="#icon-serializd"></use></svg>
+        </a>
+      {% endif %}
+      {% if author.myanimelist_username %}
+        <a href="https://myanimelist.net/profile/{{ author.myanimelist_username }}" title="MyAnimeList">
+          <svg><use xlink:href="#icon-myanimelist"></use></svg>
+        </a>
+      {% endif %}
       </p>
     </div>
   </section>
@@ -157,6 +177,18 @@
       | append: author.myanimelist_username
       | append: '",'
     %}
+  {% endif %}
+  {% if author.threads_username %}
+      {% assign author_urls = author_urls | append: '"https://www.threads.net/@' | append: author.threads_username | append: '",' %}
+  {% endif %}
+  {% if author.letterboxd_username %}
+      {% assign author_urls = author_urls | append: '"https://www.letterboxd.com/' | append: author.letterboxd_username | append: '",' %}
+  {% endif %}
+  {% if author.serializd_username %}
+      {% assign author_urls = author_urls | append: '"https://www.serializd.com/user/' | append: author.serializd_username | append: '",' %}
+  {% endif %}
+  {% if author.myanimelist_username %}
+      {% assign author_urls = author_urls | append: '"https://www.myanimelist.net/profile/' | append: author.myanimelist_username | append: '",' %}
   {% endif %}
 
   <script type="application/ld+json">
