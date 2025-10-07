@@ -2,7 +2,7 @@
 
 ![Le 7eptième Œil](https://res.cloudinary.com/dfqlcc1vj/image/upload/v1700352917/logo_nlco5t.png)
 
-See the [demo here](https://poetic-buttercream-0d3e15.netlify.app/).
+See the [demo here](https://le7eptiemeoeil.com/).
 
 ## What is it?
 
@@ -18,7 +18,7 @@ The website is based of the [Jekflix Theme](https://github.com/thiagorossener/je
 - [Codebase Cheatsheet](docs/codebase.md#codebase-cheatsheet)
 - [Live Search](docs/features.md#live-search)
 - [Estimated Reading Time](docs/features.md#estimated-reading-time)
-- [Reading Progress Bar](docs/features.md#reading-progress-bar) *(optional)*
+- [Reading Progress Bar](docs/features.md#reading-progress-bar) _(optional)_
 - ["New Post" tag](docs/features.md#new-post-tag)
 - [Load images on demand](docs/features.md#load-images-on-demand)
 - [Push Menu](docs/features.md#push-menu)
@@ -29,16 +29,16 @@ The website is based of the [Jekflix Theme](https://github.com/thiagorossener/je
 - [Contact page](docs/features.md#contact-page)
 - [404 error page](docs/features.md#404-error-page)
 - [Feed RSS](docs/features.md#feed-rss)
-- [Comments](docs/features.md#comments) *(optional)*
-- [Featured post](docs/features.md#featured-post) *(optional)*
-- [Home page pagination](docs/features.md#home-page-pagination) *(optional)*
-- [Posts sidebar](docs/features.md#posts-sidebar) *(optional)*
-- [Paginated posts](docs/features.md#paginated-posts) *(optional)*
-- ["Before you go" modal](docs/features.md#before-you-go-modal) *(optional)*
+- [Comments](docs/features.md#comments) _(optional)_
+- [Featured post](docs/features.md#featured-post) _(optional)_
+- [Home page pagination](docs/features.md#home-page-pagination) _(optional)_
+- [Posts sidebar](docs/features.md#posts-sidebar) _(optional)_
+- [Paginated posts](docs/features.md#paginated-posts) _(optional)_
+- ["Before you go" modal](docs/features.md#before-you-go-modal) _(optional)_
 - [Post recommendation](docs/features.md#post-recommendation)
 - [Netlify CMS ready](docs/features.md#netlify-cms-ready)
 - [Translations](docs/setup.md#translations) **new!**
-- [Math Expressions](docs/features.md#math-expressions) *(optional)* **new!**
+- [Math Expressions](docs/features.md#math-expressions) _(optional)_ **new!**
 - [REST API](docs/features.md#rest-api) **new!**
 
 ## SEO
