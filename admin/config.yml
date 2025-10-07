@@ -2,7 +2,7 @@
 backend:
   name: git-gateway
   repo: charveey/plume-quantique
-  branch: dev
+  branch: production
   identity_url: https://auth.decapbridge.com/sites/71693d24-29ef-4453-8f77-dc1eae301b69
   gateway_url: https://gateway.decapbridge.com
   squash_merges: true
@@ -28,7 +28,7 @@ media_library:
           quality: auto
           crop: scale
 site_url: https://le7eptiemeoeil.com/
-display_url: https//le7eptiemeoeil.ci
+display_url: https//le7eptiemeoeil.com
 logo:
   src: "/assets/img/logo-web.png"   # required, replaces logo_url
   show_in_header: true   # optional boolean, default is false
