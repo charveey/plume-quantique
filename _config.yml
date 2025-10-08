@@ -2,7 +2,7 @@
 date_format: "%d %B %Y"
 formspree_form_id: mqknkwel
 name: Le 7eptième Œil
-title: Le 7eptième Œil | L'œil qui voit tout le Cinéma
+title: Le 7eptième Œil | Voyez le cinéma autrement !
 language: fr
 description: Site web ivoirien dédié aux critiques et aux informations sur le cinéma. Retrouvez l'actualité du cinéma local et international, des décryptages et analyses...
 tags:
@@ -44,8 +44,8 @@ two_columns_layout: false
 
 # Advanced Settings
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.le7eptiemeoeil.com" # the base hostname & protocol for your site
-#google_analytics: "G-XXXXXXXX"
+url: "https://le7eptiemeoeil.com" # the base hostname & protocol for your site
+google_analytics: "G-XEHYPXK6QY"
 #metricool_analytics: "8dda68d84f408d2be2d3db28261e1346"
 categories_folder: category
 sent_message_url: "/contact/message-sent/"

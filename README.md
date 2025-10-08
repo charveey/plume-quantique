@@ -2,7 +2,7 @@
 
 ![Le 7eptième Œil](https://res.cloudinary.com/dfqlcc1vj/image/upload/v1700352917/logo_nlco5t.png)
 
-See the [demo here](https://www.le7eptiemeoeil.com/).
+See the [demo here](https://le7eptiemeoeil.com/).
 
 ## What is it?
 
