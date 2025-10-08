@@ -27,7 +27,7 @@ media_library:
       - - fetch_format: auto
           quality: auto
           crop: scale
-site_url: https://www.le7eptiemeoeil.com/
+site_url: https://test.le7eptiemeoeil.com/
 display_url: https//le7eptiemeoeil.ci
 logo:
   src: "/assets/img/logo-web.png"   # required, replaces logo_url

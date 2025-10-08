@@ -44,7 +44,7 @@ two_columns_layout: false
 
 # Advanced Settings
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.le7eptiemeoeil.com" # the base hostname & protocol for your site
+url: "https://test.le7eptiemeoeil.com" # the base hostname & protocol for your site
 #google_analytics: "G-XXXXXXXX"
 #metricool_analytics: "8dda68d84f408d2be2d3db28261e1346"
 categories_folder: category
@@ -102,7 +102,7 @@ permalink: /:slug/
 collections:
   authors:
     output: true
-show_get_theme_btn: false
+show_get_theme_btn: true
 use_logo: true
 
 ############################################################
