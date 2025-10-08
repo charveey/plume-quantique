@@ -6,7 +6,7 @@ description: Lors de sa sortie originale, la série fut acclamée comme une
   révolution, et 29 ans plus tard, l'œuvre de Hideaki Anno demeure tout aussi
   subversive, insidieuse et cruciale qu'auparavant.
 image: https://res.cloudinary.com/dfqlcc1vj/image/upload/c_scale,f_auto,q_auto/v1742126211/Neon%20Genesis%20Evangelion/end-of-evangelion-review_fan2lj.webp
-optimized_image: https://res.cloudinary.com/dfqlcc1vj/image/upload/f_auto,q_auto,c_lfill,dpr_auto,w_291,ar_16:9/v1742126211/Neon%20Genesis%20Evangelion/end-of-evangelion-review_fan2lj.webp
+optimized_image: https://res.cloudinary.com/dfqlcc1vj/image/upload/f_auto,q_auto,c_lfill,dpr_auto,w_543,ar_16:9/v1742126211/Neon%20Genesis%20Evangelion/end-of-evangelion-review_fan2lj.webp
 category: edito
 tags:
   - Evangelion
