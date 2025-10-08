@@ -47,6 +47,7 @@ sass:
 plugins:
   - jekyll-paginate-v2
   - liquid_reading_time
+  - jekyll-minifier
 
 # Exclude my node related stuff
 exclude: [
@@ -89,3 +90,12 @@ autopages:
 compress_html:
   clippings: all
   comments: ["<!-- ", " -->"]
+
+# Jekyll Minifier
+jekyll-minifier:
+  remove_intertag_spaces: true      # Default: false
+  compress_css: true                # Default: true
+  compress_javascript: true         # Default: true
+  compress_json: true               # Default: true
+  simple_doctype: false             # Default: false
+  exclude: 'atom.xml'
