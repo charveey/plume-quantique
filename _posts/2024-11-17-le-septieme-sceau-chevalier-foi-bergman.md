@@ -4,7 +4,7 @@ layout: post
 title: "Le Septième Sceau : le chevalier de la foi selon Bergman"
 description: Dans un voyage introspectif sur la condition humaine, Ingmar Bergman dépeint le désir humain de trouver un sens dans un monde obscurci par la réalité inexorable de la mort...
 image: https://res.cloudinary.com/dfqlcc1vj/image/upload/f_auto,q_auto/v1731888112/The%20Seventh%20Seal/5seventh_seal_m3ijux.jpg
-optimized_image: https://res.cloudinary.com/dfqlcc1vj/image/upload/f_auto,q_auto,c_lfill,w_640,ar_16:9/v1731888112/The%20Seventh%20Seal/5seventh_seal_m3ijux.jpg
+optimized_image: https://res.cloudinary.com/dfqlcc1vj/image/upload/f_auto,q_auto,c_lfill,dpr_auto,w_auto,ar_16:9/v1731888112/The%20Seventh%20Seal/5seventh_seal_m3ijux.jpg
 category: edito
 tags:
   - cinema
