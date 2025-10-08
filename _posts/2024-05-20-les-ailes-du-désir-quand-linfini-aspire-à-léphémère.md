@@ -6,7 +6,7 @@ description: Par des gestes subtils et imperceptibles pour les humains, les
   anges de Wenders touchent les âmes en détresse, les incitant à porter un
   nouveau regard sur la beauté du monde qui les entoure...
 image: https://res.cloudinary.com/dfqlcc1vj/image/upload/f_auto,q_auto/v1716234973/Wings%20of%20Desire/200id_173_s8vydp.tiff
-optimized_image: https://res.cloudinary.com/dfqlcc1vj/image/upload/f_auto,q_auto,c_lfill,dpr_auto,w_auto,ar_16:9/v1716234973/Wings%20of%20Desire/200id_173_s8vydp.tiff
+optimized_image: https://res.cloudinary.com/dfqlcc1vj/image/upload/f_auto,q_auto,c_lfill,dpr_auto,w_291,ar_16:9/v1716234973/Wings%20of%20Desire/200id_173_s8vydp.tiff
 category: edito
 tags:
   - cinema

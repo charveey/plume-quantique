@@ -4,7 +4,7 @@ layout: post
 title: "Taste a cherry, don't worry and be happy!"
 description: "Et si la vie ne tenait finalement qu'au goût d'une cerise ? "
 image: https://res.cloudinary.com/dfqlcc1vj/image/upload/c_scale,f_auto,q_auto/v1754767876/Taste%20of%20Cherry/Taste_of_Cherry_16_fixbs0.jpg
-optimized_image: https://res.cloudinary.com/dfqlcc1vj/image/upload/f_auto,q_auto,c_lfill,dpr_auto,w_auto,ar_16:9/v1754767876/Taste%20of%20Cherry/Taste_of_Cherry_16_fixbs0.jpg
+optimized_image: https://res.cloudinary.com/dfqlcc1vj/image/upload/f_auto,q_auto,c_lfill,dpr_auto,w_291,ar_16:9/v1754767876/Taste%20of%20Cherry/Taste_of_Cherry_16_fixbs0.jpg
 category: edito
 tags:
   - cinema
