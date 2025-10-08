@@ -21,7 +21,7 @@ permalink: /:slug/
 collections:
   authors:
     output: true
-show_get_theme_btn: false
+show_get_theme_btn: true
 use_logo: true
 
 ############################################################
