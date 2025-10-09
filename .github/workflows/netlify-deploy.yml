@@ -1,0 +1,56 @@
+name: Netlify Deploy
+
+on:
+  schedule:
+    - cron: "0 10 * * *" # Every day at 10:00 UTC
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  publish_future_posts:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout production branch
+        uses: actions/checkout@v4
+        with:
+          ref: 'production'
+
+      - name: Get today's date
+        id: date
+        run: echo "TODAY=$(date +'%Y-%m-%d')" >> "$GITHUB_ENV"
+
+      - name: Check for posts dated today
+        id: check
+        run: |
+          echo "Today is $TODAY"
+          shopt -s nullglob
+          POSTS=( _posts/${TODAY}-*.md )
+
+          if [ ${#POSTS[@]} -gt 0 ]; then
+            echo "Found ${#POSTS[@]} post(s) for today:"
+            for post in "${POSTS[@]}"; do
+              echo " - $post"
+            done
+            echo "FOUND=true" >> "$GITHUB_ENV"
+            echo "POST_LIST=${POSTS[*]}" >> "$GITHUB_ENV"
+          else
+            echo "No posts scheduled for today."
+            echo "FOUND=false" >> "$GITHUB_ENV"
+          fi
+
+      - name: Trigger Netlify rebuild
+        if: env.FOUND == 'true'
+        run: |
+          echo "Triggering Netlify rebuild for today's posts:"
+          for post in $POST_LIST; do
+            echo " - $post"
+          done
+
+          echo "Sending POST request to Netlify..."
+          RESPONSE=$(curl -s -o /dev/null -w "%{http_code}" -X POST "${{ secrets.NETLIFY_BUILD_URL }}")
+
+          if [ "$RESPONSE" -eq 200 ]; then
+            echo "✅ Netlify rebuild triggered successfully (HTTP $RESPONSE)"
+          else
+            echo "❌ Netlify rebuild failed (HTTP $RESPONSE)"
+            exit 1
+          fi
