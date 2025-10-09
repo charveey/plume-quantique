@@ -6,7 +6,7 @@
 # License: MIT
 # Copyright (c) 2021 Sitdisch
 
-name: 'Lighthouse Badger Test'
+name: 'Lighthouse Badger Prod'
 
 ########################################################################
 # DEFINE YOUR INPUTS AND TRIGGERS IN THE FOLLOWING
@@ -14,11 +14,11 @@ name: 'Lighthouse Badger Test'
 
 # INPUTS as environmental variables (env) for not manually triggered workflows 
 env:
-  URLS: 'https://test.le7eptiemeoeil.com'
+  URLS: 'https://www.le7eptiemeoeil.com'
   TOKEN_NAME: 'LIGHTHOUSE_BADGER_TOKEN'
   # If any of the following env is blank, a default value is used instead
   REPO_BRANCH: 'charveey/plume-quantique dev'
-  BADGES_ARGS: '-b pagespeed -o lighthouse_results/test -r'
+  BADGES_ARGS: '-b pagespeed -o lighthouse_results/prod -r'
   MOBILE_LIGHTHOUSE_PARAMS: '--throttling.cpuSlowdownMultiplier=2 --only-categories=performance,accessibility,best-practices,seo'
   DESKTOP_LIGHTHOUSE_PARAMS: '--preset=desktop --throttling.cpuSlowdownMultiplier=1 --only-categories=performance,accessibility,best-practices,seo'
   COMMIT_MESSAGE: 'ci(lighthouse): results updated'
@@ -37,7 +37,7 @@ env:
 on:
   # page_build:
   schedule: # Check your schedule here => https://crontab.guru/
-    - cron: '55 23 * * 0' # e.g. every Sunday at 23:55
+    - cron: '50 23 * * 0' # e.g. every Sunday at 23:50
   # 
   # THAT'S IT; YOU'RE DONE;
   workflow_dispatch:
