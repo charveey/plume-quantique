@@ -1,3 +1,5 @@
+<img align="center" src="https://raw.githubusercontent.com/charveey/charveey/main/metrics.repo.plume-quantique.svg" alt="Repo metrics" width="500">
+
 # Le 7eptième Œil
 
 ![Le 7eptième Œil](https://res.cloudinary.com/dfqlcc1vj/image/upload/v1700352917/logo_nlco5t.png)
