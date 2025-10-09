@@ -14,6 +14,8 @@ The website is based of the [Jekflix Theme](https://github.com/thiagorossener/je
 
 ![Jekflix Screenshot Image](https://res.cloudinary.com/dfqlcc1vj/image/upload/v1700352763/frame_safari_dark_jccu5a.png)
 
+![Lighthouse Page Speed](https://raw.githubusercontent.com/charveey/plume-quantique/dev/lighthouse_results/prod/desktop/pagespeed.svg)
+
 View full report: <a href="https://htmlpreview.github.io/?https://raw.githubusercontent.com/charveey/plume-quantique/dev/lighthouse_results/prod/desktop/www_le7eptiemeoeil_com.html" title="Check it out" target="_blank">Desktop </a> | <a href="https://htmlpreview.github.io/?https://raw.githubusercontent.com/charveey/plume-quantique/dev/lighthouse_results/prod/mobile/www_le7eptiemeoeil_com.html" title="Check it out" target="_blank">Mobile</a>
 
 ## Documentation
