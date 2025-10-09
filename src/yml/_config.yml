@@ -23,6 +23,7 @@ collections:
     output: true
 show_get_theme_btn: false
 use_logo: true
+future: false
 
 ############################################################
 # Site configuration for the Jekyll 3 Pagination Gem
