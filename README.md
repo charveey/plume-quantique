@@ -10,6 +10,10 @@ A website dedicated to everything about movies: reviews, deep-dives, recommendat
 
 The website is based of the [Jekflix Theme](https://github.com/thiagorossener/jekflix-template) by Thiago Rossener
 
+### Pagespeed Badge
+
+<img width="700" src="https://raw.githubusercontent.com/charveey/plume-quantique/dev/lighthouse_results/prod/desktop/pagespeed.svg"/>
+
 ![Jekflix Screenshot Image](https://res.cloudinary.com/dfqlcc1vj/image/upload/v1700352763/frame_safari_dark_jccu5a.png)
 
 ## Documentation
