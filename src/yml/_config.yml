@@ -58,6 +58,7 @@ exclude: [
   'Gemfile',
   'Gemfile.lock',
   'gulpfile.js',
+  'lighthouse_results',
   'README.md'
 ]
 
