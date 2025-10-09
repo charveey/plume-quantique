@@ -220,6 +220,44 @@ function apiBuild() {
 }
 
 /**
+ * IndexNow Key Task
+ * 
+ * If JEKYLL_ENV=production, generate a text file containing the INDEXNOW key.
+ * The file will be named <INDEXNOW_KEY>.txt and placed inside the _site folder.
+ */
+function generateIndexNowKey(done) {
+  const isProduction = process.env.JEKYLL_ENV === 'production';
+  const key = process.env.INDEXNOW_KEY;
+
+  if (!isProduction) {
+    console.log('Skipping IndexNow key generation (JEKYLL_ENV != production)');
+    return done();
+  }
+
+  if (!key) {
+    console.error('INDEXNOW_KEY environment variable is missing.');
+    return done(new Error('INDEXNOW_KEY environment variable is missing.'));
+  }
+
+  const dir = '_site';
+  const filePath = `${dir}/${key}.txt`;
+
+  try {
+    // Ensure the _site directory exists before writing
+    if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
+
+    fs.writeFileSync(filePath, key, 'utf8');
+    console.log(`✅ IndexNow key file generated in _site/: ${filePath}`);
+  } catch (err) {
+    console.error(`❌ Failed to create IndexNow key file: ${err.message}`);
+    return done(err);
+  }
+
+  done();
+}
+
+
+/**
  * Default Task
  *
  * Running just `gulp` will:
@@ -241,6 +279,13 @@ const run = gulp.series(gulp.parallel(js, theme, "optimize"), apiBuild, config, 
  * - Build the config file
  * - Compile the Jekyll site
  */
-const build = gulp.series(gulp.parallel(js, theme, "optimize"), apiBuild, config, jekyll);
+const build = gulp.series(
+  gulp.parallel(js, theme, "optimize"),
+  apiBuild,
+  config,
+  jekyll,
+  generateIndexNowKey,
+);
+
 
 export { run as default, build };
