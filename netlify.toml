@@ -2,11 +2,5 @@
   command = "gulp build"
   publish = "_site"
 
-# Post-deploy hook
-[[plugins]]
-  package = "@netlify/plugin-local-install-core"
-
-# Run IndexNow submission after production deploy
-[[events]]
-  event = "postBuild"
-  command = "node scripts/submit-indexnow.js"
+[[functions]]
+  directory = "netlify/functions"
