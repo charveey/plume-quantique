@@ -1,5 +1,3 @@
-<img align="center" src="https://raw.githubusercontent.com/charveey/charveey/main/metrics.repo.plume-quantique.svg" alt="Repo metrics" width="500">
-
 # Le 7eptième Œil
 
 ![Le 7eptième Œil](https://res.cloudinary.com/dfqlcc1vj/image/upload/v1700352917/logo_nlco5t.png)
@@ -224,3 +222,5 @@ Use the [Front Matter properties](docs/post.md#front-matter-properties) to creat
 ## License
 
 This source code is available under the MIT license. See the [LICENSE](https://github.com/charveey/plume-quantique/blob/master/LICENSE) file for more info.
+
+<img align="center" src="https://raw.githubusercontent.com/charveey/charveey/main/metrics.repo.plume-quantique.svg" alt="Repo metrics" width="500">
