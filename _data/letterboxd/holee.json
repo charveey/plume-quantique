@@ -1,5 +1,41 @@
 [
   {
+    "filmTitle": "The Inhabitant",
+    "filmYear": 2022,
+    "watchedDate": "2025-09-29",
+    "rating": 3.0,
+    "starRating": "★★★",
+    "rewatch": false,
+    "tmdbId": 772973,
+    "link": "https://letterboxd.com/ivorianpsycho/film/the-inhabitant-2022/",
+    "poster": "https://a.ltrbxd.com/resized/film-poster/6/9/2/4/2/4/692424-the-inhabitant-0-600-0-900-crop.jpg?v=a44d2c9048",
+    "review": ""
+  },
+  {
+    "filmTitle": "Mad Max: Fury Road",
+    "filmYear": 2015,
+    "watchedDate": "2025-09-29",
+    "rating": 5.0,
+    "starRating": "★★★★★",
+    "rewatch": true,
+    "tmdbId": 76341,
+    "link": "https://letterboxd.com/ivorianpsycho/film/mad-max-fury-road/",
+    "poster": "https://a.ltrbxd.com/resized/film-poster/6/2/7/8/0/62780-mad-max-fury-road-0-600-0-900-crop.jpg?v=37c5424b1f",
+    "review": ""
+  },
+  {
+    "filmTitle": "Pride & Prejudice",
+    "filmYear": 2005,
+    "watchedDate": "2025-09-29",
+    "rating": 5.0,
+    "starRating": "★★★★★",
+    "rewatch": true,
+    "tmdbId": 4348,
+    "link": "https://letterboxd.com/ivorianpsycho/film/pride-prejudice/",
+    "poster": "https://a.ltrbxd.com/resized/sm/upload/nq/jo/26/tn/dAC0hkYmz5ZOCHURZCyj9isPMPd-0-600-0-900-crop.jpg?v=b3dac3ffd7",
+    "review": ""
+  },
+  {
     "filmTitle": "Hellraiser",
     "filmYear": 2022,
     "watchedDate": "2025-09-25",
