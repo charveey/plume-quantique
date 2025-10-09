@@ -140,22 +140,11 @@ function mainJs() {
 }
 
 /**
- * Preview JS Task
- * 
- * Copy preview JS files to the assets folder.
- */
-function previewJs() {
-  notify('Copying preview files...');
-  return gulp.src('src/js/preview/**/*.*')
-    .pipe(gulp.dest('assets/js/'));
-}
-
-/**
  * JavaScript Task
  * 
  * Run all the JS related tasks.
  */
-const js = gulp.parallel(mainJs, previewJs);
+const js = gulp.parallel(mainJs);
 
 /**
  * Images Task
@@ -192,9 +181,6 @@ function watch() {
 
   // Watch JS files for changes & recompile
   gulp.watch('src/js/main/**/*.js', mainJs);
-
-  // Watch preview JS files for changes, copy files & reload
-  gulp.watch('src/js/preview/**/*.js', gulp.series(previewJs, reload));
 
   // Watch images for changes, optimize & recompile
   gulp.watch('src/img/**/*', gulp.series("optimize", config, jekyll, reload));
