@@ -28,7 +28,7 @@ media_library:
           quality: auto
           crop: scale
 site_url: https://test.le7eptiemeoeil.com/
-display_url: https//le7eptiemeoeil.ci
+display_url: Version Test
 logo:
   src: "/assets/img/logo-web.png"   # required, replaces logo_url
   show_in_header: true   # optional boolean, default is false
