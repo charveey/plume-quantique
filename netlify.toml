@@ -2,5 +2,5 @@
   command = "gulp build"
   publish = "_site"
 
-[[functions]]
+[functions]
   directory = "netlify/functions"
