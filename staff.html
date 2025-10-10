@@ -42,7 +42,13 @@ permalink: /staff/
         >
           <svg><use xlink:href="#icon-instagram"></use></svg>
         </a>
-        {% endif %}
+        {% endif %} {% if author.twitter_username %}
+        <a
+          href="https://www.twitter.com/{{ author.twitter_username }}"
+          title="{{ author.display_name }} on X (formerly Twitter)"
+        >
+          <svg><use xlink:href="#icon-twitter"></use></svg>
+        </a>
       </p>
     </div>
   </div>
