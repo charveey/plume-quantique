@@ -12,3 +12,12 @@ vendor
 api/v1/posts/*.md
 api/v1/posts/*.json
 api/v1/*.md
+_config.yml
+.env
+.netlify/state.json
+.netlify/functions-serve/deploy-succeeded/___netlify-bootstrap.mjs
+.netlify/functions-serve/deploy-succeeded/___netlify-entry-point.mjs
+.netlify/functions-serve/deploy-succeeded/___netlify-telemetry.mjs
+.netlify/functions-serve/deploy-succeeded/.env
+.netlify/functions-serve/deploy-succeeded/package.json
+.netlify/functions-serve/deploy-succeeded/netlify/functions/deploy-succeeded.mjs
