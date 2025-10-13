@@ -3,32 +3,50 @@ layout: null
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    {% for page in site.pages %}
-        <url>
-            <loc>{{ page.url | prepend: site.baseurl | prepend: site.url | remove: 'index.html' }}</loc>
-            {% if page.layout == 'main' %}
-                <changefreq>weekly</changefreq>
-                <priority>1</priority>
-                <lastmod>{{ site.time | date: "%Y-%m-%d" }}</lastmod>
-            {% else %}
-                <changefreq>monthly</changefreq>
-                <priority>0.5</priority>
-            {% endif %}
-        </url>
-    {% endfor %}
-    {% for post in site.posts %}
-        <url>
-            <loc>{{ post.url | prepend: site.baseurl | prepend: site.url }}</loc>
-            <changefreq>weekly</changefreq>
-            <priority>0.8</priority>
-            <lastmod>{{ post.date | date: "%Y-%m-%d" }}</lastmod>
-        </url>
-    {% endfor %}
-    {% for author in site.authors %}
-        <url>
-            <loc>{{ author.url | prepend: site.baseurl | prepend: site.url }}</loc>
-            <changefreq>monthly</changefreq>
-            <priority>0.5</priority>
-        </url>
-    {% endfor %}
+{%- assign exclude_patterns = "/api/,404,robots,search.json,/message-sent,assets/,feed.xml,sitemap.xml,tags/,category/" | split: "," -%}
+
+{%- for page in site.pages -%}
+  {%- assign include_page = true -%}
+  {%- for pattern in exclude_patterns -%}
+    {%- if page.url contains pattern -%}
+      {%- assign include_page = false -%}
+    {%- endif -%}
+  {%- endfor -%}
+  {%- if include_page -%}
+    <url>
+      <loc>{{ page.url | absolute_url | replace: 'index.html', '' }}</loc>
+      {%- if page.url == '/' -%}
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+      {%- else -%}
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+      {%- endif -%}
+      {%- if page.last_modified_at -%}
+        <lastmod>{{ page.last_modified_at | date_to_xmlschema }}</lastmod>
+      {%- elsif page.date -%}
+        <lastmod>{{ page.date | date_to_xmlschema }}</lastmod>
+      {%- endif -%}
+    </url>
+  {%- endif -%}
+{%- endfor -%}
+
+{%- for post in site.posts -%}
+  <url>
+    <loc>{{ post.url | absolute_url }}</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>{{ post.last_modified_at | default: post.date | date_to_xmlschema }}</lastmod>
+  </url>
+{%- endfor -%}
+
+{%- for author in site.authors -%}
+  {%- unless author.url contains '/api/' -%}
+    <url>
+      <loc>{{ author.url | absolute_url }}</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.4</priority>
+    </url>
+  {%- endunless -%}
+{%- endfor -%}
 </urlset>
