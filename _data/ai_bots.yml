@@ -1,0 +1,15 @@
+# List of AI-related crawlers to restrict from article content
+- GPTBot
+- ClaudeBot
+- Google-Extended
+- anthropic-ai
+- CCBot
+- cohere-ai
+- Diffbot
+- Bytespider
+- ImagesiftBot
+- Omgili
+- Omgilibot
+- ChatGPT-User
+- FacebookBot
+- Meta-ExternalAgent
