@@ -206,6 +206,54 @@ function apiBuild() {
 }
 
 /**
+ * Minify robots.txt
+ * 
+ * Trims all lines, removes blank lines, removes spaces after colons,
+ * collapses multiple spaces in paths.
+ */
+function minifyRobotsTxt(done) {
+  const filePath = '_site/robots.txt';
+  if (!fs.existsSync(filePath)) {
+    console.warn('⚠️ robots.txt not found, skipping minification.');
+    return done();
+  }
+
+  try {
+    let content = fs.readFileSync(filePath, 'utf8');
+
+    // Normalize line endings
+    content = content.replace(/\r\n/g, '\n').replace(/\r/g, '\n');
+
+    // Split lines, trim, remove blank lines
+    const lines = content
+      .split('\n')
+      .map(line => line.trim())
+      .filter(line => line.length > 0)
+      .map(line => {
+        // Remove spaces after colon in User-agent/Sitemap/Allow/Disallow
+        line = line.replace(/^(\w[\w-]*):\s+/, '$1:');
+        // Collapse multiple spaces inside the line
+        line = line.replace(/\s{2,}/g, ' ');
+        return line;
+      });
+
+    // Join lines with single \n
+    content = lines.join('\n');
+
+    fs.writeFileSync(filePath, content, 'utf8');
+    console.log('✅ robots.txt minified successfully.');
+  } catch (err) {
+    console.error('❌ Failed to minify robots.txt:', err.message);
+    return done(err);
+  }
+
+  done();
+}
+
+
+
+
+/**
  * Default Task
  *
  * Running just `gulp` will:
@@ -215,7 +263,7 @@ function apiBuild() {
  * - Compile the Jekyll site
  * - Launch BrowserSync & watch files
  */
-const run = gulp.series(gulp.parallel(js, theme, "optimize"), apiBuild, config, jekyll, gulp.parallel(server, watch));
+const run = gulp.series(gulp.parallel(js, theme, "optimize"), apiBuild, config, jekyll, minifyRobotsTxt, gulp.parallel(server, watch));
 
 
 /**
@@ -227,6 +275,6 @@ const run = gulp.series(gulp.parallel(js, theme, "optimize"), apiBuild, config, 
  * - Build the config file
  * - Compile the Jekyll site
  */
-const build = gulp.series(gulp.parallel(js, theme, "optimize"), apiBuild, config, jekyll);
+const build = gulp.series(gulp.parallel(js, theme, "optimize"), apiBuild, config, jekyll, minifyRobotsTxt);
 
 export { run as default, build };
