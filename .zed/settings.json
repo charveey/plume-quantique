@@ -1,0 +1,36 @@
+// Folder-specific settings
+//
+// For a full list of overridable settings, and general information on folder-specific settings,
+// see the documentation: https://zed.dev/docs/configuring-zed#settings-files
+{
+  "autosave": {
+    "after_delay": {
+      "milliseconds": 30000
+    }
+  },
+  "languages": {
+    "Markdown": {
+      "format_on_save": "on",
+      "remove_trailing_whitespace_on_save": true
+    }
+  },
+  "file_types": {
+    "Liquid": ["*.html"],
+    "XML": ["*.xml"],
+    "Ruby": [
+      "*.rb",
+      "*.rake",
+      "Rakefile",
+      "Gemfile",
+      "*.gemspec",
+      "Guardfile",
+      "Capfile",
+      "*.ru",
+      "*.thor",
+      "*.jbuilder",
+      "*.rbuild",
+      ".irbrc",
+      ".pryrc"
+    ]
+  }
+}
