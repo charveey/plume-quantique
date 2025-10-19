@@ -10,7 +10,7 @@
 ### 🚀 Features
 
 - Cloudinary image optimizations to all assets
-- Disabled google analytics"
+- Enabled Google analytics
 - Added facebook page
 - Staff page design update
 - Updated the contact page CSS
@@ -33,18 +33,26 @@
 - Filter articles featured on home page
 - Added Letterboxd watch history
 - Add support for author letterboxd watch history
+- Migrate from Netlify Identity to DecapBridge Auth
+- Add domain name
+- Add support for jekyll-minifier
+- Redirect /admin page to subdomain
+- Add test version badge
+- CMS test version naming fix
+- CMS preview CSS improvements
+- _(seo)_ Restrict AI-related crawlers from articles
 
 ### 💼 Other
 
 - Card check if image url is absolute or relative (to add baseurl)
 - “about” deleted by olivierbable95
-- “2023-10-31-dans-les-entrailles-du-cinéma-hara-kiri-brise-ses-codes-dhonneur” deleted by Ibrahim.nouhounkoita
 - Justify author bio at the end of post
 - _(node)_ Bump axios and browser-sync
 - _(node)_ Bump gulp-imagemin from 9.0.0 to 9.1.0
 - _(node)_ Follow-redirects from 1.15.2 to 1.15.6
 - _(node)_ [**breaking**] Support for Gulp v5 #3
 - _(syntax)_ Syntax fix
+- Justify author bio at the end of post
 
 ### 🐛 Bug Fixes
 
@@ -73,10 +81,20 @@
 - _(node)_ [**breaking**] Add support for node 22.x
 - Update gulp-cli feature source in devcontainer configuration
 - Corrected Letterboxd svg icon colors
-- Mise à jour de la description et du contenu de la page À propos
+- Updated site description and infos
 - Updated authors infos
 - Typo in author username
 - Layout optimizations on mobile for watch history
+- Normalized website logo size
+- Add domain name
+- Add verified badge to writers comments
+- Disable redirects
+- Update url to test subdomain
+- Update nav links
+- Enable test version badge
+- Set assets optimization correct width
+- _(cms)_ Set correct URL for logo on admin page
+- _(seo)_ Sitemap optimizations
 
 ### 🚜 Refactor
 
@@ -88,6 +106,14 @@
 - Documentation cleanup
 - Changelog update
 - Update docs to reflect the SASS refactor
+- Lighthouse report display
+- Display repo information
+- Update docs to reflect the SASS refactor
+
+### ⚡ Performance
+
+- Lazy-load Google Analytics
+- _(images)_ Image assets optimization via Cloudinary
 
 ### 🎨 Styling
 
@@ -112,20 +138,7 @@
 - Bumped ruby version
 - Node deps version bump
 - Code cleanup
-- _(cms)_ Config update
-- _(cms)_ Config update
-- _(cms)_ Config update
-- _(cms)_ Config update
-- _(cms)_ Config update
-- _(cms)_ Config update
-- _(cms)_ Config update
 - _(cms)_ Typos
-- Config update
-- _(cms)_ Config update
-- _(cms)_ Config update
-- _(cms)_ Config update
-- _(cms)_ Config update
-- _(cms)_ Config update
 - _(cms)_ Config update
 - Author info update
 - Updated Gemfile for Ruby 3.5.0
@@ -135,4 +148,14 @@
 - Update JS dependencies
 - Editor QoL improvement
 - Job to fetch Letterboxd feed data
+- _(actions)_ Push to production instead of dev branch
 - Configure Prettier formatting
+- _(ci)_ Change lighthouse test scope
+- _(ci)_ Trigger lighthouse report via cron job
+- Gitignore update
+- _(build)_ Minify robots.txt
+- _(lighthouse)_ Results updated
+- Trigger a new build if a future post is found
+- Add GitHub Actions to generate Lighthouse result
+- _(letterboxd)_ Update author feeds
+- Run the job on production
