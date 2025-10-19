@@ -1,0 +1,10 @@
+[
+  {
+    "label": "Site Live Preview",
+    "command": "gulp"
+  },
+  {
+    "label": "Build site",
+    "command": "gulp build"
+  }
+]
