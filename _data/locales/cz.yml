@@ -42,3 +42,28 @@ full_month:
   - října
   - listopadu
   - prosince
+
+cookie_consent:
+  consentModal:
+    title: ""
+    description: "7eptième Œil používá soubory cookie ke zlepšení vašeho zážitku na webu. Další informace naleznete v naší <a class='cc__link' href='https://www.le7eptiemeoeil.com/privacy'>Zásadě ochrany osobních údajů</a>."
+    closeIconLabel: ""
+    acceptAllBtn: "Přijmout"
+    acceptNecessaryBtn: "Odmítnout"
+    showPreferencesBtn: ""
+    footer: ""
+  preferencesModal:
+    title: "Předvolby souhlasu"
+    closeIconLabel: "Zavřít okno"
+    acceptAllBtn: "Přijmout vše"
+    acceptNecessaryBtn: "Odmítnout vše"
+    savePreferencesBtn: "Uložit předvolby"
+    serviceCounterLabel: "Služby"
+    sections:
+      - title: "Použití souborů cookie"
+        description: "Soubory cookie se používají ke zlepšení vašeho zážitku a pochopení, jak je web používán."
+      - title: "Nezbytné soubory cookie <span class='pm__badge'>Vždy povoleno</span>"
+        description: "Tyto soubory cookie jsou nezbytné a nelze je zakázat. Neshromažďují osobní údaje pro marketing."
+        linkedCategory: "necessary"
+      - title: "Další informace"
+        description: "Pro dotazy ohledně souborů cookie nás prosím <a class='cc__link' href='#yourdomain.com'>kontaktujte</a>."

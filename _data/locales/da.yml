@@ -42,3 +42,28 @@ full_month:
   - Oktober
   - November
   - December
+
+cookie_consent:
+  consentModal:
+    title: ""
+    description: "7eptième Œil bruger cookies til at forbedre din oplevelse på websitet. Læs mere i vores <a class='cc__link' href='https://www.le7eptiemeoeil.com/privacy'>Privatlivspolitik</a>."
+    closeIconLabel: ""
+    acceptAllBtn: "Accepter"
+    acceptNecessaryBtn: "Afvis"
+    showPreferencesBtn: ""
+    footer: ""
+  preferencesModal:
+    title: "Samtykkeindstillinger"
+    closeIconLabel: "Luk vindue"
+    acceptAllBtn: "Accepter alle"
+    acceptNecessaryBtn: "Afvis alle"
+    savePreferencesBtn: "Gem indstillinger"
+    serviceCounterLabel: "Tjenester"
+    sections:
+      - title: "Brug af cookies"
+        description: "Cookies bruges til at forbedre din oplevelse og forstå, hvordan websitet anvendes."
+      - title: "Strengt nødvendige cookies <span class='pm__badge'>Altid aktiveret</span>"
+        description: "Disse cookies er nødvendige og kan ikke deaktiveres. De indsamler ikke personlige data til markedsføring."
+        linkedCategory: "necessary"
+      - title: "Mere information"
+        description: "For spørgsmål om cookies, <a class='cc__link' href='#yourdomain.com'>kontakt os</a>."
