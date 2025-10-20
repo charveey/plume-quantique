@@ -16,3 +16,5 @@ api/v1/*.md
 
 # Local Netlify folder
 .netlify
+
+assets/js/locales.js

@@ -42,3 +42,27 @@ full_month:
   - octobre
   - novembre
   - décembre
+cookie_consent:
+    consentModal:
+      title: ""
+      description: "Ce site utilise des cookies pour l'analyse et le bon fonctionnement."
+      closeIconLabel: ""
+      acceptAllBtn: "Accepter"
+      acceptNecessaryBtn: "Refuser"
+      showPreferencesBtn: ""
+      footer: ""
+    preferencesModal:
+      title: "Préférences de cookies"
+      closeIconLabel: "Fermer la modale"
+      acceptAllBtn: "Tout accepter"
+      acceptNecessaryBtn: "Tout rejeter"
+      savePreferencesBtn: "Sauvegarder les préférences"
+      serviceCounterLabel: "Services"
+      sections:
+        - title: "Utilisation des cookies"
+          description: "Le 7eptième Œil utilise des cookies pour améliorer votre expérience et comprendre votre utilisation du site."
+        - title: "Cookies strictement nécessaires <span class='pm__badge'>Toujours Activé</span>"
+          description: "Ces cookies sont essentiels et ne peuvent pas être désactivés. Ils ne collectent pas de données personnelles à des fins marketing."
+          linkedCategory: "necessary"
+        - title: "Plus d'informations"
+          description: "Pour toute question sur les cookies et vos choix, consultez <a class='cc__link' href='#yourdomain.com'>notre contact</a>."
