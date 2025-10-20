@@ -1,18 +1,6 @@
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script>
-  window.addEventListener('load', function () {
-    if (window.location.hostname !== 'localhost') {
-      var s = document.createElement('script');
-      s.src = 'https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}';
-      s.async = true;
-      document.head.appendChild(s);
+{% include cookie-consent.html %}
 
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag('js', new Date());
-      gtag('config', '{{ site.google_analytics }}');
-    }
-  });
-</script>
+<!-- Analytics Trackers -->
+{% include trackers/google-analytics.html %}
+{% include trackers/ms-clarity.html %}
+{% include trackers/metricool.html %}
