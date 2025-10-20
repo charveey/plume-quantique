@@ -1,5 +1,17 @@
 [
   {
+    "filmTitle": "The Substance",
+    "filmYear": 2024,
+    "watchedDate": "2025-10-19",
+    "rating": 4.0,
+    "starRating": "★★★★",
+    "rewatch": false,
+    "tmdbId": 933260,
+    "link": "https://letterboxd.com/ivorianpsycho/film/the-substance/",
+    "poster": "https://a.ltrbxd.com/resized/film-poster/8/3/8/1/4/0/838140-the-substance-0-600-0-900-crop.jpg?v=ab9e1072f8",
+    "review": ""
+  },
+  {
     "filmTitle": "The Inhabitant",
     "filmYear": 2022,
     "watchedDate": "2025-09-29",
