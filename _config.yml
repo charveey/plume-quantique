@@ -45,10 +45,13 @@ two_columns_layout: false
 # Advanced Settings
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.le7eptiemeoeil.com" # the base hostname & protocol for your site
-google_analytics: "G-XEHYPXK6QY"
-#metricool_analytics: "8dda68d84f408d2be2d3db28261e1346"
 categories_folder: category
 sent_message_url: "/contact/message-sent/"
+
+#Analytics
+google_analytics: ""
+microsoft_clarity: ""
+metricool: ""
 
 
 # Localization
