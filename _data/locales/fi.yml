@@ -46,7 +46,7 @@ full_month:
 cookie_consent:
   consentModal:
     title: ""
-    description: "7eptième Œil käyttää evästeitä parantaakseen käyttökokemustasi sivustolla. Lue lisää <a class='cc__link' href='https://www.le7eptiemeoeil.com/privacy'>Tietosuojakäytännöstämme</a>."
+    description: "7eptième Œil käyttää evästeitä parantaakseen käyttökokemustasi sivustolla. Lue lisää <a class='cc__link' href='https://www.le7eptiemeoeil.com/privacy/en'>Tietosuojakäytännöstämme</a>."
     closeIconLabel: ""
     acceptAllBtn: "Hyväksy"
     acceptNecessaryBtn: "Hylkää"
@@ -66,4 +66,4 @@ cookie_consent:
         description: "Nämä evästeet ovat välttämättömiä, eikä niitä voi poistaa käytöstä. Ne eivät kerää henkilötietoja markkinointia varten."
         linkedCategory: "necessary"
       - title: "Lisätietoja"
-        description: "Kysymyksissä evästeistä <a class='cc__link' href='#yourdomain.com'>ota yhteyttä</a>."
+        description: "Kysymyksissä evästeistä <a class='cc__link' href='https://www.le7eptiemeoeil.com/privacy/en'>ota yhteyttä</a>."
