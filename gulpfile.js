@@ -2,6 +2,7 @@
 
 import gulp from "gulp";
 import concat from "gulp-concat";
+import gulpIf from "gulp-if";
 import include from "gulp-include";
 import plumber from "gulp-plumber";
 import rename from "gulp-rename";
@@ -150,8 +151,21 @@ function mainJs() {
  * Copy preview JS files to the assets folder.
  */
 function previewJs() {
-  notify("Copying preview files...");
-  return gulp.src("src/js/preview/**/*.*").pipe(gulp.dest("assets/js/"));
+  notify("Processing preview files...");
+  return gulp
+    .src("src/js/preview/**/*.js")
+    .pipe(plumber())
+    .pipe(sourcemaps.init())
+    .pipe(
+      gulpIf(
+        (file) => !file.basename.endsWith(".min.js"),
+        uglify()
+      )
+    )
+    .pipe(sourcemaps.write("."))
+    .pipe(gulp.dest("_site/assets/js/"))
+    .pipe(browserSync.reload({ stream: true }))
+    .pipe(gulp.dest("assets/js"));
 }
 
 /**
