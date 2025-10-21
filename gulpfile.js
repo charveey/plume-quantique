@@ -18,6 +18,8 @@ import source from "vinyl-source-stream";
 import replace from "gulp-replace";
 import tap from "gulp-tap";
 import path from "path";
+import { generate } from 'critical';
+import crypto from "crypto";
 
 /**
  * Notify
@@ -376,6 +378,152 @@ async function buildLocales() {
     );
 }
 
+const CACHE_FILE = "_includes/critical/cache.json";
+
+// Multi-resolution breakpoints
+const breakpoints = [
+  { width: 375, height: 667 },   // phone
+  { width: 420, height: 800 },   // phone-lg
+  { width: 760, height: 1024 },  // iphone
+  { width: 768, height: 1024 },  // tablet
+  { width: 1024, height: 1366 }, // tablet-lg
+  { width: 1200, height: 800 },  // laptop
+  { width: 1440, height: 900 },  // desktop
+  { width: 1920, height: 1080 }, // wide
+  { width: 2560, height: 1440 }, // ultra
+];
+
+// Pages and folders to skip
+const skipPages = ['feed.xml', 'robots.txt', '404.html', 'sitemap.xml'];
+const skipFolders = ['admin', 'api'];
+
+// Hash content of a file
+function hashFile(filePath) {
+  const content = fs.readFileSync(filePath, "utf8");
+  return crypto.createHash("md5").update(content).digest("hex");
+}
+
+// Recursively get all HTML pages in _site
+function getHtmlPages(dir) {
+  let results = [];
+  const list = fs.readdirSync(dir);
+  for (const file of list) {
+    const filePath = path.join(dir, file);
+    const stat = fs.statSync(filePath);
+    if (stat.isDirectory()) {
+      if (skipFolders.includes(path.basename(filePath))) continue;
+      results = results.concat(getHtmlPages(filePath));
+    } else if (file.endsWith(".html") && !skipPages.includes(file)) {
+      results.push(filePath);
+    }
+  }
+  return results;
+}
+
+// Load/save cache
+function loadCache() {
+  if (!fs.existsSync(CACHE_FILE)) return {};
+  try {
+    return JSON.parse(fs.readFileSync(CACHE_FILE, "utf8"));
+  } catch {
+    return {};
+  }
+}
+
+function saveCache(cache) {
+  fs.mkdirSync(path.dirname(CACHE_FILE), { recursive: true });
+  fs.writeFileSync(CACHE_FILE, JSON.stringify(cache, null, 2));
+}
+
+// Try to locate Jekyll source file
+function findSourceFile(relativePath) {
+  const folders = ["pages", "_posts", "_drafts"];
+  for (const folder of folders) {
+    const full = path.join(folder, relativePath);
+    if (fs.existsSync(full)) return full;
+  }
+  return null;
+}
+
+// Compute a cache key: CSS + source file or fallback to HTML content
+function getCacheKey(pagePath, cssHash) {
+  let keyContent = cssHash;
+
+  // Try source file
+  const relative = pagePath.replace(/^_site/, "").replace(/index\.html$/, ".md");
+  const sourceFile = findSourceFile(relative);
+
+  if (sourceFile) {
+    keyContent += hashFile(sourceFile);
+  } else {
+    // Fallback: use HTML content hash
+    keyContent += hashFile(pagePath);
+  }
+
+  return crypto.createHash("md5").update(keyContent).digest("hex");
+}
+
+// Main critical CSS generator
+export async function generateCriticalCss(done) {
+  try {
+    const cache = loadCache();
+    const pages = getHtmlPages("_site");
+    const cssFile = "_site/assets/css/styles.css";
+    const cssHash = hashFile(cssFile);
+    const newCache = { ...cache };
+
+    for (const pagePath of pages) {
+      const relativePage = path.relative("_site", pagePath);
+      const cacheKey = getCacheKey(pagePath, cssHash);
+
+      if (cache[relativePage] === cacheKey) {
+        console.log(`⏭️  Skipped (cached): ${relativePage}`);
+        continue;
+      }
+
+      // Generate critical CSS
+      const { css } = await generate({
+        base: "_site/",
+        src: relativePage,
+        css: [cssFile],
+        inline: false,
+        extract: true,
+        dimensions: breakpoints,
+      });
+
+      const includeDir = path.join("_includes/critical", path.dirname(relativePage));
+      fs.mkdirSync(includeDir, { recursive: true });
+      fs.writeFileSync(path.join(includeDir, "index.css"), css);
+
+      // Inject include under <!-- CRITICAL_CSS -->
+      let html = fs.readFileSync(pagePath, "utf8");
+      const liquidPath = decodeURIComponent(
+        path.join("critical", path.dirname(relativePage), "index.css").replace(/\\/g, "/")
+      );
+      const includeTag = `{% include ${liquidPath} %}`;
+
+      if (html.includes("<!-- CRITICAL_CSS -->")) {
+        html = html.replace("<!-- CRITICAL_CSS -->", `<!-- CRITICAL_CSS -->\n${includeTag}`);
+        fs.writeFileSync(pagePath, html, "utf8");
+        console.log(`✅ Injected critical CSS into ${relativePage}`);
+      }
+
+      newCache[relativePage] = cacheKey;
+      console.log(`✅ Critical CSS generated for ${relativePage}`);
+    }
+
+    saveCache(newCache);
+    done();
+  } catch (err) {
+    console.error(err);
+    done(err);
+  }
+}
+
+gulp.task('generateCriticalCss', generateCriticalCss);
+
+
+
 /**
  * Default Task
  *
@@ -393,6 +541,7 @@ const run = gulp.series(
   config,
   jekyll,
   minifyRobotsTxt,
+  generateCriticalCss,
   gulp.parallel(server, watch),
 );
 
@@ -412,6 +561,7 @@ const build = gulp.series(
   config,
   jekyll,
   minifyRobotsTxt,
+  generateCriticalCss,
   generateIndexNowKey,
 );
 

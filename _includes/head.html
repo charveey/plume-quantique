@@ -135,8 +135,24 @@
     onload="this.media='all'"
   >
   <!-- Cookie consent CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.1.0/dist/cookieconsent.css">
-  <link rel="stylesheet" href="{{ '/assets/css/styles.css' | prepend: site.baseurl }}">
+  <link
+    href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.1.0/dist/cookieconsent.css"
+    rel="stylesheet"
+    media="print"
+    onload="this.media='all'"
+  >
+  <!-- CRITICAL_CSS -->
+
+  <!-- Deferred Full CSS -->
+  <link
+    rel="preload"
+    href="{{ '/assets/css/styles.css' | relative_url }}"
+    as="style"
+    onload="this.onload=null;this.rel='stylesheet'"
+  >
+  <noscript>
+    <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
+  </noscript>
   <link rel="canonical" href="{{ url }}">
   <link
     rel="alternate"
