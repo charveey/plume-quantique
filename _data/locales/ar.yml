@@ -42,3 +42,27 @@ full_month:
   - أكتوبر
   - نوفمبر
   - ديسمبر
+cookie_consent:
+    consentModal:
+      title: ""
+      description: "يستخدم موقع 7eptième Œil ملفات تعريف الارتباط لتحسين تجربتك على الموقع. لمعرفة المزيد، يرجى الاطلاع على <a class='cc__link' href='https://www.le7eptiemeoeil.com/privacy/en'>سياسة الخصوصية</a>."
+      closeIconLabel: ""
+      acceptAllBtn: "قبول"
+      acceptNecessaryBtn: "رفض"
+      showPreferencesBtn: ""
+      footer: ""
+    preferencesModal:
+      title: "تفضيلات الموافقة"
+      closeIconLabel: "إغلاق النافذة"
+      acceptAllBtn: "قبول الكل"
+      acceptNecessaryBtn: "رفض الكل"
+      savePreferencesBtn: "حفظ التفضيلات"
+      serviceCounterLabel: "الخدمات"
+      sections:
+        - title: "استخدام ملفات تعريف الارتباط"
+          description: "تُستخدم ملفات تعريف الارتباط لتحسين تجربتك وفهم كيفية استخدام الموقع."
+        - title: "ملفات تعريف الارتباط الضرورية للغاية <span class='pm__badge'>مفعلة دائمًا</span>"
+          description: "هذه الملفات ضرورية ولا يمكن تعطيلها. لا تجمع بيانات شخصية لأغراض تسويقية."
+          linkedCategory: "necessary"
+        - title: "مزيد من المعلومات"
+          description: "للاستفسارات حول ملفات تعريف الارتباط، يرجى <a class='cc__link' href='https://www.le7eptiemeoeil.com/privacy/en'>الاتصال بنا</a>."

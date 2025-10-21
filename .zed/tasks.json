@@ -1,10 +1,18 @@
 [
   {
     "label": "Site Live Preview",
-    "command": "gulp"
+    "command": "gulp",
+    "env": { "cwd": "$ZED_WORKTREE_ROOT" }
   },
   {
     "label": "Build site",
-    "command": "gulp build"
+    "command": "gulp build",
+    "env": { "cwd": "$ZED_WORKTREE_ROOT" }
+  },
+  {
+    "label": "lazygit",
+    "command": "lazygit -p $ZED_WORKTREE_ROOT",
+    "use_new_terminal": true,
+    "reveal_target": "center"
   }
 ]

@@ -7,20 +7,10 @@ layout: compress
   <body class="main-page has-push-menu">
     {% include svg-icons.html %}
     {% include header.html %}
+    {% include stats.html %}
     <section class="content">
       {{ content }}
     </section>
     {% include footer.html %}
-    <script>
-      if (window.netlifyIdentity) {
-        window.netlifyIdentity.on('init', function (user) {
-          if (!user) {
-            window.netlifyIdentity.on('login', function () {
-              document.location.href = '/admin/';
-            });
-          }
-        });
-      }
-    </script>
   </body>
 </html>

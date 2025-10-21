@@ -31,18 +31,18 @@ future: false
 pagination:
   enabled: true
   debug: false
-  collection: 'posts'
+  collection: "posts"
   per_page: 8
-  permalink: '/page/:num/'
-  # Optional, the default locale to use, omit to disable (depends on a field 'locale' to be specified in the posts, 
+  permalink: "/page/:num/"
+  # Optional, the default locale to use, omit to disable (depends on a field 'locale' to be specified in the posts,
   # in reality this can be any value, suggested are the Microsoft locale-codes (e.g. en_US, en_GB) or simply the ISO-639 language code )
-  locale: 'fr_FR' 
+  locale: "fr_FR"
 
 # SASS
 sass:
   style: compressed
   quiet_deps: true
-  verbose: false 
+  verbose: false
 
 # Plugins
 plugins:
@@ -50,21 +50,29 @@ plugins:
   - liquid_reading_time
 
 # Exclude my node related stuff
-exclude: [
-  'package.json',
-  'package-lock.json',
-  'src',
-  'node_modules',
-  'initpost.sh',
-  'Gemfile',
-  'Gemfile.lock',
-  'gulpfile.js',
-  'README.md'
-]
+exclude:
+  [
+    "package.json",
+    "package-lock.json",
+    "src",
+    "node_modules",
+    "initpost.sh",
+    "Gemfile",
+    "Gemfile.lock",
+    "gulpfile.js",
+    "README.md",
+    "scripts",
+    "docs",
+    "netlify",
+    "*.toml",
+    "*.gemspec",
+    "CHANGELOG.md",
+    "LICENSE",
+  ]
 
 include: [
-  '_redirects' # for Netlify redirects rules
-]
+    "_redirects", # for Netlify redirects rules
+  ]
 
 # Theme
 version: v3.1.2
@@ -73,17 +81,17 @@ version: v3.1.2
 autopages:
   enabled: true
   collections:
-      enabled: false
+    enabled: false
   categories:
-      enabled: false
-  tags: 
-    layouts: 
+    enabled: false
+  tags:
+    layouts:
       - autopage_tags.html
     title: 'Articles sur le thème ":tag"' # :tag is replaced by the tag name
-    permalink: '/tags/:tag'
+    permalink: "/tags/:tag"
     silent: false
     slugify:
-      mode: 'default'   # :tag is slugified.
+      mode: "default" # :tag is slugified.
       case: false
 
 # HTML Compress

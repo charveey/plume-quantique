@@ -41,6 +41,10 @@
 - CMS test version naming fix
 - CMS preview CSS improvements
 - _(seo)_ Restrict AI-related crawlers from articles
+- Add CookieConsent v3 pop-up for GDPR compliance
+- Add support for Microsoft Clarity
+- Process preview JS files with minification
+- Refactor main JS with uglify, sourcemaps, and concatenation
 
 ### 💼 Other
 
@@ -100,6 +104,7 @@
 
 - Reading time estimation logic
 - Make SASS files to use module system with @use and @forward
+- Refactor analytics scripts into dedicated includes
 
 ### 📚 Documentation
 
@@ -109,6 +114,8 @@
 - Lighthouse report display
 - Display repo information
 - Update docs to reflect the SASS refactor
+- Add Privacy Policy pages (English & French)
+- Update documentation for new CookieConsent v3 pop-up
 
 ### ⚡ Performance
 
@@ -124,6 +131,7 @@
 - _(post)_ Minor editorial fixes
 - Documentation Markdown syntax cleanup
 - Formatting fixes
+- Compress post layout
 
 ### ⚙️ Miscellaneous Tasks
 

@@ -426,6 +426,12 @@ Set the base hostname and protocol for your site, e.g. `https://rossener.com`
 url: ""
 ```
 
+### Analytics Integration
+
+The site includes automatic integration of [Cookie Consent v3](https://cookieconsent.orestbida.com/) for GDPR and privacy compliance.
+The pop-up is **enabled by default** and manages user consent for analytics and tracking scripts.
+The following analytics tools are supported natively:
+
 ### `google_analytics`
 
 Type: _string_
@@ -436,6 +442,32 @@ Set your Google Analytics [tracking ID](https://www.youtube.com/watch?v=Mtzl4tkV
 # advanced.yml
 google_analytics: "G-XXXXXXXXXX"
 ```
+
+### `microsoft_clarity`
+
+Type: _string_
+
+Set your [Microsoft Clarity](https://clarity.microsoft.com/) project ID to enable heatmaps and session recordings.
+
+```yaml
+# advanced.yml
+microsoft_clarity: "YOUR_CLARITY_PROJECT_ID"
+```
+
+> Tip: You can find your project ID in your Clarity dashboard under **Settings → Setup → Install manually**.
+
+### `microsoft_clarity`
+
+Type: _string_
+
+Add your [Metricool](https://metricool.com//) tracking hash to integrate website analytics and campaign performance.
+
+```yaml
+# advanced.yml
+metricool: "YOUR_METRICOOL_HASH"
+```
+
+> Metricool helps you monitor social and web analytics in one dashboard.
 
 ### `language`
 

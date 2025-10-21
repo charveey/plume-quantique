@@ -42,3 +42,28 @@ full_month:
   - Lokakuu
   - Marraskuu
   - Joulukuu
+
+cookie_consent:
+  consentModal:
+    title: ""
+    description: "7eptième Œil käyttää evästeitä parantaakseen käyttökokemustasi sivustolla. Lue lisää <a class='cc__link' href='https://www.le7eptiemeoeil.com/privacy/en'>Tietosuojakäytännöstämme</a>."
+    closeIconLabel: ""
+    acceptAllBtn: "Hyväksy"
+    acceptNecessaryBtn: "Hylkää"
+    showPreferencesBtn: ""
+    footer: ""
+  preferencesModal:
+    title: "Suostumusasetukset"
+    closeIconLabel: "Sulje ikkuna"
+    acceptAllBtn: "Hyväksy kaikki"
+    acceptNecessaryBtn: "Hylkää kaikki"
+    savePreferencesBtn: "Tallenna asetukset"
+    serviceCounterLabel: "Palvelut"
+    sections:
+      - title: "Evästeiden käyttö"
+        description: "Evästeitä käytetään parantamaan käyttökokemusta ja ymmärtämään, miten sivustoa käytetään."
+      - title: "Välttämättömät evästeet <span class='pm__badge'>Aina käytössä</span>"
+        description: "Nämä evästeet ovat välttämättömiä, eikä niitä voi poistaa käytöstä. Ne eivät kerää henkilötietoja markkinointia varten."
+        linkedCategory: "necessary"
+      - title: "Lisätietoja"
+        description: "Kysymyksissä evästeistä <a class='cc__link' href='https://www.le7eptiemeoeil.com/privacy/en'>ota yhteyttä</a>."

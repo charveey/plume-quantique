@@ -20,7 +20,7 @@ abbreviated_month:
   - Ene
   - Feb
   - Mar
-  - Abr 
+  - Abr
   - May
   - Jun
   - Jul
@@ -42,3 +42,28 @@ full_month:
   - Octubre
   - Noviembre
   - Diciembre
+
+cookie_consent:
+  consentModal:
+    title: ""
+    description: "7eptième Œil utiliza cookies para mejorar su experiencia en el sitio web. Para obtener más información, consulte nuestra <a class='cc__link' href='https://www.le7eptiemeoeil.com/privacy/en'>Política de Privacidad</a>."
+    closeIconLabel: ""
+    acceptAllBtn: "Aceptar"
+    acceptNecessaryBtn: "Rechazar"
+    showPreferencesBtn: ""
+    footer: ""
+  preferencesModal:
+    title: "Preferencias de consentimiento"
+    closeIconLabel: "Cerrar ventana"
+    acceptAllBtn: "Aceptar todo"
+    acceptNecessaryBtn: "Rechazar todo"
+    savePreferencesBtn: "Guardar preferencias"
+    serviceCounterLabel: "Servicios"
+    sections:
+      - title: "Uso de cookies"
+        description: "Las cookies se utilizan para mejorar su experiencia y comprender cómo se usa el sitio."
+      - title: "Cookies estrictamente necesarias <span class='pm__badge'>Siempre activadas</span>"
+        description: "Estas cookies son esenciales y no se pueden desactivar. No recopilan datos personales con fines de marketing."
+        linkedCategory: "necessary"
+      - title: "Más información"
+        description: "Si tiene preguntas sobre las cookies, por favor <a class='cc__link' href='https://www.le7eptiemeoeil.com/privacy/en'>contáctenos</a>."

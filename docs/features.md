@@ -26,6 +26,7 @@ _Jekflix_ comes with features to help you create/edit/share content and provide 
 - [Translations](setup.md#translations)
 - [Math Expressions](features.md#math-expressions) _(optional)_
 - [REST API](docs/features.md#rest-api) **new!**
+- [Cookie Consent v3 (GDPR)](features.md#cookie-consent-v3-gdpr) **new!**
 
 ## Live Search
 
@@ -265,6 +266,68 @@ The REST API provides a convenient way to integrate with an application and perf
 
 - Ensure that the `post-name` in the URL is URL-encoded if it contains special characters.
 - The API responses are in JSON format and include metadata such as the post ID, title, content, author, and date of publication.
+
+## Cookie Consent v3 (GDPR)
+
+This feature introduces a **modern cookie consent pop-up** fully compatible with **CookieConsent v3**, ensuring your site is compliant with **GDPR** and privacy regulations.
+
+### Key Features
+
+- Multi-language support (integrated with existing `locales.js`)
+- Consent categories:
+  - `necessary` (always active)
+  - `analytics` (user opt-in)
+- Automatic language detection based on browser settings
+- Integration-ready with analytics tools such as:
+  - Google Analytics
+  - Microsoft Clarity
+  - Metricool
+
+### How It Works
+
+When a user visits your site:
+
+1. The cookie consent modal appears.
+2. If the user accepts analytics cookies, scripts like GA and Clarity are activated dynamically.
+3. Consent preferences are stored for future visits.
+
+### Configuration
+
+You can customize the modal through `src/js/preview/cookieconsent-config.js`:
+
+```js
+CookieConsent.run({
+  guiOptions: {
+    consentModal: {
+      layout: "box inline",
+      position: "bottom right",
+    },
+  },
+  categories: {
+    necessary: { readOnly: true },
+    analytics: { readOnly: false },
+  },
+  language: {
+    default: "en",
+    autoDetect: "browser",
+    translations: ccLocales,
+  },
+});
+```
+
+Translations are automatically loaded from `_data/locales/`, ensuring consistent multi-language behavior :
+
+```yaml
+cookie_consent:
+  consentModal:
+    title: ""
+    description: "Ce site utilise des cookies afin d’améliorer votre expérience. Pour en savoir plus, consultez notre <a class='cc__link' href='#privacy-link'>Politique de confidentialité</a>."
+    closeIconLabel: ""
+    acceptAllBtn: "Accepter"
+    acceptNecessaryBtn: "Refuser"
+    showPreferencesBtn: ""
+    footer: ""
+```
 
 ## Netlify CMS ready
 
