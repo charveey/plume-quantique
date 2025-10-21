@@ -25,7 +25,7 @@ _Jekflix_ comes with features to help you create/edit/share content and provide 
 - [Netlify CMS ready](features.md#netlify-cms-ready)
 - [Translations](setup.md#translations)
 - [Math Expressions](features.md#math-expressions) _(optional)_
-- [REST API](docs/features.md#rest-api) **new!**
+- [REST API](features.md#rest-api) **new!**
 - [Cookie Consent v3 (GDPR)](features.md#cookie-consent-v3-gdpr) **new!**
 
 ## Live Search

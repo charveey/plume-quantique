@@ -46,6 +46,7 @@ View full report: <a href="https://htmlpreview.github.io/?https://raw.githubuser
 - [Translations](docs/setup.md#translations) **new!**
 - [Math Expressions](docs/features.md#math-expressions) _(optional)_ **new!**
 - [REST API](docs/features.md#rest-api) **new!**
+- [Cookie Consent v3 (GDPR)](docs/features.md#cookie-consent-v3-gdpr) **new!**
 
 ## SEO
 
