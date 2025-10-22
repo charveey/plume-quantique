@@ -131,25 +131,30 @@
     {% include critical.scss %}
   {% endcapture %}
   <style>
-  {{ critical | scssify }}
+    {{ critical | scssify }}
   </style>
   <!-- Cookie consent CSS -->
   <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.1.0/dist/cookieconsent.css"
-      media="print"
-      onload="this.media='all'"
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.1.0/dist/cookieconsent.css"
+    media="print"
+    onload="this.media='all'"
   >
   <link
-      rel="stylesheet"
-      href="{{ '/assets/css/styles.css' | relative_url }}"
-      media="nope!"
-      onload="this.media='all'">
+    rel="stylesheet"
+    href="{{ '/assets/css/styles.css' | relative_url }}"
+    media="nope!"
+    onload="this.media='all'"
+  >
 
   <!-- Include extra styles -->
   {% include extra-css.html %}
 
-  <link rel="canonical" href="{{ url }}">
+  <link rel="canonical" href="{{ page.url | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+  <link rel="preconnect" href="https://res.cloudinary.com">
+
   <link
     rel="alternate"
     type="application/rss+xml"
