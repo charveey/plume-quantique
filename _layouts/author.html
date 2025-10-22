@@ -336,10 +336,10 @@ layout: page
       {% if page.photo %}
       "image" : "{{ page.photo }}",
       {% else %}
-      "image": {{ "/assets/img/user.jpg" | prepend: site.baseurl | prepend: site.url }},
+      "image": {{ "/assets/img/user.jpg" | relative_url }},
       {% endif %}
       "jobTitle": "{{ page.position }}",
-      "url": "{{ page.url | prepend: site.baseurl | prepend: site.url }}",
+      "url": "{{ page.url | relative_url }}",
       "sameAs": [{{ author_urls | split: "," | join: "," }}]
     }
 </script>

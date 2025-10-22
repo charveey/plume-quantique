@@ -199,10 +199,10 @@
         {% if author.photo %}
         "image": "{{ author.photo }}",
         {% else %}
-        "image": {{ "/assets/img/user.jpg" | prepend: site.baseurl | prepend: site.url }},
+        "image": {{ "/assets/img/user.jpg" | relative_url }},
         {% endif %}
         "jobTitle": "{{ author.position }}",
-        "url": "{{ author.url | prepend: site.baseurl | prepend: site.url }}",
+        "url": "{{ author.url | relative_url }}",
         "sameAs": [
           {{ author_urls | split: "," | join: "," }}
         ]
