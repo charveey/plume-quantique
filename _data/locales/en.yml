@@ -45,7 +45,7 @@ full_month:
 cookie_consent:
     consentModal:
       title: ""
-      description: "7eptième Œil uses cookies to enhance your experience on the website. To learn more, please see our <a class='cc__link' href='https://www.le7eptiemeoeil.com/privacy/en'>Privacy Policy</a>."
+      description: "Le 7eptième Œil uses cookies to enhance your experience on the website. To learn more, please see our <a class='cc__link' href='https://www.le7eptiemeoeil.com/privacy/en'>Privacy Policy</a>."
       closeIconLabel: ""
       acceptAllBtn: "Accept"
       acceptNecessaryBtn: "Reject"
