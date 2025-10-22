@@ -236,7 +236,7 @@ layout: main
                   "headline": "{{ post.subtitle }}",
                   "description": "{{ post.description }}",
                   "image": "{{ post.image }}",
-                  "url": "{{ post.url | prepend: site.baseurl | prepend: site.url }}",
+                  "url": "{{ post.url | relative_url }}",
                   "inLanguage": "{{ site.language }}",
                   "dateCreated": "{{ post.date | date: '%Y-%m-%d/' }}",
                   "datePublished": "{{ post.date | date: '%Y-%m-%d/' }}",
@@ -244,7 +244,7 @@ layout: main
                   "author": {
                       "@type": "Person",
                       "name": "{{ author.display_name }}",
-                      "url": "{{ author.url | prepend: site.baseurl | prepend: site.url }}"
+                      "url": "{{ author.url | relative_url }}"
                   },
                   "publisher": {
                       "@type": "Organization",
