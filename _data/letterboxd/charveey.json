@@ -1,5 +1,17 @@
 [
   {
+    "filmTitle": "Frankenstein",
+    "filmYear": 2025,
+    "watchedDate": "2025-11-07",
+    "rating": 4.5,
+    "starRating": "★★★★½",
+    "rewatch": false,
+    "tmdbId": 1062722,
+    "link": "https://letterboxd.com/charveey/film/frankenstein-2025/",
+    "poster": "https://a.ltrbxd.com/resized/film-poster/9/5/8/1/0/0/958100-frankenstein-2025-0-600-0-900-crop.jpg?v=49a1ca2305",
+    "review": "And thus the heart will break, yet brokenly live on.\n— Lord Byron.\nDel Toro has always seen the monster for what it is, a mirror held up to our humanity. Frankenstein, the one that started it all, was inevitable."
+  },
+  {
     "filmTitle": "Unthinkable",
     "filmYear": 2010,
     "watchedDate": "2025-11-02",
