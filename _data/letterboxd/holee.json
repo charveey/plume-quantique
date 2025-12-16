@@ -1,5 +1,29 @@
 [
   {
+    "filmTitle": "Wake Up Dead Man",
+    "filmYear": 2025,
+    "watchedDate": "2025-12-15",
+    "rating": 4.0,
+    "starRating": "★★★★",
+    "rewatch": false,
+    "tmdbId": 812583,
+    "link": "https://letterboxd.com/ivorianpsycho/film/wake-up-dead-man/1/",
+    "poster": "https://a.ltrbxd.com/resized/film-poster/7/2/9/1/1/3/729113-wake-up-dead-man-0-600-0-900-crop.jpg?v=85f3366617",
+    "review": "Holy shit."
+  },
+  {
+    "filmTitle": "Interstellar",
+    "filmYear": 2014,
+    "watchedDate": "2025-12-13",
+    "rating": 4.0,
+    "starRating": "★★★★",
+    "rewatch": true,
+    "tmdbId": 157336,
+    "link": "https://letterboxd.com/ivorianpsycho/film/interstellar/1/",
+    "poster": "https://a.ltrbxd.com/resized/film-poster/1/1/7/6/2/1/117621-interstellar-0-600-0-900-crop.jpg?v=7ad89e6666",
+    "review": ""
+  },
+  {
     "filmTitle": "Frankenstein",
     "filmYear": 2025,
     "watchedDate": "2025-11-22",
