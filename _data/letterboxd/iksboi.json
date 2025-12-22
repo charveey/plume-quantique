@@ -1,5 +1,17 @@
 [
   {
+    "filmTitle": "Belladonna of Sadness",
+    "filmYear": 1973,
+    "watchedDate": "2025-12-21",
+    "rating": null,
+    "starRating": "",
+    "rewatch": false,
+    "tmdbId": 64847,
+    "link": "https://letterboxd.com/hndrcs/film/belladonna-of-sadness/",
+    "poster": "https://a.ltrbxd.com/resized/film-poster/1/5/15-belladonna-of-sadness-0-600-0-900-crop.jpg?v=e3ce144843",
+    "review": "L’esthétique tue, la musique encore plus"
+  },
+  {
     "filmTitle": "Born in Flames",
     "filmYear": 1983,
     "watchedDate": "2025-12-20",
