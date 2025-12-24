@@ -1,5 +1,17 @@
 [
   {
+    "filmTitle": "The Royal Hotel",
+    "filmYear": 2023,
+    "watchedDate": "2025-12-23",
+    "rating": 3.0,
+    "starRating": "★★★",
+    "rewatch": false,
+    "tmdbId": 944952,
+    "link": "https://letterboxd.com/ivorianpsycho/film/the-royal-hotel/",
+    "poster": "https://a.ltrbxd.com/resized/film-poster/8/4/9/7/1/9/849719-the-royal-hotel-0-600-0-900-crop.jpg?v=fbf08b288c",
+    "review": ""
+  },
+  {
     "filmTitle": "Glass Onion",
     "filmYear": 2022,
     "watchedDate": "2025-12-22",
