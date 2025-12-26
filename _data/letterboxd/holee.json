@@ -1,5 +1,41 @@
 [
   {
+    "filmTitle": "Loving",
+    "filmYear": 2017,
+    "watchedDate": "2025-12-25",
+    "rating": 3.0,
+    "starRating": "★★★",
+    "rewatch": false,
+    "tmdbId": 441614,
+    "link": "https://letterboxd.com/ivorianpsycho/film/loving-2017/1/",
+    "poster": "https://a.ltrbxd.com/resized/film-poster/3/7/4/2/5/8/374258-loving-0-600-0-900-crop.jpg?v=ccb2008e71",
+    "review": ""
+  },
+  {
+    "filmTitle": "Elisa & Marcela",
+    "filmYear": 2019,
+    "watchedDate": "2025-12-25",
+    "rating": 3.0,
+    "starRating": "★★★",
+    "rewatch": true,
+    "tmdbId": 535356,
+    "link": "https://letterboxd.com/ivorianpsycho/film/elisa-marcela/",
+    "poster": "https://a.ltrbxd.com/resized/film-poster/4/6/4/4/8/4/464484-elisa-marcela-0-600-0-900-crop.jpg?v=c6eeb2aceb",
+    "review": ""
+  },
+  {
+    "filmTitle": "Cuckoo",
+    "filmYear": 2024,
+    "watchedDate": "2025-12-25",
+    "rating": 3.0,
+    "starRating": "★★★",
+    "rewatch": false,
+    "tmdbId": 869291,
+    "link": "https://letterboxd.com/ivorianpsycho/film/cuckoo-2024/",
+    "poster": "https://a.ltrbxd.com/resized/film-poster/7/8/1/2/2/3/781223-cuckoo-0-600-0-900-crop.jpg?v=0f8477b292",
+    "review": ""
+  },
+  {
     "filmTitle": "The Royal Hotel",
     "filmYear": 2023,
     "watchedDate": "2025-12-23",
