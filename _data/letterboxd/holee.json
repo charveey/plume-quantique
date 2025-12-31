@@ -1,5 +1,41 @@
 [
   {
+    "filmTitle": "It",
+    "filmYear": 2017,
+    "watchedDate": "2025-12-30",
+    "rating": 4.0,
+    "starRating": "★★★★",
+    "rewatch": true,
+    "tmdbId": 346364,
+    "link": "https://letterboxd.com/ivorianpsycho/film/it-2017/",
+    "poster": "https://a.ltrbxd.com/resized/sm/upload/w3/47/76/am/6uDpMsdn8bbZScDptbika5JEtSH-0-600-0-900-crop.jpg?v=ee603d8e3b",
+    "review": ""
+  },
+  {
+    "filmTitle": "Zombieland: Double Tap",
+    "filmYear": 2019,
+    "watchedDate": "2025-12-30",
+    "rating": 3.5,
+    "starRating": "★★★½",
+    "rewatch": true,
+    "tmdbId": 338967,
+    "link": "https://letterboxd.com/ivorianpsycho/film/zombieland-double-tap/",
+    "poster": "https://a.ltrbxd.com/resized/film-poster/2/6/8/3/8/0/268380-zombieland-double-tap-0-600-0-900-crop.jpg?v=3bbb3e327b",
+    "review": ""
+  },
+  {
+    "filmTitle": "Zombieland",
+    "filmYear": 2009,
+    "watchedDate": "2025-12-30",
+    "rating": 3.5,
+    "starRating": "★★★½",
+    "rewatch": true,
+    "tmdbId": 19908,
+    "link": "https://letterboxd.com/ivorianpsycho/film/zombieland/",
+    "poster": "https://a.ltrbxd.com/resized/film-poster/3/9/3/5/2/39352-zombieland-0-600-0-900-crop.jpg?v=f8bb88fc79",
+    "review": ""
+  },
+  {
     "filmTitle": "Who Would You Take to a Deserted Island?",
     "filmYear": 2019,
     "watchedDate": "2025-12-26",
