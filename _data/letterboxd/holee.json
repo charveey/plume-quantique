@@ -1,5 +1,17 @@
 [
   {
+    "filmTitle": "It Chapter Two",
+    "filmYear": 2019,
+    "watchedDate": "2025-12-31",
+    "rating": 3.0,
+    "starRating": "★★★",
+    "rewatch": false,
+    "tmdbId": 474350,
+    "link": "https://letterboxd.com/ivorianpsycho/film/it-chapter-two/",
+    "poster": "https://a.ltrbxd.com/resized/film-poster/4/0/5/5/4/5/405545-it-chapter-two-0-600-0-900-crop.jpg?v=727cc83650",
+    "review": ""
+  },
+  {
     "filmTitle": "It",
     "filmYear": 2017,
     "watchedDate": "2025-12-30",
