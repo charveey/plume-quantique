@@ -1,5 +1,17 @@
 [
   {
+    "filmTitle": "Avatar",
+    "filmYear": 2009,
+    "watchedDate": "2026-01-07",
+    "rating": 3.5,
+    "starRating": "★★★½",
+    "rewatch": false,
+    "tmdbId": 19995,
+    "link": "https://letterboxd.com/ivorianpsycho/film/avatar/",
+    "poster": "https://a.ltrbxd.com/resized/sm/upload/1p/mh/li/l2/b7nR3eKeTOwHPKmDLUWunIGasKo-0-600-0-900-crop.jpg?v=0bb5ec98ec",
+    "review": ""
+  },
+  {
     "filmTitle": "It Chapter Two",
     "filmYear": 2019,
     "watchedDate": "2025-12-31",
