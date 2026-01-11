@@ -1,5 +1,17 @@
 [
   {
+    "filmTitle": "Avatar: The Way of Water",
+    "filmYear": 2022,
+    "watchedDate": "2026-01-10",
+    "rating": 3.5,
+    "starRating": "★★★½",
+    "rewatch": false,
+    "tmdbId": 76600,
+    "link": "https://letterboxd.com/ivorianpsycho/film/avatar-the-way-of-water/",
+    "poster": "https://a.ltrbxd.com/resized/film-poster/6/3/0/5/8/63058-avatar-the-way-of-water-0-600-0-900-crop.jpg?v=cc3269e69d",
+    "review": ""
+  },
+  {
     "filmTitle": "Avatar",
     "filmYear": 2009,
     "watchedDate": "2026-01-07",
