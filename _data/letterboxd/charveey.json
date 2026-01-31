@@ -1,5 +1,17 @@
 [
   {
+    "filmTitle": "Cloud Atlas",
+    "filmYear": 2012,
+    "watchedDate": "2026-01-31",
+    "rating": 4.5,
+    "starRating": "★★★★½",
+    "rewatch": true,
+    "tmdbId": 83542,
+    "link": "https://letterboxd.com/charveey/film/cloud-atlas/",
+    "poster": "https://a.ltrbxd.com/resized/film-poster/6/9/9/9/8/69998-cloud-atlas-0-600-0-900-crop.jpg?v=f10528fcd0",
+    "review": "Cloud Atlas is a mess on paper and its flaws have been thoroughly documented over time. But none of that really matters. Because in the end, the corniness, the hopeless optimism, and the sincerity at its core turn it into a perfectly flawed masterpiece. Watching it again, I remembered exactly why I fell in love with this film in the first place."
+  },
+  {
     "filmTitle": "Shame",
     "filmYear": 2011,
     "watchedDate": "2026-01-24",
