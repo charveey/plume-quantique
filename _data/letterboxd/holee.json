@@ -1,5 +1,17 @@
 [
   {
+    "filmTitle": "Dope",
+    "filmYear": 2015,
+    "watchedDate": "2026-02-02",
+    "rating": 3.5,
+    "starRating": "★★★½",
+    "rewatch": true,
+    "tmdbId": 308639,
+    "link": "https://letterboxd.com/ivorianpsycho/film/dope-2015/",
+    "poster": "https://a.ltrbxd.com/resized/film-poster/2/3/5/7/4/5/235745-dope-0-600-0-900-crop.jpg?v=0e94bea64d",
+    "review": ""
+  },
+  {
     "filmTitle": "Avatar: Fire and Ash",
     "filmYear": 2025,
     "watchedDate": "2026-01-11",
