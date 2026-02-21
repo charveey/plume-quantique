@@ -1,5 +1,17 @@
 [
   {
+    "filmTitle": "Marty Supreme",
+    "filmYear": 2025,
+    "watchedDate": "2026-02-20",
+    "rating": 4.0,
+    "starRating": "★★★★",
+    "rewatch": false,
+    "tmdbId": 1317288,
+    "link": "https://letterboxd.com/charveey/film/marty-supreme/",
+    "poster": "https://a.ltrbxd.com/resized/film-poster/1/1/9/7/4/9/9/1197499-marty-supreme-0-600-0-900-crop.jpg?v=b14a26bb43",
+    "review": ""
+  },
+  {
     "filmTitle": "Cloud Atlas",
     "filmYear": 2012,
     "watchedDate": "2026-01-31",
