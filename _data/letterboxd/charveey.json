@@ -1,5 +1,17 @@
 [
   {
+    "filmTitle": "My Fault",
+    "filmYear": 2023,
+    "watchedDate": "2026-02-22",
+    "rating": 1.5,
+    "starRating": "★½",
+    "rewatch": false,
+    "tmdbId": 1010581,
+    "link": "https://letterboxd.com/charveey/film/my-fault/",
+    "poster": "https://a.ltrbxd.com/resized/film-poster/9/1/0/5/0/3/910503-my-fault-0-600-0-900-crop.jpg?v=d75853fc25",
+    "review": "I’m convinced this is a Wattpad fanfic set in the Fast & Furious universe. I just can’t prove it"
+  },
+  {
     "filmTitle": "Marty Supreme",
     "filmYear": 2025,
     "watchedDate": "2026-02-20",
