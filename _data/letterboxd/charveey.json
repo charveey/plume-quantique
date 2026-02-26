@@ -1,5 +1,17 @@
 [
   {
+    "filmTitle": "The Secret Agent",
+    "filmYear": 2025,
+    "watchedDate": "2026-02-25",
+    "rating": 3.5,
+    "starRating": "★★★½",
+    "rewatch": false,
+    "tmdbId": 1220564,
+    "link": "https://letterboxd.com/charveey/film/the-secret-agent-2025/",
+    "poster": "https://a.ltrbxd.com/resized/film-poster/1/1/0/4/3/4/8/1104348-the-secret-agent-2025-0-600-0-900-crop.jpg?v=3bcd2a3e02",
+    "review": "Pretty sure I was the only one in that theater who got the whole “hairy leg” thing (except for the Ambassador of Brasil and his delegation)"
+  },
+  {
     "filmTitle": "My Fault",
     "filmYear": 2023,
     "watchedDate": "2026-02-22",
