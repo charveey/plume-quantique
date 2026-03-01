@@ -1,5 +1,29 @@
 [
   {
+    "filmTitle": "The Secret Life of Walter Mitty",
+    "filmYear": 2013,
+    "watchedDate": "2026-02-28",
+    "rating": 4.0,
+    "starRating": "★★★★",
+    "rewatch": true,
+    "tmdbId": 116745,
+    "link": "https://letterboxd.com/charveey/film/the-secret-life-of-walter-mitty-2013/",
+    "poster": "https://a.ltrbxd.com/resized/film-poster/9/2/6/1/9/92619-the-secret-life-of-walter-mitty-0-600-0-900-crop.jpg?v=990770ac1c",
+    "review": ""
+  },
+  {
+    "filmTitle": "Train Dreams",
+    "filmYear": 2025,
+    "watchedDate": "2026-02-28",
+    "rating": 4.0,
+    "starRating": "★★★★",
+    "rewatch": false,
+    "tmdbId": 1241983,
+    "link": "https://letterboxd.com/charveey/film/train-dreams/",
+    "poster": "https://a.ltrbxd.com/resized/film-poster/1/1/2/5/3/8/3/1125383-train-dreams-0-600-0-900-crop.jpg?v=55740bb5b4",
+    "review": "This is the exact movie I needed to watch right now. I feel alive again."
+  },
+  {
     "filmTitle": "Gorillaz Present: The Mountain, The Moon Cave and The Sad God",
     "filmYear": 2026,
     "watchedDate": "2026-02-27",
@@ -8,7 +32,7 @@
     "rewatch": false,
     "tmdbId": 1637538,
     "link": "https://letterboxd.com/charveey/film/gorillaz-present-the-mountain-the-moon-cave/",
-    "poster": "https://a.ltrbxd.com/resized/film-poster/1/5/0/3/4/4/0/1503440-gorillaz-presents-the-mountain-the-moon-cave-0-600-0-900-crop.jpg?v=72e83928dc",
+    "poster": "https://a.ltrbxd.com/resized/film-poster/1/5/0/3/4/4/0/1503440-gorillaz-present-the-mountain-the-moon-cave-0-600-0-900-crop.jpg?v=e6605351d1",
     "review": "This review may contain spoilers.\nNoodle saying I love you to 2-D before jumping of the boat broke me."
   },
   {

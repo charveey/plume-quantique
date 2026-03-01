@@ -1,5 +1,41 @@
 [
   {
+    "filmTitle": "The Silenced",
+    "filmYear": 2015,
+    "watchedDate": "2026-02-28",
+    "rating": 3.5,
+    "starRating": "★★★½",
+    "rewatch": false,
+    "tmdbId": 342657,
+    "link": "https://letterboxd.com/ivorianpsycho/film/the-silenced/",
+    "poster": "https://a.ltrbxd.com/resized/film-poster/2/7/2/7/4/5/272745-the-silenced-0-600-0-900-crop.jpg?v=e35ebd6a23",
+    "review": ""
+  },
+  {
+    "filmTitle": "Hidden Face",
+    "filmYear": 2024,
+    "watchedDate": "2026-02-28",
+    "rating": 3.0,
+    "starRating": "★★★",
+    "rewatch": false,
+    "tmdbId": 936245,
+    "link": "https://letterboxd.com/ivorianpsycho/film/hidden-face/",
+    "poster": "https://a.ltrbxd.com/resized/film-poster/8/4/1/3/3/6/841336-hidden-face-0-600-0-900-crop.jpg?v=f7821575fe",
+    "review": ""
+  },
+  {
+    "filmTitle": "Parasite",
+    "filmYear": 2019,
+    "watchedDate": "2026-02-28",
+    "rating": 5.0,
+    "starRating": "★★★★★",
+    "rewatch": true,
+    "tmdbId": 496243,
+    "link": "https://letterboxd.com/ivorianpsycho/film/parasite-2019/1/",
+    "poster": "https://a.ltrbxd.com/resized/film-poster/4/2/6/4/0/6/426406-parasite-0-600-0-900-crop.jpg?v=8f5653f710",
+    "review": ""
+  },
+  {
     "filmTitle": "One Battle After Another",
     "filmYear": 2025,
     "watchedDate": "2026-02-14",
