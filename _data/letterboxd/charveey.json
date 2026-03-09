@@ -1,5 +1,29 @@
 [
   {
+    "filmTitle": "Caramel",
+    "filmYear": 2005,
+    "watchedDate": "2026-03-08",
+    "rating": 3.0,
+    "starRating": "★★★",
+    "rewatch": true,
+    "tmdbId": 1047865,
+    "link": "https://letterboxd.com/charveey/film/caramel-2005/1/",
+    "poster": "https://a.ltrbxd.com/resized/film-poster/9/4/5/0/5/5/945055-caramel-0-600-0-900-crop.jpg?v=dd147b789e",
+    "review": ""
+  },
+  {
+    "filmTitle": "EVANGELION 30th Anniversary Special Screening",
+    "filmYear": 2026,
+    "watchedDate": "2026-03-08",
+    "rating": null,
+    "starRating": "",
+    "rewatch": false,
+    "tmdbId": 1600672,
+    "link": "https://letterboxd.com/charveey/film/evangelion-30th-anniversary-special-screening/",
+    "poster": "https://a.ltrbxd.com/resized/film-poster/1/4/6/8/9/6/2/1468962-evangelion-broadcast-30th-anniversary-special-0-600-0-900-crop.jpg?v=1a93f13b6f",
+    "review": ""
+  },
+  {
     "filmTitle": "Gorillaz Present: The Mountain, The Moon Cave and The Sad God",
     "filmYear": 2026,
     "watchedDate": "2026-03-01",
