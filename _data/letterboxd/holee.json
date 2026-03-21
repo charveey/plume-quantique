@@ -1,5 +1,41 @@
 [
   {
+    "filmTitle": "Injustice",
+    "filmYear": 2021,
+    "watchedDate": "2026-03-20",
+    "rating": 3.0,
+    "starRating": "★★★",
+    "rewatch": false,
+    "tmdbId": 831405,
+    "link": "https://letterboxd.com/ivorianpsycho/film/injustice-2021/1/",
+    "poster": "https://a.ltrbxd.com/resized/film-poster/7/4/7/2/0/5/747205-injustice-2021-0-600-0-900-crop.jpg?v=be552786ec",
+    "review": ""
+  },
+  {
+    "filmTitle": "Justice League: The Flashpoint Paradox",
+    "filmYear": 2013,
+    "watchedDate": "2026-03-20",
+    "rating": 3.5,
+    "starRating": "★★★½",
+    "rewatch": false,
+    "tmdbId": 183011,
+    "link": "https://letterboxd.com/ivorianpsycho/film/justice-league-the-flashpoint-paradox/1/",
+    "poster": "https://a.ltrbxd.com/resized/film-poster/1/3/2/5/9/9/132599-justice-league-the-flashpoint-paradox-0-600-0-900-crop.jpg?v=0ed7ac0904",
+    "review": ""
+  },
+  {
+    "filmTitle": "The Flash",
+    "filmYear": 2023,
+    "watchedDate": "2026-03-19",
+    "rating": 2.0,
+    "starRating": "★★",
+    "rewatch": false,
+    "tmdbId": 298618,
+    "link": "https://letterboxd.com/ivorianpsycho/film/the-flash/",
+    "poster": "https://a.ltrbxd.com/resized/film-poster/2/2/5/8/4/5/225845-the-flash-0-600-0-900-crop.jpg?v=be50db18ec",
+    "review": ""
+  },
+  {
     "filmTitle": "The Descent",
     "filmYear": 2005,
     "watchedDate": "2026-03-03",
