@@ -1,5 +1,29 @@
 [
   {
+    "filmTitle": "Justice League Dark",
+    "filmYear": 2017,
+    "watchedDate": "2026-03-22",
+    "rating": 3.0,
+    "starRating": "★★★",
+    "rewatch": false,
+    "tmdbId": 408220,
+    "link": "https://letterboxd.com/ivorianpsycho/film/justice-league-dark/",
+    "poster": "https://a.ltrbxd.com/resized/film-poster/3/4/2/5/4/8/342548-justice-league-dark-0-600-0-900-crop.jpg?v=6037e136a3",
+    "review": ""
+  },
+  {
+    "filmTitle": "Justice League: Doom",
+    "filmYear": 2012,
+    "watchedDate": "2026-03-22",
+    "rating": 3.5,
+    "starRating": "★★★½",
+    "rewatch": false,
+    "tmdbId": 76589,
+    "link": "https://letterboxd.com/ivorianpsycho/film/justice-league-doom/",
+    "poster": "https://a.ltrbxd.com/resized/film-poster/6/3/0/1/2/63012-justice-league-doom-0-600-0-900-crop.jpg?v=e791a32978",
+    "review": ""
+  },
+  {
     "filmTitle": "Injustice",
     "filmYear": 2021,
     "watchedDate": "2026-03-20",
