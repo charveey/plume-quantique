@@ -1,5 +1,29 @@
 [
   {
+    "filmTitle": "What the Hell",
+    "filmYear": 2024,
+    "watchedDate": "2026-04-02",
+    "rating": null,
+    "starRating": "",
+    "rewatch": false,
+    "tmdbId": 1312655,
+    "link": "https://letterboxd.com/charveey/film/what-the-hell/",
+    "poster": "https://a.ltrbxd.com/resized/film-poster/1/1/9/3/6/8/8/1193688-what-the-hell-0-600-0-900-crop.jpg?v=4f77a83b73",
+    "review": ""
+  },
+  {
+    "filmTitle": "The Girl Who Cried Pearls",
+    "filmYear": 2025,
+    "watchedDate": "2026-04-02",
+    "rating": 4.5,
+    "starRating": "★★★★½",
+    "rewatch": false,
+    "tmdbId": 1142149,
+    "link": "https://letterboxd.com/charveey/film/the-girl-who-cried-pearls/",
+    "poster": "https://a.ltrbxd.com/resized/film-poster/1/0/2/9/1/8/8/1029188-the-girl-who-cried-pearls-0-600-0-900-crop.jpg?v=5181dcae54",
+    "review": ""
+  },
+  {
     "filmTitle": "Two People Exchanging Saliva",
     "filmYear": 2024,
     "watchedDate": "2026-03-20",
