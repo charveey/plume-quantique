@@ -1,5 +1,17 @@
 [
   {
+    "filmTitle": "The Drama",
+    "filmYear": 2026,
+    "watchedDate": "2026-04-11",
+    "rating": 3.5,
+    "starRating": "★★★½",
+    "rewatch": false,
+    "tmdbId": 1325734,
+    "link": "https://letterboxd.com/charveey/film/the-drama/",
+    "poster": "https://a.ltrbxd.com/resized/film-poster/1/2/0/5/4/9/4/1205494-the-drama-0-600-0-900-crop.jpg?v=2320acafd5",
+    "review": "This review may contain spoilers.\nIf someone had told me that a rom-com starring Zendaya and Robert Pattinson would take on the US gun violence debate with this level of nuance, I would’ve called them crazy."
+  },
+  {
     "filmTitle": "What the Hell",
     "filmYear": 2024,
     "watchedDate": "2026-04-02",
