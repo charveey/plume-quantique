@@ -1,5 +1,17 @@
 [
   {
+    "filmTitle": "Michael",
+    "filmYear": 2026,
+    "watchedDate": "2026-07-27",
+    "rating": 3.0,
+    "starRating": "★★★",
+    "rewatch": false,
+    "tmdbId": 936075,
+    "link": "https://letterboxd.com/charveey/film/michael-2026/",
+    "poster": "https://a.ltrbxd.com/resized/film-poster/8/4/1/1/0/3/841103-michael-2026-0-600-0-900-crop.jpg?v=1e8e478e40",
+    "review": "Hmm, what a suspiciously sanitized biopic..."
+  },
+  {
     "filmTitle": "The Odyssey",
     "filmYear": 2026,
     "watchedDate": "2026-07-18",
