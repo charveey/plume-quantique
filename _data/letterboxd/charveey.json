@@ -1,5 +1,17 @@
 [
   {
+    "filmTitle": "Big Fish",
+    "filmYear": 2003,
+    "watchedDate": "2026-08-23",
+    "rating": 4.0,
+    "starRating": "★★★★",
+    "rewatch": false,
+    "tmdbId": 587,
+    "link": "https://letterboxd.com/charveey/film/big-fish/",
+    "poster": "https://a.ltrbxd.com/resized/sm/upload/w2/v9/2v/lv/6DRFdlNZpAaEt7eejsbAlJGgaM7-0-600-0-900-crop.jpg?v=89bfbcf64e",
+    "review": "The most unrealistic part of the movie was Edward working for 3 straight years just to get drip-fed information about a girl he saw once."
+  },
+  {
     "filmTitle": "Spider-Man: Brand New Day",
     "filmYear": 2026,
     "watchedDate": "2026-08-01",
