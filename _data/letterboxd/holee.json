@@ -1,5 +1,29 @@
 [
   {
+    "filmTitle": "Her Private Hell",
+    "filmYear": 2026,
+    "watchedDate": "2026-08-23",
+    "rating": 2.0,
+    "starRating": "★★",
+    "rewatch": false,
+    "tmdbId": 1469342,
+    "link": "https://letterboxd.com/ivorianpsycho/film/her-private-hell-2026/",
+    "poster": "https://a.ltrbxd.com/resized/film-poster/1/3/4/6/0/5/7/1346057-her-private-hell-2026-0-600-0-900-crop.jpg?v=b28d97d826",
+    "review": ""
+  },
+  {
+    "filmTitle": "The Marvels",
+    "filmYear": 2023,
+    "watchedDate": "2026-08-22",
+    "rating": 2.5,
+    "starRating": "★★½",
+    "rewatch": true,
+    "tmdbId": 609681,
+    "link": "https://letterboxd.com/ivorianpsycho/film/the-marvels/1/",
+    "poster": "https://a.ltrbxd.com/resized/film-poster/5/3/6/9/7/0/536970-the-marvels-0-600-0-900-crop.jpg?v=d084ca416c",
+    "review": ""
+  },
+  {
     "filmTitle": "Obsession",
     "filmYear": 2025,
     "watchedDate": "2026-08-09",
