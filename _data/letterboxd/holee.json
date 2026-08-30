@@ -1,5 +1,17 @@
 [
   {
+    "filmTitle": "Yoroï",
+    "filmYear": 2025,
+    "watchedDate": "2026-08-28",
+    "rating": 2.5,
+    "starRating": "★★½",
+    "rewatch": false,
+    "tmdbId": 1358491,
+    "link": "https://letterboxd.com/ivorianpsycho/film/yoroi/",
+    "poster": "https://a.ltrbxd.com/resized/film-poster/1/2/4/7/4/5/4/1247454-yoroi-0-600-0-900-crop.jpg?v=68ab013a9f",
+    "review": ""
+  },
+  {
     "filmTitle": "Her Private Hell",
     "filmYear": 2026,
     "watchedDate": "2026-08-23",
