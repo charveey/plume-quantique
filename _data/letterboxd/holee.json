@@ -1,5 +1,17 @@
 [
   {
+    "filmTitle": "The Odyssey",
+    "filmYear": 2026,
+    "watchedDate": "2026-08-29",
+    "rating": 4.0,
+    "starRating": "★★★★",
+    "rewatch": false,
+    "tmdbId": 1368337,
+    "link": "https://letterboxd.com/ivorianpsycho/film/the-odyssey-2026/",
+    "poster": "https://a.ltrbxd.com/resized/film-poster/1/2/5/5/3/9/4/1255394-the-odyssey-2026-0-600-0-900-crop.jpg?v=1eed046d0c",
+    "review": "Can't believe the Greeks destroyed Zac Efron like that"
+  },
+  {
     "filmTitle": "Yoroï",
     "filmYear": 2025,
     "watchedDate": "2026-08-28",
