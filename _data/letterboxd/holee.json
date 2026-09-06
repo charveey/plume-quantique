@@ -1,5 +1,17 @@
 [
   {
+    "filmTitle": "City Hunter",
+    "filmYear": 2018,
+    "watchedDate": "2026-09-05",
+    "rating": 3.5,
+    "starRating": "★★★½",
+    "rewatch": true,
+    "tmdbId": 469274,
+    "link": "https://letterboxd.com/ivorianpsycho/film/city-hunter-2018/",
+    "poster": "https://a.ltrbxd.com/resized/film-poster/4/0/0/8/1/9/400819-city-hunter-0-600-0-900-crop.jpg?v=fd0638cd75",
+    "review": ""
+  },
+  {
     "filmTitle": "The Odyssey",
     "filmYear": 2026,
     "watchedDate": "2026-08-29",
