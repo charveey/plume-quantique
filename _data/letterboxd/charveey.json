@@ -1,5 +1,17 @@
 [
   {
+    "filmTitle": "The Lady from Shanghai",
+    "filmYear": 1947,
+    "watchedDate": "2026-09-12",
+    "rating": 3.5,
+    "starRating": "★★★½",
+    "rewatch": false,
+    "tmdbId": 3766,
+    "link": "https://letterboxd.com/charveey/film/the-lady-from-shanghai/",
+    "poster": "https://a.ltrbxd.com/resized/film-poster/4/9/5/9/9/49599-the-lady-from-shanghai-0-600-0-900-crop.jpg?v=991e9f7b6d",
+    "review": "One who loves passionately is cured from love in the end."
+  },
+  {
     "filmTitle": "Aya of Yop City",
     "filmYear": 2013,
     "watchedDate": "2026-09-05",
