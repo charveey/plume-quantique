@@ -192,6 +192,18 @@
     "review": ""
   },
   {
+    "filmTitle": "Troy",
+    "filmYear": 2004,
+    "watchedDate": "2026-09-01",
+    "rating": 3.5,
+    "starRating": "★★★½",
+    "rewatch": false,
+    "tmdbId": 652,
+    "link": "https://letterboxd.com/ivorianpsycho/film/troy/",
+    "poster": "https://a.ltrbxd.com/resized/sm/upload/s4/d9/77/ed/edMlij7nw2NMla32xskDnzMCFBM-0-600-0-900-crop.jpg?v=e7b13d27e0",
+    "review": ""
+  },
+  {
     "filmTitle": "The Odyssey",
     "filmYear": 2026,
     "watchedDate": "2026-08-29",
