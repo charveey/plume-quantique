@@ -1,5 +1,17 @@
 [
   {
+    "filmTitle": "Digger",
+    "filmYear": 2026,
+    "watchedDate": "2026-10-06",
+    "rating": 4.0,
+    "starRating": "★★★★",
+    "rewatch": false,
+    "tmdbId": 1248832,
+    "link": "https://letterboxd.com/charveey/film/digger-2026/",
+    "poster": "https://a.ltrbxd.com/resized/film-poster/1/1/3/2/6/8/8/1132688-digger-2026-0-600-0-900-crop.jpg?v=81ec883a95",
+    "review": "This is satire manifest!"
+  },
+  {
     "filmTitle": "The Odyssey",
     "filmYear": 2026,
     "watchedDate": "2026-09-20",
@@ -15,8 +27,8 @@
     "filmTitle": "The Invite",
     "filmYear": 2026,
     "watchedDate": "2026-09-20",
-    "rating": 4.0,
-    "starRating": "★★★★",
+    "rating": 3.5,
+    "starRating": "★★★½",
     "rewatch": false,
     "tmdbId": 950028,
     "link": "https://letterboxd.com/charveey/film/the-invite-2026/",
