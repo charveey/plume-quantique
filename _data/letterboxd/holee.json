@@ -1,5 +1,17 @@
 [
   {
+    "filmTitle": "Baby Driver",
+    "filmYear": 2017,
+    "watchedDate": "2026-10-09",
+    "rating": 5.0,
+    "starRating": "★★★★★",
+    "rewatch": true,
+    "tmdbId": 339403,
+    "link": "https://letterboxd.com/ivorianpsycho/film/baby-driver/",
+    "poster": "https://a.ltrbxd.com/resized/film-poster/2/6/8/9/5/0/268950-baby-driver-0-600-0-900-crop.jpg?v=61304ddfc8",
+    "review": "Man, I love Edgar Wright so much"
+  },
+  {
     "filmTitle": "Final Destination Bloodlines",
     "filmYear": 2025,
     "watchedDate": "2026-10-02",
