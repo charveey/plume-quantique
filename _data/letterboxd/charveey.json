@@ -1,5 +1,17 @@
 [
   {
+    "filmTitle": "Fjord",
+    "filmYear": 2026,
+    "watchedDate": "2026-10-26",
+    "rating": null,
+    "starRating": "",
+    "rewatch": false,
+    "tmdbId": 1401459,
+    "link": "https://letterboxd.com/charveey/film/fjord-2026/",
+    "poster": "https://a.ltrbxd.com/resized/film-poster/1/2/8/5/1/6/8/1285168-fjord-2026-0-600-0-900-crop.jpg?v=12a10d5226",
+    "review": ""
+  },
+  {
     "filmTitle": "ébinto",
     "filmYear": null,
     "watchedDate": "2026-10-21",
