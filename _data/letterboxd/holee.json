@@ -1,5 +1,17 @@
 [
   {
+    "filmTitle": "Hush",
+    "filmYear": 2016,
+    "watchedDate": "2026-11-01",
+    "rating": 3.0,
+    "starRating": "★★★",
+    "rewatch": false,
+    "tmdbId": 376570,
+    "link": "https://letterboxd.com/ivorianpsycho/film/hush-2016/",
+    "poster": "https://a.ltrbxd.com/resized/sm/upload/uy/c2/ed/fu/khDYdmPFlaTqeLQVD4ds4xC1mIf-0-600-0-900-crop.jpg?v=ae158bcac1",
+    "review": ""
+  },
+  {
     "filmTitle": "Baby Driver",
     "filmYear": 2017,
     "watchedDate": "2026-10-09",

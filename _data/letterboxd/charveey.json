@@ -1,5 +1,29 @@
 [
   {
+    "filmTitle": "Hugo",
+    "filmYear": 2011,
+    "watchedDate": "2026-11-01",
+    "rating": 3.5,
+    "starRating": "★★★½",
+    "rewatch": false,
+    "tmdbId": 44826,
+    "link": "https://letterboxd.com/charveey/film/hugo/",
+    "poster": "https://a.ltrbxd.com/resized/sm/upload/kp/9v/8u/7j/rSmmVKeW3nsP86V2S6R7ePs4CFw-0-600-0-900-crop.jpg?v=2e7a1b811a",
+    "review": ""
+  },
+  {
+    "filmTitle": "The Silence of the Lambs",
+    "filmYear": 1991,
+    "watchedDate": "2026-11-01",
+    "rating": 4.5,
+    "starRating": "★★★★½",
+    "rewatch": true,
+    "tmdbId": 274,
+    "link": "https://letterboxd.com/charveey/film/the-silence-of-the-lambs/",
+    "poster": "https://a.ltrbxd.com/resized/film-poster/5/1/7/8/2/51782-the-silence-of-the-lambs-0-600-0-900-crop.jpg?v=18d88bdff4",
+    "review": ""
+  },
+  {
     "filmTitle": "Fjord",
     "filmYear": 2026,
     "watchedDate": "2026-10-26",
@@ -15,8 +39,8 @@
     "filmTitle": "ébinto",
     "filmYear": 2026,
     "watchedDate": "2026-10-21",
-    "rating": null,
-    "starRating": "",
+    "rating": 2.5,
+    "starRating": "★★½",
     "rewatch": false,
     "tmdbId": 1800276,
     "link": "https://letterboxd.com/charveey/film/ebinto/",
