@@ -1,5 +1,17 @@
 [
   {
+    "filmTitle": "Ebenezer",
+    "filmYear": 2026,
+    "watchedDate": "2026-11-17",
+    "rating": 3.5,
+    "starRating": "★★★½",
+    "rewatch": false,
+    "tmdbId": 1567605,
+    "link": "https://letterboxd.com/charveey/film/ebenezer-2026/",
+    "poster": "https://a.ltrbxd.com/resized/film-poster/1/4/4/0/0/5/2/1440052-ebenezer-2026-0-600-0-900-crop.jpg?v=f9a47d0baf",
+    "review": "The most unrealistic part of the movie was Bob getting promoted for being a hardworking employee"
+  },
+  {
     "filmTitle": "Hope",
     "filmYear": 2026,
     "watchedDate": "2026-11-07",
