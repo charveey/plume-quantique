@@ -1,5 +1,17 @@
 [
   {
+    "filmTitle": "ébinto",
+    "filmYear": 2026,
+    "watchedDate": "2026-11-22",
+    "rating": 2.5,
+    "starRating": "★★½",
+    "rewatch": true,
+    "tmdbId": 1800276,
+    "link": "https://letterboxd.com/charveey/film/ebinto/1/",
+    "poster": "https://a.ltrbxd.com/resized/film-poster/1/6/5/5/6/1/6/1655616-ebinto-0-600-0-900-crop.jpg?v=f57e9ccd0e",
+    "review": ""
+  },
+  {
     "filmTitle": "The Darjeeling Limited",
     "filmYear": 2007,
     "watchedDate": "2026-11-20",
